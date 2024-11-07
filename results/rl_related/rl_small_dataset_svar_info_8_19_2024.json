@@ -1,0 +1,1155 @@
+{
+    "HoloToken_test_03.solHoloToken_test_03": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 2
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 2
+        },
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "mintingFinished": {
+            "name": "mintingFinished",
+            "type": "bool",
+            "original_type": "bool",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "destroyer": {
+            "name": "destroyer",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "minter": {
+            "name": "minter",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 2,
+            "write_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "Crowdsale_rlf.solCrowdsale": {
+        "raised": {
+            "name": "raised",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 2,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "closeTime": {
+            "name": "closeTime",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 1
+        },
+        "goal": {
+            "name": "goal",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 2
+        },
+        "status": {
+            "name": "status",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 3,
+            "read_write_count": 1
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "deposits": {
+            "name": "deposits",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2
+        }
+    },
+    "Crowdsale_01.solCrowdsale": {
+        "goal": {
+            "name": "goal",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 2
+        },
+        "raised": {
+            "name": "raised",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "end": {
+            "name": "end",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 1
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "investments": {
+            "name": "investments",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2
+        },
+        "phase": {
+            "name": "phase",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 3,
+            "write_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0xdb25ff2868cbc48856e44a2ae8e2f2b62f1f3b84.solBulkSender": {
+        "whitelist": {
+            "name": "whitelist",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 3,
+            "read_write_count": 1
+        }
+    },
+    "0xe4ea2d60783fc54c3595bda39ac1ab6556723d38.solBHE": {
+        "name": {
+            "name": "name",
+            "type": "string",
+            "original_type": "string"
+        },
+        "symbol": {
+            "name": "symbol",
+            "type": "string",
+            "original_type": "string"
+        },
+        "decimals": {
+            "name": "decimals",
+            "type": "uintSmall",
+            "original_type": "uint8"
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256"
+        },
+        "lockAll": {
+            "name": "lockAll",
+            "type": "bool",
+            "original_type": "bool",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 4,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "newOwner": {
+            "name": "newOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "frozens": {
+            "name": "frozens",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "balanceOf": {
+            "name": "balanceOf",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x87c48b167bb02cc88487ce6dc12f5e56cd49676a.solTimelockGovernance": {
+        "period": {
+            "name": "period",
+            "type": "uint256",
+            "original_type": "uint256"
+        },
+        "governance": {
+            "name": "governance",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 2,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "newGovernance": {
+            "name": "newGovernance",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "newGovernanceUpdatable": {
+            "name": "newGovernanceUpdatable",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "target": {
+            "name": "target",
+            "type": "address",
+            "original_type": "address"
+        },
+        "newTargetGovernance": {
+            "name": "newTargetGovernance",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "newTargetGovernanceUpdatable": {
+            "name": "newTargetGovernanceUpdatable",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0x316Fe7d9610F56Aff59B8Db695dF625581Eb3B4A.solCYT": {
+        "_totalSupply": {
+            "name": "_totalSupply",
+            "type": "uint256",
+            "original_type": "uint256"
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address"
+        },
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "allowed": {
+            "name": "allowed",
+            "type": "mapping2",
+            "original_type": "mapping(address => mapping(address => uint256))",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0x00111feeb7ee43e262ff38aaf912b72ea668edc3.solRipgaleToken": {
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 3
+        },
+        "allowance": {
+            "name": "allowance",
+            "type": "mapping2",
+            "original_type": "mapping(address => mapping(address => uint256))",
+            "write_count": 2
+        },
+        "name": {
+            "name": "name",
+            "type": "string",
+            "original_type": "string"
+        },
+        "symbol": {
+            "name": "symbol",
+            "type": "string",
+            "original_type": "string"
+        },
+        "decimals": {
+            "name": "decimals",
+            "type": "uintSmall",
+            "original_type": "uint8"
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1
+        }
+    },
+    "0x29d9ede1d2fac6fe3b19d6005a81540d094665a5.solBlacklist": {
+        "_blacklisted": {
+            "name": "_blacklisted",
+            "type": "userDefined",
+            "original_type": "Roles.Role",
+            "read_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x4e8c0598ef8c3d44967bd4fa101c54939ab97d53.solBlacklist": {
+        "_blacklisted": {
+            "name": "_blacklisted",
+            "type": "userDefined",
+            "original_type": "Roles.Role",
+            "read_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x283d2d5fa7ec80f00bfeeb370e1b8cbf7caba614.solYAMToken": {
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 3
+        },
+        "allowance": {
+            "name": "allowance",
+            "type": "mapping2",
+            "original_type": "mapping(address => mapping(address => uint256))",
+            "write_count": 2
+        },
+        "name": {
+            "name": "name",
+            "type": "string",
+            "original_type": "string"
+        },
+        "symbol": {
+            "name": "symbol",
+            "type": "string",
+            "original_type": "string"
+        },
+        "decimals": {
+            "name": "decimals",
+            "type": "uintSmall",
+            "original_type": "uint8"
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1
+        }
+    },
+    "HoloToken.solHoloToken": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 3,
+            "read_write_count": 1
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 4,
+            "read_count": 4,
+            "read_write_count": 1
+        },
+        "allowed": {
+            "name": "allowed",
+            "type": "mapping2",
+            "original_type": "mapping(address => mapping(address => uint256))",
+            "write_count": 4,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "mintingFinished": {
+            "name": "mintingFinished",
+            "type": "bool",
+            "original_type": "bool",
+            "read_count": 4,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "destroyer": {
+            "name": "destroyer",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "minter": {
+            "name": "minter",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "HoloToken_test_01.solHoloToken_test_01": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 2
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 2
+        },
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "mintingFinished": {
+            "name": "mintingFinished",
+            "type": "bool",
+            "original_type": "bool",
+            "read_count": 1
+        },
+        "destroyer": {
+            "name": "destroyer",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "minter": {
+            "name": "minter",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "HoloToken_test_02.solHoloToken_test_02": {
+        "mintingFinished": {
+            "name": "mintingFinished",
+            "type": "bool",
+            "original_type": "bool",
+            "read_count": 1
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 2
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 2
+        },
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "destroyer": {
+            "name": "destroyer",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "minter": {
+            "name": "minter",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "Crowdsale.solCrowdsale": {
+        "goal": {
+            "name": "goal",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 2
+        },
+        "phase": {
+            "name": "phase",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 3,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "raised": {
+            "name": "raised",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "end": {
+            "name": "end",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 1
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "investments": {
+            "name": "investments",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2
+        }
+    },
+    "0x2f47f03b03946b1fe11d841744217db881d4f531.solBulkSender": {
+        "whitelist": {
+            "name": "whitelist",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 3,
+            "read_write_count": 1
+        }
+    },
+    "0x89f9749ce943281b8c65fec7f15e126f8cf4edb1.solDepositGame": {
+        "_balances": {
+            "name": "_balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 3
+        },
+        "FirstTimeBonus": {
+            "name": "FirstTimeBonus",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "admin": {
+            "name": "admin",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 1
+        },
+        "TotalAmount": {
+            "name": "TotalAmount",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 5,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "randomTN": {
+            "name": "randomTN",
+            "type": "uint256",
+            "original_type": "uint256"
+        }
+    },
+    "0xa143fd004b3c26f8faedeb9224ec03585e63d041.solDharmaSpreadRegistryPrototypeStaging": {
+        "_daiSpreadPerBlock": {
+            "name": "_daiSpreadPerBlock",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1
+        },
+        "_usdcSpreadPerBlock": {
+            "name": "_usdcSpreadPerBlock",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1
+        },
+        "_newPotentialOwner": {
+            "name": "_newPotentialOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 3,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0xce4763c7fa2e1238a398c0b07a9abf6472531d51.solBHT": {
+        "name": {
+            "name": "name",
+            "type": "string",
+            "original_type": "string"
+        },
+        "symbol": {
+            "name": "symbol",
+            "type": "string",
+            "original_type": "string"
+        },
+        "decimals": {
+            "name": "decimals",
+            "type": "uintSmall",
+            "original_type": "uint8"
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256"
+        },
+        "lockAll": {
+            "name": "lockAll",
+            "type": "bool",
+            "original_type": "bool",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 4,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "newOwner": {
+            "name": "newOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "frozens": {
+            "name": "frozens",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "balanceOf": {
+            "name": "balanceOf",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0xd75b02dc969182fd9a8cbc4f12f3502c61802747.solEtherBoxLevels": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "newOwner": {
+            "name": "newOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "mlm": {
+            "name": "mlm",
+            "type": "array_uintSmall",
+            "original_type": "uint8[7]",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "pack": {
+            "name": "pack",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "users": {
+            "name": "users",
+            "type": "mapping1",
+            "original_type": "mapping(address => address)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x60accbD43E9aAd281c1CDe56D3F5ed697B948b22.solsproof": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "sproofAccounts": {
+            "name": "sproofAccounts",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "write_count": 2,
+            "read_count": 3,
+            "read_write_count": 1
+        },
+        "costToLockHash": {
+            "name": "costToLockHash",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 3,
+            "read_write_count": 1
+        }
+    },
+    "0xed39480b5bcd7c123f374b3b37366f60bc5d50e1.solTimelockGovernance": {
+        "period": {
+            "name": "period",
+            "type": "uint256",
+            "original_type": "uint256"
+        },
+        "governance": {
+            "name": "governance",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 2,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "newGovernance": {
+            "name": "newGovernance",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "newGovernanceUpdatable": {
+            "name": "newGovernanceUpdatable",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "target": {
+            "name": "target",
+            "type": "address",
+            "original_type": "address"
+        },
+        "newTargetGovernance": {
+            "name": "newTargetGovernance",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1
+        },
+        "newTargetGovernanceUpdatable": {
+            "name": "newTargetGovernanceUpdatable",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0xc0ea83113038987d974fe667831a36e442e661e7.solLibfxToken": {
+        "balances": {
+            "name": "balances",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 3
+        },
+        "allowance": {
+            "name": "allowance",
+            "type": "mapping2",
+            "original_type": "mapping(address => mapping(address => uint256))",
+            "write_count": 2
+        },
+        "name": {
+            "name": "name",
+            "type": "string",
+            "original_type": "string"
+        },
+        "symbol": {
+            "name": "symbol",
+            "type": "string",
+            "original_type": "string"
+        },
+        "decimals": {
+            "name": "decimals",
+            "type": "uintSmall",
+            "original_type": "uint8"
+        },
+        "totalSupply": {
+            "name": "totalSupply",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1
+        }
+    },
+    "0xad638296f8348a9d72d5fbecd7b7d941d2889083.solEternalStorage": {
+        "currentOwner": {
+            "name": "currentOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 13,
+            "read_write_count": 1
+        },
+        "uIntStorage": {
+            "name": "uIntStorage",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => uint256)",
+            "write_count": 2
+        },
+        "stringStorage": {
+            "name": "stringStorage",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => string)",
+            "write_count": 2
+        },
+        "addressStorage": {
+            "name": "addressStorage",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => address)",
+            "write_count": 2
+        },
+        "bytesStorage": {
+            "name": "bytesStorage",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => bytes32)",
+            "write_count": 2
+        },
+        "boolStorage": {
+            "name": "boolStorage",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => bool)",
+            "read_count": 1,
+            "write_count": 2,
+            "read_write_count": 1
+        },
+        "intStorage": {
+            "name": "intStorage",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => int256)",
+            "write_count": 2
+        }
+    },
+    "0x8382ADf670cb280F2f318bC2446be3860758aEF4.solGramChain": {
+        "_containsMap": {
+            "name": "_containsMap",
+            "type": "mapping1",
+            "original_type": "mapping(bytes32 => bool)",
+            "write_count": 2,
+            "read_count": 3,
+            "read_write_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x3422ac57f4ca097806fa234e44ec0a781b78bbdb.solYFVReferral": {
+        "referrers": {
+            "name": "referrers",
+            "type": "mapping1",
+            "original_type": "mapping(address => address)",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "referredCount": {
+            "name": "referredCount",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 1
+        },
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 3,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "nextOwner": {
+            "name": "nextOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "isAdmin": {
+            "name": "isAdmin",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "read_count": 1,
+            "write_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0x131f983da6fabf20869f5ace3516a23f28b46204.solBlacklist": {
+        "_blacklisted": {
+            "name": "_blacklisted",
+            "type": "userDefined",
+            "original_type": "Roles.Role",
+            "read_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x46d52bace05457929e1cd84c9efcee0d2156555b.solSimpleWriteAccessController": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "checkEnabled": {
+            "name": "checkEnabled",
+            "type": "bool",
+            "original_type": "bool",
+            "read_count": 3,
+            "write_count": 2,
+            "read_write_count": 1
+        },
+        "accessList": {
+            "name": "accessList",
+            "type": "mapping1",
+            "original_type": "mapping(address => bool)",
+            "read_count": 3,
+            "write_count": 2,
+            "read_write_count": 1
+        },
+        "pendingOwner": {
+            "name": "pendingOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 2,
+            "read_count": 1,
+            "read_write_count": 1
+        }
+    },
+    "0x7C6664bd7957eD63f8fbF635101A186741Ef14D4.solAdministratorMinter": {
+        "etherLegendsToken": {
+            "name": "etherLegendsToken",
+            "type": "userDefined",
+            "original_type": "IMintableEtherLegendsToken",
+            "write_count": 1
+        },
+        "_owner": {
+            "name": "_owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 6,
+            "write_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0x4b205ad9e4a2669cf9428c1a5f72ca17976f0167.solMonetaGiftBox": {
+        "owner": {
+            "name": "owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 5,
+            "write_count": 1,
+            "read_write_count": 1
+        },
+        "newOwner": {
+            "name": "newOwner",
+            "type": "address",
+            "original_type": "address",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "mlm": {
+            "name": "mlm",
+            "type": "array_uintSmall",
+            "original_type": "uint8[7]",
+            "write_count": 1,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "pack": {
+            "name": "pack",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1,
+            "read_count": 1,
+            "read_write_count": 1
+        },
+        "users": {
+            "name": "users",
+            "type": "mapping1",
+            "original_type": "mapping(address => address)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        }
+    },
+    "0xbb86cd4c05c321015078433863fd203a61560fcb.solGruppa_Istoricheskiy_Roman": {
+        "contributions": {
+            "name": "contributions",
+            "type": "mapping1",
+            "original_type": "mapping(address => uint256)",
+            "write_count": 2,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "totalContributors": {
+            "name": "totalContributors",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 2
+        },
+        "goal": {
+            "name": "goal",
+            "type": "uint256",
+            "original_type": "uint256",
+            "read_count": 2
+        },
+        "raisedAmount": {
+            "name": "raisedAmount",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 3,
+            "read_count": 2,
+            "read_write_count": 1
+        },
+        "totalSentToGruppa": {
+            "name": "totalSentToGruppa",
+            "type": "uint256",
+            "original_type": "uint256",
+            "write_count": 1
+        },
+        "Owner": {
+            "name": "Owner",
+            "type": "address",
+            "original_type": "address",
+            "read_count": 1
+        },
+        "recepientAddress": {
+            "name": "recepientAddress",
+            "type": "address",
+            "original_type": "address"
+        },
+        "uje_sobrali": {
+            "name": "uje_sobrali",
+            "type": "bool",
+            "original_type": "bool"
+        },
+        "paid": {
+            "name": "paid",
+            "type": "bool",
+            "original_type": "bool"
+        },
+        "refund": {
+            "name": "refund",
+            "type": "array1",
+            "original_type": "address[]"
+        },
+        "addresses": {
+            "name": "addresses",
+            "type": "array1",
+            "original_type": "address[]"
+        }
+    }
+}

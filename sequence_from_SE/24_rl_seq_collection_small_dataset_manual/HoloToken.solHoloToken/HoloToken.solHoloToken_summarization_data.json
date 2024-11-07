@@ -1,0 +1,404 @@
+{
+"stateVariables": [
+    {
+      "name": "owner",
+      "type": "address",
+      "initialValue": "msg.sender"
+    },
+    {
+      "name": "totalSupply",
+      "type": "uint256",
+      "initialValue": "0"
+    },
+    {
+      "name": "mintingFinished",
+      "type": "bool",
+      "initialValue": "false"
+    },
+    {
+      "name": "destroyer",
+      "type": "address",
+      "initialValue": "0x0"
+    },
+    {
+      "name": "minter",
+      "type": "address",
+      "initialValue": "0x0"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "initialValue": "\"HoloToken\""
+    },
+    {
+      "name": "symbol",
+      "type": "string",
+      "initialValue": "\"HOT\""
+    },
+    {
+      "name": "decimals",
+      "type": "uint8",
+      "initialValue": "18"
+    }
+  ],
+ "constructor": {
+    "name": "Ownable",
+    "parameters": [],
+    "initialization": [
+      {
+        "owner": "msg.sender"
+      }
+    ]
+  },
+"transfer": {
+    "parameters": [
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "modifiers": [
+     {
+        "name": "whenMintingFinished",
+        "restrictions": ["mintingFinished"]
+      }
+    ],
+    "restrictions": [
+      "_to != address(0)",
+      "_value <= balances[msg.sender]"
+    ],
+    "actions": [
+      {
+        "update": "balances",
+        "from": ["msg.sender", "_value"],
+        "to": ["_to", "+_value"]
+      },
+      {
+        "emit": "Transfer",
+        "with": ["msg.sender", "_to", "_value"]
+      }
+    ]
+  },
+ "transferFrom": {
+    "parameters": [
+      {
+        "name": "_from",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "modifiers": [
+     {
+        "name": "whenMintingFinished",
+        "restrictions": ["mintingFinished"]
+      }
+    ],
+    "restrictions": [
+      "_to != address(0)",
+      "_value <= balances[_from]",
+      "_value <= allowed[_from][msg.sender]"
+    ],
+    "actions": [
+      {
+        "update": "balances",
+        "from": ["_from", "_value"],
+        "to": ["_to", "+_value"]
+      },
+      {
+        "update": "allowed",
+        "from": ["_from", "msg.sender", "_value"],
+        "to": ["_value", "-"]
+      },
+      {
+        "emit": "Transfer",
+        "with": ["_from", "_to", "_value"]
+      }
+    ]
+  },
+"approve": {
+    "parameters": [
+      {
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "name": "_value",
+        "type": "uint256"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "whenMintingFinished",
+        "restrictions": ["mintingFinished"]
+      }
+    ],
+    "restrictions": [],
+    "actions": [
+      {
+        "update": "allowed",
+        "from": ["msg.sender", "_spender"],
+        "to": ["_value"]
+      },
+      {
+        "emit": "Approval",
+        "with": ["msg.sender", "_spender", "_value"]
+      }
+    ]
+  },
+
+"increaseApproval": {
+    "parameters": [
+      {
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "name": "_addedValue",
+        "type": "uint256"
+      }
+    ],
+    "restrictions": [],
+    "actions": [
+      {
+        "update": "allowed",
+        "from": ["msg.sender", "_spender"],
+        "to": ["_addedValue", "+"]
+      },
+      {
+        "emit": "Approval",
+        "with": ["msg.sender", "_spender", "allowed[msg.sender][_spender]"]
+      }
+    ]
+  },
+"decreaseApproval": {
+    "parameters": [
+      {
+        "name": "_spender",
+        "type": "address"
+      },
+      {
+        "name": "_subtractedValue",
+        "type": "uint256"
+      }
+    ],
+    "restrictions": [],
+    "actions": [
+      {
+        "get": "oldValue",
+        "from": ["allowed[msg.sender][_spender]"],
+        "calculate": "oldValue + _subtractedValue"
+      },
+      {
+        "conditionalUpdate": {
+          "condition": "_subtractedValue > oldValue",
+          "update": "allowed",
+          "from": ["msg.sender", "_spender"],
+          "to": ["0"]
+        }
+      },
+      {
+        "conditionalUpdate": {
+          "condition": "_subtractedValue <= oldValue",
+          "update": "allowed",
+          "from": ["msg.sender", "_spender"],
+          "to": ["oldValue", "-_subtractedValue"]
+        }
+      },
+      {
+        "emit": "Approval",
+        "with": ["msg.sender", "_spender", "allowed[msg.sender][_spender]"]
+      }
+    ]
+  },
+
+"setMinter": {
+    "parameters": [
+      {
+        "name": "_minter",
+        "type": "address"
+      }
+    ],
+    "restrictions": [
+      {
+        "name": "onlyOwner",
+        "restrictions": ["msg.sender == owner"]
+      }
+    ],
+    "actions": [
+      {
+        "set": "minter",
+        "to": "_minter"
+      }
+    ]
+  },
+
+"mint": {
+    "parameters": [
+      {
+        "name": "_to",
+        "type": "address"
+      },
+      {
+        "name": "_amount",
+        "type": "uint256"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "onlyMinter",
+        "restrictions": [
+          "msg.sender == minter"
+        ]
+      },
+      {
+        "name": "canMint",
+        "restrictions": [
+          "!mintingFinished"
+        ]
+      }
+    ],
+    "restrictions": [],
+    "actions": [
+      {
+        "conditionalRequire": {
+          "condition": "balances[_to] + _amount > balances[_to]",
+          "errorMessage": "Guard against overflow"
+        }
+      },
+      {
+        "conditionalRequire": {
+          "condition": "totalSupply + _amount > totalSupply",
+          "errorMessage": "Guard against overflow (this should never happen)"
+        }
+      },
+      {
+        "update": "totalSupply",
+        "to": ["+", "_amount"]
+      },
+      {
+        "update": "balances",
+        "from": ["_to"],
+        "to": ["+", "_amount"]
+      },
+      {
+        "emit": "Mint",
+        "with": ["_to", "_amount"]
+      }
+    ]
+  },
+
+"finishMinting": {
+    "modifiers": [
+      {
+        "name": "onlyMinter",
+        "restrictions": ["msg.sender == minter"]
+      }
+    ],
+    "restrictions": [],
+    "actions": [
+      {
+        "set": "mintingFinished",
+        "to": "true"
+      },
+      {
+        "emit": "MintingFinished"
+      }
+    ]
+  },
+
+"setDestroyer": {
+    "parameters": [
+      {
+        "name": "_destroyer",
+        "type": "address"
+      }
+    ],
+    "restrictions": [
+      {
+        "name": "onlyOwner",
+        "restrictions": ["msg.sender == owner"]
+      }
+    ],
+    "actions": [
+      {
+        "set": "destroyer",
+        "to": "_destroyer"
+      }
+    ]
+  },
+"burn": {
+    "parameters": [
+      {
+        "name": "_amount",
+        "type": "uint256"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "onlyDestroyer",
+        "restrictions": [
+          "msg.sender == destroyer"
+        ]
+      }
+    ],
+    "restrictions": [
+      "_amount > 0",
+      "balances[destroyer] >= _amount"
+    ],
+    "actions": [
+      {
+        "update": "balances",
+        "from": ["destroyer", "_amount"],
+        "to": ["-", "_amount"]
+      },
+      {
+        "update": "totalSupply",
+        "to": ["-", "_amount"]
+      },
+      {
+        "emit": "Burn",
+        "with": ["_amount"]
+      }
+    ]
+  },
+"transferOwnership": {
+  "parameters": [
+    {
+      "name": "newOwner",
+      "type": "address"
+    }
+  ],
+  "modifiers": [
+    {
+      "name": "onlyOwner",
+      "restrictions": [
+        "msg.sender == owner"
+      ]
+    }
+  ],
+  "restrictions": [
+    "newOwner != address(0)"
+  ],
+  "actions": [
+    {
+      "emit": "OwnershipTransferred",
+      "with": ["owner", "newOwner"]
+    },
+    {
+      "set": "owner",
+      "to": "newOwner"
+    }
+  ]
+}
+}

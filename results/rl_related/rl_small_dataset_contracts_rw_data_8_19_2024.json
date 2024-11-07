@@ -1,0 +1,5567 @@
+{
+    "svar_by_type": {
+        "address": [
+            "owner",
+            "destroyer",
+            "minter",
+            "_owner",
+            "admin",
+            "_newPotentialOwner",
+            "newOwner",
+            "governance",
+            "newGovernance",
+            "target",
+            "newTargetGovernance",
+            "currentOwner",
+            "nextOwner",
+            "pendingOwner",
+            "Owner",
+            "recepientAddress"
+        ],
+        "uint256": [
+            "totalSupply",
+            "goal",
+            "phase",
+            "raised",
+            "end",
+            "TotalAmount",
+            "randomTN",
+            "_daiSpreadPerBlock",
+            "_usdcSpreadPerBlock",
+            "pack",
+            "costToLockHash",
+            "period",
+            "newGovernanceUpdatable",
+            "newTargetGovernanceUpdatable",
+            "totalContributors",
+            "raisedAmount",
+            "totalSentToGruppa",
+            "closeTime",
+            "status",
+            "_totalSupply"
+        ],
+        "mapping1": [
+            "balances",
+            "investments",
+            "whitelist",
+            "_balances",
+            "FirstTimeBonus",
+            "frozens",
+            "balanceOf",
+            "users",
+            "sproofAccounts",
+            "uIntStorage",
+            "stringStorage",
+            "addressStorage",
+            "bytesStorage",
+            "boolStorage",
+            "intStorage",
+            "_containsMap",
+            "referrers",
+            "referredCount",
+            "isAdmin",
+            "accessList",
+            "contributions",
+            "deposits"
+        ],
+        "mapping2": [
+            "allowed",
+            "allowance"
+        ],
+        "bool": [
+            "mintingFinished",
+            "lockAll",
+            "checkEnabled",
+            "uje_sobrali",
+            "paid"
+        ],
+        "string": [
+            "name",
+            "symbol"
+        ],
+        "uintSmall": [
+            "decimals"
+        ],
+        "array_uintSmall": [
+            "mlm"
+        ],
+        "userDefined": [
+            "etherLegendsToken"
+        ],
+        "array1": [
+            "refund",
+            "addresses"
+        ]
+    },
+    "svar_to_int": {
+        "totalSupply,uint256": 1,
+        "goal,uint256": 2,
+        "phase,uint256": 3,
+        "raised,uint256": 4,
+        "end,uint256": 5,
+        "TotalAmount,uint256": 6,
+        "randomTN,uint256": 7,
+        "_daiSpreadPerBlock,uint256": 8,
+        "_usdcSpreadPerBlock,uint256": 9,
+        "pack,uint256": 10,
+        "costToLockHash,uint256": 11,
+        "period,uint256": 12,
+        "newGovernanceUpdatable,uint256": 13,
+        "newTargetGovernanceUpdatable,uint256": 14,
+        "totalContributors,uint256": 15,
+        "raisedAmount,uint256": 16,
+        "totalSentToGruppa,uint256": 17,
+        "closeTime,uint256": 18,
+        "status,uint256": 19,
+        "_totalSupply,uint256": 20,
+        "owner,address": 21,
+        "destroyer,address": 22,
+        "minter,address": 23,
+        "_owner,address": 24,
+        "admin,address": 25,
+        "_newPotentialOwner,address": 26,
+        "newOwner,address": 27,
+        "governance,address": 28,
+        "newGovernance,address": 29,
+        "target,address": 30,
+        "newTargetGovernance,address": 31,
+        "currentOwner,address": 32,
+        "nextOwner,address": 33,
+        "pendingOwner,address": 34,
+        "Owner,address": 35,
+        "recepientAddress,address": 36,
+        "mintingFinished,bool": 37,
+        "lockAll,bool": 38,
+        "checkEnabled,bool": 39,
+        "uje_sobrali,bool": 40,
+        "paid,bool": 41,
+        "decimals,uintSmall": 42,
+        "balances,mapping1": 43,
+        "investments,mapping1": 44,
+        "whitelist,mapping1": 45,
+        "_balances,mapping1": 46,
+        "FirstTimeBonus,mapping1": 47,
+        "frozens,mapping1": 48,
+        "balanceOf,mapping1": 49,
+        "users,mapping1": 50,
+        "sproofAccounts,mapping1": 51,
+        "uIntStorage,mapping1": 52,
+        "stringStorage,mapping1": 53,
+        "addressStorage,mapping1": 54,
+        "bytesStorage,mapping1": 55,
+        "boolStorage,mapping1": 56,
+        "intStorage,mapping1": 57,
+        "_containsMap,mapping1": 58,
+        "referrers,mapping1": 59,
+        "referredCount,mapping1": 60,
+        "isAdmin,mapping1": 61,
+        "accessList,mapping1": 62,
+        "contributions,mapping1": 63,
+        "deposits,mapping1": 64,
+        "allowed,mapping2": 65,
+        "allowance,mapping2": 66,
+        "mlm,array_uintSmall": 67,
+        "refund,array1": 68,
+        "addresses,array1": 69,
+        "name,string": 70,
+        "symbol,string": 71,
+        "etherLegendsToken,userDefined": 72
+    },
+    "int_to_svar": {
+        "1": "totalSupply,uint256",
+        "2": "goal,uint256",
+        "3": "phase,uint256",
+        "4": "raised,uint256",
+        "5": "end,uint256",
+        "6": "TotalAmount,uint256",
+        "7": "randomTN,uint256",
+        "8": "_daiSpreadPerBlock,uint256",
+        "9": "_usdcSpreadPerBlock,uint256",
+        "10": "pack,uint256",
+        "11": "costToLockHash,uint256",
+        "12": "period,uint256",
+        "13": "newGovernanceUpdatable,uint256",
+        "14": "newTargetGovernanceUpdatable,uint256",
+        "15": "totalContributors,uint256",
+        "16": "raisedAmount,uint256",
+        "17": "totalSentToGruppa,uint256",
+        "18": "closeTime,uint256",
+        "19": "status,uint256",
+        "20": "_totalSupply,uint256",
+        "21": "owner,address",
+        "22": "destroyer,address",
+        "23": "minter,address",
+        "24": "_owner,address",
+        "25": "admin,address",
+        "26": "_newPotentialOwner,address",
+        "27": "newOwner,address",
+        "28": "governance,address",
+        "29": "newGovernance,address",
+        "30": "target,address",
+        "31": "newTargetGovernance,address",
+        "32": "currentOwner,address",
+        "33": "nextOwner,address",
+        "34": "pendingOwner,address",
+        "35": "Owner,address",
+        "36": "recepientAddress,address",
+        "37": "mintingFinished,bool",
+        "38": "lockAll,bool",
+        "39": "checkEnabled,bool",
+        "40": "uje_sobrali,bool",
+        "41": "paid,bool",
+        "42": "decimals,uintSmall",
+        "43": "balances,mapping1",
+        "44": "investments,mapping1",
+        "45": "whitelist,mapping1",
+        "46": "_balances,mapping1",
+        "47": "FirstTimeBonus,mapping1",
+        "48": "frozens,mapping1",
+        "49": "balanceOf,mapping1",
+        "50": "users,mapping1",
+        "51": "sproofAccounts,mapping1",
+        "52": "uIntStorage,mapping1",
+        "53": "stringStorage,mapping1",
+        "54": "addressStorage,mapping1",
+        "55": "bytesStorage,mapping1",
+        "56": "boolStorage,mapping1",
+        "57": "intStorage,mapping1",
+        "58": "_containsMap,mapping1",
+        "59": "referrers,mapping1",
+        "60": "referredCount,mapping1",
+        "61": "isAdmin,mapping1",
+        "62": "accessList,mapping1",
+        "63": "contributions,mapping1",
+        "64": "deposits,mapping1",
+        "65": "allowed,mapping2",
+        "66": "allowance,mapping2",
+        "67": "mlm,array_uintSmall",
+        "68": "refund,array1",
+        "69": "addresses,array1",
+        "70": "name,string",
+        "71": "symbol,string",
+        "72": "etherLegendsToken,userDefined"
+    },
+    "found_contract_data_in_int": {
+        "HoloToken.solHoloToken": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 3,
+                    "read_write_count": 1
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 4,
+                    "read_count": 4,
+                    "read_write_count": 1
+                },
+                "allowed": {
+                    "name": "allowed",
+                    "type": "mapping2",
+                    "original_type": "mapping(address => mapping(address => uint256))",
+                    "write_count": 4,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "mintingFinished": {
+                    "name": "mintingFinished",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "read_count": 4,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "destroyer": {
+                    "name": "destroyer",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "minter": {
+                    "name": "minter",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "totalSupply": 1,
+                "balances": 43,
+                "allowed": 65,
+                "mintingFinished": 37,
+                "destroyer": 22,
+                "minter": 23
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "1": "totalSupply",
+                "43": "balances",
+                "65": "allowed",
+                "37": "mintingFinished",
+                "22": "destroyer",
+                "23": "minter"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "mintingFinished"
+                    ]
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "HoloToken.transfer(address,uint256)": {
+                    "reads": [
+                        "balances",
+                        "mintingFinished"
+                    ],
+                    "writes": [
+                        "balances"
+                    ]
+                },
+                "HoloToken.balanceOf(address)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": []
+                },
+                "HoloToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        "balances",
+                        "allowed",
+                        "mintingFinished"
+                    ],
+                    "writes": [
+                        "balances",
+                        "allowed"
+                    ]
+                },
+                "HoloToken.approve(address,uint256)": {
+                    "reads": [
+                        "mintingFinished"
+                    ],
+                    "writes": [
+                        "allowed"
+                    ]
+                },
+                "HoloToken.allowance(address,address)": {
+                    "reads": [
+                        "allowed"
+                    ],
+                    "writes": []
+                },
+                "HoloToken.increaseApproval(address,uint256)": {
+                    "reads": [
+                        "allowed"
+                    ],
+                    "writes": [
+                        "allowed"
+                    ]
+                },
+                "HoloToken.decreaseApproval(address,uint256)": {
+                    "reads": [
+                        "allowed"
+                    ],
+                    "writes": [
+                        "allowed"
+                    ]
+                },
+                "HoloToken.setMinter(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "minter"
+                    ]
+                },
+                "HoloToken.mint(address,uint256)": {
+                    "reads": [
+                        "totalSupply",
+                        "balances",
+                        "mintingFinished",
+                        "minter"
+                    ],
+                    "writes": [
+                        "totalSupply",
+                        "balances"
+                    ]
+                },
+                "HoloToken.finishMinting()": {
+                    "reads": [
+                        "minter"
+                    ],
+                    "writes": [
+                        "mintingFinished"
+                    ]
+                },
+                "HoloToken.setDestroyer(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "destroyer"
+                    ]
+                },
+                "HoloToken.burn(uint256)": {
+                    "reads": [
+                        "totalSupply",
+                        "balances",
+                        "destroyer"
+                    ],
+                    "writes": [
+                        "totalSupply",
+                        "balances"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        37
+                    ]
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        21
+                    ]
+                },
+                "HoloToken.transfer(address,uint256)": {
+                    "reads": [
+                        43,
+                        37
+                    ],
+                    "writes": [
+                        43
+                    ]
+                },
+                "HoloToken.balanceOf(address)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": []
+                },
+                "HoloToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        43,
+                        65,
+                        37
+                    ],
+                    "writes": [
+                        43,
+                        65
+                    ]
+                },
+                "HoloToken.approve(address,uint256)": {
+                    "reads": [
+                        37
+                    ],
+                    "writes": [
+                        65
+                    ]
+                },
+                "HoloToken.allowance(address,address)": {
+                    "reads": [
+                        65
+                    ],
+                    "writes": []
+                },
+                "HoloToken.increaseApproval(address,uint256)": {
+                    "reads": [
+                        65
+                    ],
+                    "writes": [
+                        65
+                    ]
+                },
+                "HoloToken.decreaseApproval(address,uint256)": {
+                    "reads": [
+                        65
+                    ],
+                    "writes": [
+                        65
+                    ]
+                },
+                "HoloToken.setMinter(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        23
+                    ]
+                },
+                "HoloToken.mint(address,uint256)": {
+                    "reads": [
+                        1,
+                        43,
+                        37,
+                        23
+                    ],
+                    "writes": [
+                        1,
+                        43
+                    ]
+                },
+                "HoloToken.finishMinting()": {
+                    "reads": [
+                        23
+                    ],
+                    "writes": [
+                        37
+                    ]
+                },
+                "HoloToken.setDestroyer(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        22
+                    ]
+                },
+                "HoloToken.burn(uint256)": {
+                    "reads": [
+                        1,
+                        43,
+                        22
+                    ],
+                    "writes": [
+                        1,
+                        43
+                    ]
+                }
+            }
+        },
+        "HoloToken_test_01.solHoloToken_test_01": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 2
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 2
+                },
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "mintingFinished": {
+                    "name": "mintingFinished",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "read_count": 1
+                },
+                "destroyer": {
+                    "name": "destroyer",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "minter": {
+                    "name": "minter",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "totalSupply": 1,
+                "balances": 43,
+                "mintingFinished": 37,
+                "destroyer": 22,
+                "minter": 23
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "1": "totalSupply",
+                "43": "balances",
+                "37": "mintingFinished",
+                "22": "destroyer",
+                "23": "minter"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "mintingFinished"
+                    ]
+                },
+                "HoloToken_test_01.setMinter(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "minter"
+                    ]
+                },
+                "HoloToken_test_01.mint(address,uint256)": {
+                    "reads": [
+                        "balances",
+                        "totalSupply",
+                        "minter",
+                        "mintingFinished"
+                    ],
+                    "writes": [
+                        "balances",
+                        "totalSupply"
+                    ]
+                },
+                "HoloToken_test_01.setDestroyer(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "destroyer"
+                    ]
+                },
+                "HoloToken_test_01.burn(uint256)": {
+                    "reads": [
+                        "balances",
+                        "totalSupply",
+                        "destroyer"
+                    ],
+                    "writes": [
+                        "balances",
+                        "totalSupply"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        37
+                    ]
+                },
+                "HoloToken_test_01.setMinter(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        23
+                    ]
+                },
+                "HoloToken_test_01.mint(address,uint256)": {
+                    "reads": [
+                        43,
+                        1,
+                        23,
+                        37
+                    ],
+                    "writes": [
+                        43,
+                        1
+                    ]
+                },
+                "HoloToken_test_01.setDestroyer(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        22
+                    ]
+                },
+                "HoloToken_test_01.burn(uint256)": {
+                    "reads": [
+                        43,
+                        1,
+                        22
+                    ],
+                    "writes": [
+                        43,
+                        1
+                    ]
+                }
+            }
+        },
+        "HoloToken_test_02.solHoloToken_test_02": {
+            "svar_info": {
+                "mintingFinished": {
+                    "name": "mintingFinished",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "read_count": 1
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 2
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 2
+                },
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "destroyer": {
+                    "name": "destroyer",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "minter": {
+                    "name": "minter",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "mintingFinished": 37,
+                "totalSupply": 1,
+                "owner": 21,
+                "balances": 43,
+                "destroyer": 22,
+                "minter": 23
+            },
+            "int_to_svar": {
+                "37": "mintingFinished",
+                "1": "totalSupply",
+                "21": "owner",
+                "43": "balances",
+                "22": "destroyer",
+                "23": "minter"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "mintingFinished"
+                    ]
+                },
+                "HoloToken_test_02.setMinter(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "minter"
+                    ]
+                },
+                "HoloToken_test_02.mint(address,uint256)": {
+                    "reads": [
+                        "mintingFinished",
+                        "totalSupply",
+                        "balances",
+                        "minter"
+                    ],
+                    "writes": [
+                        "totalSupply",
+                        "balances"
+                    ]
+                },
+                "HoloToken_test_02.setDestroyer(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "destroyer"
+                    ]
+                },
+                "HoloToken_test_02.burn(uint256)": {
+                    "reads": [
+                        "totalSupply",
+                        "balances",
+                        "destroyer"
+                    ],
+                    "writes": [
+                        "totalSupply",
+                        "balances"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        37
+                    ]
+                },
+                "HoloToken_test_02.setMinter(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        23
+                    ]
+                },
+                "HoloToken_test_02.mint(address,uint256)": {
+                    "reads": [
+                        37,
+                        1,
+                        43,
+                        23
+                    ],
+                    "writes": [
+                        1,
+                        43
+                    ]
+                },
+                "HoloToken_test_02.setDestroyer(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        22
+                    ]
+                },
+                "HoloToken_test_02.burn(uint256)": {
+                    "reads": [
+                        1,
+                        43,
+                        22
+                    ],
+                    "writes": [
+                        1,
+                        43
+                    ]
+                }
+            }
+        },
+        "Crowdsale.solCrowdsale": {
+            "svar_info": {
+                "goal": {
+                    "name": "goal",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 2
+                },
+                "phase": {
+                    "name": "phase",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 3,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "raised": {
+                    "name": "raised",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "end": {
+                    "name": "end",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 1
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "investments": {
+                    "name": "investments",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2
+                }
+            },
+            "svar_to_int": {
+                "goal": 2,
+                "phase": 3,
+                "raised": 4,
+                "end": 5,
+                "owner": 21,
+                "investments": 44
+            },
+            "int_to_svar": {
+                "2": "goal",
+                "3": "phase",
+                "4": "raised",
+                "5": "end",
+                "21": "owner",
+                "44": "investments"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "end",
+                        "owner",
+                        "goal",
+                        "phase"
+                    ]
+                },
+                "Crowdsale.invest()": {
+                    "reads": [
+                        "goal",
+                        "phase",
+                        "raised",
+                        "investments"
+                    ],
+                    "writes": [
+                        "raised",
+                        "investments"
+                    ]
+                },
+                "Crowdsale.setPhase(uint256)": {
+                    "reads": [
+                        "goal",
+                        "raised",
+                        "end"
+                    ],
+                    "writes": [
+                        "phase"
+                    ]
+                },
+                "Crowdsale.setOwner(address)": {
+                    "reads": [],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "Crowdsale.withdraw()": {
+                    "reads": [
+                        "phase",
+                        "raised",
+                        "owner"
+                    ],
+                    "writes": []
+                },
+                "Crowdsale.refund()": {
+                    "reads": [
+                        "phase",
+                        "investments"
+                    ],
+                    "writes": [
+                        "investments"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        5,
+                        21,
+                        2,
+                        3
+                    ]
+                },
+                "Crowdsale.invest()": {
+                    "reads": [
+                        2,
+                        3,
+                        4,
+                        44
+                    ],
+                    "writes": [
+                        4,
+                        44
+                    ]
+                },
+                "Crowdsale.setPhase(uint256)": {
+                    "reads": [
+                        2,
+                        4,
+                        5
+                    ],
+                    "writes": [
+                        3
+                    ]
+                },
+                "Crowdsale.setOwner(address)": {
+                    "reads": [],
+                    "writes": [
+                        21
+                    ]
+                },
+                "Crowdsale.withdraw()": {
+                    "reads": [
+                        3,
+                        4,
+                        21
+                    ],
+                    "writes": []
+                },
+                "Crowdsale.refund()": {
+                    "reads": [
+                        3,
+                        44
+                    ],
+                    "writes": [
+                        44
+                    ]
+                }
+            }
+        },
+        "0x2f47f03b03946b1fe11d841744217db881d4f531.solBulkSender": {
+            "svar_info": {
+                "whitelist": {
+                    "name": "whitelist",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "_owner": {
+                    "name": "_owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 3,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "whitelist": 45,
+                "_owner": 24
+            },
+            "int_to_svar": {
+                "45": "whitelist",
+                "24": "_owner"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "Ownable.owner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "BulkSender.approve(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "whitelist"
+                    ]
+                },
+                "BulkSender.remove(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "whitelist"
+                    ]
+                },
+                "BulkSender.isWhiteListed(address)": {
+                    "reads": [
+                        "whitelist"
+                    ],
+                    "writes": []
+                },
+                "BulkSender.distribute(address[],uint256[])": {
+                    "reads": [
+                        "whitelist"
+                    ],
+                    "writes": []
+                },
+                "BulkSender.receive()": {
+                    "reads": [],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "Ownable.owner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "BulkSender.approve(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        45
+                    ]
+                },
+                "BulkSender.remove(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        45
+                    ]
+                },
+                "BulkSender.isWhiteListed(address)": {
+                    "reads": [
+                        45
+                    ],
+                    "writes": []
+                },
+                "BulkSender.distribute(address[],uint256[])": {
+                    "reads": [
+                        45
+                    ],
+                    "writes": []
+                },
+                "BulkSender.receive()": {
+                    "reads": [],
+                    "writes": []
+                }
+            }
+        },
+        "0x89f9749ce943281b8c65fec7f15e126f8cf4edb1.solDepositGame": {
+            "svar_info": {
+                "_balances": {
+                    "name": "_balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 3
+                },
+                "FirstTimeBonus": {
+                    "name": "FirstTimeBonus",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "admin": {
+                    "name": "admin",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 1
+                },
+                "TotalAmount": {
+                    "name": "TotalAmount",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 5,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "randomTN": {
+                    "name": "randomTN",
+                    "type": "uint256",
+                    "original_type": "uint256"
+                }
+            },
+            "svar_to_int": {
+                "_balances": 46,
+                "FirstTimeBonus": 47,
+                "admin": 25,
+                "TotalAmount": 6,
+                "randomTN": 7
+            },
+            "int_to_svar": {
+                "46": "_balances",
+                "47": "FirstTimeBonus",
+                "25": "admin",
+                "6": "TotalAmount",
+                "7": "randomTN"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "admin",
+                        "TotalAmount"
+                    ]
+                },
+                "DepositGame.deposit()": {
+                    "reads": [
+                        "_balances",
+                        "TotalAmount"
+                    ],
+                    "writes": [
+                        "_balances",
+                        "FirstTimeBonus",
+                        "TotalAmount"
+                    ]
+                },
+                "DepositGame.GetBonusWithdraw()": {
+                    "reads": [
+                        "_balances",
+                        "FirstTimeBonus",
+                        "TotalAmount"
+                    ],
+                    "writes": [
+                        "_balances",
+                        "FirstTimeBonus",
+                        "TotalAmount"
+                    ]
+                },
+                "DepositGame.withdraw()": {
+                    "reads": [
+                        "_balances",
+                        "TotalAmount"
+                    ],
+                    "writes": [
+                        "_balances",
+                        "TotalAmount"
+                    ]
+                },
+                "DepositGame.random()": {
+                    "reads": [],
+                    "writes": []
+                },
+                "DepositGame.fallback()": {
+                    "reads": [
+                        "TotalAmount"
+                    ],
+                    "writes": [
+                        "TotalAmount"
+                    ]
+                },
+                "DepositGame.destroy()": {
+                    "reads": [
+                        "admin",
+                        "TotalAmount"
+                    ],
+                    "writes": [
+                        "TotalAmount"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        25,
+                        6
+                    ]
+                },
+                "DepositGame.deposit()": {
+                    "reads": [
+                        46,
+                        6
+                    ],
+                    "writes": [
+                        46,
+                        47,
+                        6
+                    ]
+                },
+                "DepositGame.GetBonusWithdraw()": {
+                    "reads": [
+                        46,
+                        47,
+                        6
+                    ],
+                    "writes": [
+                        46,
+                        47,
+                        6
+                    ]
+                },
+                "DepositGame.withdraw()": {
+                    "reads": [
+                        46,
+                        6
+                    ],
+                    "writes": [
+                        46,
+                        6
+                    ]
+                },
+                "DepositGame.random()": {
+                    "reads": [],
+                    "writes": []
+                },
+                "DepositGame.fallback()": {
+                    "reads": [
+                        6
+                    ],
+                    "writes": [
+                        6
+                    ]
+                },
+                "DepositGame.destroy()": {
+                    "reads": [
+                        25,
+                        6
+                    ],
+                    "writes": [
+                        6
+                    ]
+                }
+            }
+        },
+        "0xa143fd004b3c26f8faedeb9224ec03585e63d041.solDharmaSpreadRegistryPrototypeStaging": {
+            "svar_info": {
+                "_daiSpreadPerBlock": {
+                    "name": "_daiSpreadPerBlock",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1
+                },
+                "_usdcSpreadPerBlock": {
+                    "name": "_usdcSpreadPerBlock",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1
+                },
+                "_newPotentialOwner": {
+                    "name": "_newPotentialOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 3,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "_owner": {
+                    "name": "_owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 5,
+                    "write_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "_daiSpreadPerBlock": 8,
+                "_usdcSpreadPerBlock": 9,
+                "_newPotentialOwner": 26,
+                "_owner": 24
+            },
+            "int_to_svar": {
+                "8": "_daiSpreadPerBlock",
+                "9": "_usdcSpreadPerBlock",
+                "26": "_newPotentialOwner",
+                "24": "_owner"
+            },
+            "function_data": {
+                "TwoStepOwnable.owner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "TwoStepOwnable.isOwner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "TwoStepOwnable.transferOwnership(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_newPotentialOwner"
+                    ]
+                },
+                "TwoStepOwnable.cancelOwnershipTransfer()": {
+                    "reads": [
+                        "_owner",
+                        "_newPotentialOwner"
+                    ],
+                    "writes": [
+                        "_newPotentialOwner"
+                    ]
+                },
+                "TwoStepOwnable.acceptOwnership()": {
+                    "reads": [
+                        "_owner",
+                        "_newPotentialOwner"
+                    ],
+                    "writes": [
+                        "_owner",
+                        "_newPotentialOwner"
+                    ]
+                },
+                "DharmaSpreadRegistryPrototypeStaging.setDaiSpreadPerBlock(uint256)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_daiSpreadPerBlock"
+                    ]
+                },
+                "DharmaSpreadRegistryPrototypeStaging.setUSDCSpreadPerBlock(uint256)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_usdcSpreadPerBlock"
+                    ]
+                },
+                "DharmaSpreadRegistryPrototypeStaging.getDaiSpreadPerBlock()": {
+                    "reads": [
+                        "_daiSpreadPerBlock"
+                    ],
+                    "writes": []
+                },
+                "DharmaSpreadRegistryPrototypeStaging.getUSDCSpreadPerBlock()": {
+                    "reads": [
+                        "_usdcSpreadPerBlock"
+                    ],
+                    "writes": []
+                },
+                "constructor": {
+                    "reads": [],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "TwoStepOwnable.owner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "TwoStepOwnable.isOwner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "TwoStepOwnable.transferOwnership(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        26
+                    ]
+                },
+                "TwoStepOwnable.cancelOwnershipTransfer()": {
+                    "reads": [
+                        24,
+                        26
+                    ],
+                    "writes": [
+                        26
+                    ]
+                },
+                "TwoStepOwnable.acceptOwnership()": {
+                    "reads": [
+                        24,
+                        26
+                    ],
+                    "writes": [
+                        24,
+                        26
+                    ]
+                },
+                "DharmaSpreadRegistryPrototypeStaging.setDaiSpreadPerBlock(uint256)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        8
+                    ]
+                },
+                "DharmaSpreadRegistryPrototypeStaging.setUSDCSpreadPerBlock(uint256)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        9
+                    ]
+                },
+                "DharmaSpreadRegistryPrototypeStaging.getDaiSpreadPerBlock()": {
+                    "reads": [
+                        8
+                    ],
+                    "writes": []
+                },
+                "DharmaSpreadRegistryPrototypeStaging.getUSDCSpreadPerBlock()": {
+                    "reads": [
+                        9
+                    ],
+                    "writes": []
+                },
+                "constructor": {
+                    "reads": [],
+                    "writes": []
+                }
+            }
+        },
+        "0xce4763c7fa2e1238a398c0b07a9abf6472531d51.solBHT": {
+            "svar_info": {
+                "name": {
+                    "name": "name",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "symbol": {
+                    "name": "symbol",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "decimals": {
+                    "name": "decimals",
+                    "type": "uintSmall",
+                    "original_type": "uint8"
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256"
+                },
+                "lockAll": {
+                    "name": "lockAll",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 4,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "newOwner": {
+                    "name": "newOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "frozens": {
+                    "name": "frozens",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "balanceOf": {
+                    "name": "balanceOf",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "name": 70,
+                "symbol": 71,
+                "decimals": 42,
+                "totalSupply": 1,
+                "lockAll": 38,
+                "owner": 21,
+                "newOwner": 27,
+                "frozens": 48,
+                "balanceOf": 49
+            },
+            "int_to_svar": {
+                "70": "name",
+                "71": "symbol",
+                "42": "decimals",
+                "1": "totalSupply",
+                "38": "lockAll",
+                "21": "owner",
+                "27": "newOwner",
+                "48": "frozens",
+                "49": "balanceOf"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "decimals",
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balanceOf",
+                        "totalSupply",
+                        "owner",
+                        "name",
+                        "symbol",
+                        "decimals",
+                        "lockAll",
+                        "newOwner"
+                    ]
+                },
+                "BHT.transferOwnership(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "newOwner"
+                    ]
+                },
+                "BHT.acceptOwnership()": {
+                    "reads": [
+                        "owner",
+                        "newOwner"
+                    ],
+                    "writes": [
+                        "owner",
+                        "newOwner"
+                    ]
+                },
+                "BHT.freezeAccount(address,bool)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "frozens"
+                    ]
+                },
+                "BHT.freezeAll(bool)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "lockAll"
+                    ]
+                },
+                "BHT.contTransfer(address,uint256)": {
+                    "reads": [
+                        "frozens",
+                        "balanceOf",
+                        "lockAll",
+                        "owner"
+                    ],
+                    "writes": [
+                        "balanceOf"
+                    ]
+                },
+                "BHT.transfer(address,uint256)": {
+                    "reads": [
+                        "frozens",
+                        "balanceOf",
+                        "lockAll"
+                    ],
+                    "writes": [
+                        "balanceOf"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        42,
+                        1
+                    ],
+                    "writes": [
+                        49,
+                        1,
+                        21,
+                        70,
+                        71,
+                        42,
+                        38,
+                        27
+                    ]
+                },
+                "BHT.transferOwnership(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        27
+                    ]
+                },
+                "BHT.acceptOwnership()": {
+                    "reads": [
+                        21,
+                        27
+                    ],
+                    "writes": [
+                        21,
+                        27
+                    ]
+                },
+                "BHT.freezeAccount(address,bool)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        48
+                    ]
+                },
+                "BHT.freezeAll(bool)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        38
+                    ]
+                },
+                "BHT.contTransfer(address,uint256)": {
+                    "reads": [
+                        48,
+                        49,
+                        38,
+                        21
+                    ],
+                    "writes": [
+                        49
+                    ]
+                },
+                "BHT.transfer(address,uint256)": {
+                    "reads": [
+                        48,
+                        49,
+                        38
+                    ],
+                    "writes": [
+                        49
+                    ]
+                }
+            }
+        },
+        "0xd75b02dc969182fd9a8cbc4f12f3502c61802747.solEtherBoxLevels": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 5,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "newOwner": {
+                    "name": "newOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "mlm": {
+                    "name": "mlm",
+                    "type": "array_uintSmall",
+                    "original_type": "uint8[7]",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "pack": {
+                    "name": "pack",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "users": {
+                    "name": "users",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => address)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "newOwner": 27,
+                "mlm": 67,
+                "pack": 10,
+                "users": 50
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "27": "newOwner",
+                "67": "mlm",
+                "10": "pack",
+                "50": "users"
+            },
+            "function_data": {
+                "Owned.changeOwner(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "newOwner"
+                    ]
+                },
+                "Owned.acceptOwnership()": {
+                    "reads": [
+                        "newOwner"
+                    ],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "constructor": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "users",
+                        "mlm",
+                        "pack",
+                        "owner"
+                    ]
+                },
+                "EtherBoxLevels.setBonus(uint8,uint8)": {
+                    "reads": [
+                        "mlm",
+                        "owner"
+                    ],
+                    "writes": [
+                        "mlm"
+                    ]
+                },
+                "EtherBoxLevels.setPack(uint256)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "pack"
+                    ]
+                },
+                "EtherBoxLevels.setSponsor(address,address)": {
+                    "reads": [
+                        "owner",
+                        "users"
+                    ],
+                    "writes": [
+                        "users"
+                    ]
+                },
+                "EtherBoxLevels.sponsor(address)": {
+                    "reads": [
+                        "users"
+                    ],
+                    "writes": []
+                },
+                "EtherBoxLevels.join(address)": {
+                    "reads": [
+                        "users",
+                        "mlm",
+                        "pack",
+                        "owner"
+                    ],
+                    "writes": [
+                        "users"
+                    ]
+                },
+                "EtherBoxLevels.fallback()": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "Owned.changeOwner(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        27
+                    ]
+                },
+                "Owned.acceptOwnership()": {
+                    "reads": [
+                        27
+                    ],
+                    "writes": [
+                        21
+                    ]
+                },
+                "constructor": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        50,
+                        67,
+                        10,
+                        21
+                    ]
+                },
+                "EtherBoxLevels.setBonus(uint8,uint8)": {
+                    "reads": [
+                        67,
+                        21
+                    ],
+                    "writes": [
+                        67
+                    ]
+                },
+                "EtherBoxLevels.setPack(uint256)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        10
+                    ]
+                },
+                "EtherBoxLevels.setSponsor(address,address)": {
+                    "reads": [
+                        21,
+                        50
+                    ],
+                    "writes": [
+                        50
+                    ]
+                },
+                "EtherBoxLevels.sponsor(address)": {
+                    "reads": [
+                        50
+                    ],
+                    "writes": []
+                },
+                "EtherBoxLevels.join(address)": {
+                    "reads": [
+                        50,
+                        67,
+                        10,
+                        21
+                    ],
+                    "writes": [
+                        50
+                    ]
+                },
+                "EtherBoxLevels.fallback()": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0x60accbD43E9aAd281c1CDe56D3F5ed697B948b22.solsproof": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 5,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "sproofAccounts": {
+                    "name": "sproofAccounts",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "write_count": 2,
+                    "read_count": 3,
+                    "read_write_count": 1
+                },
+                "costToLockHash": {
+                    "name": "costToLockHash",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 3,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "sproofAccounts": 51,
+                "costToLockHash": 11
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "51": "sproofAccounts",
+                "11": "costToLockHash"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "costToLockHash"
+                    ]
+                },
+                "sproof.addSproofAccount(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "sproofAccounts"
+                    ]
+                },
+                "sproof.updateOwner(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "sproof.removeSproofAccount(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "sproofAccounts"
+                    ]
+                },
+                "sproof.setCost(uint256)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "costToLockHash"
+                    ]
+                },
+                "sproof.getCost()": {
+                    "reads": [
+                        "costToLockHash"
+                    ],
+                    "writes": []
+                },
+                "sproof.lockHash(bytes32)": {
+                    "reads": [
+                        "costToLockHash",
+                        "sproofAccounts"
+                    ],
+                    "writes": []
+                },
+                "sproof.lockHashProxy(address,bytes32,uint8,bytes32,bytes32)": {
+                    "reads": [
+                        "costToLockHash",
+                        "sproofAccounts"
+                    ],
+                    "writes": []
+                },
+                "sproof.lockHashesProxy(address[],bytes32[],uint8[],bytes32[],bytes32[])": {
+                    "reads": [
+                        "costToLockHash",
+                        "sproofAccounts"
+                    ],
+                    "writes": []
+                },
+                "sproof.payout()": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        11
+                    ]
+                },
+                "sproof.addSproofAccount(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        51
+                    ]
+                },
+                "sproof.updateOwner(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        21
+                    ]
+                },
+                "sproof.removeSproofAccount(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        51
+                    ]
+                },
+                "sproof.setCost(uint256)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        11
+                    ]
+                },
+                "sproof.getCost()": {
+                    "reads": [
+                        11
+                    ],
+                    "writes": []
+                },
+                "sproof.lockHash(bytes32)": {
+                    "reads": [
+                        11,
+                        51
+                    ],
+                    "writes": []
+                },
+                "sproof.lockHashProxy(address,bytes32,uint8,bytes32,bytes32)": {
+                    "reads": [
+                        11,
+                        51
+                    ],
+                    "writes": []
+                },
+                "sproof.lockHashesProxy(address[],bytes32[],uint8[],bytes32[],bytes32[])": {
+                    "reads": [
+                        11,
+                        51
+                    ],
+                    "writes": []
+                },
+                "sproof.payout()": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0xed39480b5bcd7c123f374b3b37366f60bc5d50e1.solTimelockGovernance": {
+            "svar_info": {
+                "period": {
+                    "name": "period",
+                    "type": "uint256",
+                    "original_type": "uint256"
+                },
+                "governance": {
+                    "name": "governance",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 2,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "newGovernance": {
+                    "name": "newGovernance",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "newGovernanceUpdatable": {
+                    "name": "newGovernanceUpdatable",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "target": {
+                    "name": "target",
+                    "type": "address",
+                    "original_type": "address"
+                },
+                "newTargetGovernance": {
+                    "name": "newTargetGovernance",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "newTargetGovernanceUpdatable": {
+                    "name": "newTargetGovernanceUpdatable",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "period": 12,
+                "governance": 28,
+                "newGovernance": 29,
+                "newGovernanceUpdatable": 13,
+                "target": 30,
+                "newTargetGovernance": 31,
+                "newTargetGovernanceUpdatable": 14
+            },
+            "int_to_svar": {
+                "12": "period",
+                "28": "governance",
+                "29": "newGovernance",
+                "13": "newGovernanceUpdatable",
+                "30": "target",
+                "31": "newTargetGovernance",
+                "14": "newTargetGovernanceUpdatable"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "governance",
+                        "target",
+                        "period"
+                    ]
+                },
+                "TimelockGovernance.setThisGovernance(address)": {
+                    "reads": [
+                        "period",
+                        "governance"
+                    ],
+                    "writes": [
+                        "newGovernanceUpdatable",
+                        "newGovernance"
+                    ]
+                },
+                "TimelockGovernance.updateThisGovernance()": {
+                    "reads": [
+                        "newGovernanceUpdatable",
+                        "newGovernance"
+                    ],
+                    "writes": [
+                        "governance"
+                    ]
+                },
+                "TimelockGovernance.setTargetGovernance(address)": {
+                    "reads": [
+                        "period",
+                        "governance"
+                    ],
+                    "writes": [
+                        "newTargetGovernanceUpdatable",
+                        "newTargetGovernance"
+                    ]
+                },
+                "TimelockGovernance.updateTargetGovernance()": {
+                    "reads": [
+                        "newTargetGovernanceUpdatable",
+                        "newTargetGovernance",
+                        "target"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        28,
+                        30,
+                        12
+                    ]
+                },
+                "TimelockGovernance.setThisGovernance(address)": {
+                    "reads": [
+                        12,
+                        28
+                    ],
+                    "writes": [
+                        13,
+                        29
+                    ]
+                },
+                "TimelockGovernance.updateThisGovernance()": {
+                    "reads": [
+                        13,
+                        29
+                    ],
+                    "writes": [
+                        28
+                    ]
+                },
+                "TimelockGovernance.setTargetGovernance(address)": {
+                    "reads": [
+                        12,
+                        28
+                    ],
+                    "writes": [
+                        14,
+                        31
+                    ]
+                },
+                "TimelockGovernance.updateTargetGovernance()": {
+                    "reads": [
+                        14,
+                        31,
+                        30
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0xc0ea83113038987d974fe667831a36e442e661e7.solLibfxToken": {
+            "svar_info": {
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 3
+                },
+                "allowance": {
+                    "name": "allowance",
+                    "type": "mapping2",
+                    "original_type": "mapping(address => mapping(address => uint256))",
+                    "write_count": 2
+                },
+                "name": {
+                    "name": "name",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "symbol": {
+                    "name": "symbol",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "decimals": {
+                    "name": "decimals",
+                    "type": "uintSmall",
+                    "original_type": "uint8"
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "balances": 43,
+                "allowance": 66,
+                "name": 70,
+                "symbol": 71,
+                "decimals": 42,
+                "totalSupply": 1
+            },
+            "int_to_svar": {
+                "43": "balances",
+                "66": "allowance",
+                "70": "name",
+                "71": "symbol",
+                "42": "decimals",
+                "1": "totalSupply"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "name",
+                        "symbol",
+                        "decimals",
+                        "totalSupply"
+                    ]
+                },
+                "LibfxToken.transfer(address,uint256)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": [
+                        "balances"
+                    ]
+                },
+                "LibfxToken.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        "allowance"
+                    ]
+                },
+                "LibfxToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        "balances",
+                        "allowance"
+                    ],
+                    "writes": [
+                        "balances",
+                        "allowance"
+                    ]
+                },
+                "LibfxToken.burn(uint256)": {
+                    "reads": [
+                        "balances",
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "totalSupply"
+                    ]
+                },
+                "LibfxToken.balanceOf(address)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        1
+                    ],
+                    "writes": [
+                        43,
+                        70,
+                        71,
+                        42,
+                        1
+                    ]
+                },
+                "LibfxToken.transfer(address,uint256)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": [
+                        43
+                    ]
+                },
+                "LibfxToken.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        66
+                    ]
+                },
+                "LibfxToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        43,
+                        66
+                    ],
+                    "writes": [
+                        43,
+                        66
+                    ]
+                },
+                "LibfxToken.burn(uint256)": {
+                    "reads": [
+                        43,
+                        1
+                    ],
+                    "writes": [
+                        43,
+                        1
+                    ]
+                },
+                "LibfxToken.balanceOf(address)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0xad638296f8348a9d72d5fbecd7b7d941d2889083.solEternalStorage": {
+            "svar_info": {
+                "currentOwner": {
+                    "name": "currentOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 13,
+                    "read_write_count": 1
+                },
+                "uIntStorage": {
+                    "name": "uIntStorage",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => uint256)",
+                    "write_count": 2
+                },
+                "stringStorage": {
+                    "name": "stringStorage",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => string)",
+                    "write_count": 2
+                },
+                "addressStorage": {
+                    "name": "addressStorage",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => address)",
+                    "write_count": 2
+                },
+                "bytesStorage": {
+                    "name": "bytesStorage",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => bytes32)",
+                    "write_count": 2
+                },
+                "boolStorage": {
+                    "name": "boolStorage",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => bool)",
+                    "read_count": 1,
+                    "write_count": 2,
+                    "read_write_count": 1
+                },
+                "intStorage": {
+                    "name": "intStorage",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => int256)",
+                    "write_count": 2
+                }
+            },
+            "svar_to_int": {
+                "currentOwner": 32,
+                "uIntStorage": 52,
+                "stringStorage": 53,
+                "addressStorage": 54,
+                "bytesStorage": 55,
+                "boolStorage": 56,
+                "intStorage": 57
+            },
+            "int_to_svar": {
+                "32": "currentOwner",
+                "52": "uIntStorage",
+                "53": "stringStorage",
+                "54": "addressStorage",
+                "55": "bytesStorage",
+                "56": "boolStorage",
+                "57": "intStorage"
+            },
+            "function_data": {
+                "EternalStorage.changeOwner(address)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "currentOwner"
+                    ]
+                },
+                "EternalStorage.getUint(bytes32)": {
+                    "reads": [
+                        "uIntStorage"
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getString(bytes32)": {
+                    "reads": [
+                        "stringStorage"
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getAddress(bytes32)": {
+                    "reads": [
+                        "addressStorage"
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getBytes(bytes32)": {
+                    "reads": [
+                        "bytesStorage"
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getBool(bytes32)": {
+                    "reads": [
+                        "boolStorage"
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getInt(bytes32)": {
+                    "reads": [
+                        "intStorage"
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.setUint(bytes32,uint256)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "uIntStorage"
+                    ]
+                },
+                "EternalStorage.setString(bytes32,string)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "stringStorage"
+                    ]
+                },
+                "EternalStorage.setAddress(bytes32,address)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "addressStorage"
+                    ]
+                },
+                "EternalStorage.setBytes(bytes32,bytes32)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "bytesStorage"
+                    ]
+                },
+                "EternalStorage.setBool(bytes32,bool)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "boolStorage"
+                    ]
+                },
+                "EternalStorage.setInt(bytes32,int256)": {
+                    "reads": [
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "intStorage"
+                    ]
+                },
+                "EternalStorage.deleteUint(bytes32)": {
+                    "reads": [
+                        "uIntStorage",
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "uIntStorage"
+                    ]
+                },
+                "EternalStorage.deleteString(bytes32)": {
+                    "reads": [
+                        "stringStorage",
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "stringStorage"
+                    ]
+                },
+                "EternalStorage.deleteAddress(bytes32)": {
+                    "reads": [
+                        "addressStorage",
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "addressStorage"
+                    ]
+                },
+                "EternalStorage.deleteBytes(bytes32)": {
+                    "reads": [
+                        "currentOwner",
+                        "bytesStorage"
+                    ],
+                    "writes": [
+                        "bytesStorage"
+                    ]
+                },
+                "EternalStorage.deleteBool(bytes32)": {
+                    "reads": [
+                        "boolStorage",
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "boolStorage"
+                    ]
+                },
+                "EternalStorage.deleteInt(bytes32)": {
+                    "reads": [
+                        "intStorage",
+                        "currentOwner"
+                    ],
+                    "writes": [
+                        "intStorage"
+                    ]
+                },
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "currentOwner"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "EternalStorage.changeOwner(address)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        32
+                    ]
+                },
+                "EternalStorage.getUint(bytes32)": {
+                    "reads": [
+                        52
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getString(bytes32)": {
+                    "reads": [
+                        53
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getAddress(bytes32)": {
+                    "reads": [
+                        54
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getBytes(bytes32)": {
+                    "reads": [
+                        55
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getBool(bytes32)": {
+                    "reads": [
+                        56
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.getInt(bytes32)": {
+                    "reads": [
+                        57
+                    ],
+                    "writes": []
+                },
+                "EternalStorage.setUint(bytes32,uint256)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        52
+                    ]
+                },
+                "EternalStorage.setString(bytes32,string)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        53
+                    ]
+                },
+                "EternalStorage.setAddress(bytes32,address)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        54
+                    ]
+                },
+                "EternalStorage.setBytes(bytes32,bytes32)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        55
+                    ]
+                },
+                "EternalStorage.setBool(bytes32,bool)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        56
+                    ]
+                },
+                "EternalStorage.setInt(bytes32,int256)": {
+                    "reads": [
+                        32
+                    ],
+                    "writes": [
+                        57
+                    ]
+                },
+                "EternalStorage.deleteUint(bytes32)": {
+                    "reads": [
+                        52,
+                        32
+                    ],
+                    "writes": [
+                        52
+                    ]
+                },
+                "EternalStorage.deleteString(bytes32)": {
+                    "reads": [
+                        53,
+                        32
+                    ],
+                    "writes": [
+                        53
+                    ]
+                },
+                "EternalStorage.deleteAddress(bytes32)": {
+                    "reads": [
+                        54,
+                        32
+                    ],
+                    "writes": [
+                        54
+                    ]
+                },
+                "EternalStorage.deleteBytes(bytes32)": {
+                    "reads": [
+                        32,
+                        55
+                    ],
+                    "writes": [
+                        55
+                    ]
+                },
+                "EternalStorage.deleteBool(bytes32)": {
+                    "reads": [
+                        56,
+                        32
+                    ],
+                    "writes": [
+                        56
+                    ]
+                },
+                "EternalStorage.deleteInt(bytes32)": {
+                    "reads": [
+                        57,
+                        32
+                    ],
+                    "writes": [
+                        57
+                    ]
+                },
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        32
+                    ]
+                }
+            }
+        },
+        "0x8382ADf670cb280F2f318bC2446be3860758aEF4.solGramChain": {
+            "svar_info": {
+                "_containsMap": {
+                    "name": "_containsMap",
+                    "type": "mapping1",
+                    "original_type": "mapping(bytes32 => bool)",
+                    "write_count": 2,
+                    "read_count": 3,
+                    "read_write_count": 1
+                },
+                "_owner": {
+                    "name": "_owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 5,
+                    "write_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "_containsMap": 58,
+                "_owner": 24
+            },
+            "int_to_svar": {
+                "58": "_containsMap",
+                "24": "_owner"
+            },
+            "function_data": {
+                "Ownable.owner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "Ownable.isOwner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "Ownable.renounceOwnership()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "GramChain.addHashEntry(bytes32)": {
+                    "reads": [
+                        "_containsMap",
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_containsMap"
+                    ]
+                },
+                "GramChain.addHashEntries(bytes32[])": {
+                    "reads": [
+                        "_containsMap",
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_containsMap"
+                    ]
+                },
+                "GramChain.verifyDataHash(bytes32)": {
+                    "reads": [
+                        "_containsMap"
+                    ],
+                    "writes": []
+                },
+                "constructor": {
+                    "reads": [],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "Ownable.owner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "Ownable.isOwner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "Ownable.renounceOwnership()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "GramChain.addHashEntry(bytes32)": {
+                    "reads": [
+                        58,
+                        24
+                    ],
+                    "writes": [
+                        58
+                    ]
+                },
+                "GramChain.addHashEntries(bytes32[])": {
+                    "reads": [
+                        58,
+                        24
+                    ],
+                    "writes": [
+                        58
+                    ]
+                },
+                "GramChain.verifyDataHash(bytes32)": {
+                    "reads": [
+                        58
+                    ],
+                    "writes": []
+                },
+                "constructor": {
+                    "reads": [],
+                    "writes": []
+                }
+            }
+        },
+        "0x3422ac57f4ca097806fa234e44ec0a781b78bbdb.solYFVReferral": {
+            "svar_info": {
+                "referrers": {
+                    "name": "referrers",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => address)",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "referredCount": {
+                    "name": "referredCount",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 1
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 3,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "nextOwner": {
+                    "name": "nextOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "isAdmin": {
+                    "name": "isAdmin",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "read_count": 1,
+                    "write_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "referrers": 59,
+                "referredCount": 60,
+                "owner": 21,
+                "nextOwner": 33,
+                "isAdmin": 61
+            },
+            "int_to_svar": {
+                "59": "referrers",
+                "60": "referredCount",
+                "21": "owner",
+                "33": "nextOwner",
+                "61": "isAdmin"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "YFVReferral.approveNextOwner(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "nextOwner"
+                    ]
+                },
+                "YFVReferral.acceptNextOwner()": {
+                    "reads": [
+                        "nextOwner"
+                    ],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "YFVReferral.setReferrer(address,address)": {
+                    "reads": [
+                        "referrers",
+                        "referredCount",
+                        "isAdmin"
+                    ],
+                    "writes": [
+                        "referrers",
+                        "referredCount"
+                    ]
+                },
+                "YFVReferral.getReferrer(address)": {
+                    "reads": [
+                        "referrers"
+                    ],
+                    "writes": []
+                },
+                "YFVReferral.setAdminStatus(address,bool)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "isAdmin"
+                    ]
+                },
+                "YFVReferral.emergencyERC20Drain(ERC20,uint256)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21
+                    ]
+                },
+                "YFVReferral.approveNextOwner(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        33
+                    ]
+                },
+                "YFVReferral.acceptNextOwner()": {
+                    "reads": [
+                        33
+                    ],
+                    "writes": [
+                        21
+                    ]
+                },
+                "YFVReferral.setReferrer(address,address)": {
+                    "reads": [
+                        59,
+                        60,
+                        61
+                    ],
+                    "writes": [
+                        59,
+                        60
+                    ]
+                },
+                "YFVReferral.getReferrer(address)": {
+                    "reads": [
+                        59
+                    ],
+                    "writes": []
+                },
+                "YFVReferral.setAdminStatus(address,bool)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        61
+                    ]
+                },
+                "YFVReferral.emergencyERC20Drain(ERC20,uint256)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0x46d52bace05457929e1cd84c9efcee0d2156555b.solSimpleWriteAccessController": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 5,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "checkEnabled": {
+                    "name": "checkEnabled",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "read_count": 3,
+                    "write_count": 2,
+                    "read_write_count": 1
+                },
+                "accessList": {
+                    "name": "accessList",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "read_count": 3,
+                    "write_count": 2,
+                    "read_write_count": 1
+                },
+                "pendingOwner": {
+                    "name": "pendingOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "checkEnabled": 39,
+                "accessList": 62,
+                "pendingOwner": 34
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "39": "checkEnabled",
+                "62": "accessList",
+                "34": "pendingOwner"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "checkEnabled"
+                    ]
+                },
+                "Owned.transferOwnership(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "pendingOwner"
+                    ]
+                },
+                "Owned.acceptOwnership()": {
+                    "reads": [
+                        "pendingOwner",
+                        "owner"
+                    ],
+                    "writes": [
+                        "pendingOwner",
+                        "owner"
+                    ]
+                },
+                "AccessControllerInterface.hasAccess(address,bytes)": {
+                    "reads": [],
+                    "writes": []
+                },
+                "SimpleWriteAccessController.hasAccess(address,bytes)": {
+                    "reads": [
+                        "accessList",
+                        "checkEnabled"
+                    ],
+                    "writes": []
+                },
+                "SimpleWriteAccessController.addAccess(address)": {
+                    "reads": [
+                        "accessList",
+                        "owner"
+                    ],
+                    "writes": [
+                        "accessList"
+                    ]
+                },
+                "SimpleWriteAccessController.removeAccess(address)": {
+                    "reads": [
+                        "accessList",
+                        "owner"
+                    ],
+                    "writes": [
+                        "accessList"
+                    ]
+                },
+                "SimpleWriteAccessController.enableAccessCheck()": {
+                    "reads": [
+                        "checkEnabled",
+                        "owner"
+                    ],
+                    "writes": [
+                        "checkEnabled"
+                    ]
+                },
+                "SimpleWriteAccessController.disableAccessCheck()": {
+                    "reads": [
+                        "checkEnabled",
+                        "owner"
+                    ],
+                    "writes": [
+                        "checkEnabled"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        39
+                    ]
+                },
+                "Owned.transferOwnership(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        34
+                    ]
+                },
+                "Owned.acceptOwnership()": {
+                    "reads": [
+                        34,
+                        21
+                    ],
+                    "writes": [
+                        34,
+                        21
+                    ]
+                },
+                "AccessControllerInterface.hasAccess(address,bytes)": {
+                    "reads": [],
+                    "writes": []
+                },
+                "SimpleWriteAccessController.hasAccess(address,bytes)": {
+                    "reads": [
+                        62,
+                        39
+                    ],
+                    "writes": []
+                },
+                "SimpleWriteAccessController.addAccess(address)": {
+                    "reads": [
+                        62,
+                        21
+                    ],
+                    "writes": [
+                        62
+                    ]
+                },
+                "SimpleWriteAccessController.removeAccess(address)": {
+                    "reads": [
+                        62,
+                        21
+                    ],
+                    "writes": [
+                        62
+                    ]
+                },
+                "SimpleWriteAccessController.enableAccessCheck()": {
+                    "reads": [
+                        39,
+                        21
+                    ],
+                    "writes": [
+                        39
+                    ]
+                },
+                "SimpleWriteAccessController.disableAccessCheck()": {
+                    "reads": [
+                        39,
+                        21
+                    ],
+                    "writes": [
+                        39
+                    ]
+                }
+            }
+        },
+        "0x7C6664bd7957eD63f8fbF635101A186741Ef14D4.solAdministratorMinter": {
+            "svar_info": {
+                "etherLegendsToken": {
+                    "name": "etherLegendsToken",
+                    "type": "userDefined",
+                    "original_type": "IMintableEtherLegendsToken",
+                    "write_count": 1
+                },
+                "_owner": {
+                    "name": "_owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 6,
+                    "write_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "etherLegendsToken": 72,
+                "_owner": 24
+            },
+            "int_to_svar": {
+                "72": "etherLegendsToken",
+                "24": "_owner"
+            },
+            "function_data": {
+                "Ownable.owner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "Ownable.isOwner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "Ownable.renounceOwnership()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "constructor": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "AdministratorMinter.fallback()": {
+                    "reads": [],
+                    "writes": []
+                },
+                "AdministratorMinter.destroyContract()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "AdministratorMinter.setEtherLegendsToken(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "etherLegendsToken"
+                    ]
+                },
+                "AdministratorMinter.mintCards(address,uint256,uint256)": {
+                    "reads": [
+                        "etherLegendsToken",
+                        "_owner"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "Ownable.owner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "Ownable.isOwner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "Ownable.renounceOwnership()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "constructor": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "AdministratorMinter.fallback()": {
+                    "reads": [],
+                    "writes": []
+                },
+                "AdministratorMinter.destroyContract()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "AdministratorMinter.setEtherLegendsToken(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        72
+                    ]
+                },
+                "AdministratorMinter.mintCards(address,uint256,uint256)": {
+                    "reads": [
+                        72,
+                        24
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0x4b205ad9e4a2669cf9428c1a5f72ca17976f0167.solMonetaGiftBox": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 5,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "newOwner": {
+                    "name": "newOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "mlm": {
+                    "name": "mlm",
+                    "type": "array_uintSmall",
+                    "original_type": "uint8[7]",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "pack": {
+                    "name": "pack",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "users": {
+                    "name": "users",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => address)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "newOwner": 27,
+                "mlm": 67,
+                "pack": 10,
+                "users": 50
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "27": "newOwner",
+                "67": "mlm",
+                "10": "pack",
+                "50": "users"
+            },
+            "function_data": {
+                "Owned.changeOwner(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "newOwner"
+                    ]
+                },
+                "Owned.acceptOwnership()": {
+                    "reads": [
+                        "newOwner"
+                    ],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "constructor": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "pack",
+                        "users",
+                        "mlm",
+                        "owner"
+                    ]
+                },
+                "MonetaGiftBox.setBonus(uint8,uint8)": {
+                    "reads": [
+                        "mlm",
+                        "owner"
+                    ],
+                    "writes": [
+                        "mlm"
+                    ]
+                },
+                "MonetaGiftBox.setPack(uint256)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "pack"
+                    ]
+                },
+                "MonetaGiftBox.setSponsor(address,address)": {
+                    "reads": [
+                        "users",
+                        "owner"
+                    ],
+                    "writes": [
+                        "users"
+                    ]
+                },
+                "MonetaGiftBox.sponsor(address)": {
+                    "reads": [
+                        "users"
+                    ],
+                    "writes": []
+                },
+                "MonetaGiftBox.gift(address)": {
+                    "reads": [
+                        "pack",
+                        "users",
+                        "mlm",
+                        "owner"
+                    ],
+                    "writes": [
+                        "users"
+                    ]
+                },
+                "MonetaGiftBox.receive()": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "Owned.changeOwner(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        27
+                    ]
+                },
+                "Owned.acceptOwnership()": {
+                    "reads": [
+                        27
+                    ],
+                    "writes": [
+                        21
+                    ]
+                },
+                "constructor": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        10,
+                        50,
+                        67,
+                        21
+                    ]
+                },
+                "MonetaGiftBox.setBonus(uint8,uint8)": {
+                    "reads": [
+                        67,
+                        21
+                    ],
+                    "writes": [
+                        67
+                    ]
+                },
+                "MonetaGiftBox.setPack(uint256)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        10
+                    ]
+                },
+                "MonetaGiftBox.setSponsor(address,address)": {
+                    "reads": [
+                        50,
+                        21
+                    ],
+                    "writes": [
+                        50
+                    ]
+                },
+                "MonetaGiftBox.sponsor(address)": {
+                    "reads": [
+                        50
+                    ],
+                    "writes": []
+                },
+                "MonetaGiftBox.gift(address)": {
+                    "reads": [
+                        10,
+                        50,
+                        67,
+                        21
+                    ],
+                    "writes": [
+                        50
+                    ]
+                },
+                "MonetaGiftBox.receive()": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0xbb86cd4c05c321015078433863fd203a61560fcb.solGruppa_Istoricheskiy_Roman": {
+            "svar_info": {
+                "contributions": {
+                    "name": "contributions",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "totalContributors": {
+                    "name": "totalContributors",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 2
+                },
+                "goal": {
+                    "name": "goal",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 2
+                },
+                "raisedAmount": {
+                    "name": "raisedAmount",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 3,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "totalSentToGruppa": {
+                    "name": "totalSentToGruppa",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1
+                },
+                "Owner": {
+                    "name": "Owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 1
+                },
+                "recepientAddress": {
+                    "name": "recepientAddress",
+                    "type": "address",
+                    "original_type": "address"
+                },
+                "uje_sobrali": {
+                    "name": "uje_sobrali",
+                    "type": "bool",
+                    "original_type": "bool"
+                },
+                "paid": {
+                    "name": "paid",
+                    "type": "bool",
+                    "original_type": "bool"
+                },
+                "refund": {
+                    "name": "refund",
+                    "type": "array1",
+                    "original_type": "address[]"
+                },
+                "addresses": {
+                    "name": "addresses",
+                    "type": "array1",
+                    "original_type": "address[]"
+                }
+            },
+            "svar_to_int": {
+                "contributions": 63,
+                "totalContributors": 15,
+                "goal": 2,
+                "raisedAmount": 16,
+                "totalSentToGruppa": 17,
+                "Owner": 35,
+                "recepientAddress": 36,
+                "uje_sobrali": 40,
+                "paid": 41,
+                "refund": 68,
+                "addresses": 69
+            },
+            "int_to_svar": {
+                "63": "contributions",
+                "15": "totalContributors",
+                "2": "goal",
+                "16": "raisedAmount",
+                "17": "totalSentToGruppa",
+                "35": "Owner",
+                "36": "recepientAddress",
+                "40": "uje_sobrali",
+                "41": "paid",
+                "68": "refund",
+                "69": "addresses"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "recepientAddress",
+                        "raisedAmount",
+                        "Owner",
+                        "goal",
+                        "totalSentToGruppa"
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.donate()": {
+                    "reads": [
+                        "contributions",
+                        "totalContributors",
+                        "raisedAmount"
+                    ],
+                    "writes": [
+                        "contributions",
+                        "totalContributors",
+                        "raisedAmount"
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.getRefund()": {
+                    "reads": [
+                        "contributions",
+                        "totalContributors",
+                        "raisedAmount"
+                    ],
+                    "writes": [
+                        "contributions",
+                        "totalContributors",
+                        "raisedAmount"
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.send_funds_to_Gruppa_Istoricheskiy_Roman()": {
+                    "reads": [
+                        "paid",
+                        "recepientAddress",
+                        "raisedAmount",
+                        "goal",
+                        "totalSentToGruppa"
+                    ],
+                    "writes": [
+                        "totalSentToGruppa",
+                        "raisedAmount"
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.skolko_nado_sobrat()": {
+                    "reads": [
+                        "goal"
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.skolko_uje_sobrali()": {
+                    "reads": [
+                        "raisedAmount"
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.skolkoVsegoOtpravleno()": {
+                    "reads": [
+                        "totalSentToGruppa"
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.skolko_chelovek_skinulis()": {
+                    "reads": [
+                        "totalContributors"
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.uje_sobrali_li()": {
+                    "reads": [
+                        "raisedAmount",
+                        "goal"
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.kill()": {
+                    "reads": [
+                        "Owner"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        36,
+                        16,
+                        35,
+                        2,
+                        17
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.donate()": {
+                    "reads": [
+                        63,
+                        15,
+                        16
+                    ],
+                    "writes": [
+                        63,
+                        15,
+                        16
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.getRefund()": {
+                    "reads": [
+                        63,
+                        15,
+                        16
+                    ],
+                    "writes": [
+                        63,
+                        15,
+                        16
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.send_funds_to_Gruppa_Istoricheskiy_Roman()": {
+                    "reads": [
+                        41,
+                        36,
+                        16,
+                        2,
+                        17
+                    ],
+                    "writes": [
+                        17,
+                        16
+                    ]
+                },
+                "Gruppa_Istoricheskiy_Roman.skolko_nado_sobrat()": {
+                    "reads": [
+                        2
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.skolko_uje_sobrali()": {
+                    "reads": [
+                        16
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.skolkoVsegoOtpravleno()": {
+                    "reads": [
+                        17
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.skolko_chelovek_skinulis()": {
+                    "reads": [
+                        15
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.uje_sobrali_li()": {
+                    "reads": [
+                        16,
+                        2
+                    ],
+                    "writes": []
+                },
+                "Gruppa_Istoricheskiy_Roman.kill()": {
+                    "reads": [
+                        35
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "HoloToken_test_03.solHoloToken_test_03": {
+            "svar_info": {
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 2
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 2
+                },
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "mintingFinished": {
+                    "name": "mintingFinished",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "destroyer": {
+                    "name": "destroyer",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "minter": {
+                    "name": "minter",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 2,
+                    "write_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "owner": 21,
+                "totalSupply": 1,
+                "balances": 43,
+                "mintingFinished": 37,
+                "destroyer": 22,
+                "minter": 23
+            },
+            "int_to_svar": {
+                "21": "owner",
+                "1": "totalSupply",
+                "43": "balances",
+                "37": "mintingFinished",
+                "22": "destroyer",
+                "23": "minter"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "mintingFinished"
+                    ]
+                },
+                "HoloToken_test_03.finishMinting()": {
+                    "reads": [
+                        "minter"
+                    ],
+                    "writes": [
+                        "mintingFinished"
+                    ]
+                },
+                "HoloToken_test_03.setMinter(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "minter"
+                    ]
+                },
+                "HoloToken_test_03.mint(address,uint256)": {
+                    "reads": [
+                        "totalSupply",
+                        "balances",
+                        "mintingFinished",
+                        "minter"
+                    ],
+                    "writes": [
+                        "totalSupply",
+                        "balances"
+                    ]
+                },
+                "HoloToken_test_03.setDestroyer(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "destroyer"
+                    ]
+                },
+                "HoloToken_test_03.burn(uint256)": {
+                    "reads": [
+                        "totalSupply",
+                        "balances",
+                        "destroyer"
+                    ],
+                    "writes": [
+                        "totalSupply",
+                        "balances"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        37
+                    ]
+                },
+                "HoloToken_test_03.finishMinting()": {
+                    "reads": [
+                        23
+                    ],
+                    "writes": [
+                        37
+                    ]
+                },
+                "HoloToken_test_03.setMinter(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        23
+                    ]
+                },
+                "HoloToken_test_03.mint(address,uint256)": {
+                    "reads": [
+                        1,
+                        43,
+                        37,
+                        23
+                    ],
+                    "writes": [
+                        1,
+                        43
+                    ]
+                },
+                "HoloToken_test_03.setDestroyer(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        22
+                    ]
+                },
+                "HoloToken_test_03.burn(uint256)": {
+                    "reads": [
+                        1,
+                        43,
+                        22
+                    ],
+                    "writes": [
+                        1,
+                        43
+                    ]
+                }
+            }
+        },
+        "Crowdsale_rlf.solCrowdsale": {
+            "svar_info": {
+                "raised": {
+                    "name": "raised",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 2,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "closeTime": {
+                    "name": "closeTime",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 1
+                },
+                "goal": {
+                    "name": "goal",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 2
+                },
+                "status": {
+                    "name": "status",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 3,
+                    "read_write_count": 1
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "deposits": {
+                    "name": "deposits",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2
+                }
+            },
+            "svar_to_int": {
+                "raised": 4,
+                "closeTime": 18,
+                "goal": 2,
+                "status": 19,
+                "owner": 21,
+                "deposits": 64
+            },
+            "int_to_svar": {
+                "4": "raised",
+                "18": "closeTime",
+                "2": "goal",
+                "19": "status",
+                "21": "owner",
+                "64": "deposits"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "owner",
+                        "closeTime",
+                        "status",
+                        "goal",
+                        "raised"
+                    ]
+                },
+                "Crowdsale.setStatus(uint256)": {
+                    "reads": [
+                        "goal",
+                        "closeTime",
+                        "raised"
+                    ],
+                    "writes": [
+                        "status"
+                    ]
+                },
+                "Crowdsale.setOwner(address)": {
+                    "reads": [],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "Crowdsale.invest()": {
+                    "reads": [
+                        "goal",
+                        "deposits",
+                        "status",
+                        "raised"
+                    ],
+                    "writes": [
+                        "deposits",
+                        "raised"
+                    ]
+                },
+                "Crowdsale.withdraw()": {
+                    "reads": [
+                        "owner",
+                        "status",
+                        "raised"
+                    ],
+                    "writes": []
+                },
+                "Crowdsale.refund()": {
+                    "reads": [
+                        "deposits",
+                        "status"
+                    ],
+                    "writes": [
+                        "deposits"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        21,
+                        18,
+                        19,
+                        2,
+                        4
+                    ]
+                },
+                "Crowdsale.setStatus(uint256)": {
+                    "reads": [
+                        2,
+                        18,
+                        4
+                    ],
+                    "writes": [
+                        19
+                    ]
+                },
+                "Crowdsale.setOwner(address)": {
+                    "reads": [],
+                    "writes": [
+                        21
+                    ]
+                },
+                "Crowdsale.invest()": {
+                    "reads": [
+                        2,
+                        64,
+                        19,
+                        4
+                    ],
+                    "writes": [
+                        64,
+                        4
+                    ]
+                },
+                "Crowdsale.withdraw()": {
+                    "reads": [
+                        21,
+                        19,
+                        4
+                    ],
+                    "writes": []
+                },
+                "Crowdsale.refund()": {
+                    "reads": [
+                        64,
+                        19
+                    ],
+                    "writes": [
+                        64
+                    ]
+                }
+            }
+        },
+        "Crowdsale_01.solCrowdsale": {
+            "svar_info": {
+                "goal": {
+                    "name": "goal",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 2
+                },
+                "raised": {
+                    "name": "raised",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "end": {
+                    "name": "end",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 1
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "investments": {
+                    "name": "investments",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2
+                },
+                "phase": {
+                    "name": "phase",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "read_count": 3,
+                    "write_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "goal": 2,
+                "raised": 4,
+                "end": 5,
+                "owner": 21,
+                "investments": 44,
+                "phase": 3
+            },
+            "int_to_svar": {
+                "2": "goal",
+                "4": "raised",
+                "5": "end",
+                "21": "owner",
+                "44": "investments",
+                "3": "phase"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "end",
+                        "owner",
+                        "goal",
+                        "phase"
+                    ]
+                },
+                "Crowdsale.invest()": {
+                    "reads": [
+                        "goal",
+                        "raised",
+                        "investments",
+                        "phase"
+                    ],
+                    "writes": [
+                        "raised",
+                        "investments"
+                    ]
+                },
+                "Crowdsale.setPhase(uint256)": {
+                    "reads": [
+                        "goal",
+                        "raised",
+                        "end"
+                    ],
+                    "writes": [
+                        "phase"
+                    ]
+                },
+                "Crowdsale.setOwner(address)": {
+                    "reads": [],
+                    "writes": [
+                        "owner"
+                    ]
+                },
+                "Crowdsale.withdraw()": {
+                    "reads": [
+                        "raised",
+                        "owner",
+                        "phase"
+                    ],
+                    "writes": []
+                },
+                "Crowdsale.refund()": {
+                    "reads": [
+                        "investments",
+                        "phase"
+                    ],
+                    "writes": [
+                        "investments"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        5,
+                        21,
+                        2,
+                        3
+                    ]
+                },
+                "Crowdsale.invest()": {
+                    "reads": [
+                        2,
+                        4,
+                        44,
+                        3
+                    ],
+                    "writes": [
+                        4,
+                        44
+                    ]
+                },
+                "Crowdsale.setPhase(uint256)": {
+                    "reads": [
+                        2,
+                        4,
+                        5
+                    ],
+                    "writes": [
+                        3
+                    ]
+                },
+                "Crowdsale.setOwner(address)": {
+                    "reads": [],
+                    "writes": [
+                        21
+                    ]
+                },
+                "Crowdsale.withdraw()": {
+                    "reads": [
+                        4,
+                        21,
+                        3
+                    ],
+                    "writes": []
+                },
+                "Crowdsale.refund()": {
+                    "reads": [
+                        44,
+                        3
+                    ],
+                    "writes": [
+                        44
+                    ]
+                }
+            }
+        },
+        "0xdb25ff2868cbc48856e44a2ae8e2f2b62f1f3b84.solBulkSender": {
+            "svar_info": {
+                "whitelist": {
+                    "name": "whitelist",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "_owner": {
+                    "name": "_owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1,
+                    "read_count": 3,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "whitelist": 45,
+                "_owner": 24
+            },
+            "int_to_svar": {
+                "45": "whitelist",
+                "24": "_owner"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "Ownable.owner()": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": []
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "_owner"
+                    ]
+                },
+                "BulkSender.approve(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "whitelist"
+                    ]
+                },
+                "BulkSender.remove(address)": {
+                    "reads": [
+                        "_owner"
+                    ],
+                    "writes": [
+                        "whitelist"
+                    ]
+                },
+                "BulkSender.isWhiteListed(address)": {
+                    "reads": [
+                        "whitelist"
+                    ],
+                    "writes": []
+                },
+                "BulkSender.distribute(address[],uint256[])": {
+                    "reads": [
+                        "whitelist"
+                    ],
+                    "writes": []
+                },
+                "BulkSender.receive()": {
+                    "reads": [],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "Ownable.owner()": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": []
+                },
+                "Ownable.transferOwnership(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        24
+                    ]
+                },
+                "BulkSender.approve(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        45
+                    ]
+                },
+                "BulkSender.remove(address)": {
+                    "reads": [
+                        24
+                    ],
+                    "writes": [
+                        45
+                    ]
+                },
+                "BulkSender.isWhiteListed(address)": {
+                    "reads": [
+                        45
+                    ],
+                    "writes": []
+                },
+                "BulkSender.distribute(address[],uint256[])": {
+                    "reads": [
+                        45
+                    ],
+                    "writes": []
+                },
+                "BulkSender.receive()": {
+                    "reads": [],
+                    "writes": []
+                }
+            }
+        },
+        "0xe4ea2d60783fc54c3595bda39ac1ab6556723d38.solBHE": {
+            "svar_info": {
+                "name": {
+                    "name": "name",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "symbol": {
+                    "name": "symbol",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "decimals": {
+                    "name": "decimals",
+                    "type": "uintSmall",
+                    "original_type": "uint8"
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256"
+                },
+                "lockAll": {
+                    "name": "lockAll",
+                    "type": "bool",
+                    "original_type": "bool",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 4,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "newOwner": {
+                    "name": "newOwner",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "frozens": {
+                    "name": "frozens",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => bool)",
+                    "write_count": 1,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "balanceOf": {
+                    "name": "balanceOf",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "name": 70,
+                "symbol": 71,
+                "decimals": 42,
+                "totalSupply": 1,
+                "lockAll": 38,
+                "owner": 21,
+                "newOwner": 27,
+                "frozens": 48,
+                "balanceOf": 49
+            },
+            "int_to_svar": {
+                "70": "name",
+                "71": "symbol",
+                "42": "decimals",
+                "1": "totalSupply",
+                "38": "lockAll",
+                "21": "owner",
+                "27": "newOwner",
+                "48": "frozens",
+                "49": "balanceOf"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "decimals",
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balanceOf",
+                        "totalSupply",
+                        "owner",
+                        "name",
+                        "symbol",
+                        "decimals",
+                        "lockAll",
+                        "newOwner"
+                    ]
+                },
+                "BHE.transferOwnership(address)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "newOwner"
+                    ]
+                },
+                "BHE.acceptOwnership()": {
+                    "reads": [
+                        "newOwner",
+                        "owner"
+                    ],
+                    "writes": [
+                        "newOwner",
+                        "owner"
+                    ]
+                },
+                "BHE.freezeAccount(address,bool)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "frozens"
+                    ]
+                },
+                "BHE.freezeAll(bool)": {
+                    "reads": [
+                        "owner"
+                    ],
+                    "writes": [
+                        "lockAll"
+                    ]
+                },
+                "BHE.contTransfer(address,uint256)": {
+                    "reads": [
+                        "frozens",
+                        "balanceOf",
+                        "lockAll",
+                        "owner"
+                    ],
+                    "writes": [
+                        "balanceOf"
+                    ]
+                },
+                "BHE.transfer(address,uint256)": {
+                    "reads": [
+                        "frozens",
+                        "balanceOf",
+                        "lockAll"
+                    ],
+                    "writes": [
+                        "balanceOf"
+                    ]
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        42,
+                        1
+                    ],
+                    "writes": [
+                        49,
+                        1,
+                        21,
+                        70,
+                        71,
+                        42,
+                        38,
+                        27
+                    ]
+                },
+                "BHE.transferOwnership(address)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        27
+                    ]
+                },
+                "BHE.acceptOwnership()": {
+                    "reads": [
+                        27,
+                        21
+                    ],
+                    "writes": [
+                        27,
+                        21
+                    ]
+                },
+                "BHE.freezeAccount(address,bool)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        48
+                    ]
+                },
+                "BHE.freezeAll(bool)": {
+                    "reads": [
+                        21
+                    ],
+                    "writes": [
+                        38
+                    ]
+                },
+                "BHE.contTransfer(address,uint256)": {
+                    "reads": [
+                        48,
+                        49,
+                        38,
+                        21
+                    ],
+                    "writes": [
+                        49
+                    ]
+                },
+                "BHE.transfer(address,uint256)": {
+                    "reads": [
+                        48,
+                        49,
+                        38
+                    ],
+                    "writes": [
+                        49
+                    ]
+                }
+            }
+        },
+        "0x87c48b167bb02cc88487ce6dc12f5e56cd49676a.solTimelockGovernance": {
+            "svar_info": {
+                "period": {
+                    "name": "period",
+                    "type": "uint256",
+                    "original_type": "uint256"
+                },
+                "governance": {
+                    "name": "governance",
+                    "type": "address",
+                    "original_type": "address",
+                    "read_count": 2,
+                    "write_count": 1,
+                    "read_write_count": 1
+                },
+                "newGovernance": {
+                    "name": "newGovernance",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "newGovernanceUpdatable": {
+                    "name": "newGovernanceUpdatable",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                },
+                "target": {
+                    "name": "target",
+                    "type": "address",
+                    "original_type": "address"
+                },
+                "newTargetGovernance": {
+                    "name": "newTargetGovernance",
+                    "type": "address",
+                    "original_type": "address",
+                    "write_count": 1
+                },
+                "newTargetGovernanceUpdatable": {
+                    "name": "newTargetGovernanceUpdatable",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1,
+                    "read_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "period": 12,
+                "governance": 28,
+                "newGovernance": 29,
+                "newGovernanceUpdatable": 13,
+                "target": 30,
+                "newTargetGovernance": 31,
+                "newTargetGovernanceUpdatable": 14
+            },
+            "int_to_svar": {
+                "12": "period",
+                "28": "governance",
+                "29": "newGovernance",
+                "13": "newGovernanceUpdatable",
+                "30": "target",
+                "31": "newTargetGovernance",
+                "14": "newTargetGovernanceUpdatable"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        "target",
+                        "governance",
+                        "period"
+                    ]
+                },
+                "TimelockGovernance.setThisGovernance(address)": {
+                    "reads": [
+                        "period",
+                        "governance"
+                    ],
+                    "writes": [
+                        "newGovernanceUpdatable",
+                        "newGovernance"
+                    ]
+                },
+                "TimelockGovernance.updateThisGovernance()": {
+                    "reads": [
+                        "newGovernanceUpdatable",
+                        "newGovernance"
+                    ],
+                    "writes": [
+                        "governance"
+                    ]
+                },
+                "TimelockGovernance.setTargetGovernance(address)": {
+                    "reads": [
+                        "period",
+                        "governance"
+                    ],
+                    "writes": [
+                        "newTargetGovernance",
+                        "newTargetGovernanceUpdatable"
+                    ]
+                },
+                "TimelockGovernance.updateTargetGovernance()": {
+                    "reads": [
+                        "target",
+                        "newTargetGovernance",
+                        "newTargetGovernanceUpdatable"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [],
+                    "writes": [
+                        30,
+                        28,
+                        12
+                    ]
+                },
+                "TimelockGovernance.setThisGovernance(address)": {
+                    "reads": [
+                        12,
+                        28
+                    ],
+                    "writes": [
+                        13,
+                        29
+                    ]
+                },
+                "TimelockGovernance.updateThisGovernance()": {
+                    "reads": [
+                        13,
+                        29
+                    ],
+                    "writes": [
+                        28
+                    ]
+                },
+                "TimelockGovernance.setTargetGovernance(address)": {
+                    "reads": [
+                        12,
+                        28
+                    ],
+                    "writes": [
+                        31,
+                        14
+                    ]
+                },
+                "TimelockGovernance.updateTargetGovernance()": {
+                    "reads": [
+                        30,
+                        31,
+                        14
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0x316Fe7d9610F56Aff59B8Db695dF625581Eb3B4A.solCYT": {
+            "svar_info": {
+                "_totalSupply": {
+                    "name": "_totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256"
+                },
+                "owner": {
+                    "name": "owner",
+                    "type": "address",
+                    "original_type": "address"
+                },
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 2,
+                    "read_count": 2,
+                    "read_write_count": 1
+                },
+                "allowed": {
+                    "name": "allowed",
+                    "type": "mapping2",
+                    "original_type": "mapping(address => mapping(address => uint256))",
+                    "write_count": 2,
+                    "read_count": 1,
+                    "read_write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "_totalSupply": 20,
+                "owner": 21,
+                "balances": 43,
+                "allowed": 65
+            },
+            "int_to_svar": {
+                "20": "_totalSupply",
+                "21": "owner",
+                "43": "balances",
+                "65": "allowed"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "owner",
+                        "_totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "owner",
+                        "_totalSupply"
+                    ]
+                },
+                "CYT.fallback()": {
+                    "reads": [],
+                    "writes": []
+                },
+                "CYT.totalSupply()": {
+                    "reads": [
+                        "_totalSupply"
+                    ],
+                    "writes": []
+                },
+                "CYT.balanceOf(address)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": []
+                },
+                "CYT.transfer(address,uint256)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": [
+                        "balances"
+                    ]
+                },
+                "CYT.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        "allowed",
+                        "balances"
+                    ],
+                    "writes": [
+                        "allowed",
+                        "balances"
+                    ]
+                },
+                "CYT.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        "allowed"
+                    ]
+                },
+                "CYT.allowance(address,address)": {
+                    "reads": [
+                        "allowed"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        21,
+                        20
+                    ],
+                    "writes": [
+                        43,
+                        21,
+                        20
+                    ]
+                },
+                "CYT.fallback()": {
+                    "reads": [],
+                    "writes": []
+                },
+                "CYT.totalSupply()": {
+                    "reads": [
+                        20
+                    ],
+                    "writes": []
+                },
+                "CYT.balanceOf(address)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": []
+                },
+                "CYT.transfer(address,uint256)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": [
+                        43
+                    ]
+                },
+                "CYT.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        65,
+                        43
+                    ],
+                    "writes": [
+                        65,
+                        43
+                    ]
+                },
+                "CYT.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        65
+                    ]
+                },
+                "CYT.allowance(address,address)": {
+                    "reads": [
+                        65
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0x00111feeb7ee43e262ff38aaf912b72ea668edc3.solRipgaleToken": {
+            "svar_info": {
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 3
+                },
+                "allowance": {
+                    "name": "allowance",
+                    "type": "mapping2",
+                    "original_type": "mapping(address => mapping(address => uint256))",
+                    "write_count": 2
+                },
+                "name": {
+                    "name": "name",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "symbol": {
+                    "name": "symbol",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "decimals": {
+                    "name": "decimals",
+                    "type": "uintSmall",
+                    "original_type": "uint8"
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "balances": 43,
+                "allowance": 66,
+                "name": 70,
+                "symbol": 71,
+                "decimals": 42,
+                "totalSupply": 1
+            },
+            "int_to_svar": {
+                "43": "balances",
+                "66": "allowance",
+                "70": "name",
+                "71": "symbol",
+                "42": "decimals",
+                "1": "totalSupply"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "name",
+                        "symbol",
+                        "decimals",
+                        "totalSupply"
+                    ]
+                },
+                "RipgaleToken.transfer(address,uint256)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": [
+                        "balances"
+                    ]
+                },
+                "RipgaleToken.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        "allowance"
+                    ]
+                },
+                "RipgaleToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        "balances",
+                        "allowance"
+                    ],
+                    "writes": [
+                        "balances",
+                        "allowance"
+                    ]
+                },
+                "RipgaleToken.burn(uint256)": {
+                    "reads": [
+                        "balances",
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "totalSupply"
+                    ]
+                },
+                "RipgaleToken.balanceOf(address)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        1
+                    ],
+                    "writes": [
+                        43,
+                        70,
+                        71,
+                        42,
+                        1
+                    ]
+                },
+                "RipgaleToken.transfer(address,uint256)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": [
+                        43
+                    ]
+                },
+                "RipgaleToken.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        66
+                    ]
+                },
+                "RipgaleToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        43,
+                        66
+                    ],
+                    "writes": [
+                        43,
+                        66
+                    ]
+                },
+                "RipgaleToken.burn(uint256)": {
+                    "reads": [
+                        43,
+                        1
+                    ],
+                    "writes": [
+                        43,
+                        1
+                    ]
+                },
+                "RipgaleToken.balanceOf(address)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": []
+                }
+            }
+        },
+        "0x283d2d5fa7ec80f00bfeeb370e1b8cbf7caba614.solYAMToken": {
+            "svar_info": {
+                "balances": {
+                    "name": "balances",
+                    "type": "mapping1",
+                    "original_type": "mapping(address => uint256)",
+                    "write_count": 3
+                },
+                "allowance": {
+                    "name": "allowance",
+                    "type": "mapping2",
+                    "original_type": "mapping(address => mapping(address => uint256))",
+                    "write_count": 2
+                },
+                "name": {
+                    "name": "name",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "symbol": {
+                    "name": "symbol",
+                    "type": "string",
+                    "original_type": "string"
+                },
+                "decimals": {
+                    "name": "decimals",
+                    "type": "uintSmall",
+                    "original_type": "uint8"
+                },
+                "totalSupply": {
+                    "name": "totalSupply",
+                    "type": "uint256",
+                    "original_type": "uint256",
+                    "write_count": 1
+                }
+            },
+            "svar_to_int": {
+                "balances": 43,
+                "allowance": 66,
+                "name": 70,
+                "symbol": 71,
+                "decimals": 42,
+                "totalSupply": 1
+            },
+            "int_to_svar": {
+                "43": "balances",
+                "66": "allowance",
+                "70": "name",
+                "71": "symbol",
+                "42": "decimals",
+                "1": "totalSupply"
+            },
+            "function_data": {
+                "constructor": {
+                    "reads": [
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "name",
+                        "symbol",
+                        "decimals",
+                        "totalSupply"
+                    ]
+                },
+                "YAMToken.transfer(address,uint256)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": [
+                        "balances"
+                    ]
+                },
+                "YAMToken.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        "allowance"
+                    ]
+                },
+                "YAMToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        "balances",
+                        "allowance"
+                    ],
+                    "writes": [
+                        "balances",
+                        "allowance"
+                    ]
+                },
+                "YAMToken.burn(uint256)": {
+                    "reads": [
+                        "balances",
+                        "totalSupply"
+                    ],
+                    "writes": [
+                        "balances",
+                        "totalSupply"
+                    ]
+                },
+                "YAMToken.balanceOf(address)": {
+                    "reads": [
+                        "balances"
+                    ],
+                    "writes": []
+                }
+            },
+            "function_data_in_int": {
+                "constructor": {
+                    "reads": [
+                        1
+                    ],
+                    "writes": [
+                        43,
+                        70,
+                        71,
+                        42,
+                        1
+                    ]
+                },
+                "YAMToken.transfer(address,uint256)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": [
+                        43
+                    ]
+                },
+                "YAMToken.approve(address,uint256)": {
+                    "reads": [],
+                    "writes": [
+                        66
+                    ]
+                },
+                "YAMToken.transferFrom(address,address,uint256)": {
+                    "reads": [
+                        43,
+                        66
+                    ],
+                    "writes": [
+                        43,
+                        66
+                    ]
+                },
+                "YAMToken.burn(uint256)": {
+                    "reads": [
+                        43,
+                        1
+                    ],
+                    "writes": [
+                        43,
+                        1
+                    ]
+                },
+                "YAMToken.balanceOf(address)": {
+                    "reads": [
+                        43
+                    ],
+                    "writes": []
+                }
+            }
+        }
+    }
+}
