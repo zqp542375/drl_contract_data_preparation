@@ -1,0 +1,436 @@
+++++ 0x29d513bf1195e9b2d17f2d728c0c423300f44df9.sol  :  0.4.11  :  YuCoin ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2445
+['constructor']:writes at the last depth:['6', '0', '2', '3', '4', '5', '7', '9']
+preprocessing: Achieved 99.88% coverage.
+dynamic svars:['6', '0', '3', '5', '41', '1']
+static svars:['8', '7', '9', '2', '4']
+Ending preprocessing.
+preprocessing time(s): 40.546225786209106
+contract coverage: 87.73%
+name() is not reachable
+version() is not reachable
+symbol() is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	fundsWallet():[]
+	transferFrom(address,address,uint256):['0', '1']
+	decimals():[]
+	version():[]
+	unitsOneEthCanBuy():[]
+	balanceOf(address):[]
+	totalEthInWei():[]
+	symbol():[]
+	transfer(address,uint256):['0']
+	approveAndCall(address,uint256,bytes):[]
+	allowance(address,address):[]
+Function Writes: State variables written
+	fallback:['8', '0']
+	approve(address,uint256):['1']
+	transferFrom(address,address,uint256):['0', '1']
+	transfer(address,uint256):['0']
+	approveAndCall(address,uint256,bytes):['1']
+============================
+iteration:3
+targets:['transferFrom(address,address,uint256)', 'name()', 'version()', 'symbol()']
+['approve(address,uint256)']:writes at the last depth:['1']
+['fallback']:writes at the last depth:['0', '8']
+['transfer(address,uint256)']:writes at the last depth:['0']
+['fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:4
+['approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:5
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:6
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:7
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:8
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:9
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:10
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:11
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:12
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:13
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:14
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'fallback']:writes at the last depth:['', '0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:15
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:16
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'fallback', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:17
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'fallback']:writes at the last depth:['0', '8']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['1']
+contract coverage: 93.50%
+============================
+iteration:18
+contract coverage: 93.50%
+============================
+iteration:19
+contract coverage: 93.50%
+============================
+iteration:20
+contract coverage: 93.50%
+============================
+iteration:21
+contract coverage: 93.50%
+============================
+iteration:22
+contract coverage: 93.50%
+============================
+iteration:23
+contract coverage: 93.50%
+============================
+iteration:24
+contract coverage: 93.50%
+============================
+iteration:25
+contract coverage: 93.50%
+============================
+iteration:26
+contract coverage: 93.50%
+============================
+iteration:27
+contract coverage: 93.50%
+============================
+iteration:28
+contract coverage: 93.50%
+============================
+iteration:29
+contract coverage: 93.50%
+============================
+iteration:30
+contract coverage: 93.50%
+============================
+iteration:31
+contract coverage: 93.50%
+============================
+iteration:32
+contract coverage: 93.50%
+============================
+iteration:33
+contract coverage: 93.50%
+============================
+iteration:34
+contract coverage: 93.50%
+============================
+iteration:35
+contract coverage: 93.50%
+============================
+iteration:36
+contract coverage: 93.50%
+============================
+iteration:37
+contract coverage: 93.50%
+============================
+iteration:38
+contract coverage: 93.50%
+#@statespace
+2716 nodes, 2715 edges, 49976 total states
+#@coverage
+Achieved 10.10% coverage for code: 6060604052604060405190810160405280600481526020017f48312e30000000000000000000000000000000000000000000000000000000008152506006908051906020019062000052929190620001ca565b5034156200005c57fe5b5b6b204fce5e3e25026110000000600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506b204fce5e3e25026110000000600281905550604060405190810160405280600681526020017f5975436f696e0000000000000000000000000000000000000000000000000000815250600390805190602001906200010e929190620001ca565b506012600460006101000a81548160ff021916908360ff160217905550604060405190810160405280600381526020017f59554300000000000000000000000000000000000000000000000000000000008152506005908051906020019062000179929190620001ca565b50600a60078190555033600960006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b62000279565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106200020d57805160ff19168380011785556200023e565b828001600101855582156200023e579182015b828111156200023d57825182559160200191906001019062000220565b5b5090506200024d919062000251565b5090565b6200027691905b808211156200027257600081600090555060010162000258565b5090565b90565b61137680620002896000396000f300606060405236156100ce576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde0314610394578063095ea7b31461042d57806318160ddd146104845780632194f3a2146104aa57806323b872dd146104fc578063313ce5671461057257806354fd4d501461059e57806365f2bc2e1461063757806370a082311461065d578063933ba413146106a757806395d89b41146106cd578063a9059cbb14610766578063cae9ca51146107bd578063dd62ed3e14610857575b6103925b60003460085401600881905550600754340290508060006000600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101515156101575760006000fd5b8060006000600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020540360006000600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555080600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff16600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a3600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051809050600060405180830381858888f19350505050151561038e57fe5b5b50565b005b341561039c57fe5b6103a46108c0565b60405180806020018281038252838181518152602001915080519060200190808383600083146103f3575b8051825260208311156103f3576020820191506020810190506020830392506103cf565b505050905090810190601f16801561041f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561043557fe5b61046a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061095e565b604051808215151515815260200191505060405180910390f35b341561048c57fe5b610494610a51565b6040518082815260200191505060405180910390f35b34156104b257fe5b6104ba610a57565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561050457fe5b610558600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610a7d565b604051808215151515815260200191505060405180910390f35b341561057a57fe5b610582610cfe565b604051808260ff1660ff16815260200191505060405180910390f35b34156105a657fe5b6105ae610d11565b60405180806020018281038252838181518152602001915080519060200190808383600083146105fd575b8051825260208311156105fd576020820191506020810190506020830392506105d9565b505050905090810190601f1680156106295780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561063f57fe5b610647610daf565b6040518082815260200191505060405180910390f35b341561066557fe5b610691600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610db5565b6040518082815260200191505060405180910390f35b34156106af57fe5b6106b7610dff565b6040518082815260200191505060405180910390f35b34156106d557fe5b6106dd610e05565b604051808060200182810382528381815181526020019150805190602001908083836000831461072c575b80518252602083111561072c57602082019150602081019050602083039250610708565b505050905090810190601f1680156107585780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561076e57fe5b6107a3600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610ea3565b604051808215151515815260200191505060405180910390f35b34156107c557fe5b61083d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190803590602001908201803590602001908080601f01602080910402602001604051908101604052809392919081815260200183838082843782019150505050505091905050611011565b604051808215151515815260200191505060405180910390f35b341561085f57fe5b6108aa600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506112c2565b6040518082815260200191505060405180910390f35b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156109565780601f1061092b57610100808354040283529160200191610956565b820191906000526020600020905b81548152906001019060200180831161093957829003601f168201915b505050505081565b600081600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a3600190505b92915050565b60025481565b600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600081600060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410158015610b4a575081600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410155b8015610b565750600082115b15610ced5781600060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254019250508190555081600060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254039250508190555081600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a360019050610cf7565b60009050610cf7565b5b9392505050565b600460009054906101000a900460ff1681565b60068054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610da75780601f10610d7c57610100808354040283529160200191610da7565b820191906000526020600020905b815481529060010190602001808311610d8a57829003601f168201915b505050505081565b60075481565b6000600060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490505b919050565b60085481565b60058054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610e9b5780601f10610e7057610100808354040283529160200191610e9b565b820191906000526020600020905b815481529060010190602001808311610e7e57829003601f168201915b505050505081565b600081600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410158015610ef45750600082115b156110015781600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254039250508190555081600060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905061100b565b6000905061100b565b5b92915050565b600082600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925856040518082815260200191505060405180910390a38373ffffffffffffffffffffffffffffffffffffffff1660405180807f72656365697665417070726f76616c28616464726573732c75696e743235362c81526020017f616464726573732c627974657329000000000000000000000000000000000000815250602e01905060405180910390207c01000000000000000000000000000000000000000000000000000000009004338530866040518563ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828051906020019080838360008314611261575b8051825260208311156112615760208201915060208101905060208303925061123d565b505050905090810190601f16801561128d5780820380516001836020036101000a031916815260200191505b5094505050505060006040518083038160008761646e5a03f19250505015156112b65760006000fd5b600190505b9392505050565b6000600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490505b929150505600a165627a7a723058209b8e7516f28e2974edf07218ca506ea75d857b3867cc7f257bcf89ee77116eac0029
+#@coverage
+Achieved 93.50% coverage for code: 606060405236156100ce576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde0314610394578063095ea7b31461042d57806318160ddd146104845780632194f3a2146104aa57806323b872dd146104fc578063313ce5671461057257806354fd4d501461059e57806365f2bc2e1461063757806370a082311461065d578063933ba413146106a757806395d89b41146106cd578063a9059cbb14610766578063cae9ca51146107bd578063dd62ed3e14610857575b6103925b60003460085401600881905550600754340290508060006000600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101515156101575760006000fd5b8060006000600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020540360006000600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555080600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff16600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a3600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051809050600060405180830381858888f19350505050151561038e57fe5b5b50565b005b341561039c57fe5b6103a46108c0565b60405180806020018281038252838181518152602001915080519060200190808383600083146103f3575b8051825260208311156103f3576020820191506020810190506020830392506103cf565b505050905090810190601f16801561041f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561043557fe5b61046a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061095e565b604051808215151515815260200191505060405180910390f35b341561048c57fe5b610494610a51565b6040518082815260200191505060405180910390f35b34156104b257fe5b6104ba610a57565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561050457fe5b610558600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610a7d565b604051808215151515815260200191505060405180910390f35b341561057a57fe5b610582610cfe565b604051808260ff1660ff16815260200191505060405180910390f35b34156105a657fe5b6105ae610d11565b60405180806020018281038252838181518152602001915080519060200190808383600083146105fd575b8051825260208311156105fd576020820191506020810190506020830392506105d9565b505050905090810190601f1680156106295780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561063f57fe5b610647610daf565b6040518082815260200191505060405180910390f35b341561066557fe5b610691600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610db5565b6040518082815260200191505060405180910390f35b34156106af57fe5b6106b7610dff565b6040518082815260200191505060405180910390f35b34156106d557fe5b6106dd610e05565b604051808060200182810382528381815181526020019150805190602001908083836000831461072c575b80518252602083111561072c57602082019150602081019050602083039250610708565b505050905090810190601f1680156107585780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561076e57fe5b6107a3600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610ea3565b604051808215151515815260200191505060405180910390f35b34156107c557fe5b61083d600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190803590602001908201803590602001908080601f01602080910402602001604051908101604052809392919081815260200183838082843782019150505050505091905050611011565b604051808215151515815260200191505060405180910390f35b341561085f57fe5b6108aa600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506112c2565b6040518082815260200191505060405180910390f35b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156109565780601f1061092b57610100808354040283529160200191610956565b820191906000526020600020905b81548152906001019060200180831161093957829003601f168201915b505050505081565b600081600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a3600190505b92915050565b60025481565b600960009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600081600060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410158015610b4a575081600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410155b8015610b565750600082115b15610ced5781600060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254019250508190555081600060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254039250508190555081600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a360019050610cf7565b60009050610cf7565b5b9392505050565b600460009054906101000a900460ff1681565b60068054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610da75780601f10610d7c57610100808354040283529160200191610da7565b820191906000526020600020905b815481529060010190602001808311610d8a57829003601f168201915b505050505081565b60075481565b6000600060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490505b919050565b60085481565b60058054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610e9b5780601f10610e7057610100808354040283529160200191610e9b565b820191906000526020600020905b815481529060010190602001808311610e7e57829003601f168201915b505050505081565b600081600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410158015610ef45750600082115b156110015781600060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254039250508190555081600060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905061100b565b6000905061100b565b5b92915050565b600082600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925856040518082815260200191505060405180910390a38373ffffffffffffffffffffffffffffffffffffffff1660405180807f72656365697665417070726f76616c28616464726573732c75696e743235362c81526020017f616464726573732c627974657329000000000000000000000000000000000000815250602e01905060405180910390207c01000000000000000000000000000000000000000000000000000000009004338530866040518563ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828051906020019080838360008314611261575b8051825260208311156112615760208201915060208101905060208303925061123d565b505050905090810190601f16801561128d5780820380516001836020036101000a031916815260200191505b5094505050505060006040518083038160008761646e5a03f19250505015156112b65760006000fd5b600190505b9392505050565b6000600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490505b929150505600a165627a7a723058209b8e7516f28e2974edf07218ca506ea75d857b3867cc7f257bcf89ee77116eac0029
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: YuCoin
+Function name: constructor
+PC address: 91
+Estimated Gas Usage: 6239 - 26993
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x29d513bf1195e9b2d17f2d728c0c423300f44df9.sol:87
+
+contract YuCoin is StandardToken { 
+
+    
+
+    
+    string public name;                   
+    uint8 public decimals;                
+    string public symbol;                 
+    string public version = 'H1.0'; 
+    uint256 public unitsOneEthCanBuy;     
+    uint256 public totalEthInWei;         
+    address public fundsWallet;           
+
+    
+    
+    function YuCoin() {
+        balances[msg.sender] = 10000000000000000000000000000;               
+        totalSupply = 10000000000000000000000000000;                        
+        name = "YuCoin";                                   
+        decimals = 18;                                               
+        symbol = "YUC";                                             
+        unitsOneEthCanBuy = 10;                                      
+        fundsWallet = msg.sender;                                    
+    }
+
+    function() payable{
+        totalEthInWei = totalEthInWei + msg.value;
+        uint256 amount = msg.value * unitsOneEthCanBuy;
+        require(balances[fundsWallet] >= amount);
+
+        balances[fundsWallet] = balances[fundsWallet] - amount;
+        balances[msg.sender] = balances[msg.sender] + amount;
+
+        Transfer(fundsWallet, msg.sender, amount); 
+
+        
+        fundsWallet.transfer(msg.value);                               
+    }
+
+    
+    function approveAndCall(address _spender, uint256 _value, bytes _extraData) returns (bool success) {
+        allowed[msg.sender][_spender] = _value;
+        Approval(msg.sender, _spender, _value);
+
+        
+        
+        
+        if(!_spender.call(bytes4(bytes32(sha3("receiveApproval(address,uint256,address,bytes)"))), msg.sender, _value, this, _extraData)) { throw; }
+        return true;
+    }
+}
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x2, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x1
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: YuCoin
+Function name: name()
+PC address: 923
+Estimated Gas Usage: 100 - 195
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x29d513bf1195e9b2d17f2d728c0c423300f44df9.sol:92
+
+string public name
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: name(), txdata: 0x06fdde03, value: 0x1
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: YuCoin
+Function name: approveAndCall(address,uint256,bytes)
+PC address: 4774
+Estimated Gas Usage: 8923 - 68920
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: approveAndCall(address,uint256,bytes), txdata: 0xcae9ca51000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000000000000000000000000000000000000000000080, value: 0x0
+
+
+time_used: 21138.08131957054 seconds
+#@contract_info_time
+0x29d513bf1195e9b2d17f2d728c0c423300f44df9.sol:0.4.11:YuCoin:21138.08131957054:36100:60:36000

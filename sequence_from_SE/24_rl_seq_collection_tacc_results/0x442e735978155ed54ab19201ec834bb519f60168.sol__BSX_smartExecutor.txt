@@ -1,0 +1,513 @@
+++++ 0x442e735978155ed54ab19201ec834bb519f60168.sol  :  0.4.21  :  BSX ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2003
+['constructor']:writes at the last depth:['0', '1']
+preprocessing: Achieved 99.95% coverage.
+dynamic svars:['2', '1']
+static svars:['0']
+Ending preprocessing.
+preprocessing time(s): 13.747058391571045
+contract coverage: 99.95%
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	transferFrom(address,address,uint256):[]
+	decimals():[]
+	initialSupply():[]
+	burn(uint256):['1']
+	decreaseApproval(address,uint256):['2']
+	balanceOf(address):[]
+	symbol():[]
+	transfer(address,uint256):['1']
+	increaseApproval(address,uint256):[]
+	allowance(address,address):[]
+Function Writes: State variables written
+	approve(address,uint256):['2']
+	burn(uint256):['1', '0']
+	decreaseApproval(address,uint256):['2']
+	increaseApproval(address,uint256):['2']
+	transfer(address,uint256):['1']
+	transferFrom(address,address,uint256):['1', '2']
+============================
+iteration:3
+targets:[]
+['approve(address,uint256)']:writes at the last depth:['2']
+['burn(uint256)']:writes at the last depth:['0', '1']
+['decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:4
+['transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:5
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:6
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:7
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:8
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:9
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:10
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:11
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:12
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:13
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:14
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:15
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:16
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:17
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:18
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:19
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:20
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:21
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:22
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:23
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:24
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:25
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:26
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:27
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:28
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:29
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:30
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:31
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:32
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:33
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:34
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:35
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:36
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:37
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:38
+contract coverage: 99.95%
+============================
+iteration:39
+contract coverage: 99.95%
+============================
+iteration:40
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:41
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:42
+contract coverage: 99.95%
+============================
+iteration:43
+contract coverage: 99.95%
+============================
+iteration:44
+contract coverage: 99.95%
+============================
+iteration:45
+contract coverage: 99.95%
+============================
+iteration:46
+contract coverage: 99.95%
+============================
+iteration:47
+['transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:48
+contract coverage: 99.95%
+============================
+iteration:49
+contract coverage: 99.95%
+============================
+iteration:50
+contract coverage: 99.95%
+============================
+iteration:51
+['increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:52
+contract coverage: 99.95%
+============================
+iteration:53
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:54
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:55
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['increaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['1']
+contract coverage: 99.95%
+============================
+iteration:56
+contract coverage: 99.95%
+============================
+iteration:57
+contract coverage: 99.95%
+============================
+iteration:58
+contract coverage: 99.95%
+============================
+iteration:59
+contract coverage: 99.95%
+============================
+iteration:60
+contract coverage: 99.95%
+============================
+iteration:61
+contract coverage: 99.95%
+============================
+iteration:62
+['burn(uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:63
+['burn(uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['burn(uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:64
+contract coverage: 99.95%
+============================
+iteration:65
+contract coverage: 99.95%
+============================
+iteration:66
+['approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['approve(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:67
+['approve(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['approve(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['approve(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+contract coverage: 99.95%
+============================
+iteration:68
+contract coverage: 99.95%
+============================
+iteration:69
+['approve(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['approve(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['approve(address,uint256)', 'decreaseApproval(address,uint256)', 'decreaseApproval(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '1']
+contract coverage: 99.95%
+============================
+iteration:70
+contract coverage: 99.95%
+============================
+iteration:71
+contract coverage: 99.95%
+#@statespace
+4526 nodes, 4525 edges, 84721 total states
+#@coverage
+Achieved 5.29% coverage for code: 6060604052341561000f57600080fd5b6040516020806113fc83398101604052808051906020019091905050601260ff16600a0a630bebc20002600081905550601260ff16600a0a630bebc20002600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508073ffffffffffffffffffffffffffffffffffffffff1660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef601260ff16600a0a630bebc200026040518082815260200191505060405180910390a3506112ff806100fd6000396000f3006060604052600436106100c5576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100ca578063095ea7b31461015857806318160ddd146101b257806323b872dd146101db578063313ce56714610254578063378dc3dc1461028357806342966c68146102ac57806366188463146102e757806370a082311461034157806395d89b411461038e578063a9059cbb1461041c578063d73dd62314610476578063dd62ed3e146104d0575b600080fd5b34156100d557600080fd5b6100dd61053c565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561011d578082015181840152602081019050610102565b50505050905090810190601f16801561014a5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561016357600080fd5b610198600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610575565b604051808215151515815260200191505060405180910390f35b34156101bd57600080fd5b6101c5610667565b6040518082815260200191505060405180910390f35b34156101e657600080fd5b61023a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610670565b604051808215151515815260200191505060405180910390f35b341561025f57600080fd5b6102676109ff565b604051808260ff1660ff16815260200191505060405180910390f35b341561028e57600080fd5b610296610a04565b6040518082815260200191505060405180910390f35b34156102b757600080fd5b6102cd6004808035906020019091905050610a15565b604051808215151515815260200191505060405180910390f35b34156102f257600080fd5b610327600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610b59565b604051808215151515815260200191505060405180910390f35b341561034c57600080fd5b610378600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610dda565b6040518082815260200191505060405180910390f35b341561039957600080fd5b6103a1610e23565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156103e15780820151818401526020810190506103c6565b50505050905090810190601f16801561040e5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561042757600080fd5b61045c600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610e5c565b604051808215151515815260200191505060405180910390f35b341561048157600080fd5b6104b6600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050611060565b604051808215151515815260200191505060405180910390f35b34156104db57600080fd5b610526600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061124c565b6040518082815260200191505060405180910390f35b6040805190810160405280601581526020017f426973746f782045786368616e676520546f6b656e000000000000000000000081525081565b600081600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b60008054905090565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16141515156106ad57600080fd5b600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205482111515156106fb57600080fd5b600260008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054821115151561078657600080fd5b81600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b601281565b601260ff16600a0a630bebc2000281565b600081600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610a6357600080fd5b600082111515610a7257600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600054036000819055503373ffffffffffffffffffffffffffffffffffffffff167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5836040518082815260200191505060405180910390a260019050919050565b600080600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905080831115610c6a576000600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610cee565b828103600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b8373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a3600191505092915050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6040805190810160405280600381526020017f425358000000000000000000000000000000000000000000000000000000000081525081565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614151515610e9957600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410151515610ee757600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b600081600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a36001905092915050565b6000600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050929150505600a165627a7a72305820eb6a504192195fc9058723dc34aa4b73c38945b5df7e295bfe69afa5113e57fb0029
+#@coverage
+Achieved 99.95% coverage for code: 6060604052600436106100c5576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100ca578063095ea7b31461015857806318160ddd146101b257806323b872dd146101db578063313ce56714610254578063378dc3dc1461028357806342966c68146102ac57806366188463146102e757806370a082311461034157806395d89b411461038e578063a9059cbb1461041c578063d73dd62314610476578063dd62ed3e146104d0575b600080fd5b34156100d557600080fd5b6100dd61053c565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561011d578082015181840152602081019050610102565b50505050905090810190601f16801561014a5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561016357600080fd5b610198600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610575565b604051808215151515815260200191505060405180910390f35b34156101bd57600080fd5b6101c5610667565b6040518082815260200191505060405180910390f35b34156101e657600080fd5b61023a600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610670565b604051808215151515815260200191505060405180910390f35b341561025f57600080fd5b6102676109ff565b604051808260ff1660ff16815260200191505060405180910390f35b341561028e57600080fd5b610296610a04565b6040518082815260200191505060405180910390f35b34156102b757600080fd5b6102cd6004808035906020019091905050610a15565b604051808215151515815260200191505060405180910390f35b34156102f257600080fd5b610327600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610b59565b604051808215151515815260200191505060405180910390f35b341561034c57600080fd5b610378600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610dda565b6040518082815260200191505060405180910390f35b341561039957600080fd5b6103a1610e23565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156103e15780820151818401526020810190506103c6565b50505050905090810190601f16801561040e5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561042757600080fd5b61045c600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610e5c565b604051808215151515815260200191505060405180910390f35b341561048157600080fd5b6104b6600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050611060565b604051808215151515815260200191505060405180910390f35b34156104db57600080fd5b610526600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061124c565b6040518082815260200191505060405180910390f35b6040805190810160405280601581526020017f426973746f782045786368616e676520546f6b656e000000000000000000000081525081565b600081600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b60008054905090565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16141515156106ad57600080fd5b600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205482111515156106fb57600080fd5b600260008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054821115151561078657600080fd5b81600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b601281565b601260ff16600a0a630bebc2000281565b600081600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610a6357600080fd5b600082111515610a7257600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600054036000819055503373ffffffffffffffffffffffffffffffffffffffff167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5836040518082815260200191505060405180910390a260019050919050565b600080600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905080831115610c6a576000600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610cee565b828103600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b8373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a3600191505092915050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6040805190810160405280600381526020017f425358000000000000000000000000000000000000000000000000000000000081525081565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614151515610e9957600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410151515610ee757600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205403600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555081600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b600081600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a36001905092915050565b6000600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050929150505600a165627a7a72305820eb6a504192195fc9058723dc34aa4b73c38945b5df7e295bfe69afa5113e57fb0029
+The analysis was completed successfully. No issues were detected.
+
+time_used: 32704.02840733528 seconds
+#@contract_info_time
+0x442e735978155ed54ab19201ec834bb519f60168.sol:0.4.21:BSX:32704.02840733528:36100:60:36000

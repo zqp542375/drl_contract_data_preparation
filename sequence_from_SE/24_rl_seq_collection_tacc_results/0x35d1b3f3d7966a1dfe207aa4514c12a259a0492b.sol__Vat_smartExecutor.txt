@@ -1,0 +1,4 @@
+++++ 0x35d1b3f3d7966a1dfe207aa4514c12a259a0492b.sol  :  0.5.12  :  Vat ++++
+time_used: 3.671431541442871 seconds
+#@contract_info_time
+0x35d1b3f3d7966a1dfe207aa4514c12a259a0492b.sol:0.5.12:Vat:3.671431541442871:36100:60:36000

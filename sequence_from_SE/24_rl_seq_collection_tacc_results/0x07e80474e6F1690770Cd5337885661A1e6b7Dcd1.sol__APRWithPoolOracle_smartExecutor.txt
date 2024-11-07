@@ -1,0 +1,1420 @@
+++++ 0x07e80474e6F1690770Cd5337885661A1e6b7Dcd1.sol  :  0.5.0  :  APRWithPoolOracle ++++
+171365171514769552325374292449507113643783835214 is added into actors.
+209185155885831205121479079303296561156700195016 is added into actors.
+206204082616132771089805055200945969870547297207 is added into actors.
+85238868220346951049395574698241850596116002282 is added into actors.
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 8146
+['constructor']:writes at the last depth:['1', '0', '2', '3', '4', '5', '6', '7']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 98.88% coverage.
+dynamic svars:[]
+static svars:['6', '0', '7', '3', '5', '4', '2', '1']
+Ending preprocessing.
+preprocessing time(s): 102.11275053024292
+contract coverage: 52.27%
+getDyDxAPR(uint256) is not reachable
+getDDEXAPRAdjusted(address,uint256) is not reachable
+getAaveAPRAdjusted(address,uint256) is not reachable
+getDDEXAPR(address) is not reachable
+getAaveAPR(address) is not reachable
+getLENDFAPRAdjusted(address,uint256) is not reachable
+getLENDFAPR(address) is not reachable
+getFulcrumAPR(address) is not reachable
+getAaveCore() is not reachable
+getFulcrumAPRAdjusted(address,uint256) is not reachable
+getCompoundAPRAdjusted(address,uint256) is not reachable
+Function Reads: State variables read in conditions
+	getLENDFAPRAdjusted(address,uint256):[]
+	liquidationRatio():[]
+	getAaveAPR(address):[]
+	set_new_Ratio(uint256):['0']
+	inCaseTokenGetsStuck(address):['0']
+	getCompoundAPR(address):[]
+	AAVE():[]
+	getFulcrumAPRAdjusted(address,uint256):[]
+	getLENDFAPR(address):[]
+	LENDF():[]
+	renounceOwnership():['0']
+	getDDEXAPRAdjusted(address,uint256):[]
+	getDyDxAPR(uint256):['1']
+	getFulcrumAPR(address):[]
+	owner():[]
+	isOwner():[]
+	DDEX():[]
+	getAaveAPRAdjusted(address,uint256):[]
+	dydxModifier():[]
+	DYDX():[]
+	set_new_Modifier(uint256):['0']
+	getDDEXAPR(address):[]
+	transferOwnership(address):['0']
+	inCaseETHGetsStuck():['0']
+	getAaveCore():[]
+	getCompoundAPRAdjusted(address,uint256):[]
+	getDyDxAPRAdjusted(uint256,uint256):['7']
+Function Writes: State variables written
+	set_new_Ratio(uint256):['6']
+	renounceOwnership():['0']
+	set_new_Modifier(uint256):['7']
+	transferOwnership(address):['0']
+============================
+iteration:3
+targets:['getDyDxAPR(uint256)', 'getDDEXAPRAdjusted(address,uint256)', 'getDyDxAPRAdjusted(uint256,uint256)', 'getAaveAPRAdjusted(address,uint256)', 'getDDEXAPR(address)', 'getAaveAPR(address)', 'getLENDFAPRAdjusted(address,uint256)', 'getLENDFAPR(address)', 'getFulcrumAPR(address)', 'getAaveCore()', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPRAdjusted(address,uint256)']
+['set_new_Ratio(uint256)']:writes at the last depth:['6']
+['renounceOwnership()']:writes at the last depth:['0']
+['inCaseETHGetsStuck()']:writes at the last depth:[]
+['set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseETHGetsStuck()']:writes at the last depth:[]
+['transferOwnership(address)']:writes at the last depth:['0']
+['getCompoundAPR(address)']:writes at the last depth:[]
+['getCompoundAPR(address)']:writes at the last depth:[]
+['getFulcrumAPR(address)']:writes at the last depth:[]
+['getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:4
+['inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:5
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:6
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:7
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:8
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:9
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:10
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:11
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:12
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:13
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:14
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:15
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:16
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:17
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:18
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:19
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:20
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:21
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:22
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:23
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:24
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:25
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:26
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:27
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:28
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:29
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:30
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:31
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:32
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:33
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:34
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:35
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:36
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:37
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:38
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:39
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:40
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:41
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:42
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:43
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:44
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:45
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:46
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:47
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:48
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:49
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:50
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:51
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:52
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:53
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:54
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:55
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:56
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:57
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:58
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:59
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:60
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:61
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:62
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:63
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:64
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:65
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:66
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:67
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:68
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:69
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:70
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:71
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:72
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:73
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:74
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:75
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:76
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'transferOwnership(address)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:77
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:78
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:79
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:80
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:81
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:82
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:83
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:84
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:85
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:86
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:87
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:88
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:89
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:90
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:91
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:92
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:93
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:94
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:95
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'transferOwnership(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:96
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:97
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Modifier(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:98
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:99
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'renounceOwnership()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:100
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)', 'set_new_Ratio(uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:101
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:102
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'inCaseTokenGetsStuck(address)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:103
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Ratio(uint256)']:writes at the last depth:['6']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'set_new_Modifier(uint256)']:writes at the last depth:['7']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseETHGetsStuck()']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getCompoundAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPR(address)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'getFulcrumAPRAdjusted(address,uint256)']:writes at the last depth:[]
+['inCaseTokenGetsStuck(address)', 'inCaseETHGetsStuck()', 'getFulcrumAPRAdjusted(address,uint256)', 'inCaseTokenGetsStuck(address)']:writes at the last depth:[]
+contract coverage: 52.27%
+============================
+iteration:104
+time_used: 31885.99533891678 seconds
+#@contract_info_time
+0x07e80474e6F1690770Cd5337885661A1e6b7Dcd1.sol:0.5.0:APRWithPoolOracle:31885.99533891678:36100:60:36000

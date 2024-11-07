@@ -1,0 +1,169 @@
+++++ 0x3c420e94beac0e2623e6c12c7d90ca4617bb9b24.sol  :  0.5.0  :  FlyingPigeon ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 3742
+['constructor']:writes at the last depth:['3', '4', '5', '6', '7', '2', '0', '0']
+preprocessing: Achieved 99.97% coverage.
+dynamic svars:['3', '4', '6', '0', '1']
+static svars:['2', '7', '5']
+Ending preprocessing.
+preprocessing time(s): 38.25436854362488
+contract coverage: 88.54%
+name() is not reachable
+symbol() is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):['7']
+	totalSupply():[]
+	transferFrom(address,address,uint256):['7', '0']
+	decimals():[]
+	increaseAllowance(address,uint256):['7']
+	unpause():['6', '7']
+	burn(uint256):['2']
+	isPauser(address):[]
+	paused():[]
+	renouncePauser():['6']
+	balanceOf(address):[]
+	burnFrom(address,uint256):['2']
+	addPauser(address):['6']
+	pause():['6', '7']
+	symbol():[]
+	decreaseAllowance(address,uint256):['7', '1']
+	transfer(address,uint256):['7', '0']
+	allowance(address,address):[]
+Function Writes: State variables written
+	burn(uint256):['2', '0']
+	approve(address,uint256):['1']
+	unpause():['7']
+	burnFrom(address,uint256):['2', '0', '1']
+	renouncePauser():['6']
+	pause():['7']
+	transferFrom(address,address,uint256):['0', '1']
+	increaseAllowance(address,uint256):['1']
+	transfer(address,uint256):['0']
+	decreaseAllowance(address,uint256):['1']
+	addPauser(address):['6']
+============================
+iteration:3
+targets:['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'unpause()', 'transferFrom(address,address,uint256)', 'name()', 'symbol()', 'transfer(address,uint256)', 'pause()', 'burnFrom(address,uint256)']
+['renouncePauser()']:writes at the last depth:['6']
+['approve(address,uint256)']:writes at the last depth:['1']
+['pause()']:writes at the last depth:['7']
+['burn(uint256)']:writes at the last depth:['2', '0']
+['increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['addPauser(address)']:writes at the last depth:['6']
+['decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)']:writes at the last depth:['0']
+['burnFrom(address,uint256)']:writes at the last depth:['1', '2', '0']
+['transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 88.54%
+============================
+iteration:4
+['transferFrom(address,address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['0', '2', '1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 88.54%
+============================
+iteration:5
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['1', '2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 88.54%
+============================
+iteration:6
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 88.54%
+============================
+iteration:7
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['0', '2', '1']
+contract coverage: 88.54%
+============================
+iteration:8
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 88.54%
+============================
+iteration:9
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 88.54%
+============================
+iteration:10
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addPauser(address)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 89.55%
+============================
+iteration:11
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'addPauser(address)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 89.55%
+============================
+iteration:12
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'pause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)', 'addPauser(address)']:writes at the last depth:['6']
+contract coverage: 94.92%
+============================
+iteration:13
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'pause()', 'unpause()']:writes at the last depth:['7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'pause()', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'pause()', 'burn(uint256)']:writes at the last depth:['2', '0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'pause()', 'addPauser(address)']:writes at the last depth:['6']
+contract coverage: 94.92%
+============================
+iteration:14
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'renouncePauser()']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+contract coverage: 94.92%
+============================
+iteration:15
+The analysis was completed successfully. No issues were detected.
+
+time_used: 20288.324292182922 seconds
+#@contract_info_time
+0x3c420e94beac0e2623e6c12c7d90ca4617bb9b24.sol:0.5.0:FlyingPigeon:20288.324292182922:36100:60:36000

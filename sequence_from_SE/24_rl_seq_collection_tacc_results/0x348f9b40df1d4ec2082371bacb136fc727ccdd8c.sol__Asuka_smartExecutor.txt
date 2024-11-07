@@ -1,0 +1,4 @@
+++++ 0x348f9b40df1d4ec2082371bacb136fc727ccdd8c.sol  :  0.5.17  :  Asuka ++++
+time_used: 3.8327388763427734 seconds
+#@contract_info_time
+0x348f9b40df1d4ec2082371bacb136fc727ccdd8c.sol:0.5.17:Asuka:3.8327388763427734:36100:60:36000

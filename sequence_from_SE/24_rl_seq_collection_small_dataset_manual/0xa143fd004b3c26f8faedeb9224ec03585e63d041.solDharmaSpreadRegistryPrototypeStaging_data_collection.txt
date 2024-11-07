@@ -1,0 +1,746 @@
+C:\Users\SERC\anaconda3\envs\smartExecutor_env397\python.exe C:/Users/SERC/wei_pycharm/smartExecutor/semyth analyze .\tests\testdata\rl_contracts\0xa143fd004b3c26f8faedeb9224ec03585e63d041.sol:DharmaSpreadRegistryPrototypeStaging --solv 0.5.11 -fdg -fss exeDataCollection
+
+INFO: Could not find files for the given pattern(s).
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 810
+['constructor']:writes at the last depth:['0']
+preprocessing: Achieved 94.20% coverage.
+Ending preprocessing.
+preprocessing time(s): 4.832013130187988
+contract coverage: 86.30%
+Function Reads: State variables read in conditions
+	owner():[]
+	isOwner():[]
+	setDaiSpreadPerBlock(uint256):['0']
+	getUSDCSpreadPerBlock():[]
+	transferOwnership(address):['0']
+	cancelOwnershipTransfer():['0']
+	getDaiSpreadPerBlock():[]
+	acceptOwnership():['1']
+	setUSDCSpreadPerBlock(uint256):['0']
+Function Writes: State variables written
+	acceptOwnership():['1', '0']
+	cancelOwnershipTransfer():['1']
+	setDaiSpreadPerBlock(uint256):['2']
+	setUSDCSpreadPerBlock(uint256):['3']
+	transferOwnership(address):['1']
+============================
+iteration:3
+targets:['acceptOwnership()']
+['cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:4
+['transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:5
+['transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:6
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:7
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:8
+['transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:9
+['transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:10
+['transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:11
+['transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:12
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:13
+['transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:14
+['transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:15
+['transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:16
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:17
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:18
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:19
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:20
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:21
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:22
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:23
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:24
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:25
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:26
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:27
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:28
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:29
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:30
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:31
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:32
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:33
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:34
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:35
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:36
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:37
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:38
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:39
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:40
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:41
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:42
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:43
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:44
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:45
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:46
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:47
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:48
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:49
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:50
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:51
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:52
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:53
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:54
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:55
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:56
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:57
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:58
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:59
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:60
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:61
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:62
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:63
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:64
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:65
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:66
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:67
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:68
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:69
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:70
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:71
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:72
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:73
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:74
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:75
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:76
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:77
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:78
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:79
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:80
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:81
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:82
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:83
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:84
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:85
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:86
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:87
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:88
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:89
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:90
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:91
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:92
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:93
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:94
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:95
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:96
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:97
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+============================
+iteration:98
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()']:writes at the last depth:['1']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setDaiSpreadPerBlock(uint256)']:writes at the last depth:['2']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'setUSDCSpreadPerBlock(uint256)']:writes at the last depth:['3']
+['cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'cancelOwnershipTransfer()', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 94.20%
+#@statespace
+6601 nodes, 6600 edges, 78968 total states
+#@coverage
+Achieved 6.57% coverage for code: 6080604052326000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3610763806100cf6000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c80638da5cb5b116100665780638da5cb5b146100f85780638f32d59b14610142578063a1b997de14610164578063afea7fc314610192578063f2fde38b146101b057610093565b806323452b9c146100985780632b6e5587146100a257806379ba5097146100c05780638d9bbb8a146100ca575b600080fd5b6100a06101f4565b005b6100aa610278565b6040518082815260200191505060405180910390f35b6100c8610282565b005b6100f6600480360360208110156100e057600080fd5b810190808035906020019092919050505061040a565b005b610100610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a61049a565b604051808215151515815260200191505060405180910390f35b6101906004803603602081101561017a57600080fd5b81019080803590602001909291905050506104f1565b005b61019a610558565b6040518082815260200191505060405180910390f35b6101f2600480360360208110156101c657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610562565b005b6101fc61049a565b610251576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b600160006101000a81549073ffffffffffffffffffffffffffffffffffffffff0219169055565b6000600254905090565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610328576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252604581526020018061068a6045913960600191505060405180910390fd5b600160006101000a81549073ffffffffffffffffffffffffffffffffffffffff02191690553373ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b61041261049a565b610467576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b8060038190555050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6104f961049a565b61054e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b8060028190555050565b6000600354905090565b61056a61049a565b6105bf576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415610645576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260388152602001806106f76038913960400191505060405180910390fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fe54776f537465704f776e61626c653a2063757272656e74206f776e6572206d757374207365742063616c6c6572206173206e657720706f74656e7469616c206f776e65722e54776f537465704f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65722e54776f537465704f776e61626c653a206e657720706f74656e7469616c206f776e657220697320746865207a65726f20616464726573732ea265627a7a72315820b598a4b490f3eaf61985468f13f950c0110314a794fa11baf01c02665918156164736f6c634300050b0032
+#@coverage
+Achieved 94.20% coverage for code: 608060405234801561001057600080fd5b50600436106100935760003560e01c80638da5cb5b116100665780638da5cb5b146100f85780638f32d59b14610142578063a1b997de14610164578063afea7fc314610192578063f2fde38b146101b057610093565b806323452b9c146100985780632b6e5587146100a257806379ba5097146100c05780638d9bbb8a146100ca575b600080fd5b6100a06101f4565b005b6100aa610278565b6040518082815260200191505060405180910390f35b6100c8610282565b005b6100f6600480360360208110156100e057600080fd5b810190808035906020019092919050505061040a565b005b610100610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a61049a565b604051808215151515815260200191505060405180910390f35b6101906004803603602081101561017a57600080fd5b81019080803590602001909291905050506104f1565b005b61019a610558565b6040518082815260200191505060405180910390f35b6101f2600480360360208110156101c657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610562565b005b6101fc61049a565b610251576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b600160006101000a81549073ffffffffffffffffffffffffffffffffffffffff0219169055565b6000600254905090565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610328576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252604581526020018061068a6045913960600191505060405180910390fd5b600160006101000a81549073ffffffffffffffffffffffffffffffffffffffff02191690553373ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b61041261049a565b610467576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b8060038190555050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6104f961049a565b61054e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b8060028190555050565b6000600354905090565b61056a61049a565b6105bf576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260288152602001806106cf6028913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415610645576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260388152602001806106f76038913960400191505060405180910390fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fe54776f537465704f776e61626c653a2063757272656e74206f776e6572206d757374207365742063616c6c6572206173206e657720706f74656e7469616c206f776e65722e54776f537465704f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65722e54776f537465704f776e61626c653a206e657720706f74656e7469616c206f776e657220697320746865207a65726f20616464726573732ea265627a7a72315820b598a4b490f3eaf61985468f13f950c0110314a794fa11baf01c02665918156164736f6c634300050b0032
+The analysis was completed successfully. No issues were detected.
+
+#@time
+time used(s):840.7324681282043

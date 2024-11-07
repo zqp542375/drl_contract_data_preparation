@@ -1,0 +1,4 @@
+++++ 0x2caf5a42ec2d6747ec696714bf913b174d94fdf0.sol  :  0.5.17  :  LexLocker ++++
+time_used: 5.112959623336792 seconds
+#@contract_info_time
+0x2caf5a42ec2d6747ec696714bf913b174d94fdf0.sol:0.5.17:LexLocker:5.112959623336792:36100:60:36000

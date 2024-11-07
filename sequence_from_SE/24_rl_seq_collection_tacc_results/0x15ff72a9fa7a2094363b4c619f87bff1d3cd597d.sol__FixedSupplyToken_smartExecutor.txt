@@ -1,0 +1,706 @@
+++++ 0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol  :  0.5.4  :  FixedSupplyToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 3506
+['constructor']:writes at the last depth:[]
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 97.46% coverage.
+dynamic svars:['6', '3', '2', '7']
+static svars:['0', '1', '4', '5']
+Ending preprocessing.
+preprocessing time(s): 108.2628722190857
+contract coverage: 82.32%
+recoverTokens(address,uint256) is not reachable
+acceptOwnership() is not reachable
+symbol() is not reachable
+name() is not reachable
+transferOwnership(address) is not reachable
+init(address) is not reachable
+init(address,string,string,uint8,uint256) is not reachable
+Function Reads: State variables read in conditions
+	transfer(address,uint256):[]
+	approveAndCall(address,uint256,bytes):[]
+	newOwner():[]
+	allowance(address,address):[]
+	transferOwnership(address):[]
+	acceptOwnership():[]
+	owner():[]
+	symbol():[]
+	init(address,string,string,uint8,uint256):[]
+	init(address):[]
+	transferFrom(address,address,uint256):[]
+	decimals():[]
+	balanceOf(address):[]
+	recoverTokens(address,uint256):[]
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+Function Writes: State variables written
+	init(address):['0']
+	acceptOwnership():['0', '1']
+	approve(address,uint256):['7']
+	transferOwnership(address):['1']
+	transfer(address,uint256):['6']
+	transferFrom(address,address,uint256):['6', '7']
+	approveAndCall(address,uint256,bytes):['7']
+	init(address,string,string,uint8,uint256):['0', '2', '3']
+============================
+iteration:3
+targets:['recoverTokens(address,uint256)', 'acceptOwnership()', 'symbol()', 'name()', 'transferOwnership(address)', 'init(address)', 'init(address,string,string,uint8,uint256)']
+['init(address)']:writes at the last depth:['0']
+['approve(address,uint256)']:writes at the last depth:['7']
+['transfer(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 96.46%
+============================
+iteration:4
+['init(address,string,string,uint8,uint256)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 96.55%
+============================
+iteration:5
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 96.55%
+============================
+iteration:6
+contract coverage: 96.55%
+============================
+iteration:7
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 96.55%
+============================
+iteration:8
+contract coverage: 96.55%
+============================
+iteration:9
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 96.55%
+============================
+iteration:10
+contract coverage: 96.95%
+============================
+iteration:11
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 97.35%
+============================
+iteration:12
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['7', '6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 97.35%
+============================
+iteration:13
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 97.35%
+============================
+iteration:14
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 97.35%
+============================
+iteration:15
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.35%
+============================
+iteration:16
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 97.35%
+============================
+iteration:17
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address)']:writes at the last depth:['0']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'recoverTokens(address,uint256)']:writes at the last depth:[]
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+['init(address,string,string,uint8,uint256)', 'init(address,string,string,uint8,uint256)', 'approveAndCall(address,uint256,bytes)', 'init(address,string,string,uint8,uint256)']:writes at the last depth:['4', '6', '5', '2', '0', '3']
+contract coverage: 97.35%
+============================
+iteration:18
+contract coverage: 97.35%
+============================
+iteration:19
+contract coverage: 97.35%
+============================
+iteration:20
+contract coverage: 97.35%
+============================
+iteration:21
+contract coverage: 97.35%
+============================
+iteration:22
+contract coverage: 97.35%
+============================
+iteration:23
+contract coverage: 97.35%
+============================
+iteration:24
+contract coverage: 97.35%
+============================
+iteration:25
+contract coverage: 97.35%
+============================
+iteration:26
+contract coverage: 97.35%
+============================
+iteration:27
+contract coverage: 97.35%
+============================
+iteration:28
+contract coverage: 97.35%
+============================
+iteration:29
+contract coverage: 97.35%
+============================
+iteration:30
+contract coverage: 97.35%
+============================
+iteration:31
+contract coverage: 97.35%
+============================
+iteration:32
+contract coverage: 97.35%
+============================
+iteration:33
+contract coverage: 97.35%
+============================
+iteration:34
+contract coverage: 97.35%
+============================
+iteration:35
+contract coverage: 97.35%
+============================
+iteration:36
+contract coverage: 97.35%
+============================
+iteration:37
+contract coverage: 97.35%
+============================
+iteration:38
+contract coverage: 97.35%
+============================
+iteration:39
+contract coverage: 97.35%
+============================
+iteration:40
+contract coverage: 97.35%
+============================
+iteration:41
+contract coverage: 97.35%
+============================
+iteration:42
+contract coverage: 97.35%
+============================
+iteration:43
+contract coverage: 97.35%
+============================
+iteration:44
+contract coverage: 97.35%
+============================
+iteration:45
+contract coverage: 97.35%
+============================
+iteration:46
+contract coverage: 97.35%
+============================
+iteration:47
+contract coverage: 97.35%
+============================
+iteration:48
+contract coverage: 97.35%
+============================
+iteration:49
+contract coverage: 97.35%
+============================
+iteration:50
+contract coverage: 97.35%
+============================
+iteration:51
+contract coverage: 97.35%
+============================
+iteration:52
+contract coverage: 97.35%
+============================
+iteration:53
+contract coverage: 97.35%
+============================
+iteration:54
+contract coverage: 97.35%
+============================
+iteration:55
+contract coverage: 97.35%
+============================
+iteration:56
+contract coverage: 97.35%
+============================
+iteration:57
+contract coverage: 97.35%
+============================
+iteration:58
+contract coverage: 97.35%
+============================
+iteration:59
+contract coverage: 97.35%
+============================
+iteration:60
+contract coverage: 97.35%
+============================
+iteration:61
+contract coverage: 97.35%
+============================
+iteration:62
+contract coverage: 97.35%
+============================
+iteration:63
+contract coverage: 97.35%
+============================
+iteration:64
+contract coverage: 97.35%
+============================
+iteration:65
+contract coverage: 97.35%
+============================
+iteration:66
+contract coverage: 97.35%
+#@statespace
+4517 nodes, 4516 edges, 62972 total states
+#@coverage
+Achieved 0.57% coverage for code: 608060405234801561001057600080fd5b50611bb7806100206000396000f3fe60806040526004361061011b576000357c01000000000000000000000000000000000000000000000000000000009004806379ba5097116100b2578063a9059cbb11610081578063a9059cbb146106b7578063cae9ca511461072a578063d4ee1d9014610834578063dd62ed3e1461088b578063f2fde38b146109105761011b565b806379ba5097146104235780638da5cb5b1461043a57806395d89b41146104915780639cc850e8146105215761011b565b806319ab453c116100ee57806319ab453c146102a957806323b872dd146102fa578063313ce5671461038d57806370a08231146103be5761011b565b8063069c9fae1461012057806306fdde031461017b578063095ea7b31461020b57806318160ddd1461027e575b600080fd5b34801561012c57600080fd5b506101796004803603604081101561014357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610961565b005b34801561018757600080fd5b50610190610c6b565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156101d05780820151818401526020810190506101b5565b50505050905090810190601f1680156101fd5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561021757600080fd5b506102646004803603604081101561022e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610d0d565b604051808215151515815260200191505060405180910390f35b34801561028a57600080fd5b50610293610dff565b6040518082815260200191505060405180910390f35b3480156102b557600080fd5b506102f8600480360360208110156102cc57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610e5a565b005b34801561030657600080fd5b506103736004803603606081101561031d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610ef9565b604051808215151515815260200191505060405180910390f35b34801561039957600080fd5b506103a26111a4565b604051808260ff1660ff16815260200191505060405180910390f35b3480156103ca57600080fd5b5061040d600480360360208110156103e157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506111bb565b6040518082815260200191505060405180910390f35b34801561042f57600080fd5b50610438611204565b005b34801561044657600080fd5b5061044f6113a3565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561049d57600080fd5b506104a66113c8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156104e65780820151818401526020810190506104cb565b50505050905090810190601f1680156105135780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561052d57600080fd5b506106b5600480360360a081101561054457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019064010000000081111561058157600080fd5b82018360208201111561059357600080fd5b803590602001918460018302840111640100000000831117156105b557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192908035906020019064010000000081111561061857600080fd5b82018360208201111561062a57600080fd5b8035906020019184600183028401116401000000008311171561064c57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803560ff1690602001909291908035906020019092919050505061146a565b005b3480156106c357600080fd5b50610710600480360360408110156106da57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611578565b604051808215151515815260200191505060405180910390f35b34801561073657600080fd5b5061081a6004803603606081101561074d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291908035906020019064010000000081111561079457600080fd5b8201836020820111156107a657600080fd5b803590602001918460018302840111640100000000831117156107c857600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050611713565b604051808215151515815260200191505060405180910390f35b34801561084057600080fd5b50610849611962565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561089757600080fd5b506108fa600480360360408110156108ae57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611988565b6040518082815260200191505060405180910390f35b34801561091c57600080fd5b5061095f6004803603602081101561093357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611a0f565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156109bc57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610a84576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc60008314610a3a5782610a53565b3073ffffffffffffffffffffffffffffffffffffffff16315b9081150290604051600060405180830381858888f19350505050158015610a7e573d6000803e3d6000fd5b50610c67565b8173ffffffffffffffffffffffffffffffffffffffff1663a9059cbb6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1660008414610ad05783610ba5565b8473ffffffffffffffffffffffffffffffffffffffff166370a08231306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b158015610b6957600080fd5b505afa158015610b7d573d6000803e3d6000fd5b505050506040513d6020811015610b9357600080fd5b81019080805190602001909291905050505b6040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b158015610c2a57600080fd5b505af1158015610c3e573d6000803e3d6000fd5b505050506040513d6020811015610c5457600080fd5b8101908080519060200190929190505050505b5050565b606060038054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610d035780601f10610cd857610100808354040283529160200191610d03565b820191906000526020600020905b815481529060010190602001808311610ce657829003601f168201915b5050505050905090565b600081600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b6000610e55600660008073ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054600554611aae90919063ffffffff16565b905090565b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141515610eb657600080fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000610f4d82600660008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aae90919063ffffffff16565b600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061101f82600760008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aae90919063ffffffff16565b600760008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506110f182600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aca90919063ffffffff16565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b6000600460009054906101000a900460ff16905090565b6000600660008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561126057600080fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b606060028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156114605780601f1061143557610100808354040283529160200191611460565b820191906000526020600020905b81548152906001019060200180831161144357829003601f168201915b5050505050905090565b61147385610e5a565b8360029080519060200190611489929190611ae6565b5082600390805190602001906114a0929190611ae6565b5081600460006101000a81548160ff021916908360ff16021790555080600581905550600554600660008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508473ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef6005546040518082815260200191505060405180910390a35050505050565b60006115cc82600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aae90919063ffffffff16565b600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061166182600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aca90919063ffffffff16565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b600082600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925856040518082815260200191505060405180910390a38373ffffffffffffffffffffffffffffffffffffffff16638f4ffcb1338530866040518563ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001828103825283818151815260200191508051906020019080838360005b838110156118f05780820151818401526020810190506118d5565b50505050905090810190601f16801561191d5780820380516001836020036101000a031916815260200191505b5095505050505050600060405180830381600087803b15801561193f57600080fd5b505af1158015611953573d6000803e3d6000fd5b50505050600190509392505050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600760008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515611a6a57600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000828211151515611abf57600080fd5b818303905092915050565b60008183019050828110151515611ae057600080fd5b92915050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10611b2757805160ff1916838001178555611b55565b82800160010185558215611b55579182015b82811115611b54578251825591602001919060010190611b39565b5b509050611b629190611b66565b5090565b611b8891905b80821115611b84576000816000905550600101611b6c565b5090565b9056fea165627a7a723058209f2bd1489922de8ae2434481b6643cb822aaba9fb4b2162570f67771b87aae270029
+#@coverage
+Achieved 97.35% coverage for code: 60806040526004361061011b576000357c01000000000000000000000000000000000000000000000000000000009004806379ba5097116100b2578063a9059cbb11610081578063a9059cbb146106b7578063cae9ca511461072a578063d4ee1d9014610834578063dd62ed3e1461088b578063f2fde38b146109105761011b565b806379ba5097146104235780638da5cb5b1461043a57806395d89b41146104915780639cc850e8146105215761011b565b806319ab453c116100ee57806319ab453c146102a957806323b872dd146102fa578063313ce5671461038d57806370a08231146103be5761011b565b8063069c9fae1461012057806306fdde031461017b578063095ea7b31461020b57806318160ddd1461027e575b600080fd5b34801561012c57600080fd5b506101796004803603604081101561014357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610961565b005b34801561018757600080fd5b50610190610c6b565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156101d05780820151818401526020810190506101b5565b50505050905090810190601f1680156101fd5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561021757600080fd5b506102646004803603604081101561022e57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610d0d565b604051808215151515815260200191505060405180910390f35b34801561028a57600080fd5b50610293610dff565b6040518082815260200191505060405180910390f35b3480156102b557600080fd5b506102f8600480360360208110156102cc57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610e5a565b005b34801561030657600080fd5b506103736004803603606081101561031d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610ef9565b604051808215151515815260200191505060405180910390f35b34801561039957600080fd5b506103a26111a4565b604051808260ff1660ff16815260200191505060405180910390f35b3480156103ca57600080fd5b5061040d600480360360208110156103e157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506111bb565b6040518082815260200191505060405180910390f35b34801561042f57600080fd5b50610438611204565b005b34801561044657600080fd5b5061044f6113a3565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561049d57600080fd5b506104a66113c8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156104e65780820151818401526020810190506104cb565b50505050905090810190601f1680156105135780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561052d57600080fd5b506106b5600480360360a081101561054457600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019064010000000081111561058157600080fd5b82018360208201111561059357600080fd5b803590602001918460018302840111640100000000831117156105b557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192908035906020019064010000000081111561061857600080fd5b82018360208201111561062a57600080fd5b8035906020019184600183028401116401000000008311171561064c57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803560ff1690602001909291908035906020019092919050505061146a565b005b3480156106c357600080fd5b50610710600480360360408110156106da57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611578565b604051808215151515815260200191505060405180910390f35b34801561073657600080fd5b5061081a6004803603606081101561074d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291908035906020019064010000000081111561079457600080fd5b8201836020820111156107a657600080fd5b803590602001918460018302840111640100000000831117156107c857600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050611713565b604051808215151515815260200191505060405180910390f35b34801561084057600080fd5b50610849611962565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561089757600080fd5b506108fa600480360360408110156108ae57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611988565b6040518082815260200191505060405180910390f35b34801561091c57600080fd5b5061095f6004803603602081101561093357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611a0f565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156109bc57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610a84576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc60008314610a3a5782610a53565b3073ffffffffffffffffffffffffffffffffffffffff16315b9081150290604051600060405180830381858888f19350505050158015610a7e573d6000803e3d6000fd5b50610c67565b8173ffffffffffffffffffffffffffffffffffffffff1663a9059cbb6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1660008414610ad05783610ba5565b8473ffffffffffffffffffffffffffffffffffffffff166370a08231306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b158015610b6957600080fd5b505afa158015610b7d573d6000803e3d6000fd5b505050506040513d6020811015610b9357600080fd5b81019080805190602001909291905050505b6040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b158015610c2a57600080fd5b505af1158015610c3e573d6000803e3d6000fd5b505050506040513d6020811015610c5457600080fd5b8101908080519060200190929190505050505b5050565b606060038054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610d035780601f10610cd857610100808354040283529160200191610d03565b820191906000526020600020905b815481529060010190602001808311610ce657829003601f168201915b5050505050905090565b600081600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b6000610e55600660008073ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054600554611aae90919063ffffffff16565b905090565b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141515610eb657600080fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000610f4d82600660008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aae90919063ffffffff16565b600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061101f82600760008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aae90919063ffffffff16565b600760008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506110f182600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aca90919063ffffffff16565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b6000600460009054906101000a900460ff16905090565b6000600660008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561126057600080fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b606060028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156114605780601f1061143557610100808354040283529160200191611460565b820191906000526020600020905b81548152906001019060200180831161144357829003601f168201915b5050505050905090565b61147385610e5a565b8360029080519060200190611489929190611ae6565b5082600390805190602001906114a0929190611ae6565b5081600460006101000a81548160ff021916908360ff16021790555080600581905550600554600660008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508473ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef6005546040518082815260200191505060405180910390a35050505050565b60006115cc82600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aae90919063ffffffff16565b600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555061166182600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611aca90919063ffffffff16565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b600082600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925856040518082815260200191505060405180910390a38373ffffffffffffffffffffffffffffffffffffffff16638f4ffcb1338530866040518563ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001828103825283818151815260200191508051906020019080838360005b838110156118f05780820151818401526020810190506118d5565b50505050905090810190601f16801561191d5780820380516001836020036101000a031916815260200191505b5095505050505050600060405180830381600087803b15801561193f57600080fd5b505af1158015611953573d6000803e3d6000fd5b50505050600190509392505050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600760008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515611a6a57600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000828211151515611abf57600080fd5b818303905092915050565b60008183019050828110151515611ae057600080fd5b92915050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10611b2757805160ff1916838001178555611b55565b82800160010185558215611b55579182015b82811115611b54578251825591602001919060010190611b39565b5b509050611b629190611b66565b5090565b611b8891905b80821115611b84576000816000905550600101611b6c565b5090565b9056fea165627a7a723058209f2bd1489922de8ae2434481b6643cb822aaba9fb4b2162570f67771b87aae270029
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: FixedSupplyToken
+Function name: recoverTokens(address,uint256)
+PC address: 2664
+Estimated Gas Usage: 3589 - 38530
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:60
+
+owner.transfer((tokens == 0 ? address(this).balance : tokens))
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x2080000040000000, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e8000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010208040, value: 0x0
+Caller: [ATTACKER], function: recoverTokens(address,uint256), txdata: 0x069c9fae00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: FixedSupplyToken
+Function name: recoverTokens(address,uint256)
+PC address: 3117
+Estimated Gas Usage: 5402 - 75376
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:62
+
+ERC20Interface(token).transfer(owner, tokens == 0 ? ERC20Interface(token).balanceOf(address(this)) : tokens)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e8000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001008024020401040021040200002408040801004, value: 0x0
+Caller: [SOMEGUY], function: recoverTokens(address,uint256), txdata: 0x069c9fae000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 0), value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: FixedSupplyToken
+Function name: recoverTokens(address,uint256)
+PC address: 3117
+Estimated Gas Usage: 5402 - 75376
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:62
+
+ERC20Interface(token).transfer(owner, tokens == 0 ? ERC20Interface(token).balanceOf(address(this)) : tokens)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e8000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001020804802002101080200440042080010202, value: 0x0
+Caller: [SOMEGUY], function: recoverTokens(address,uint256), txdata: 0x069c9fae000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 0), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: FixedSupplyToken
+Function name: name()
+PC address: 3197
+Estimated Gas Usage: 4247 - 6366
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:134
+
+return _name
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e8000000000000000000000000000000000000000000000000000000000000002a0000000000000000000000000000000000000000000000000000000000000048000000000000000000000000000000000000000000000000000000000000000000000000000000210000000000000000000000000000000000000000000000000020090804020808201003211008810440812010022080020411014108022083, value: 0x0
+Caller: [SOMEGUY], function: name(), txdata: 0x06fdde03, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: FixedSupplyToken
+Function name: name()
+PC address: 3249
+Estimated Gas Usage: 4247 - 6366
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:134
+
+return _name
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e8000000000000000000000000000000000000000000000000000000000000002a0000000000000000000000000000000000000000000000000000000000000048000000000000000000000000000000000000000000000000000000000000000000000000000000210000000000000000000000000000000000000000000000000020090804020808201003211008810440812010022080020411014108022083, value: 0x0
+Caller: [SOMEGUY], function: name(), txdata: 0x06fdde03, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: FixedSupplyToken
+Function name: symbol()
+PC address: 5082
+Estimated Gas Usage: 4268 - 6387
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:131
+
+return _symbol
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e800000000000000000000000000000000000000000000000000000000000000210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000208404010800000000400021010018008102040048040020810402080000287, value: 0x0
+Caller: [ATTACKER], function: symbol(), txdata: 0x95d89b41, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: FixedSupplyToken
+Function name: symbol()
+PC address: 5134
+Estimated Gas Usage: 4268 - 6387
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:131
+
+return _symbol
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e800000000000000000000000000000000000000000000000000000000000000210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000208404010800000000400021010018008102040048040020810402080000287, value: 0x0
+Caller: [ATTACKER], function: symbol(), txdata: 0x95d89b41, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: FixedSupplyToken
+Function name: approveAndCall(address,uint256,bytes)
+PC address: 6466
+Estimated Gas Usage: 9546 - 69357
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:170
+
+ApproveAndCallFallback(spender).receiveApproval(msg.sender, tokens, address(this), data)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: approveAndCall(address,uint256,bytes), txdata: 0xcae9ca51000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000002000, decoded_data: ('0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 33, '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00'), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: Low
+Contract: FixedSupplyToken
+Function name: init(address,string,string,uint8,uint256)
+PC address: 6901
+Estimated Gas Usage: 59615 - 267353
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation.  This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000200802080100100080420400110000202200080102000000002000001408081, value: 0x0
+Caller: [ATTACKER], function: init(address,string,string,uint8,uint256), txdata: 0x9cc850e800000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000020', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '', 0, 0), value: 0x0
+
+
+time_used: 36034.60291290283 seconds
+#@contract_info_time
+0x15ff72a9fa7a2094363b4c619f87bff1d3cd597d.sol:0.5.4:FixedSupplyToken:36034.60291290283:36100:60:36000

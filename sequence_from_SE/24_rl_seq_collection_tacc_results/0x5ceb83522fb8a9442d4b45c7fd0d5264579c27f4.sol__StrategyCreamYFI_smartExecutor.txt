@@ -1,0 +1,4 @@
+++++ 0x5ceb83522fb8a9442d4b45c7fd0d5264579c27f4.sol  :  0.5.17  :  StrategyCreamYFI ++++
+time_used: 4.158797740936279 seconds
+#@contract_info_time
+0x5ceb83522fb8a9442d4b45c7fd0d5264579c27f4.sol:0.5.17:StrategyCreamYFI:4.158797740936279:36100:60:36000

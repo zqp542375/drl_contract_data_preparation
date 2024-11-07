@@ -1,0 +1,4 @@
+++++ 0x65c79fcb50ca1594b025960e539ed7a9a6d434a3.sol  :  0.5.12  :  Spotter ++++
+time_used: 7.577006578445435 seconds
+#@contract_info_time
+0x65c79fcb50ca1594b025960e539ed7a9a6d434a3.sol:0.5.12:Spotter:7.577006578445435:36100:60:36000

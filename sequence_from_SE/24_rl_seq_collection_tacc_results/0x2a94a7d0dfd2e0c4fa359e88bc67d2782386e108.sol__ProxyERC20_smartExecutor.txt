@@ -1,0 +1,4 @@
+++++ 0x2a94a7d0dfd2e0c4fa359e88bc67d2782386e108.sol  :  0.5.17  :  ProxyERC20 ++++
+time_used: 3.408473014831543 seconds
+#@contract_info_time
+0x2a94a7d0dfd2e0c4fa359e88bc67d2782386e108.sol:0.5.17:ProxyERC20:3.408473014831543:36100:60:36000

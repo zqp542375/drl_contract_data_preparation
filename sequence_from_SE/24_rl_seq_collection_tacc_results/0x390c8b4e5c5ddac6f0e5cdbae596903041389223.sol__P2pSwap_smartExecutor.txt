@@ -1,0 +1,360 @@
+++++ 0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol  :  0.6.0  :  P2pSwap ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1459
+['constructor']:writes at the last depth:[]
+preprocessing: Achieved 98.90% coverage.
+dynamic svars:['0']
+static svars:[]
+Ending preprocessing.
+preprocessing time(s): 9.157670259475708
+contract coverage: 65.46%
+executeSwap(uint256,address) is not reachable
+cancelSwap(uint256) is not reachable
+registerSwap(uint256,address,address,uint256,address,uint256) is not reachable
+Function Reads: State variables read in conditions
+	executeSwap(uint256,address):[]
+	getSwap(uint256):[]
+	cancelSwap(uint256):[]
+	registerSwap(uint256,address,address,uint256,address,uint256):[]
+Function Writes: State variables written
+	cancelSwap(uint256):['0']
+	registerSwap(uint256,address,address,uint256,address,uint256):['0']
+	executeSwap(uint256,address):['0']
+============================
+iteration:3
+targets:['executeSwap(uint256,address)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']
+['cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 93.49%
+============================
+iteration:4
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:5
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:6
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:7
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:8
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:9
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:10
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:11
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:12
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:13
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'executeSwap(uint256,address)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:14
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:15
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:16
+['cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:17
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:18
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:19
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:20
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:21
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:22
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)', 'executeSwap(uint256,address)']:writes at the last depth:['0']
+contract coverage: 98.70%
+============================
+iteration:23
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)']:writes at the last depth:['0']
+['cancelSwap(uint256)', 'cancelSwap(uint256)', 'cancelSwap(uint256)', 'registerSwap(uint256,address,address,uint256,address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.70%
+#@statespace
+1224 nodes, 1223 edges, 26864 total states
+#@coverage
+Achieved 1.35% coverage for code: 608060405234801561001057600080fd5b50610caf806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80632fe69784146100515780634a0d89ba146100b757806354d6a2b7146101a657806357cf7600146101ec575b600080fd5b61009d6004803603604081101561006757600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102a6565b604051808215151515815260200191505060405180910390f35b6100e3600480360360208110156100cd57600080fd5b8101908080359060200190929190505050610703565b604051808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018381526020018260ff1660ff168152602001965050505050505060405180910390f35b6101d2600480360360208110156101bc57600080fd5b810190808035906020019092919050505061089a565b604051808215151515815260200191505060405180910390f35b61028c600480360360c081101561020257600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061095f565b604051808215151515815260200191505060405180910390f35b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614156102e157600080fd5b60008060008581526020019081526020016000209050600073ffffffffffffffffffffffffffffffffffffffff168160000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156103be576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260148152602001807f5377617020646f6573206e6f742065786973747300000000000000000000000081525060200191505060405180910390fd5b60008160050160009054906101000a900460ff1660ff1614610448576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f53776170206e6f7420617661696c61626c65000000000000000000000000000081525060200191505060405180910390fd5b60008160010160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905060008260030160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690508173ffffffffffffffffffffffffffffffffffffffff166323b872dd8460000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168786600201546040518463ffffffff1660e01b8152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b15801561057d57600080fd5b505af1158015610591573d6000803e3d6000fd5b505050506040513d60208110156105a757600080fd5b8101908080519060200190929190505050508073ffffffffffffffffffffffffffffffffffffffff166323b872dd868560000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1686600401546040518463ffffffff1660e01b8152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b15801561069c57600080fd5b505af11580156106b0573d6000803e3d6000fd5b505050506040513d60208110156106c657600080fd5b81019080805190602001909291905050505060018360050160006101000a81548160ff021916908360ff1602179055506001935050505092915050565b600080600080600080610714610bfe565b6000808981526020019081526020016000206040518060c00160405290816000820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020016001820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001600282015481526020016003820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001600482015481526020016005820160009054906101000a900460ff1660ff1660ff16815250509050806000015181602001518260400151836060015184608001518560a001519650965096509650965096505091939550919395565b600080600080848152602001908152602001600020905060008160050160009054906101000a900460ff1660ff161461093b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f53776170206e6f7420617661696c61626c65000000000000000000000000000081525060200191505060405180910390fd5b60028160050160006101000a81548160ff021916908360ff16021790555050919050565b60008087141561096e57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168673ffffffffffffffffffffffffffffffffffffffff1614156109a857600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff1614156109e257600080fd5b60008414156109f057600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415610a2a57600080fd5b6000821415610a3857600080fd5b60008060008981526020019081526020016000209050600073ffffffffffffffffffffffffffffffffffffffff168160000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614610b14576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f5377617020616c7265616479206578697374730000000000000000000000000081525060200191505060405180910390fd5b868160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550858160010160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550848160020181905550838160030160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082816004018190555060019150509695505050505050565b6040518060c00160405280600073ffffffffffffffffffffffffffffffffffffffff168152602001600073ffffffffffffffffffffffffffffffffffffffff16815260200160008152602001600073ffffffffffffffffffffffffffffffffffffffff16815260200160008152602001600060ff168152509056fea26469706673582212207b8e5122425255335745b4f12d235e18c0b1d48cface16de0f496d24b998111664736f6c63430006000033
+#@coverage
+Achieved 98.70% coverage for code: 608060405234801561001057600080fd5b506004361061004c5760003560e01c80632fe69784146100515780634a0d89ba146100b757806354d6a2b7146101a657806357cf7600146101ec575b600080fd5b61009d6004803603604081101561006757600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506102a6565b604051808215151515815260200191505060405180910390f35b6100e3600480360360208110156100cd57600080fd5b8101908080359060200190929190505050610703565b604051808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018381526020018260ff1660ff168152602001965050505050505060405180910390f35b6101d2600480360360208110156101bc57600080fd5b810190808035906020019092919050505061089a565b604051808215151515815260200191505060405180910390f35b61028c600480360360c081101561020257600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061095f565b604051808215151515815260200191505060405180910390f35b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614156102e157600080fd5b60008060008581526020019081526020016000209050600073ffffffffffffffffffffffffffffffffffffffff168160000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156103be576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260148152602001807f5377617020646f6573206e6f742065786973747300000000000000000000000081525060200191505060405180910390fd5b60008160050160009054906101000a900460ff1660ff1614610448576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f53776170206e6f7420617661696c61626c65000000000000000000000000000081525060200191505060405180910390fd5b60008160010160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905060008260030160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690508173ffffffffffffffffffffffffffffffffffffffff166323b872dd8460000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168786600201546040518463ffffffff1660e01b8152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b15801561057d57600080fd5b505af1158015610591573d6000803e3d6000fd5b505050506040513d60208110156105a757600080fd5b8101908080519060200190929190505050508073ffffffffffffffffffffffffffffffffffffffff166323b872dd868560000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1686600401546040518463ffffffff1660e01b8152600401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050602060405180830381600087803b15801561069c57600080fd5b505af11580156106b0573d6000803e3d6000fd5b505050506040513d60208110156106c657600080fd5b81019080805190602001909291905050505060018360050160006101000a81548160ff021916908360ff1602179055506001935050505092915050565b600080600080600080610714610bfe565b6000808981526020019081526020016000206040518060c00160405290816000820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020016001820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001600282015481526020016003820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001600482015481526020016005820160009054906101000a900460ff1660ff1660ff16815250509050806000015181602001518260400151836060015184608001518560a001519650965096509650965096505091939550919395565b600080600080848152602001908152602001600020905060008160050160009054906101000a900460ff1660ff161461093b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260128152602001807f53776170206e6f7420617661696c61626c65000000000000000000000000000081525060200191505060405180910390fd5b60028160050160006101000a81548160ff021916908360ff16021790555050919050565b60008087141561096e57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168673ffffffffffffffffffffffffffffffffffffffff1614156109a857600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff1614156109e257600080fd5b60008414156109f057600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415610a2a57600080fd5b6000821415610a3857600080fd5b60008060008981526020019081526020016000209050600073ffffffffffffffffffffffffffffffffffffffff168160000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614610b14576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f5377617020616c7265616479206578697374730000000000000000000000000081525060200191505060405180910390fd5b868160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550858160010160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550848160020181905550838160030160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082816004018190555060019150509695505050505050565b6040518060c00160405280600073ffffffffffffffffffffffffffffffffffffffff168152602001600073ffffffffffffffffffffffffffffffffffffffff16815260200160008152602001600073ffffffffffffffffffffffffffffffffffffffff16815260200160008152602001600060ff168152509056fea26469706673582212207b8e5122425255335745b4f12d235e18c0b1d48cface16de0f496d24b998111664736f6c63430006000033
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1408
+Estimated Gas Usage: 16505 - 108885
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:101
+
+Token1.transferFrom(swap.aliceAddress, _bob, swap.value1)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf760000000000000000000000000000002080000004080000800000808000800100010000000000000000000000008080801080010440200880400040808000800001000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef010101010101010101010101008080048010000000000000800000010020000200000000000000000000000001400010000010040000808000000040800180020101010101010101010101010080200020102008002004010101010220022008, decoded_data: (2831149292863971480334460476205700118282241, '0x8080801080010440200880400040808000800001', '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086624460063511464984254933165279508733860996811214817800127440687726594, '0x0140001000001004000080800000004080018002', 454086624460063511464984254933156915240549706404998682763741555673912188936), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000000000000000000002080000004080000800000808000800100010101010101010101010101010101010101010101010101010101010101010101, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1502
+Estimated Gas Usage: 16505 - 108885
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:102
+
+swap.aliceAddress
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf760000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef010101010101010101010101000000000000000000000000000000000000000200000000000000000000000008100080028080008080804080020080200201020101010101010101010101018080800808800101011080080804010120204040, decoded_data: (5192296858534827628530496329220096, '0x0000000000000000000000000000000000000001', '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086624460063511464984254930299632219368948029164232183299219561792929794, '0x0810008002808000808080408002008020020102', 454086624460063511464984255663916099376388985898340679566086551646941233216), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000000000000000000000000000100000000000000000000000000000000000000000000000000000101010101010101010101010101010101010101, decoded_data: (5192296858534827628530496329220096, '0x0101010101010101010101010101010101010101'), value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1536
+Estimated Gas Usage: 16505 - 108885
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:102
+
+swap.value2
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf760000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef010101010101010101010101000000000000000000000000000000000000000200000000000000000000000008100080028080008080804080020080200201020101010101010101010101018080800808800101011080080804010120204040, decoded_data: (5192296858534827628530496329220096, '0x0000000000000000000000000000000000000001', '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086624460063511464984254930299632219368948029164232183299219561792929794, '0x0810008002808000808080408002008020020102', 454086624460063511464984255663916099376388985898340679566086551646941233216), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000000000000000000000000000100000000000000000000000000000000000000000000000000000101010101010101010101010101010101010101, decoded_data: (5192296858534827628530496329220096, '0x0101010101010101010101010101010101010101'), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1695
+Estimated Gas Usage: 16505 - 108885
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:102
+
+Token2.transferFrom(_bob, swap.aliceAddress, swap.value2)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf76000000000000000000000000000000001000800000000000000004002000000202000000000000000000000000800004800840408002010080008010408040400100000000000000000000000080012010400102010101202080804000808040010101010101010101010101010000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0101010201010101010101018004801080028080204008200420010110800101, decoded_data: (5445182484732907873350446748475777352194, '0x8000048008404080020100800080104080404001', '0x8001201040010201010120208080400080804001', 454086624460063511464984254930299632219368948029164232183299219561792929794, '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086651420010178615624050328165896872516513661104697791090979420501967105), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000000000000000000000010008000000000000000040020000002020000000000000000000000000101010101010101010101010101010101010101, decoded_data: (5445182484732907873350446748475777352194, '0x0101010101010101010101010101010101010101'), value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1695
+Estimated Gas Usage: 16505 - 108885
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:102
+
+Token2.transferFrom(_bob, swap.aliceAddress, swap.value2)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf7600000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000000000000000000000000000000000020208008804080802002000080204004400101010101010102040101018002012004010280200202204020010280040110, decoded_data: (1, '0x0000000000000000000000000000000000000001', '0x0000000000000000000000000000000000000001', 454086624460063511464984254930299632219368948029164232183299219561792929792, '0x0000002020800880408080200200008020400440', 454086624460063517815645777009338579418851377114376609999919449279912214800), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000000000000000000000000000000000000000000000000000000010000000000000000000000000101010101010101010101010101010101010101, decoded_data: (1, '0x0101010101010101010101010101010101010101'), value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1695
+Estimated Gas Usage: 16505 - 108885
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:102
+
+Token2.transferFrom(_bob, swap.aliceAddress, swap.value2)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf760000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef010101010101010101010101000000000000000000000000000000000000000200000000000000000000000008100080028080008080804080020080200201020101010101010101010101018080800808800101011080080804010120204040, decoded_data: (5192296858534827628530496329220096, '0x0000000000000000000000000000000000000001', '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086624460063511464984254930299632219368948029164232183299219561792929794, '0x0810008002808000808080408002008020020102', 454086624460063511464984255663916099376388985898340679566086551646941233216), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000000000000000000000000000100000000000000000000000000000000000000000000000000000101010101010101010101010101010101010101, decoded_data: (5192296858534827628530496329220096, '0x0101010101010101010101010101010101010101'), value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1766
+Estimated Gas Usage: 16505 - 108885
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:103
+
+swap.executed = 1
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf76000000000000000120808000800000000080000800400000010408800001004010000000000000000000000000000000800000800020008000808002100001010100000000000000000000000080084010800800800020010000008080008000010101010101010101010101010000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0101010101010101010101018040200180200480028008804040014080080101, decoded_data: (1810956110810456537056017830247440175208275076303490251767824, '0x0000008000008000200080008080021000010101', '0x8008401080080080002001000000808000800001', 454086624460063511464984254930299632219368948029164232183299219561792929794, '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086624460063511464984255662480486681265978492455405256664269221419024641), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000001208080008000000000800008004000000104088000010040100101010101010101010101010101010101010101010101010101010101010101, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: P2pSwap
+Function name: executeSwap(uint256,address)
+PC address: 1781
+Estimated Gas Usage: 16505 - 108885
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:103
+
+swap.executed = 1
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: registerSwap(uint256,address,address,uint256,address,uint256), txdata: 0x57cf76000000000000000120808000800000000080000800400000010408800001004010000000000000000000000000000000800000800020008000808002100001010100000000000000000000000080084010800800800020010000008080008000010101010101010101010101010000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0101010101010101010101018040200180200480028008804040014080080101, decoded_data: (1810956110810456537056017830247440175208275076303490251767824, '0x0000008000008000200080008080021000010101', '0x8008401080080080002001000000808000800001', 454086624460063511464984254930299632219368948029164232183299219561792929794, '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', 454086624460063511464984255662480486681265978492455405256664269221419024641), value: 0x0
+Caller: [CREATOR], function: executeSwap(uint256,address), txdata: 0x2fe6978400000000000001208080008000000000800008004000000104088000010040100101010101010101010101010101010101010101010101010101010101010101, value: 0x0
+
+
+time_used: 1821.7816593647003 seconds
+#@contract_info_time
+0x390c8b4e5c5ddac6f0e5cdbae596903041389223.sol:0.6.0:P2pSwap:1821.7816593647003:36100:60:36000

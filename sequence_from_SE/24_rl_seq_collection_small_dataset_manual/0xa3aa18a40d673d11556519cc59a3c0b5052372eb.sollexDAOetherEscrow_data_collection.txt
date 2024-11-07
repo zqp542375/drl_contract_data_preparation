@@ -1,0 +1,1270 @@
+C:\Users\18178\anaconda3\envs\contract_se397\python.exe C:/Users/18178/PycharmProjects/smartExecutor/semyth analyze ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:lexDAOetherEscrow --solv 0.5.2 -fdg -fss exeDataCollection
+
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1686
+['constructor']:writes at the last depth:['0', '1', '2', '3', '4']
+preprocessing: Achieved 99.94% coverage.
+Ending preprocessing.
+preprocessing time(s): 45.90449547767639
+contract coverage: 75.03%
+resolve(uint256,uint256) is not reachable
+complaint() is not reachable
+details() is not reachable
+dispute(string) is not reachable
+release() is not reachable
+Function Reads: State variables read in conditions
+	closed():[]
+	arbitrator():[]
+	buyer():[]
+	release():[]
+	price():[]
+	resolve(uint256,uint256):[]
+	disputed():[]
+	seller():[]
+	getBalance():[]
+	complaint():[]
+	dispute(string):[]
+	details():[]
+Function Writes: State variables written
+	release():['6']
+	dispute(string):['6', '5']
+	resolve(uint256,uint256):['6']
+============================
+iteration:3
+targets:['resolve(uint256,uint256)', 'complaint()', 'details()', 'dispute(string)', 'release()']
+['release()']:writes at the last depth:['6']
+['dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 93.59%
+============================
+iteration:4
+['dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 93.59%
+============================
+iteration:5
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 93.59%
+============================
+iteration:6
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 93.59%
+============================
+iteration:7
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 93.59%
+============================
+iteration:8
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.42%
+============================
+iteration:9
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.42%
+============================
+iteration:10
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.42%
+============================
+iteration:11
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:12
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:13
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:14
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:15
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:16
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:17
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:18
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:19
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:20
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:21
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:22
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:23
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:24
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:25
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:26
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:27
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:28
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:29
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:30
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:31
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:32
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:33
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:34
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:35
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:36
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:37
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:38
+contract coverage: 94.60%
+============================
+iteration:39
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:40
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:41
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:42
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:43
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:44
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:45
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:46
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:47
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:48
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:49
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:50
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:51
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:52
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:53
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:54
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:55
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:56
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:57
+['dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:58
+contract coverage: 94.60%
+============================
+iteration:59
+['dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:60
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:61
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:62
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:63
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:64
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:65
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:66
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:67
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:68
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:69
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:70
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:71
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:72
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:73
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:74
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:75
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:76
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:77
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:78
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:79
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:80
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:81
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:82
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:83
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+contract coverage: 94.60%
+============================
+iteration:84
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:85
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:86
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:87
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:88
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:89
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:90
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:91
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:92
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:93
+contract coverage: 94.60%
+============================
+iteration:94
+['dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:95
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:96
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:97
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:98
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:99
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+============================
+iteration:100
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'resolve(uint256,uint256)']:writes at the last depth:['6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+['dispute(string)', 'dispute(string)', 'dispute(string)', 'dispute(string)']:writes at the last depth:['5', '6']
+contract coverage: 94.60%
+#@statespace
+15973 nodes, 15972 edges, 196993 total states
+#@coverage
+Achieved 14.29% coverage for code: 6080604052604051610de2380380610de28339810180604052608081101561002657600080fd5b81019080805190602001909291908051906020019092919080519060200190929190805164010000000081111561005c57600080fd5b8281019050602081018481111561007257600080fd5b815185600182028301116401000000008211171561008f57600080fd5b5050929190505050836000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555081600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055508060049080519060200190610176929190610180565b5050505050610225565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106101c157805160ff19168380011785556101ef565b828001600101855582156101ef579182015b828111156101ee5782518255916020019190600101906101d3565b5b5090506101fc9190610200565b5090565b61022291905b8082111561021e576000816000905550600101610206565b5090565b90565b610bae806102346000396000f3fe608060405234801561001057600080fd5b50600436106100d1576000357c010000000000000000000000000000000000000000000000000000000090048063597e1fb51161008e578063597e1fb5146103215780636cc6cde1146103435780637150d8ae1461038d57806386d1a69f146103d7578063a035b1fe146103e1578063d1691a6f146103ff576100d1565b80630695c46c146100d657806308551a53146100f857806312065fe014610142578063218b3150146101605780632fb2c8b1146101e3578063565974d31461029e575b600080fd5b6100de610437565b604051808215151515815260200191505060405180910390f35b61010061044a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a610470565b6040518082815260200191505060405180910390f35b61016861048f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156101a857808201518184015260208101905061018d565b50505050905090810190601f1680156101d55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61029c600480360360208110156101f957600080fd5b810190808035906020019064010000000081111561021657600080fd5b82018360208201111561022857600080fd5b8035906020019184600183028401116401000000008311171561024a57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050919291929050505061052d565b005b6102a661067a565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156102e65780820151818401526020810190506102cb565b50505050905090810190601f1680156103135780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b610329610718565b604051808215151515815260200191505060405180910390f35b61034b61072b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610395610751565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6103df610776565b005b6103e96108aa565b6040518082815260200191505060405180910390f35b6104356004803603604081101561041557600080fd5b8101908080359060200190929190803590602001909291905050506108b0565b005b600660009054906101000a900460ff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b60058054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105255780601f106104fa57610100808354040283529160200191610525565b820191906000526020600020905b81548152906001019060200180831161050857829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614806105d55750600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b15156105e057600080fd5b60001515600660019054906101000a900460ff16151514151561060257600080fd5b6001600660006101000a81548160ff0219169083151502179055508060059080519060200190610633929190610add565b503373ffffffffffffffffffffffffffffffffffffffff167f695fbf2fe28b4fde5705122279ffc4160ebfc0f45e4d96f7e6699001be5062ef60405160405180910390a250565b60048054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107105780601f106106e557610100808354040283529160200191610710565b820191906000526020600020905b8154815290600101906020018083116106f357829003601f168201915b505050505081565b600660019054906101000a900460ff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156107d157600080fd5b60001515600660009054906101000a900460ff1615151415156107f357600080fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561085d573d6000803e3d6000fd5b506001600660016101000a81548160ff0219169083151502179055506003547ffb81f9b30d73d830c3544b34d827c08142579ee75710b490bab0b3995468c56560405160405180910390a2565b60035481565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561090c57600080fd5b60011515600660009054906101000a900460ff16151514151561092e57600080fd5b6000601460035481151561093e57fe5b049050600354818385010114151561095557600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc849081150290604051600060405180830381858888f193505050501580156109bc573d6000803e3d6000fd5b50600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc839081150290604051600060405180830381858888f19350505050158015610a25573d6000803e3d6000fd5b50600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610a8e573d6000803e3d6000fd5b506001600660016101000a81548160ff02191690831515021790555081837f8a1cc9089f9efc6450ff2639ff6d6b27f6aaaac01cccae1789c0a36dffc2104160405160405180910390a3505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10610b1e57805160ff1916838001178555610b4c565b82800160010185558215610b4c579182015b82811115610b4b578251825591602001919060010190610b30565b5b509050610b599190610b5d565b5090565b610b7f91905b80821115610b7b576000816000905550600101610b63565b5090565b9056fea165627a7a72305820649d71d510c44d066d1f9d7c06a014268ea9a9309d98e60dcff3513ed32e187f0029
+#@coverage
+Achieved 94.60% coverage for code: 608060405234801561001057600080fd5b50600436106100d1576000357c010000000000000000000000000000000000000000000000000000000090048063597e1fb51161008e578063597e1fb5146103215780636cc6cde1146103435780637150d8ae1461038d57806386d1a69f146103d7578063a035b1fe146103e1578063d1691a6f146103ff576100d1565b80630695c46c146100d657806308551a53146100f857806312065fe014610142578063218b3150146101605780632fb2c8b1146101e3578063565974d31461029e575b600080fd5b6100de610437565b604051808215151515815260200191505060405180910390f35b61010061044a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61014a610470565b6040518082815260200191505060405180910390f35b61016861048f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156101a857808201518184015260208101905061018d565b50505050905090810190601f1680156101d55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61029c600480360360208110156101f957600080fd5b810190808035906020019064010000000081111561021657600080fd5b82018360208201111561022857600080fd5b8035906020019184600183028401116401000000008311171561024a57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050919291929050505061052d565b005b6102a661067a565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156102e65780820151818401526020810190506102cb565b50505050905090810190601f1680156103135780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b610329610718565b604051808215151515815260200191505060405180910390f35b61034b61072b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610395610751565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6103df610776565b005b6103e96108aa565b6040518082815260200191505060405180910390f35b6104356004803603604081101561041557600080fd5b8101908080359060200190929190803590602001909291905050506108b0565b005b600660009054906101000a900460ff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60003073ffffffffffffffffffffffffffffffffffffffff1631905090565b60058054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105255780601f106104fa57610100808354040283529160200191610525565b820191906000526020600020905b81548152906001019060200180831161050857829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614806105d55750600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b15156105e057600080fd5b60001515600660019054906101000a900460ff16151514151561060257600080fd5b6001600660006101000a81548160ff0219169083151502179055508060059080519060200190610633929190610add565b503373ffffffffffffffffffffffffffffffffffffffff167f695fbf2fe28b4fde5705122279ffc4160ebfc0f45e4d96f7e6699001be5062ef60405160405180910390a250565b60048054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107105780601f106106e557610100808354040283529160200191610710565b820191906000526020600020905b8154815290600101906020018083116106f357829003601f168201915b505050505081565b600660019054906101000a900460ff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156107d157600080fd5b60001515600660009054906101000a900460ff1615151415156107f357600080fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561085d573d6000803e3d6000fd5b506001600660016101000a81548160ff0219169083151502179055506003547ffb81f9b30d73d830c3544b34d827c08142579ee75710b490bab0b3995468c56560405160405180910390a2565b60035481565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561090c57600080fd5b60011515600660009054906101000a900460ff16151514151561092e57600080fd5b6000601460035481151561093e57fe5b049050600354818385010114151561095557600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc849081150290604051600060405180830381858888f193505050501580156109bc573d6000803e3d6000fd5b50600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc839081150290604051600060405180830381858888f19350505050158015610a25573d6000803e3d6000fd5b50600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610a8e573d6000803e3d6000fd5b506001600660016101000a81548160ff02191690831515021790555081837f8a1cc9089f9efc6450ff2639ff6d6b27f6aaaac01cccae1789c0a36dffc2104160405160405180910390a3505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10610b1e57805160ff1916838001178555610b4c565b82800160010185558215610b4c579182015b82811115610b4b578251825591602001919060010190610b30565b5b509050610b599190610b5d565b5090565b610b7f91905b80821115610b7b576000816000905550600101610b63565b5090565b9056fea165627a7a72305820649d71d510c44d066d1f9d7c06a014268ea9a9309d98e60dcff3513ed32e187f0029
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: complaint()
+PC address: 1183
+Estimated Gas Usage: 4260 - 6379
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:12
+
+string public complaint
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1000000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+Caller: [SOMEGUY], function: complaint(), txdata: 0x218b3150, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: complaint()
+PC address: 1235
+Estimated Gas Usage: 4260 - 6379
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:12
+
+string public complaint
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1000000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+Caller: [SOMEGUY], function: complaint(), txdata: 0x218b3150, value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: release()
+PC address: 2119
+Estimated Gas Usage: 12233 - 68276
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:35
+
+address(seller).transfer(price)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x2c000100000000040, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x1
+Caller: [ATTACKER], function: release(), txdata: 0x86d1a69f, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: resolve(uint256,uint256)
+PC address: 2376
+Estimated Gas Usage: 16133 - 141208
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:52
+
+buyerAward + sellerAward
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x3, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000901d12ebe1b195e5aa8748e62bd7734ae19b51f000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa00000000000000000000000000000000000000000000000000000000000000880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+Caller: [SOMEGUY], function: resolve(uint256,uint256), txdata: 0xd1691a6f80000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000, decoded_data: (57896044618658097711785492504343953926634992332820282019728792003956564819968, 57896044618658097711785492504343953926634992332820282019728792003956564819968), value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: resolve(uint256,uint256)
+PC address: 2470
+Estimated Gas Usage: 16133 - 141208
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:53
+
+address(buyer).transfer(buyerAward)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x8000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x2802a03011047ffff, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000000000000000000000000000000000000000001220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x1
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021222222222222222222222222222222222222222222222222222222222222222222, decoded_data: ('"""""""""""""""""""""""""""""""""',), value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2, value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b10000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('',), value: 0x0
+Caller: [ATTACKER], function: resolve(uint256,uint256), txdata: 0xd1691a6f00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000, decoded_data: (1, 0), value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: lexDAOetherEscrow
+Function name: resolve(uint256,uint256)
+PC address: 2575
+Estimated Gas Usage: 16133 - 141208
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they re part of your own codebase).
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:54
+
+address(seller).transfer(sellerAward)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x10001a00000000000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000901d12ebe1b195e5aa8748e62bd7734ae19b51f000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000000000000000000000000000000000000000000820000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021828282828282828282828282828282828282828282828282828282828282828282, value: 0x0
+Caller: [ATTACKER], function: resolve(uint256,uint256), txdata: 0xd1691a6f0870920000301de0fc2000000000000000000000000000000000000000000000f78f6dffffcfe21f03e000000000000000000000000000000000000000000000, decoded_data: (3817397314907735642356901797653933540829191884978164253899758961513522528256, 111974691922408459781214083211033974312440792780662399785557825046399607111680), value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: resolve(uint256,uint256)
+PC address: 2575
+Estimated Gas Usage: 16133 - 141208
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:54
+
+address(seller).transfer(sellerAward)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x100, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000000000000000000000000000000000000000000640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x1
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2, value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b10000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('',), value: 0x0
+Caller: [ATTACKER], function: resolve(uint256,uint256), txdata: 0xd1691a6f00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000, decoded_data: (1, 0), value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: lexDAOetherEscrow
+Function name: resolve(uint256,uint256)
+PC address: 2680
+Estimated Gas Usage: 16133 - 141208
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they re part of your own codebase).
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:55
+
+address(arbitrator).transfer(arbFee)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x4094, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x8c20040208, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000901d12ebe1b195e5aa8748e62bd7734ae19b51f000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa00000000000000000000000000000000000000000000000000000000000002040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021020202020202020202020202020202020202020202020202020202020202020202, decoded_data: ('\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02',), value: 0x0
+Caller: [ATTACKER], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadad, value: 0x0
+Caller: [SOMEGUY], function: resolve(uint256,uint256), txdata: 0xd1691a6fc116b9784f3eafffef7e1b2f80000000000000000000000000000000000000003ee94687b0c150001081e4d08000000000000000000000000000000000000000, decoded_data: (87336530478608752906825372063265657633789729274815534052468379202636100927488, 28455558758707442516745612945422250219480255390825029986989204805277028712448), value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: lexDAOetherEscrow
+Function name: resolve(uint256,uint256)
+PC address: 2680
+Estimated Gas Usage: 16133 - 141208
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ../../sGuard_contracts/0xa3aa18a40d673d11556519cc59a3c0b5052372eb.sol:55
+
+address(arbitrator).transfer(arbFee)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x141a0100080103, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x3fffffffffffff, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000000000000000000000000000000000000000001280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x1
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020afafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafaf, value: 0x0
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b10000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('',), value: 0x0
+Caller: [ATTACKER], function: resolve(uint256,uint256), txdata: 0xd1691a6f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001, decoded_data: (0, 1), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: Low
+Contract: lexDAOetherEscrow
+Function name: dispute(string)
+PC address: 2796
+Estimated Gas Usage: 26648 - 111561
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation.  This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x20000000000000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+Caller: [CREATOR], function: dispute(string), txdata: 0x2fb2c8b100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000021000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',), value: 0x0
+
+
+#@time
+time used(s):30750.335171937943

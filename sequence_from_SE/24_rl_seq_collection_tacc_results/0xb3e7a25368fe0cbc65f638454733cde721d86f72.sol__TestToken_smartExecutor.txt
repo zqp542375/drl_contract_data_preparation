@@ -1,0 +1,512 @@
+++++ 0xb3e7a25368fe0cbc65f638454733cde721d86f72.sol  :  0.5.16  :  TestToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1469
+['constructor']:writes at the last depth:['2', '0']
+preprocessing: Achieved 98.84% coverage.
+dynamic svars:['0', '1']
+static svars:['2']
+Ending preprocessing.
+preprocessing time(s): 12.215891122817993
+contract coverage: 98.77%
+Function Reads: State variables read in conditions
+	balanceOf(address):[]
+	decreaseAllowance(address,uint256):[]
+	transfer(address,uint256):[]
+	allowance(address,address):[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	transferFrom(address,address,uint256):[]
+	increaseAllowance(address,uint256):[]
+Function Writes: State variables written
+	approve(address,uint256):['1']
+	transfer(address,uint256):['0']
+	decreaseAllowance(address,uint256):['1']
+	transferFrom(address,address,uint256):['1', '0']
+	increaseAllowance(address,uint256):['1']
+============================
+iteration:3
+targets:[]
+['approve(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.77%
+============================
+iteration:4
+['transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.77%
+============================
+iteration:5
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.77%
+============================
+iteration:6
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.77%
+============================
+iteration:7
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:8
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:9
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:10
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:11
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:12
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:13
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:14
+contract coverage: 98.84%
+============================
+iteration:15
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:16
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:17
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:18
+contract coverage: 98.84%
+============================
+iteration:19
+contract coverage: 98.84%
+============================
+iteration:20
+contract coverage: 98.84%
+============================
+iteration:21
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:22
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:23
+contract coverage: 98.84%
+============================
+iteration:24
+contract coverage: 98.84%
+============================
+iteration:25
+contract coverage: 98.84%
+============================
+iteration:26
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:27
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:28
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:29
+contract coverage: 98.84%
+============================
+iteration:30
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:31
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:32
+['transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:33
+['transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:34
+contract coverage: 98.84%
+============================
+iteration:35
+contract coverage: 98.84%
+============================
+iteration:36
+['transfer(address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'increaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:37
+contract coverage: 98.84%
+============================
+iteration:38
+contract coverage: 98.84%
+============================
+iteration:39
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:40
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:41
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:42
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:43
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:44
+contract coverage: 98.84%
+============================
+iteration:45
+contract coverage: 98.84%
+============================
+iteration:46
+contract coverage: 98.84%
+============================
+iteration:47
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:48
+['increaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['increaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:49
+contract coverage: 98.84%
+============================
+iteration:50
+['increaseAllowance(address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'transfer(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:51
+contract coverage: 98.84%
+============================
+iteration:52
+contract coverage: 98.84%
+============================
+iteration:53
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:54
+contract coverage: 98.84%
+============================
+iteration:55
+contract coverage: 98.84%
+============================
+iteration:56
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:57
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:58
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:59
+contract coverage: 98.84%
+============================
+iteration:60
+contract coverage: 98.84%
+============================
+iteration:61
+contract coverage: 98.84%
+============================
+iteration:62
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:63
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:64
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:65
+contract coverage: 98.84%
+============================
+iteration:66
+contract coverage: 98.84%
+============================
+iteration:67
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:68
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:69
+['increaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:70
+['decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['1', '0']
+contract coverage: 98.84%
+============================
+iteration:71
+contract coverage: 98.84%
+============================
+iteration:72
+contract coverage: 98.84%
+============================
+iteration:73
+contract coverage: 98.84%
+============================
+iteration:74
+['decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+contract coverage: 98.84%
+============================
+iteration:75
+contract coverage: 98.84%
+============================
+iteration:76
+contract coverage: 98.84%
+============================
+iteration:77
+['decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+contract coverage: 98.84%
+============================
+iteration:78
+contract coverage: 98.84%
+============================
+iteration:79
+contract coverage: 98.84%
+============================
+iteration:80
+contract coverage: 98.84%
+============================
+iteration:81
+contract coverage: 98.84%
+============================
+iteration:82
+contract coverage: 98.84%
+#@statespace
+3692 nodes, 3691 edges, 63434 total states
+#@coverage
+Achieved 12.55% coverage for code: 608060405234801561001057600080fd5b506040516110373803806110378339818101604052602081101561003357600080fd5b8101908080519060200190929190505050610054338261005a60201b60201c565b506101d0565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141561009457600080fd5b6100ad816002546101b460201b610e071790919060201c565b600281905550610108816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546101b460201b610e071790919060201c565b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a35050565b6000808284019050838110156101c657fe5b8091505092915050565b610e58806101df6000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c806370a082311161005b57806370a08231146101fd578063a457c2d714610255578063a9059cbb146102bb578063dd62ed3e1461032157610088565b8063095ea7b31461008d57806318160ddd146100f357806323b872dd146101115780633950935114610197575b600080fd5b6100d9600480360360408110156100a357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610399565b604051808215151515815260200191505060405180910390f35b6100fb6104c4565b6040518082815260200191505060405180910390f35b61017d6004803603606081101561012757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506104ce565b604051808215151515815260200191505060405180910390f35b6101e3600480360360408110156101ad57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506106d6565b604051808215151515815260200191505060405180910390f35b61023f6004803603602081101561021357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061090b565b6040518082815260200191505060405180910390f35b6102a16004803603604081101561026b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610953565b604051808215151515815260200191505060405180910390f35b610307600480360360408110156102d157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610b88565b604051808215151515815260200191505060405180910390f35b6103836004803603604081101561033757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b9f565b6040518082815260200191505060405180910390f35b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614156103d457600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b6000600254905090565b600061055f82600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610c2690919063ffffffff16565b600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506105ea848484610c3d565b3373ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a3600190509392505050565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16141561071157600080fd5b6107a082600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610e0790919063ffffffff16565b600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a36001905092915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16141561098e57600080fd5b610a1d82600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610c2690919063ffffffff16565b600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a36001905092915050565b6000610b95338484610c3d565b6001905092915050565b6000600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b600082821115610c3257fe5b818303905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610c7757600080fd5b610cc8816000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610c2690919063ffffffff16565b6000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610d5b816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610e0790919063ffffffff16565b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a3505050565b600080828401905083811015610e1957fe5b809150509291505056fea265627a7a72315820e518cb18631da280cb024f79af3b42665bde613aa7275ab5c0ed6377a3a8554264736f6c63430005100032
+#@coverage
+Achieved 98.84% coverage for code: 608060405234801561001057600080fd5b50600436106100885760003560e01c806370a082311161005b57806370a08231146101fd578063a457c2d714610255578063a9059cbb146102bb578063dd62ed3e1461032157610088565b8063095ea7b31461008d57806318160ddd146100f357806323b872dd146101115780633950935114610197575b600080fd5b6100d9600480360360408110156100a357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610399565b604051808215151515815260200191505060405180910390f35b6100fb6104c4565b6040518082815260200191505060405180910390f35b61017d6004803603606081101561012757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506104ce565b604051808215151515815260200191505060405180910390f35b6101e3600480360360408110156101ad57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506106d6565b604051808215151515815260200191505060405180910390f35b61023f6004803603602081101561021357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061090b565b6040518082815260200191505060405180910390f35b6102a16004803603604081101561026b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610953565b604051808215151515815260200191505060405180910390f35b610307600480360360408110156102d157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610b88565b604051808215151515815260200191505060405180910390f35b6103836004803603604081101561033757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b9f565b6040518082815260200191505060405180910390f35b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614156103d457600080fd5b81600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b6000600254905090565b600061055f82600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610c2690919063ffffffff16565b600160008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506105ea848484610c3d565b3373ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a3600190509392505050565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16141561071157600080fd5b6107a082600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610e0790919063ffffffff16565b600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a36001905092915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b60008073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16141561098e57600080fd5b610a1d82600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610c2690919063ffffffff16565b600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546040518082815260200191505060405180910390a36001905092915050565b6000610b95338484610c3d565b6001905092915050565b6000600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b600082821115610c3257fe5b818303905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415610c7757600080fd5b610cc8816000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610c2690919063ffffffff16565b6000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610d5b816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054610e0790919063ffffffff16565b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a3505050565b600080828401905083811015610e1957fe5b809150509291505056fea265627a7a72315820e518cb18631da280cb024f79af3b42665bde613aa7275ab5c0ed6377a3a8554264736f6c63430005100032
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: TestToken
+Function name: transfer(address,uint256)
+PC address: 3121
+Estimated Gas Usage: 1312 - 1597
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0xb3e7a25368fe0cbc65f638454733cde721d86f72.sol:202
+
+_balances[from].sub(value)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 01000000000000010000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: transfer(address,uint256), txdata: 0xa9059cbb00000000000000000000000000000000000000000000000000000000000000010280200140208001804080010000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000001', 1131003011054566336862873332279977095871729083855304983417860835809945452544), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: TestToken
+Function name: decreaseAllowance(address,uint256)
+PC address: 3121
+Estimated Gas Usage: 1356 - 1831
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0xb3e7a25368fe0cbc65f638454733cde721d86f72.sol:193
+
+_allowed[msg.sender][spender].sub(subtractedValue)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 01000000000000000000000000000000000001000000000400000000041000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: decreaseAllowance(address,uint256), txdata: 0xa457c2d700000000000000000000000000000000010100000000000000000000000000000000010000000000000000000000000000000000000000000001000000000000, decoded_data: ('0x0000000001010000000000000000000000000000', 6901746346790563787434755862277025452451108972170386555443999200509952), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: TestToken
+Function name: transferFrom(address,address,uint256)
+PC address: 3121
+Estimated Gas Usage: 1374 - 1849
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0xb3e7a25368fe0cbc65f638454733cde721d86f72.sol:174
+
+_allowed[from][msg.sender].sub(value)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: transferFrom(address,address,uint256), txdata: 0x23b872dd000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008010804040400004000040004040200280008000000800010100400120100801, decoded_data: ('0x0000000000000000000000000000000000000000', '0x0000000000000000000000000000000000000000', 57925199327429842515677793904292765460404193767598604826220764419651212937217), value: 0x0
+
+
+time_used: 36034.045790195465 seconds
+#@contract_info_time
+0xb3e7a25368fe0cbc65f638454733cde721d86f72.sol:0.5.16:TestToken:36034.045790195465:36100:60:36000

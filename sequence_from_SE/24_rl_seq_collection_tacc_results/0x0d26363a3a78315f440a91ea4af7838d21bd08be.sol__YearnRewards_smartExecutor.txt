@@ -1,0 +1,4 @@
+++++ 0x0d26363a3a78315f440a91ea4af7838d21bd08be.sol  :  0.5.17  :  YearnRewards ++++
+time_used: 3.8756375312805176 seconds
+#@contract_info_time
+0x0d26363a3a78315f440a91ea4af7838d21bd08be.sol:0.5.17:YearnRewards:3.8756375312805176:36100:60:36000

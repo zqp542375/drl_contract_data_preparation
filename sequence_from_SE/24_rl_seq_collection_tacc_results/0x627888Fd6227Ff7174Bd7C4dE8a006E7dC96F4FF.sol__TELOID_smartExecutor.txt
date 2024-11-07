@@ -1,0 +1,108 @@
+++++ 0x627888Fd6227Ff7174Bd7C4dE8a006E7dC96F4FF.sol  :  0.4.23  :  TELOID ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 3230
+['constructor']:writes at the last depth:['3', '4', '5', '0', '1']
+preprocessing: Achieved 99.97% coverage.
+dynamic svars:['0', '2']
+static svars:['5', '3', '4', '1']
+Ending preprocessing.
+preprocessing time(s): 36.26944398880005
+contract coverage: 85.45%
+fallback is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	transferFrom(address,address,uint256):['0', '2']
+	decimals():[]
+	cap():[]
+	tokensSold():[]
+	decreaseApproval(address,uint256):['2']
+	balanceOf(address):[]
+	startIco():['5']
+	owner():[]
+	finalizeIco():['5', '4']
+	symbol():[]
+	transfer(address,uint256):['0']
+	remainingTokens():[]
+	basePrice():[]
+	tokenReserve():[]
+	increaseApproval(address,uint256):[]
+	allowance(address,address):[]
+	transferOwnership(address):['5']
+Function Writes: State variables written
+	approve(address,uint256):['2']
+	startIco():['5']
+	finalizeIco():['5', '0']
+	decreaseApproval(address,uint256):['2']
+	fallback:['3', '4', '0', '1']
+	transferOwnership(address):['5']
+	transfer(address,uint256):['0']
+	transferFrom(address,address,uint256):['0', '2']
+	increaseApproval(address,uint256):['2']
+============================
+iteration:3
+targets:['fallback', 'startIco()', 'finalizeIco()']
+['startIco()']:writes at the last depth:['5']
+['approve(address,uint256)']:writes at the last depth:['2']
+['transferOwnership(address)']:writes at the last depth:['5']
+['decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['finalizeIco()']:writes at the last depth:['0', '5']
+['increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)']:writes at the last depth:['0', '2']
+contract coverage: 85.45%
+============================
+iteration:4
+['transferFrom(address,address,uint256)', 'startIco()']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'finalizeIco()']:writes at the last depth:['', '5']
+['transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['0', '2']
+contract coverage: 85.45%
+============================
+iteration:5
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'startIco()']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'finalizeIco()']:writes at the last depth:['', '5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['0', '2']
+contract coverage: 85.45%
+============================
+iteration:6
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'startIco()']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'finalizeIco()']:writes at the last depth:['', '5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '0']
+contract coverage: 85.45%
+============================
+iteration:7
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'startIco()']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'finalizeIco()']:writes at the last depth:['', '5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['2', '0']
+The analysis was completed successfully. No issues were detected.
+
+time_used: 6111.771117925644 seconds
+#@contract_info_time
+0x627888Fd6227Ff7174Bd7C4dE8a006E7dC96F4FF.sol:0.4.23:TELOID:6111.771117925644:36100:60:36000

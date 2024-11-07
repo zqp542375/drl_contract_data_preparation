@@ -1,0 +1,4 @@
+++++ 0x4feeaeced575239b46d70b50e13532ecb62e4ea8.sol  :  0.5.17  :  StrategyCurveSBTC ++++
+time_used: 3.807295322418213 seconds
+#@contract_info_time
+0x4feeaeced575239b46d70b50e13532ecb62e4ea8.sol:0.5.17:StrategyCurveSBTC:3.807295322418213:36100:60:36000

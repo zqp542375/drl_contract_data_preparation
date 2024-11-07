@@ -1,0 +1,12 @@
+++++ 0x5644a28c121F1467FFfad8A9ef70780d48C90378.sol  :  0.5.11  :  ToonizeToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 7092
+['constructor']:writes at the last depth:['0', '1', '1', '1', '10', '11', '1', '13', '14']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 78.21% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 146.42192196846008 seconds
+#@contract_info_time
+0x5644a28c121F1467FFfad8A9ef70780d48C90378.sol:0.5.11:ToonizeToken:146.42192196846008:36100:60:36000

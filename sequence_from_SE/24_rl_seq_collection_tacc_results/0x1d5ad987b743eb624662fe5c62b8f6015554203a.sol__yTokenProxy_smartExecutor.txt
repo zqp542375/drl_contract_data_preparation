@@ -1,0 +1,801 @@
+++++ 0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol  :  0.5.0  :  yTokenProxy ++++
+222170155356623233828983295136742176205292312913 is added into actors.
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2050
+['constructor']:writes at the last depth:['0', '1', '2']
+preprocessing: Achieved 99.27% coverage.
+dynamic svars:[]
+static svars:['1', '2']
+Ending preprocessing.
+preprocessing time(s): 9.213650941848755
+contract coverage: 67.61%
+Function Reads: State variables read in conditions
+	set_new_yToken(address):['1']
+	_yToken():[]
+	withdrawCompound(uint256):['1']
+	withdrawDydx():['1']
+	transferYTokenOwnership(address):['1']
+	renounceOwnership():['1']
+	withdrawAave():['1']
+	owner():[]
+	isOwner():[]
+	transferOwnership(address):['1']
+Function Writes: State variables written
+	renounceOwnership():['1']
+	set_new_yToken(address):['2']
+	transferOwnership(address):['1']
+============================
+iteration:3
+targets:['withdrawCompound(uint256)', 'withdrawDydx()', 'withdrawAave()', 'transferYTokenOwnership(address)']
+['renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 67.61%
+============================
+iteration:4
+['transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 67.61%
+============================
+iteration:5
+['transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 67.61%
+============================
+iteration:6
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+contract coverage: 98.83%
+============================
+iteration:7
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:8
+contract coverage: 98.83%
+============================
+iteration:9
+['transferOwnership(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:10
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:11
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:12
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:13
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:14
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:15
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:16
+contract coverage: 98.83%
+============================
+iteration:17
+contract coverage: 98.83%
+============================
+iteration:18
+['set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:19
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:20
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:21
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:22
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:23
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:24
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:25
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:26
+contract coverage: 98.83%
+============================
+iteration:27
+['set_new_yToken(address)', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:28
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:29
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:30
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:31
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:32
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:33
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:34
+contract coverage: 98.83%
+============================
+iteration:35
+['set_new_yToken(address)', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:36
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:37
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:38
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:39
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:40
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:41
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:42
+contract coverage: 98.83%
+============================
+iteration:43
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:44
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:45
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:46
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:47
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:48
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:49
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:50
+contract coverage: 98.83%
+============================
+iteration:51
+['set_new_yToken(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:52
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:53
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:54
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:55
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:56
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:57
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:58
+contract coverage: 98.83%
+============================
+iteration:59
+['set_new_yToken(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:60
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:61
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:62
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:63
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:64
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:65
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'renounceOwnership()']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)']:writes at the last depth:['2']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'transferYTokenOwnership(address)']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawDydx()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawAave()']:writes at the last depth:[]
+['set_new_yToken(address)', 'set_new_yToken(address)', 'set_new_yToken(address)', 'withdrawCompound(uint256)']:writes at the last depth:[]
+contract coverage: 98.83%
+============================
+iteration:66
+contract coverage: 98.83%
+============================
+iteration:67
+contract coverage: 98.83%
+============================
+iteration:68
+contract coverage: 98.83%
+#@statespace
+18303 nodes, 18302 edges, 173376 total states
+#@coverage
+Achieved 5.18% coverage for code: 608060405234801561001057600080fd5b506001600081905550610030610147640100000000026401000000009004565b600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a37326ea744e5b887e5205727f55dfbe8685e3b21951600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061014f565b600033905090565b61108f8061015e6000396000f3fe6080604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312128093146100a957806352c2b01b146100d257806357b87543146100fd5780635b3c764c1461012657806367ef635a1461013d578063715018a614610166578063879218301461017d5780638da5cb5b146101945780638f32d59b146101bf578063f2fde38b146101ea575b600080fd5b3480156100b557600080fd5b506100d060048036036100cb9190810190610d1d565b610213565b005b3480156100de57600080fd5b506100e76102a0565b6040516100f49190610ed4565b60405180910390f35b34801561010957600080fd5b50610124600480360361011f9190810190610d46565b6102c6565b005b34801561013257600080fd5b5061013b610488565b005b34801561014957600080fd5b50610164600480360361015f9190810190610cf4565b610637565b005b34801561017257600080fd5b5061017b61072c565b005b34801561018957600080fd5b50610192610836565b005b3480156101a057600080fd5b506101a96109e5565b6040516101b69190610e9e565b60405180910390f35b3480156101cb57600080fd5b506101d4610a0f565b6040516101e19190610eb9565b60405180910390f35b3480156101f657600080fd5b50610211600480360361020c9190810190610cf4565b610a6e565b005b61021b610a0f565b151561025c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161025390610f31565b60405180910390fd5b80600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6102ce610a0f565b151561030f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161030690610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663b30d0bb261041b83600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a72879716040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b1580156103d557600080fd5b505afa1580156103e9573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525061040d9190810190610d6f565b610ac390919063ffffffff16565b6040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016104539190610f51565b600060405180830381600087803b15801561046d57600080fd5b505af1158015610481573d6000803e3d6000fd5b5050505050565b610490610a0f565b15156104d1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016104c890610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166341c57c8d600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166339c0a7e16040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561059357600080fd5b505afa1580156105a7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052506105cb9190810190610d6f565b6040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016106039190610f51565b600060405180830381600087803b15801561061d57600080fd5b505af1158015610631573d6000803e3d6000fd5b50505050565b61063f610a0f565b1515610680576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161067790610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663f2fde38b826040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016106f79190610e9e565b600060405180830381600087803b15801561071157600080fd5b505af1158015610725573d6000803e3d6000fd5b5050505050565b610734610a0f565b1515610775576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161076c90610f31565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff16600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b61083e610a0f565b151561087f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161087690610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166356cc9378600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663cf8ca4266040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561094157600080fd5b505afa158015610955573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052506109799190810190610d6f565b6040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016109b19190610f51565b600060405180830381600087803b1580156109cb57600080fd5b505af11580156109df573d6000803e3d6000fd5b50505050565b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16610a52610b0d565b73ffffffffffffffffffffffffffffffffffffffff1614905090565b610a76610a0f565b1515610ab7576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610aae90610f31565b60405180910390fd5b610ac081610b15565b50565b6000610b0583836040805190810160405280601e81526020017f536166654d6174683a207375627472616374696f6e206f766572666c6f770000815250610c47565b905092915050565b600033905090565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610b87576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610b7e90610f11565b60405180910390fd5b8073ffffffffffffffffffffffffffffffffffffffff16600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a380600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008383111582901515610c91576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610c889190610eef565b60405180910390fd5b5060008385039050809150509392505050565b6000610cb08235610fbf565b905092915050565b6000610cc48235610fd1565b905092915050565b6000610cd88235610fe3565b905092915050565b6000610cec8251610fe3565b905092915050565b600060208284031215610d0657600080fd5b6000610d1484828501610ca4565b91505092915050565b600060208284031215610d2f57600080fd5b6000610d3d84828501610cb8565b91505092915050565b600060208284031215610d5857600080fd5b6000610d6684828501610ccc565b91505092915050565b600060208284031215610d8157600080fd5b6000610d8f84828501610ce0565b91505092915050565b610da181610f77565b82525050565b610db081610f89565b82525050565b610dbf81610fed565b82525050565b6000610dd082610f6c565b808452610de4816020860160208601611011565b610ded81611044565b602085010191505092915050565b6000602682527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160208301527f64647265737300000000000000000000000000000000000000000000000000006040830152606082019050919050565b6000602082527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726020830152604082019050919050565b610e9881610fb5565b82525050565b6000602082019050610eb36000830184610d98565b92915050565b6000602082019050610ece6000830184610da7565b92915050565b6000602082019050610ee96000830184610db6565b92915050565b60006020820190508181036000830152610f098184610dc5565b905092915050565b60006020820190508181036000830152610f2a81610dfb565b9050919050565b60006020820190508181036000830152610f4a81610e58565b9050919050565b6000602082019050610f666000830184610e8f565b92915050565b600081519050919050565b6000610f8282610f95565b9050919050565b60008115159050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6000610fca82610f95565b9050919050565b6000610fdc82610f77565b9050919050565b6000819050919050565b6000610ff882610fff565b9050919050565b600061100a82610f95565b9050919050565b60005b8381101561102f578082015181840152602081019050611014565b8381111561103e576000848401525b50505050565b6000601f19601f830116905091905056fea265627a7a723058203f778ba01dccb0091f325503863401ca9ccaf794d09495c343ea2aa90cbde18c6c6578706572696d656e74616cf50037
+#@coverage
+Achieved 98.83% coverage for code: 6080604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312128093146100a957806352c2b01b146100d257806357b87543146100fd5780635b3c764c1461012657806367ef635a1461013d578063715018a614610166578063879218301461017d5780638da5cb5b146101945780638f32d59b146101bf578063f2fde38b146101ea575b600080fd5b3480156100b557600080fd5b506100d060048036036100cb9190810190610d1d565b610213565b005b3480156100de57600080fd5b506100e76102a0565b6040516100f49190610ed4565b60405180910390f35b34801561010957600080fd5b50610124600480360361011f9190810190610d46565b6102c6565b005b34801561013257600080fd5b5061013b610488565b005b34801561014957600080fd5b50610164600480360361015f9190810190610cf4565b610637565b005b34801561017257600080fd5b5061017b61072c565b005b34801561018957600080fd5b50610192610836565b005b3480156101a057600080fd5b506101a96109e5565b6040516101b69190610e9e565b60405180910390f35b3480156101cb57600080fd5b506101d4610a0f565b6040516101e19190610eb9565b60405180910390f35b3480156101f657600080fd5b50610211600480360361020c9190810190610cf4565b610a6e565b005b61021b610a0f565b151561025c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161025390610f31565b60405180910390fd5b80600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6102ce610a0f565b151561030f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161030690610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663b30d0bb261041b83600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a72879716040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b1580156103d557600080fd5b505afa1580156103e9573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525061040d9190810190610d6f565b610ac390919063ffffffff16565b6040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016104539190610f51565b600060405180830381600087803b15801561046d57600080fd5b505af1158015610481573d6000803e3d6000fd5b5050505050565b610490610a0f565b15156104d1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016104c890610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166341c57c8d600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166339c0a7e16040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561059357600080fd5b505afa1580156105a7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052506105cb9190810190610d6f565b6040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016106039190610f51565b600060405180830381600087803b15801561061d57600080fd5b505af1158015610631573d6000803e3d6000fd5b50505050565b61063f610a0f565b1515610680576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161067790610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663f2fde38b826040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016106f79190610e9e565b600060405180830381600087803b15801561071157600080fd5b505af1158015610725573d6000803e3d6000fd5b5050505050565b610734610a0f565b1515610775576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161076c90610f31565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff16600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b61083e610a0f565b151561087f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161087690610f31565b60405180910390fd5b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166356cc9378600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663cf8ca4266040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561094157600080fd5b505afa158015610955573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052506109799190810190610d6f565b6040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004016109b19190610f51565b600060405180830381600087803b1580156109cb57600080fd5b505af11580156109df573d6000803e3d6000fd5b50505050565b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16610a52610b0d565b73ffffffffffffffffffffffffffffffffffffffff1614905090565b610a76610a0f565b1515610ab7576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610aae90610f31565b60405180910390fd5b610ac081610b15565b50565b6000610b0583836040805190810160405280601e81526020017f536166654d6174683a207375627472616374696f6e206f766572666c6f770000815250610c47565b905092915050565b600033905090565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610b87576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610b7e90610f11565b60405180910390fd5b8073ffffffffffffffffffffffffffffffffffffffff16600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a380600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008383111582901515610c91576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610c889190610eef565b60405180910390fd5b5060008385039050809150509392505050565b6000610cb08235610fbf565b905092915050565b6000610cc48235610fd1565b905092915050565b6000610cd88235610fe3565b905092915050565b6000610cec8251610fe3565b905092915050565b600060208284031215610d0657600080fd5b6000610d1484828501610ca4565b91505092915050565b600060208284031215610d2f57600080fd5b6000610d3d84828501610cb8565b91505092915050565b600060208284031215610d5857600080fd5b6000610d6684828501610ccc565b91505092915050565b600060208284031215610d8157600080fd5b6000610d8f84828501610ce0565b91505092915050565b610da181610f77565b82525050565b610db081610f89565b82525050565b610dbf81610fed565b82525050565b6000610dd082610f6c565b808452610de4816020860160208601611011565b610ded81611044565b602085010191505092915050565b6000602682527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160208301527f64647265737300000000000000000000000000000000000000000000000000006040830152606082019050919050565b6000602082527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e65726020830152604082019050919050565b610e9881610fb5565b82525050565b6000602082019050610eb36000830184610d98565b92915050565b6000602082019050610ece6000830184610da7565b92915050565b6000602082019050610ee96000830184610db6565b92915050565b60006020820190508181036000830152610f098184610dc5565b905092915050565b60006020820190508181036000830152610f2a81610dfb565b9050919050565b60006020820190508181036000830152610f4a81610e58565b9050919050565b6000602082019050610f666000830184610e8f565b92915050565b600081519050919050565b6000610f8282610f95565b9050919050565b60008115159050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6000610fca82610f95565b9050919050565b6000610fdc82610f77565b9050919050565b6000819050919050565b6000610ff882610fff565b9050919050565b600061100a82610f95565b9050919050565b60005b8381101561102f578082015181840152602081019050611014565b8381111561103e576000848401525b50505050565b6000601f19601f830116905091905056fea265627a7a723058203f778ba01dccb0091f325503863401ca9ccaf794d09495c343ea2aa90cbde18c6c6578706572696d656e74616cf50037
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: yTokenProxy
+Function name: withdrawCompound(uint256)
+PC address: 1136
+Estimated Gas Usage: 6692 - 77093
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:185
+
+_yToken.withdrawSomeCompound(_yToken.balanceCompoundInToken().sub(_amount))
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, value: 0x0
+Caller: [SOMEGUY], function: transferOwnership(address), txdata: 0xf2fde38baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, value: 0x0
+Caller: [SOMEGUY], function: set_new_yToken(address), txdata: 0x12128093efefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [SOMEGUY], function: withdrawCompound(uint256), txdata: 0x57b875430001000000000000000000000000000000000000000000000000000000000001, decoded_data: (1766847064778384329583297500742918515827483896875618958121606201292619777,), value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: yTokenProxy
+Function name: withdrawCompound(uint256)
+PC address: 1136
+Estimated Gas Usage: 6692 - 77093
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:185
+
+_yToken.withdrawSomeCompound(_yToken.balanceCompoundInToken().sub(_amount))
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38bfefefefefefefefefefefefeaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe, value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38be3e3e3e3e3e3e3e3e3e3e3e326ea744e5b887e5205727f55dfbe8685e3b21951, value: 0x0
+Caller: [SOMEGUY], function: set_new_yToken(address), txdata: 0x121280931212121212121212121212121212121212121212121212121212121212121212, value: 0x0
+Caller: [SOMEGUY], function: withdrawCompound(uint256), txdata: 0x57b875430000000000000000000000000000000000000000000000000000000000000001, decoded_data: (1,), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: yTokenProxy
+Function name: withdrawDydx()
+PC address: 1568
+Estimated Gas Usage: 6279 - 76302
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:189
+
+_yToken.withdrawDydx(_yToken.balanceDydx())
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38befefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: transferOwnership(address), txdata: 0xf2fde38baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, value: 0x0
+Caller: [SOMEGUY], function: set_new_yToken(address), txdata: 0x12128093efefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [SOMEGUY], function: withdrawDydx(), txdata: 0x5b3c764c, value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: yTokenProxy
+Function name: withdrawDydx()
+PC address: 1568
+Estimated Gas Usage: 6279 - 76302
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:189
+
+_yToken.withdrawDydx(_yToken.balanceDydx())
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38bfefefefefefefefefefefefeaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe, value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38be3e3e3e3e3e3e3e3e3e3e3e326ea744e5b887e5205727f55dfbe8685e3b21951, value: 0x0
+Caller: [SOMEGUY], function: set_new_yToken(address), txdata: 0x121280931212121212121212121212121212121212121212121212121212121212121212, value: 0x0
+Caller: [SOMEGUY], function: withdrawDydx(), txdata: 0x5b3c764c, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: yTokenProxy
+Function name: transferYTokenOwnership(address)
+PC address: 1812
+Estimated Gas Usage: 4007 - 39138
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:197
+
+_yToken.transferOwnership(_newOwner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38befefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: transferOwnership(address), txdata: 0xf2fde38befefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: set_new_yToken(address), txdata: 0x12128093efefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: transferYTokenOwnership(address), txdata: 0x67ef635a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: yTokenProxy
+Function name: withdrawAave()
+PC address: 2510
+Estimated Gas Usage: 6345 - 76368
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:181
+
+_yToken.withdrawAave(_yToken.balanceAave())
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38bfefefefefefefefefefefefeaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe, value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38befefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: set_new_yToken(address), txdata: 0x12128093efefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: withdrawAave(), txdata: 0x87921830, value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: yTokenProxy
+Function name: withdrawAave()
+PC address: 2510
+Estimated Gas Usage: 6345 - 76368
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:181
+
+_yToken.withdrawAave(_yToken.balanceAave())
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38bfefefefefefefefefefefefeaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe, value: 0x0
+Caller: [CREATOR], function: transferOwnership(address), txdata: 0xf2fde38be3e3e3e3e3e3e3e3e3e3e3e326ea744e5b887e5205727f55dfbe8685e3b21951, value: 0x0
+Caller: [SOMEGUY], function: set_new_yToken(address), txdata: 0x121280931212121212121212121212121212121212121212121212121212121212121212, value: 0x0
+Caller: [SOMEGUY], function: withdrawAave(), txdata: 0x87921830, value: 0x0
+
+
+time_used: 2603.1510622501373 seconds
+#@contract_info_time
+0x1d5ad987b743eb624662fe5c62b8f6015554203a.sol:0.5.0:yTokenProxy:2603.1510622501373:36100:60:36000

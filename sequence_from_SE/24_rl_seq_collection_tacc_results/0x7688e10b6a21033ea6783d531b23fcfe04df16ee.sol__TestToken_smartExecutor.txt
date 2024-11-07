@@ -1,0 +1,4 @@
+++++ 0x7688e10b6a21033ea6783d531b23fcfe04df16ee.sol  :  0.5.0  :  TestToken ++++
+time_used: 13.334472179412842 seconds
+#@contract_info_time
+0x7688e10b6a21033ea6783d531b23fcfe04df16ee.sol:0.5.0:TestToken:13.334472179412842:36100:60:36000

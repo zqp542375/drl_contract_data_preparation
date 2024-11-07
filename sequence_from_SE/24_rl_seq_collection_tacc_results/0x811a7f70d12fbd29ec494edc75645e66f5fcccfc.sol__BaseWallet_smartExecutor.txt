@@ -1,0 +1,846 @@
+++++ 0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol  :  0.5.4  :  BaseWallet ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2642
+['constructor']:writes at the last depth:[]
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 99.21% coverage.
+dynamic svars:['2', '3']
+static svars:['1', '4', '0']
+Ending preprocessing.
+preprocessing time(s): 111.14519190788269
+contract coverage: 63.02%
+invoke(address,uint256,bytes) is not reachable
+enableStaticCall(address,bytes4) is not reachable
+setOwner(address) is not reachable
+fallback is not reachable
+init(address,address[]) is not reachable
+Function Reads: State variables read in conditions
+	enabled(bytes4):[]
+	owner():[]
+	invoke(address,uint256,bytes):[]
+	authorised(address):[]
+	modules():[]
+	setOwner(address):[]
+	enableStaticCall(address,bytes4):[]
+	authoriseModule(address,bool):['4']
+	init(address,address[]):[]
+	implementation():[]
+Function Writes: State variables written
+	setOwner(address):['1']
+	enableStaticCall(address,bytes4):['3']
+	init(address,address[]):['1', '4']
+	authoriseModule(address,bool):['4', '2']
+============================
+iteration:3
+targets:['authoriseModule(address,bool)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'setOwner(address)', 'fallback', 'init(address,address[])']
+['fallback']:writes at the last depth:[]
+['fallback']:writes at the last depth:[]
+['fallback']:writes at the last depth:[]
+['fallback']:writes at the last depth:[]
+['init(address,address[])']:writes at the last depth:['', '4', '1']
+['init(address,address[])']:writes at the last depth:['', '4', '1']
+['init(address,address[])']:writes at the last depth:['', '4', '1']
+['init(address,address[])']:writes at the last depth:['', '4', '1']
+contract coverage: 93.83%
+============================
+iteration:4
+['init(address,address[])', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:5
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:6
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:7
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:8
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:9
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:10
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 93.83%
+============================
+iteration:11
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 95.27%
+============================
+iteration:12
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:13
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:14
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:15
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:16
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:17
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:18
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:19
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:20
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:21
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:22
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:23
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:24
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:25
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:26
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:27
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:28
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:29
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:30
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:31
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:32
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:33
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'setOwner(address)']:writes at the last depth:['1']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:34
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'fallback']:writes at the last depth:[]
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'enableStaticCall(address,bytes4)']:writes at the last depth:['3']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'authoriseModule(address,bool)']:writes at the last depth:['4', '2']
+['init(address,address[])', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)', 'invoke(address,uint256,bytes)']:writes at the last depth:[]
+contract coverage: 97.62%
+============================
+iteration:35
+contract coverage: 97.62%
+============================
+iteration:36
+contract coverage: 97.62%
+============================
+iteration:37
+contract coverage: 97.62%
+============================
+iteration:38
+contract coverage: 97.62%
+============================
+iteration:39
+contract coverage: 97.62%
+============================
+iteration:40
+contract coverage: 97.62%
+============================
+iteration:41
+contract coverage: 97.62%
+============================
+iteration:42
+contract coverage: 97.62%
+============================
+iteration:43
+contract coverage: 97.62%
+============================
+iteration:44
+contract coverage: 97.62%
+============================
+iteration:45
+contract coverage: 97.62%
+============================
+iteration:46
+contract coverage: 97.62%
+============================
+iteration:47
+contract coverage: 97.62%
+============================
+iteration:48
+contract coverage: 97.62%
+============================
+iteration:49
+contract coverage: 97.62%
+============================
+iteration:50
+contract coverage: 97.62%
+============================
+iteration:51
+contract coverage: 97.62%
+============================
+iteration:52
+contract coverage: 97.62%
+============================
+iteration:53
+contract coverage: 97.62%
+============================
+iteration:54
+contract coverage: 97.62%
+============================
+iteration:55
+contract coverage: 97.62%
+============================
+iteration:56
+contract coverage: 97.62%
+============================
+iteration:57
+contract coverage: 97.62%
+============================
+iteration:58
+contract coverage: 97.62%
+============================
+iteration:59
+contract coverage: 97.62%
+============================
+iteration:60
+contract coverage: 97.62%
+============================
+iteration:61
+contract coverage: 97.62%
+============================
+iteration:62
+contract coverage: 97.62%
+#@statespace
+4786 nodes, 4785 edges, 82881 total states
+#@coverage
+Achieved 0.75% coverage for code: 608060405234801561001057600080fd5b50611764806100206000396000f3fe6080604052600436106100ae576000357c0100000000000000000000000000000000000000000000000000000000900480635f54892b116100765780635f54892b146104fc5780638da5cb5b146105965780638f6f0332146105ed578063d6eb1bbf14610716578063f7e80e981461077f576100ae565b806313af4035146102d757806313da30b2146103285780631f17732d146103a25780633c5a3cea146103ff5780635c60da1b146104a5575b60008036905011156102d55760006003600080357fffffffff00000000000000000000000000000000000000000000000000000000167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415610209573373ffffffffffffffffffffffffffffffffffffffff16347f606834f57405380c4fb88d1f4850326ad3885f014bab3b568dfbf7a041eef73860003660405180806020018281038252848482818152602001925080828437600081840152601f19601f820116905080830192505050935050505060405180910390a36102d3565b600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615156102ad576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260308152602001806116e26030913960400191505060405180910390fd5b3660008037600080366000845afa3d6000803e80600081146102ce573d6000f35b3d6000fd5b505b005b3480156102e357600080fd5b50610326600480360360208110156102fa57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506107aa565b005b34801561033457600080fd5b506103a06004803603604081101561034b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916906020019092919050505061099a565b005b3480156103ae57600080fd5b506103fd600480360360408110156103c557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803515159060200190929190505050610bd9565b005b34801561040b57600080fd5b506104a36004803603604081101561042257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019064010000000081111561045f57600080fd5b82018360208201111561047157600080fd5b8035906020019184602083028401116401000000008311171561049357600080fd5b9091929391929390505050610f19565b005b3480156104b157600080fd5b506104ba61141c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561050857600080fd5b506105546004803603602081101561051f57600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050611441565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156105a257600080fd5b506105ab611474565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156105f957600080fd5b5061069b6004803603606081101561061057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291908035906020019064010000000081111561065757600080fd5b82018360208201111561066957600080fd5b8035906020019184600183028401116401000000008311171561068b57600080fd5b909192939192939050505061149a565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156106db5780820151818401526020810190506106c0565b50505050905090810190601f1680156107085780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561072257600080fd5b506107656004803603602081101561073957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611668565b604051808215151515815260200191505060405180910390f35b34801561078b57600080fd5b50610794611688565b6040518082815260200191505060405180910390f35b600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151561084e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156108f3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f42573a20616464726573732063616e6e6f74206265206e756c6c00000000000081525060200191505060405180910390fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fa2ea9883a321a3e97b8266c2b078bfeec6d50c711ed71f874a90d500ae2eaf3681604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515610a3e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515610ae2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260308152602001806116e26030913960400191505060405180910390fd5b8160036000837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550807bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19168273ffffffffffffffffffffffffffffffffffffffff167fd04b9de96b5ba21173fd97c509db394c9e07a59ffb10c26da7f6ce38a8102fcb60405160405180910390a35050565b600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515610c7d576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b801515600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515141515610f15578173ffffffffffffffffffffffffffffffffffffffff167f8da3ff870ae294081392139550e167f1f31f277f22015ee22fbffdbd7758f4e182604051808215151515815260200191505060405180910390a2600115158115151415610e565760016004600082825401925050819055506001600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508173ffffffffffffffffffffffffffffffffffffffff166319ab453c306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b158015610e3957600080fd5b505af1158015610e4d573d6000803e3d6000fd5b50505050610f14565b60016004600082825403925050819055506000600454111515610ec4576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602881526020018061168f6028913960400191505060405180910390fd5b600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff02191690555b5b5050565b600073ffffffffffffffffffffffffffffffffffffffff16600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16148015610f7957506000600454145b1515610fed576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f42573a2077616c6c657420616c726561647920696e697469616c69736564000081525060200191505060405180910390fd5b60008282905011151561104b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602b8152602001806116b7602b913960400191505060405180910390fd5b82600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508181905060048190555060008090505b8282905081101561138257600015156002600085858581811015156110bd57fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515141515611199576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f42573a206d6f64756c6520697320616c7265616479206164646564000000000081525060200191505060405180910390fd5b60016002600085858581811015156111ad57fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550828282818110151561122957fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166319ab453c306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b1580156112e057600080fd5b505af11580156112f4573d6000803e3d6000fd5b50505050828282818110151561130657fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8da3ff870ae294081392139550e167f1f31f277f22015ee22fbffdbd7758f4e16001604051808215151515815260200191505060405180910390a2808060010191505061109c565b5060003073ffffffffffffffffffffffffffffffffffffffff1631111561141757600073ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff16317f606834f57405380c4fb88d1f4850326ad3885f014bab3b568dfbf7a041eef738604051808060200182810382526000815260200160200191505060405180910390a35b505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60036020528060005260406000206000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6060600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515611540576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b60008573ffffffffffffffffffffffffffffffffffffffff1685858560405180838380828437808301925050509250505060006040518083038185875af1925050503d80600081146115ae576040519150601f19603f3d011682016040523d82523d6000602084013e6115b3565b606091505b5080935081925050508015156115cd573d6000803e3d6000fd5b848673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f7d2476ab50663f025cff0be85655bcf355f62768615c0c478f3cd5293f807365878760405180806020018281038252848482818152602001925080828437600081840152601f19601f820116905080830192505050935050505060405180910390a450949350505050565b60026020528060005260406000206000915054906101000a900460ff1681565b6004548156fe42573a2077616c6c6574206d7573742068617665206174206c65617374206f6e65206d6f64756c6542573a20636f6e737472756374696f6e207265717569726573206174206c656173742031206d6f64756c6542573a206d75737420626520616e20617574686f7269736564206d6f64756c6520666f72207374617469632063616c6c42573a206d73672e73656e646572206e6f7420616e20617574686f72697a6564206d6f64756c65a165627a7a72305820980a3aa1e3c5d21366d8b2896391aaffab960c9dc81ae5c4d58ccce75a35abbf0029
+#@coverage
+Achieved 97.62% coverage for code: 6080604052600436106100ae576000357c0100000000000000000000000000000000000000000000000000000000900480635f54892b116100765780635f54892b146104fc5780638da5cb5b146105965780638f6f0332146105ed578063d6eb1bbf14610716578063f7e80e981461077f576100ae565b806313af4035146102d757806313da30b2146103285780631f17732d146103a25780633c5a3cea146103ff5780635c60da1b146104a5575b60008036905011156102d55760006003600080357fffffffff00000000000000000000000000000000000000000000000000000000167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415610209573373ffffffffffffffffffffffffffffffffffffffff16347f606834f57405380c4fb88d1f4850326ad3885f014bab3b568dfbf7a041eef73860003660405180806020018281038252848482818152602001925080828437600081840152601f19601f820116905080830192505050935050505060405180910390a36102d3565b600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615156102ad576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260308152602001806116e26030913960400191505060405180910390fd5b3660008037600080366000845afa3d6000803e80600081146102ce573d6000f35b3d6000fd5b505b005b3480156102e357600080fd5b50610326600480360360208110156102fa57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506107aa565b005b34801561033457600080fd5b506103a06004803603604081101561034b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916906020019092919050505061099a565b005b3480156103ae57600080fd5b506103fd600480360360408110156103c557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803515159060200190929190505050610bd9565b005b34801561040b57600080fd5b506104a36004803603604081101561042257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019064010000000081111561045f57600080fd5b82018360208201111561047157600080fd5b8035906020019184602083028401116401000000008311171561049357600080fd5b9091929391929390505050610f19565b005b3480156104b157600080fd5b506104ba61141c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561050857600080fd5b506105546004803603602081101561051f57600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050611441565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156105a257600080fd5b506105ab611474565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156105f957600080fd5b5061069b6004803603606081101561061057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291908035906020019064010000000081111561065757600080fd5b82018360208201111561066957600080fd5b8035906020019184600183028401116401000000008311171561068b57600080fd5b909192939192939050505061149a565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156106db5780820151818401526020810190506106c0565b50505050905090810190601f1680156107085780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561072257600080fd5b506107656004803603602081101561073957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611668565b604051808215151515815260200191505060405180910390f35b34801561078b57600080fd5b50610794611688565b6040518082815260200191505060405180910390f35b600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151561084e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156108f3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f42573a20616464726573732063616e6e6f74206265206e756c6c00000000000081525060200191505060405180910390fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fa2ea9883a321a3e97b8266c2b078bfeec6d50c711ed71f874a90d500ae2eaf3681604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515610a3e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515610ae2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260308152602001806116e26030913960400191505060405180910390fd5b8160036000837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550807bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19168273ffffffffffffffffffffffffffffffffffffffff167fd04b9de96b5ba21173fd97c509db394c9e07a59ffb10c26da7f6ce38a8102fcb60405160405180910390a35050565b600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515610c7d576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b801515600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515141515610f15578173ffffffffffffffffffffffffffffffffffffffff167f8da3ff870ae294081392139550e167f1f31f277f22015ee22fbffdbd7758f4e182604051808215151515815260200191505060405180910390a2600115158115151415610e565760016004600082825401925050819055506001600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508173ffffffffffffffffffffffffffffffffffffffff166319ab453c306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b158015610e3957600080fd5b505af1158015610e4d573d6000803e3d6000fd5b50505050610f14565b60016004600082825403925050819055506000600454111515610ec4576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602881526020018061168f6028913960400191505060405180910390fd5b600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff02191690555b5b5050565b600073ffffffffffffffffffffffffffffffffffffffff16600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16148015610f7957506000600454145b1515610fed576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f42573a2077616c6c657420616c726561647920696e697469616c69736564000081525060200191505060405180910390fd5b60008282905011151561104b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602b8152602001806116b7602b913960400191505060405180910390fd5b82600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508181905060048190555060008090505b8282905081101561138257600015156002600085858581811015156110bd57fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515141515611199576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f42573a206d6f64756c6520697320616c7265616479206164646564000000000081525060200191505060405180910390fd5b60016002600085858581811015156111ad57fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550828282818110151561122957fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166319ab453c306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b1580156112e057600080fd5b505af11580156112f4573d6000803e3d6000fd5b50505050828282818110151561130657fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8da3ff870ae294081392139550e167f1f31f277f22015ee22fbffdbd7758f4e16001604051808215151515815260200191505060405180910390a2808060010191505061109c565b5060003073ffffffffffffffffffffffffffffffffffffffff1631111561141757600073ffffffffffffffffffffffffffffffffffffffff163073ffffffffffffffffffffffffffffffffffffffff16317f606834f57405380c4fb88d1f4850326ad3885f014bab3b568dfbf7a041eef738604051808060200182810382526000815260200160200191505060405180910390a35b505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60036020528060005260406000206000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6060600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff161515611540576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260278152602001806117126027913960400191505060405180910390fd5b60008573ffffffffffffffffffffffffffffffffffffffff1685858560405180838380828437808301925050509250505060006040518083038185875af1925050503d80600081146115ae576040519150601f19603f3d011682016040523d82523d6000602084013e6115b3565b606091505b5080935081925050508015156115cd573d6000803e3d6000fd5b848673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f7d2476ab50663f025cff0be85655bcf355f62768615c0c478f3cd5293f807365878760405180806020018281038252848482818152602001925080828437600081840152601f19601f820116905080830192505050935050505060405180910390a450949350505050565b60026020528060005260406000206000915054906101000a900460ff1681565b6004548156fe42573a2077616c6c6574206d7573742068617665206174206c65617374206f6e65206d6f64756c6542573a20636f6e737472756374696f6e207265717569726573206174206c656173742031206d6f64756c6542573a206d75737420626520616e20617574686f7269736564206d6f64756c6520666f72207374617469632063616c6c42573a206d73672e73656e646572206e6f7420616e20617574686f72697a6564206d6f64756c65a165627a7a72305820980a3aa1e3c5d21366d8b2896391aaffab960c9dc81ae5c4d58ccce75a35abbf0029
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BaseWallet
+Function name: authoriseModule(address,bool)
+PC address: 3644
+Estimated Gas Usage: 16857 - 93425
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:57
+
+Module(_module).init(this)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: init(address,address[]), txdata: 0x3c5a3cea00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, decoded_data: ('0x0000000000000000000000000000000000000002', ['0x0000000000000000000000000000000000000000', '0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']), value: 0x0
+Caller: [SOMEGUY], function: authoriseModule(address,bool), txdata: 0x1f17732d00000000aaaaaaaaaaaaaaaadeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000001010101010101010101010101010101010101010101010101010101, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BaseWallet
+Function name: init(address,address[])
+PC address: 4376
+Estimated Gas Usage: 36213 - 189506
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:36
+
+authorised[_modules[i]]
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: init(address,address[]), txdata: 0x3c5a3cea000000000000000000000000000000000000000200000402041000080400100400000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000002000004020410000804001004', ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', '0x0000000000000000000000000000000000000000']), value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BaseWallet
+Function name: init(address,address[])
+PC address: 4620
+Estimated Gas Usage: 36213 - 189506
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:37
+
+authorised[_modules[i]] = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: init(address,address[]), txdata: 0x3c5a3cea000000000000000000000000000000000000000200000402041000080400100400000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000002000004020410000804001004', ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', '0x0000000000000000000000000000000000000000']), value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BaseWallet
+Function name: init(address,address[])
+PC address: 4634
+Estimated Gas Usage: 36213 - 189506
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:37
+
+authorised[_modules[i]] = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: init(address,address[]), txdata: 0x3c5a3cea000000000000000000000000000000000000000200000402041000080400100400000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000002000004020410000804001004', ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', '0x0000000000000000000000000000000000000000']), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BaseWallet
+Function name: init(address,address[])
+PC address: 4835
+Estimated Gas Usage: 36213 - 189506
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:38
+
+Module(_modules[i]).init(this)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: init(address,address[]), txdata: 0x3c5a3cea000000000000000000000000000000020020020401000204000000000002081000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000200200204010002040000000000020810', ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', '0x0000000000000000000000000000000000000000']), value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: BaseWallet
+Function name: init(address,address[])
+PC address: 4835
+Estimated Gas Usage: 36213 - 189506
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:38
+
+Module(_modules[i]).init(this)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: init(address,address[]), txdata: 0x3c5a3cea000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000002', ['0x0000000000000000000000000000000000000000', '0x0000000000200000000000000000000000000000']), value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BaseWallet
+Function name: init(address,address[])
+PC address: 4835
+Estimated Gas Usage: 36213 - 189506
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:38
+
+Module(_modules[i]).init(this)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: init(address,address[]), txdata: 0x3c5a3cea000000000000000000000000000000000000000200000402041000080400100400000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000002000004020410000804001004', ['0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef', '0x0000000000000000000000000000000000000000']), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BaseWallet
+Function name: invoke(address,uint256,bytes)
+PC address: 5502
+Estimated Gas Usage: 4922 - 46797
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:85
+
+_target.call.value(_value)(_data)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: init(address,address[]), txdata: 0x3c5a3cea00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, decoded_data: ('0x0000000000000000000000000000000000000002', ['0x0000000000000000000000000000000000000000', '0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']), value: 0x0
+Caller: [SOMEGUY], function: invoke(address,uint256,bytes), txdata: 0x8f6f033200002000aaaaaaaaaaaaaaaadeadbeefdeadbeefdeadbeefdeadbeefdeadbeef8f6f0332000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000024, value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: BaseWallet
+Function name: invoke(address,uint256,bytes)
+PC address: 5502
+Estimated Gas Usage: 4856 - 46213
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ./solidity_files/0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:85
+
+_target.call.value(_value)(_data)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x1c003fd4, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: init(address,address[]), txdata: 0x3c5a3cea00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: ('0x0000000000000000000000000000000000000002', ['0x0000000000000000000000000000000000000000', '0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef']), value: 0x0
+Caller: [ATTACKER], function: invoke(address,uint256,bytes), txdata: 0x8f6f0332000000000202020202020202deadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000003c, value: 0x0
+
+
+time_used: 36044.55936956406 seconds
+#@contract_info_time
+0x811a7f70d12fbd29ec494edc75645e66f5fcccfc.sol:0.5.4:BaseWallet:36044.55936956406:36100:60:36000

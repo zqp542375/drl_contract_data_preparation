@@ -1,0 +1,378 @@
+++++ 0x9a3ac742f4c3d9eeae141ee7dd52ad3e9c634bce.sol  :  0.4.12  :  ALSC ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2187
+['constructor']:writes at the last depth:['0', '3', '4', '5', '1', '2']
+preprocessing: Achieved 99.95% coverage.
+dynamic svars:['5', '1', '2', '6', '7']
+static svars:['0', '4', '3']
+Ending preprocessing.
+preprocessing time(s): 20.77573823928833
+contract coverage: 85.46%
+name() is not reachable
+symbol() is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	transferFrom(address,address,uint256):['7', '5', '6']
+	decimals():[]
+	withdrawEther(uint256):['0']
+	balanceOf(address):[]
+	owner():[]
+	symbol():[]
+	transfer(address,uint256):['7', '5']
+	frozenAccount(address):[]
+	allowance(address,address):[]
+	freezeAccount(address,bool):['0']
+	transferOwnership(address):['0']
+Function Writes: State variables written
+	approve(address,uint256):['6']
+	transferOwnership(address):['0']
+	freezeAccount(address,bool):['7']
+	transfer(address,uint256):['5']
+	transferFrom(address,address,uint256):['5', '6']
+============================
+iteration:3
+targets:['transferFrom(address,address,uint256)', 'name()', 'symbol()', 'transfer(address,uint256)']
+['fallback']:writes at the last depth:[]
+['fallback']:writes at the last depth:[]
+['withdrawEther(uint256)']:writes at the last depth:[]
+['approve(address,uint256)']:writes at the last depth:['6']
+['transferOwnership(address)']:writes at the last depth:['0']
+['freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 85.46%
+============================
+iteration:4
+['transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 85.46%
+============================
+iteration:5
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 85.46%
+============================
+iteration:6
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 85.73%
+============================
+iteration:7
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 85.73%
+============================
+iteration:8
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:9
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 96.34%
+============================
+iteration:10
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'withdrawEther(uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:11
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:12
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'fallback', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:13
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:14
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:15
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:16
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:17
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 96.34%
+============================
+iteration:18
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:19
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:20
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'freezeAccount(address,bool)', 'fallback', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:21
+['transfer(address,uint256)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['transfer(address,uint256)', 'transferOwnership(address)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:22
+contract coverage: 96.34%
+============================
+iteration:23
+['transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'transferOwnership(address)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:24
+['transfer(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['transfer(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+contract coverage: 96.34%
+============================
+iteration:25
+['transfer(address,uint256)', 'transferOwnership(address)', 'approve(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:26
+['transfer(address,uint256)', 'transferOwnership(address)', 'withdrawEther(uint256)', 'fallback']:writes at the last depth:[]
+contract coverage: 96.34%
+============================
+iteration:27
+contract coverage: 96.34%
+============================
+iteration:28
+contract coverage: 96.34%
+============================
+iteration:29
+['transfer(address,uint256)', 'approve(address,uint256)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'approve(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transfer(address,uint256)', 'approve(address,uint256)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:30
+['transfer(address,uint256)', 'approve(address,uint256)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['transfer(address,uint256)', 'approve(address,uint256)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+contract coverage: 96.34%
+============================
+iteration:31
+['transfer(address,uint256)', 'approve(address,uint256)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+contract coverage: 96.34%
+============================
+iteration:32
+contract coverage: 96.34%
+============================
+iteration:33
+contract coverage: 96.34%
+============================
+iteration:34
+contract coverage: 96.34%
+============================
+iteration:35
+contract coverage: 96.34%
+============================
+iteration:36
+['freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+['freezeAccount(address,bool)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 96.34%
+============================
+iteration:37
+contract coverage: 96.34%
+============================
+iteration:38
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:39
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'approve(address,uint256)']:writes at the last depth:['6']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)']:writes at the last depth:['0']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:40
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'withdrawEther(uint256)']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'transferOwnership(address)', 'freezeAccount(address,bool)']:writes at the last depth:['7']
+contract coverage: 96.34%
+============================
+iteration:41
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'fallback']:writes at the last depth:[]
+['freezeAccount(address,bool)', 'freezeAccount(address,bool)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+contract coverage: 96.34%
+============================
+iteration:42
+contract coverage: 96.34%
+============================
+iteration:43
+contract coverage: 96.34%
+============================
+iteration:44
+contract coverage: 96.34%
+============================
+iteration:45
+contract coverage: 96.34%
+============================
+iteration:46
+contract coverage: 96.34%
+============================
+iteration:47
+contract coverage: 96.34%
+============================
+iteration:48
+contract coverage: 96.34%
+============================
+iteration:49
+contract coverage: 96.34%
+============================
+iteration:50
+contract coverage: 96.34%
+============================
+iteration:51
+contract coverage: 96.34%
+============================
+iteration:52
+contract coverage: 96.34%
+============================
+iteration:53
+contract coverage: 96.34%
+============================
+iteration:54
+contract coverage: 96.34%
+#@statespace
+3779 nodes, 3778 edges, 49633 total states
+#@coverage
+Achieved 10.46% coverage for code: 606060405234156200001057600080fd5b5b5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b6012600360006101000a81548160ff021916908360ff160217905550600360009054906101000a900460ff1660ff16600a0a63b8c63f0002600481905550600454600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506040805190810160405280601581526020017f416c6d696768747920536166656c7920436861696e000000000000000000000081525060019080519060200190620001249291906200017a565b506040805190810160405280600481526020017f414c53430000000000000000000000000000000000000000000000000000000081525060029080519060200190620001729291906200017a565b505b62000229565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10620001bd57805160ff1916838001178555620001ee565b82800160010185558215620001ee579182015b82811115620001ed578251825591602001919060010190620001d0565b5b509050620001fd919062000201565b5090565b6200022691905b808211156200022257600081600090555060010162000208565b5090565b90565b61124180620002396000396000f300606060405236156100ce576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100d7578063095ea7b31461016657806318160ddd146101c057806323b872dd146101e9578063313ce567146102625780633bed33ce1461029157806370a08231146102b45780638da5cb5b1461030157806395d89b4114610356578063a9059cbb146103e5578063b414d4b614610427578063dd62ed3e14610478578063e724529c146104e4578063f2fde38b14610528575b6100d55b5b565b005b34156100e257600080fd5b6100ea610561565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012b5780820151818401525b60208101905061010f565b50505050905090810190601f1680156101585780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561017157600080fd5b6101a6600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506105ff565b604051808215151515815260200191505060405180910390f35b34156101cb57600080fd5b6101d361069b565b6040518082815260200191505060405180910390f35b34156101f457600080fd5b610248600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506106a1565b604051808215151515815260200191505060405180910390f35b341561026d57600080fd5b610275610b1f565b604051808260ff1660ff16815260200191505060405180910390f35b341561029c57600080fd5b6102b26004808035906020019091905050610b32565b005b34156102bf57600080fd5b6102eb600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610bf2565b6040518082815260200191505060405180910390f35b341561030c57600080fd5b610314610c0a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561036157600080fd5b610369610c2f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156103aa5780820151818401525b60208101905061038e565b50505050905090810190601f1680156103d75780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156103f057600080fd5b610425600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610ccd565b005b341561043257600080fd5b61045e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610fb4565b604051808215151515815260200191505060405180910390f35b341561048357600080fd5b6104ce600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610fd4565b6040518082815260200191505060405180910390f35b34156104ef57600080fd5b610526600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080351515906020019091905050610ff9565b005b341561053357600080fd5b61055f600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050611120565b005b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105f75780601f106105cc576101008083540402835291602001916105f7565b820191906000526020600020905b8154815290600101906020018083116105da57829003601f168201915b505050505081565b6000808211151561060f57600080fd5b81600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600190505b92915050565b60045481565b6000808373ffffffffffffffffffffffffffffffffffffffff1614156106c657600080fd5b6000821115156106d557600080fd5b600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615151561072e57600080fd5b81600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101561077a57600080fd5b600560008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205482600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401101561080757600080fd5b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205482111561089057600080fd5b6108d9600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836111c0565b600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610965600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836111da565b600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610a2e600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836111c0565b600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b9392505050565b600360009054906101000a900460ff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610b8d57600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501515610bee57600080fd5b5b50565b60056020528060005260406000206000915090505481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60028054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610cc55780601f10610c9a57610100808354040283529160200191610cc5565b820191906000526020600020905b815481529060010190602001808311610ca857829003601f168201915b505050505081565b60008273ffffffffffffffffffffffffffffffffffffffff161415610cf157600080fd5b600081111515610d0057600080fd5b600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151515610d5957600080fd5b80600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610da557600080fd5b600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205481600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054011015610e3257600080fd5b610e7b600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054826111c0565b600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610f07600560008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054826111da565b600560008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a35b5050565b60076020528060005260406000206000915054906101000a900460ff1681565b6006602052816000526040600020602052806000526040600020600091509150505481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561105457600080fd5b80600760008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f48335238b4855f35377ed80f164e8c6f3c366e54ac00b96a6402d4a9814a03a58282604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001821515151581526020019250505060405180910390a15b5b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561117b57600080fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b5b50565b60006111ce83831115611205565b81830390505b92915050565b60008082840190506111fa8482101580156111f55750838210155b611205565b8091505b5092915050565b80151561121157600080fd5b5b505600a165627a7a723058207147b7b6ac05f51cde5311e58e40289d4c754d05dacc45f00d259e4bc70a44dd0029
+#@coverage
+Achieved 96.34% coverage for code: 606060405236156100ce576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100d7578063095ea7b31461016657806318160ddd146101c057806323b872dd146101e9578063313ce567146102625780633bed33ce1461029157806370a08231146102b45780638da5cb5b1461030157806395d89b4114610356578063a9059cbb146103e5578063b414d4b614610427578063dd62ed3e14610478578063e724529c146104e4578063f2fde38b14610528575b6100d55b5b565b005b34156100e257600080fd5b6100ea610561565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012b5780820151818401525b60208101905061010f565b50505050905090810190601f1680156101585780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561017157600080fd5b6101a6600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506105ff565b604051808215151515815260200191505060405180910390f35b34156101cb57600080fd5b6101d361069b565b6040518082815260200191505060405180910390f35b34156101f457600080fd5b610248600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506106a1565b604051808215151515815260200191505060405180910390f35b341561026d57600080fd5b610275610b1f565b604051808260ff1660ff16815260200191505060405180910390f35b341561029c57600080fd5b6102b26004808035906020019091905050610b32565b005b34156102bf57600080fd5b6102eb600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610bf2565b6040518082815260200191505060405180910390f35b341561030c57600080fd5b610314610c0a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561036157600080fd5b610369610c2f565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156103aa5780820151818401525b60208101905061038e565b50505050905090810190601f1680156103d75780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156103f057600080fd5b610425600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091908035906020019091905050610ccd565b005b341561043257600080fd5b61045e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610fb4565b604051808215151515815260200191505060405180910390f35b341561048357600080fd5b6104ce600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610fd4565b6040518082815260200191505060405180910390f35b34156104ef57600080fd5b610526600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080351515906020019091905050610ff9565b005b341561053357600080fd5b61055f600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050611120565b005b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105f75780601f106105cc576101008083540402835291602001916105f7565b820191906000526020600020905b8154815290600101906020018083116105da57829003601f168201915b505050505081565b6000808211151561060f57600080fd5b81600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600190505b92915050565b60045481565b6000808373ffffffffffffffffffffffffffffffffffffffff1614156106c657600080fd5b6000821115156106d557600080fd5b600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615151561072e57600080fd5b81600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101561077a57600080fd5b600560008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205482600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401101561080757600080fd5b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205482111561089057600080fd5b6108d9600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836111c0565b600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610965600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836111da565b600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610a2e600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836111c0565b600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b9392505050565b600360009054906101000a900460ff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610b8d57600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501515610bee57600080fd5b5b50565b60056020528060005260406000206000915090505481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60028054600181600116156101000203166002900480601f016020809104026020016040519081016040528092919081815260200182805460018160011615610100020316600290048015610cc55780601f10610c9a57610100808354040283529160200191610cc5565b820191906000526020600020905b815481529060010190602001808311610ca857829003601f168201915b505050505081565b60008273ffffffffffffffffffffffffffffffffffffffff161415610cf157600080fd5b600081111515610d0057600080fd5b600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151515610d5957600080fd5b80600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610da557600080fd5b600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205481600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054011015610e3257600080fd5b610e7b600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054826111c0565b600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610f07600560008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054826111da565b600560008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a35b5050565b60076020528060005260406000206000915054906101000a900460ff1681565b6006602052816000526040600020602052806000526040600020600091509150505481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561105457600080fd5b80600760008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f48335238b4855f35377ed80f164e8c6f3c366e54ac00b96a6402d4a9814a03a58282604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001821515151581526020019250505060405180910390a15b5b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561117b57600080fd5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b5b50565b60006111ce83831115611205565b81830390505b92915050565b60008082840190506111fa8482101580156111f55750838210155b611205565b8091505b5092915050565b80151561121157600080fd5b5b505600a165627a7a723058207147b7b6ac05f51cde5311e58e40289d4c754d05dacc45f00d259e4bc70a44dd0029
+The analysis was completed successfully. No issues were detected.
+
+time_used: 36036.634682655334 seconds
+#@contract_info_time
+0x9a3ac742f4c3d9eeae141ee7dd52ad3e9c634bce.sol:0.4.12:ALSC:36036.634682655334:36100:60:36000

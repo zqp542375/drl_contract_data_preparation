@@ -1,0 +1,4 @@
+++++ 0x928e6e05225a29c2c02eeeef1ccc1d78f0ad1c81.sol  :  0.5.17  :  MidasTrendCoin ++++
+time_used: 3.701934337615967 seconds
+#@contract_info_time
+0x928e6e05225a29c2c02eeeef1ccc1d78f0ad1c81.sol:0.5.17:MidasTrendCoin:3.701934337615967:36100:60:36000

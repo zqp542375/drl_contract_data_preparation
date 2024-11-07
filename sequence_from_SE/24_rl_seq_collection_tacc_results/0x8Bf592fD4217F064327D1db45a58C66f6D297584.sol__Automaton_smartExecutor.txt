@@ -1,0 +1,12 @@
+++++ 0x8Bf592fD4217F064327D1db45a58C66f6D297584.sol  :  0.5.0  :  Automaton ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4317
+['constructor']:writes at the last depth:['0', '0', '0', '9', '10', '0', '12', '13']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 91.15% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 129.28354477882385 seconds
+#@contract_info_time
+0x8Bf592fD4217F064327D1db45a58C66f6D297584.sol:0.5.0:Automaton:129.28354477882385:36100:60:36000

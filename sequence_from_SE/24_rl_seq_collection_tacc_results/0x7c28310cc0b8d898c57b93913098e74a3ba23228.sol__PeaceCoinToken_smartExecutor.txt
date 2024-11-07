@@ -1,0 +1,11 @@
+++++ 0x7c28310cc0b8d898c57b93913098e74a3ba23228.sol  :  0.6.0  :  PeaceCoinToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4333
+['constructor']:writes at the last depth:['4', '5', '6', '0', '0', '182', '0', '0', '109']
+preprocessing: Achieved 97.25% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 89.61077666282654 seconds
+#@contract_info_time
+0x7c28310cc0b8d898c57b93913098e74a3ba23228.sol:0.6.0:PeaceCoinToken:89.61077666282654:36100:60:36000

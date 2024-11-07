@@ -1,0 +1,4 @@
+++++ 0x2e65565cf7fbb37bac2c0d84e3a54c592e1dc4c8.sol  :  0.5.17  :  Controller ++++
+time_used: 3.680699586868286 seconds
+#@contract_info_time
+0x2e65565cf7fbb37bac2c0d84e3a54c592e1dc4c8.sol:0.5.17:Controller:3.680699586868286:36100:60:36000

@@ -1,0 +1,12 @@
+++++ 0x26bffc33eb47e1a20bd4e559eec33b68196621fa.sol  :  0.4.24  :  DataChain ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 5619
+['constructor']:writes at the last depth:['6', '7', '8', '9', '10', '11', '0', '12', '14', '15', '16', '17']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 83.54% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 130.05730867385864 seconds
+#@contract_info_time
+0x26bffc33eb47e1a20bd4e559eec33b68196621fa.sol:0.4.24:DataChain:130.05730867385864:36100:60:36000

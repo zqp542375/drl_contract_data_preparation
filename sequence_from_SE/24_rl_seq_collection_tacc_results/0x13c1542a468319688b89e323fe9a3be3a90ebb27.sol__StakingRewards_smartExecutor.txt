@@ -1,0 +1,534 @@
+++++ 0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol  :  0.5.0  :  StakingRewards ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4398
+['constructor']:writes at the last depth:['8', '9', '0', '1', '4', '7', '6']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 69.90% coverage.
+dynamic svars:['13', '12', '3']
+static svars:['5', '11', '10', '6', '0', '2', '9', '8', '4', '1', '7']
+Ending preprocessing.
+preprocessing time(s): 100.15653586387634
+contract coverage: 69.33%
+acceptOwnership() is not reachable
+getRewardForDuration() is not reachable
+rewardPerToken() is not reachable
+withdraw(uint256) is not reachable
+getReward() is not reachable
+notifyRewardAmount(uint256) is not reachable
+earned(address) is not reachable
+stake(uint256) is not reachable
+exit() is not reachable
+recoverERC20(address,uint256) is not reachable
+lastTimeRewardApplicable() is not reachable
+Function Reads: State variables read in conditions
+	earned(address):[]
+	rewards(address):[]
+	nominateNewOwner(address):[]
+	totalSupply():[]
+	setRewardsDistribution(address):[]
+	DURATION():[]
+	getRewardForDuration():[]
+	withdraw(uint256):[]
+	notifyRewardAmount(uint256):[]
+	getReward():[]
+	rewardsDistribution():[]
+	nominatedOwner():[]
+	balanceOf(address):[]
+	stakingToken():[]
+	acceptOwnership():[]
+	rewardRate():[]
+	lastTimeRewardApplicable():[]
+	recoverERC20(address,uint256):[]
+	userRewardPerTokenPaid(address):[]
+	owner():[]
+	stake(uint256):[]
+	lastUpdateTime():[]
+	rewardPerToken():[]
+	rewardsToken():[]
+	rewardPerTokenStored():[]
+	exit():[]
+	periodFinish():[]
+Function Writes: State variables written
+	nominateNewOwner(address):['5']
+	getReward():['11', '10']
+	setRewardsDistribution(address):['6']
+	withdraw(uint256):['11', '10', '0', '2', '3']
+	notifyRewardAmount(uint256):['11', '10', '9', '8']
+	stake(uint256):['11', '10', '0', '2']
+	acceptOwnership():['4', '5']
+	exit():['11', '10', '0']
+============================
+iteration:3
+targets:['acceptOwnership()', 'getRewardForDuration()', 'rewardPerToken()', 'withdraw(uint256)', 'getReward()', 'notifyRewardAmount(uint256)', 'earned(address)', 'stake(uint256)', 'exit()', 'recoverERC20(address,uint256)', 'lastTimeRewardApplicable()']
+['setRewardsDistribution(address)']:writes at the last depth:['6']
+['nominateNewOwner(address)']:writes at the last depth:['5']
+['notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 69.33%
+============================
+iteration:4
+['getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 69.33%
+============================
+iteration:5
+['getReward()', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 69.33%
+============================
+iteration:6
+['getReward()', 'getReward()', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'getReward()', 'getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'getReward()', 'getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 72.31%
+============================
+iteration:7
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'getReward()', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:8
+['getReward()', 'getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'getReward()', 'nominateNewOwner(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:9
+['getReward()', 'getReward()', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'getReward()', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:10
+['getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:11
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:12
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:13
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:14
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:15
+['getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:16
+['getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'nominateNewOwner(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:17
+['getReward()', 'nominateNewOwner(address)', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)', 'getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'nominateNewOwner(address)', 'getReward()', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'nominateNewOwner(address)', 'getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:18
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:19
+['getReward()', 'nominateNewOwner(address)', 'acceptOwnership()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)', 'acceptOwnership()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'nominateNewOwner(address)', 'acceptOwnership()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'acceptOwnership()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:20
+['getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:21
+['getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'nominateNewOwner(address)', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:22
+['getReward()', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:23
+['getReward()', 'setRewardsDistribution(address)', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'setRewardsDistribution(address)', 'getReward()', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'setRewardsDistribution(address)', 'getReward()', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'setRewardsDistribution(address)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:24
+['getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:25
+['getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'setRewardsDistribution(address)', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:26
+['getReward()', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['getReward()', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['getReward()', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['getReward()', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:27
+['notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:28
+['notifyRewardAmount(uint256)', 'getReward()', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['notifyRewardAmount(uint256)', 'getReward()', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:29
+contract coverage: 74.83%
+============================
+iteration:30
+['notifyRewardAmount(uint256)', 'getReward()', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['notifyRewardAmount(uint256)', 'getReward()', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+['notifyRewardAmount(uint256)', 'getReward()', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:31
+contract coverage: 74.83%
+============================
+iteration:32
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:33
+contract coverage: 74.83%
+============================
+iteration:34
+contract coverage: 74.83%
+============================
+iteration:35
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['notifyRewardAmount(uint256)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:36
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)']:writes at the last depth:['9', '11', '8', '10']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'getReward()']:writes at the last depth:['13', '11', '12', '10']
+contract coverage: 74.83%
+============================
+iteration:37
+contract coverage: 74.83%
+============================
+iteration:38
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'setRewardsDistribution(address)']:writes at the last depth:['6']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'nominateNewOwner(address)']:writes at the last depth:['5']
+['notifyRewardAmount(uint256)', 'nominateNewOwner(address)', 'notifyRewardAmount(uint256)', 'acceptOwnership()']:writes at the last depth:['5', '4']
+contract coverage: 74.83%
+============================
+iteration:39
+contract coverage: 74.83%
+============================
+iteration:40
+contract coverage: 74.83%
+============================
+iteration:41
+contract coverage: 74.83%
+============================
+iteration:42
+contract coverage: 74.83%
+============================
+iteration:43
+contract coverage: 74.83%
+============================
+iteration:44
+contract coverage: 74.83%
+#@statespace
+15649 nodes, 15648 edges, 177092 total states
+#@coverage
+Achieved 5.82% coverage for code: 60806040526000600855600060095534801561001a57600080fd5b50604051608080612ab48339810180604052608081101561003a57600080fd5b81019080805190602001909291908051906020019092919080519060200190929190805190602001909291905050508381600160008190555080600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561015a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260198152602001807f4f776e657220616464726573732063616e6e6f7420626520300000000000000081525060200191505060405180910390fd5b80600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fb532073b38c83145e3e5135377a08bf9aab55bc0fd7c1179cd4fb995d2a5159c600082604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019250505060405180910390a15081600760006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600660006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050506127eb806102c96000396000f3fe60806040526004361061015e576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680628cc262146101635780630700037d146101c85780631627540c1461022d57806318160ddd1461027e57806319762143146102a95780631be05289146102fa5780631c1f78eb146103255780632e1a7d4d146103505780633c6b16ab1461038b5780633d18b912146103c65780633fc6df6e146103dd57806353a47bb71461043457806370a082311461048b57806372f702f3146104f057806379ba5097146105475780637b0a47ee1461055e57806380faa57d146105895780638980f11f146105b45780638b8763471461060f5780638da5cb5b14610674578063a694fc3a146106cb578063c8f33c9114610706578063cd3daf9d14610731578063d1af0c7d1461075c578063df136d65146107b3578063e9fad8ee146107de578063ebe2b12b146107f5575b600080fd5b34801561016f57600080fd5b506101b26004803603602081101561018657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610820565b6040518082815260200191505060405180910390f35b3480156101d457600080fd5b50610217600480360360208110156101eb57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610907565b6040518082815260200191505060405180910390f35b34801561023957600080fd5b5061027c6004803603602081101561025057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061091f565b005b34801561028a57600080fd5b50610293610ab1565b6040518082815260200191505060405180910390f35b3480156102b557600080fd5b506102f8600480360360208110156102cc57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610abb565b005b34801561030657600080fd5b5061030f610bea565b6040518082815260200191505060405180910390f35b34801561033157600080fd5b5061033a610bf1565b6040518082815260200191505060405180910390f35b34801561035c57600080fd5b506103896004803603602081101561037357600080fd5b8101908080359060200190929190505050610c10565b005b34801561039757600080fd5b506103c4600480360360208110156103ae57600080fd5b8101908080359060200190929190505050610dc9565b005b3480156103d257600080fd5b506103db611088565b005b3480156103e957600080fd5b506103f2611269565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561044057600080fd5b5061044961128f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561049757600080fd5b506104da600480360360208110156104ae57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506112b5565b6040518082815260200191505060405180910390f35b3480156104fc57600080fd5b506105056112fe565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561055357600080fd5b5061055c611324565b005b34801561056a57600080fd5b50610573611591565b6040518082815260200191505060405180910390f35b34801561059557600080fd5b5061059e611597565b6040518082815260200191505060405180910390f35b3480156105c057600080fd5b5061060d600480360360408110156105d757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506115aa565b005b34801561061b57600080fd5b5061065e6004803603602081101561063257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611a75565b6040518082815260200191505060405180910390f35b34801561068057600080fd5b50610689611a8d565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156106d757600080fd5b50610704600480360360208110156106ee57600080fd5b8101908080359060200190929190505050611ab3565b005b34801561071257600080fd5b5061071b611c6c565b6040518082815260200191505060405180910390f35b34801561073d57600080fd5b50610746611c72565b6040518082815260200191505060405180910390f35b34801561076857600080fd5b50610771611d0a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156107bf57600080fd5b506107c8611d30565b6040518082815260200191505060405180910390f35b3480156107ea57600080fd5b506107f3611d36565b005b34801561080157600080fd5b5061080a611d51565b6040518082815260200191505060405180910390f35b6000610900600d60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546108f2670de0b6b3a76400006108e46108cd600c60008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546108bf611c72565b611d5790919063ffffffff16565b6108d6886112b5565b611de290919063ffffffff16565b611eaf90919063ffffffff16565b611f4290919063ffffffff16565b9050919050565b600d6020528060005260406000206000915090505481565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610a0a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602f8152602001807f4f6e6c792074686520636f6e7472616374206f776e6572206d6179207065726681526020017f6f726d207468697320616374696f6e000000000000000000000000000000000081525060400191505060405180910390fd5b80600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507f906a1c6bd7e3091ea86693dd029a831c19049ce77f1dce2ce0bab1cacbabce2281604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b6000600254905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610ba6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602f8152602001807f4f6e6c792074686520636f6e7472616374206f776e6572206d6179207065726681526020017f6f726d207468697320616374696f6e000000000000000000000000000000000081525060400191505060405180910390fd5b80600660006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b62093a8081565b6000610c0b62093a80600954611de290919063ffffffff16565b905090565b33610c19611c72565b600b81905550610c27611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515610cf657610c6c81610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b600082111515610d6e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f43616e6e6f74207769746864726177203000000000000000000000000000000081525060200191505060405180910390fd5b610d7782611fcc565b3373ffffffffffffffffffffffffffffffffffffffff167f7084f5476618d8e60b11ef0d7d3f06914655adb8793e28ff7f018d4c76d505d5836040518082815260200191505060405180910390a25050565b600660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610eb4576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001807f43616c6c6572206973206e6f742052657761726473446973747269627574696f81526020017f6e20636f6e74726163740000000000000000000000000000000000000000000081525060400191505060405180910390fd5b6000610ebe611c72565b600b81905550610ecc611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515610f9b57610f1181610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b60085442101515610fc757610fbc62093a8083611eaf90919063ffffffff16565b60098190555061102a565b6000610fde42600854611d5790919063ffffffff16565b90506000610ff760095483611de290919063ffffffff16565b905061102162093a806110138387611f4290919063ffffffff16565b611eaf90919063ffffffff16565b60098190555050505b42600a8190555061104762093a8042611f4290919063ffffffff16565b6008819055507fde88a922e0d3b88b24e9623efeb464919c6bf9f66857a65e2bfcf2ce87a9433d826040518082815260200191505060405180910390a15050565b33611091611c72565b600b8190555061109f611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151561116e576110e481610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b600061117933610820565b90506000811115611265576000600d60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506112163382600760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1661215c9092919063ffffffff16565b3373ffffffffffffffffffffffffffffffffffffffff167fe2403640ba68fed3a2f88b7557551d1993f84b99bb10ff833f0cf8db0c5e0486826040518082815260200191505060405180910390a25b5050565b600660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600360008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561140f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260358152602001807f596f75206d757374206265206e6f6d696e61746564206265666f726520796f7581526020017f2063616e20616363657074206f776e657273686970000000000000000000000081525060400191505060405180910390fd5b7fb532073b38c83145e3e5135377a08bf9aab55bc0fd7c1179cd4fb995d2a5159c600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019250505060405180910390a1600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60095481565b60006115a542600854612249565b905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515611695576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602f8152602001807f4f6e6c792074686520636f6e7472616374206f776e6572206d6179207065726681526020017f6f726d207468697320616374696f6e000000000000000000000000000000000081525060400191505060405180910390fd5b60008273ffffffffffffffffffffffffffffffffffffffff166395d89b416040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160006040518083038186803b1580156116f957600080fd5b505afa15801561170d573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f82011682018060405250602081101561173757600080fd5b81019080805164010000000081111561174f57600080fd5b8281019050602081018481111561176557600080fd5b815185600182028301116401000000008211171561178257600080fd5b5050929190505050805190602001206040805190810160405280600381526020017f534e58000000000000000000000000000000000000000000000000000000000081525080519060200120149050600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415801561187d5750600760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614155b8015611887575080155b1515611921576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602d8152602001807f43616e6e6f7420776974686472617720746865207374616b696e67206f72207281526020017f65776172647320746f6b656e730000000000000000000000000000000000000081525060400191505060405180910390fd5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16846040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b1580156119e657600080fd5b505af11580156119fa573d6000803e3d6000fd5b505050506040513d6020811015611a1057600080fd5b8101908080519060200190929190505050508273ffffffffffffffffffffffffffffffffffffffff167f8c1256b8896378cd5044f80c202f9772b9d77dc85c8a6eb51967210b09bfaa28836040518082815260200191505060405180910390a2505050565b600c6020528060005260406000206000915090505481565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b33611abc611c72565b600b81905550611aca611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515611b9957611b0f81610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b600082111515611c11576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252600e8152602001807f43616e6e6f74207374616b65203000000000000000000000000000000000000081525060200191505060405180910390fd5b611c1a82612262565b3373ffffffffffffffffffffffffffffffffffffffff167f9e71bc8eea02a63969f509818f2dafb9254532904319f9dbda79b67bd34a5f3d836040518082815260200191505060405180910390a25050565b600a5481565b600080611c7d610ab1565b1415611c8d57600b549050611d07565b611d04611cf3611c9b610ab1565b611ce5670de0b6b3a7640000611cd7600954611cc9600a54611cbb611597565b611d5790919063ffffffff16565b611de290919063ffffffff16565b611de290919063ffffffff16565b611eaf90919063ffffffff16565b600b54611f4290919063ffffffff16565b90505b90565b600760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600b5481565b611d47611d42336112b5565b610c10565b611d4f611088565b565b60085481565b6000828211151515611dd1576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f536166654d6174683a207375627472616374696f6e206f766572666c6f77000081525060200191505060405180910390fd5b600082840390508091505092915050565b600080831415611df55760009050611ea9565b60008284029050828482811515611e0857fe5b04141515611ea4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001807f536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f81526020017f770000000000000000000000000000000000000000000000000000000000000081525060400191505060405180910390fd5b809150505b92915050565b60008082111515611f28576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f536166654d6174683a206469766973696f6e206279207a65726f00000000000081525060200191505060405180910390fd5b60008284811515611f3557fe5b0490508091505092915050565b6000808284019050838110151515611fc2576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b60016000808282540192505081905550600080549050611ff782600254611d5790919063ffffffff16565b60028190555061204f82600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611d5790919063ffffffff16565b600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506120df3383600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1661215c9092919063ffffffff16565b60005481141515612158576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f5265656e7472616e637947756172643a207265656e7472616e742063616c6c0081525060200191505060405180910390fd5b5050565b612244838473ffffffffffffffffffffffffffffffffffffffff1663a9059cbb90507c0100000000000000000000000000000000000000000000000000000000028484604051602401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050604051602081830303815290604052907bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff83818316178352505050506123f4565b505050565b6000818310612258578161225a565b825b905092915050565b6001600080828254019250508190555060008054905061228d82600254611f4290919063ffffffff16565b6002819055506122e582600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611f4290919063ffffffff16565b600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550612377333084600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1661268a909392919063ffffffff16565b600054811415156123f0576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f5265656e7472616e637947756172643a207265656e7472616e742063616c6c0081525060200191505060405180910390fd5b5050565b6124138273ffffffffffffffffffffffffffffffffffffffff166127ac565b1515612487576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f5361666545524332303a2063616c6c20746f206e6f6e2d636f6e74726163740081525060200191505060405180910390fd5b600060608373ffffffffffffffffffffffffffffffffffffffff16836040518082805190602001908083835b6020831015156124d857805182526020820191506020810190506020830392506124b3565b6001836020036101000a0380198251168184511680821785525050505050509050019150506000604051808303816000865af19150503d806000811461253a576040519150601f19603f3d011682016040523d82523d6000602084013e61253f565b606091505b50915091508115156125b9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f5361666545524332303a206c6f772d6c6576656c2063616c6c206661696c656481525060200191505060405180910390fd5b600081511115612684578080602001905160208110156125d857600080fd5b81019080805190602001909291905050501515612683576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001807f5361666545524332303a204552433230206f7065726174696f6e20646964206e81526020017f6f7420737563636565640000000000000000000000000000000000000000000081525060400191505060405180910390fd5b5b50505050565b6127a6848573ffffffffffffffffffffffffffffffffffffffff166323b872dd90507c010000000000000000000000000000000000000000000000000000000002858585604051602401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050604051602081830303815290604052907bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff83818316178352505050506123f4565b50505050565b600080823b90506000811191505091905056fea165627a7a723058204ec78f48cac99e84e2c6bf74ad0c44a7a5c2831baf681eed018c43633d96c5af0029
+#@coverage
+Achieved 74.83% coverage for code: 60806040526004361061015e576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680628cc262146101635780630700037d146101c85780631627540c1461022d57806318160ddd1461027e57806319762143146102a95780631be05289146102fa5780631c1f78eb146103255780632e1a7d4d146103505780633c6b16ab1461038b5780633d18b912146103c65780633fc6df6e146103dd57806353a47bb71461043457806370a082311461048b57806372f702f3146104f057806379ba5097146105475780637b0a47ee1461055e57806380faa57d146105895780638980f11f146105b45780638b8763471461060f5780638da5cb5b14610674578063a694fc3a146106cb578063c8f33c9114610706578063cd3daf9d14610731578063d1af0c7d1461075c578063df136d65146107b3578063e9fad8ee146107de578063ebe2b12b146107f5575b600080fd5b34801561016f57600080fd5b506101b26004803603602081101561018657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610820565b6040518082815260200191505060405180910390f35b3480156101d457600080fd5b50610217600480360360208110156101eb57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610907565b6040518082815260200191505060405180910390f35b34801561023957600080fd5b5061027c6004803603602081101561025057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061091f565b005b34801561028a57600080fd5b50610293610ab1565b6040518082815260200191505060405180910390f35b3480156102b557600080fd5b506102f8600480360360208110156102cc57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610abb565b005b34801561030657600080fd5b5061030f610bea565b6040518082815260200191505060405180910390f35b34801561033157600080fd5b5061033a610bf1565b6040518082815260200191505060405180910390f35b34801561035c57600080fd5b506103896004803603602081101561037357600080fd5b8101908080359060200190929190505050610c10565b005b34801561039757600080fd5b506103c4600480360360208110156103ae57600080fd5b8101908080359060200190929190505050610dc9565b005b3480156103d257600080fd5b506103db611088565b005b3480156103e957600080fd5b506103f2611269565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561044057600080fd5b5061044961128f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561049757600080fd5b506104da600480360360208110156104ae57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506112b5565b6040518082815260200191505060405180910390f35b3480156104fc57600080fd5b506105056112fe565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561055357600080fd5b5061055c611324565b005b34801561056a57600080fd5b50610573611591565b6040518082815260200191505060405180910390f35b34801561059557600080fd5b5061059e611597565b6040518082815260200191505060405180910390f35b3480156105c057600080fd5b5061060d600480360360408110156105d757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506115aa565b005b34801561061b57600080fd5b5061065e6004803603602081101561063257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611a75565b6040518082815260200191505060405180910390f35b34801561068057600080fd5b50610689611a8d565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156106d757600080fd5b50610704600480360360208110156106ee57600080fd5b8101908080359060200190929190505050611ab3565b005b34801561071257600080fd5b5061071b611c6c565b6040518082815260200191505060405180910390f35b34801561073d57600080fd5b50610746611c72565b6040518082815260200191505060405180910390f35b34801561076857600080fd5b50610771611d0a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156107bf57600080fd5b506107c8611d30565b6040518082815260200191505060405180910390f35b3480156107ea57600080fd5b506107f3611d36565b005b34801561080157600080fd5b5061080a611d51565b6040518082815260200191505060405180910390f35b6000610900600d60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546108f2670de0b6b3a76400006108e46108cd600c60008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020546108bf611c72565b611d5790919063ffffffff16565b6108d6886112b5565b611de290919063ffffffff16565b611eaf90919063ffffffff16565b611f4290919063ffffffff16565b9050919050565b600d6020528060005260406000206000915090505481565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610a0a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602f8152602001807f4f6e6c792074686520636f6e7472616374206f776e6572206d6179207065726681526020017f6f726d207468697320616374696f6e000000000000000000000000000000000081525060400191505060405180910390fd5b80600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507f906a1c6bd7e3091ea86693dd029a831c19049ce77f1dce2ce0bab1cacbabce2281604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b6000600254905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610ba6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602f8152602001807f4f6e6c792074686520636f6e7472616374206f776e6572206d6179207065726681526020017f6f726d207468697320616374696f6e000000000000000000000000000000000081525060400191505060405180910390fd5b80600660006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b62093a8081565b6000610c0b62093a80600954611de290919063ffffffff16565b905090565b33610c19611c72565b600b81905550610c27611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515610cf657610c6c81610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b600082111515610d6e576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260118152602001807f43616e6e6f74207769746864726177203000000000000000000000000000000081525060200191505060405180910390fd5b610d7782611fcc565b3373ffffffffffffffffffffffffffffffffffffffff167f7084f5476618d8e60b11ef0d7d3f06914655adb8793e28ff7f018d4c76d505d5836040518082815260200191505060405180910390a25050565b600660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610eb4576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001807f43616c6c6572206973206e6f742052657761726473446973747269627574696f81526020017f6e20636f6e74726163740000000000000000000000000000000000000000000081525060400191505060405180910390fd5b6000610ebe611c72565b600b81905550610ecc611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515610f9b57610f1181610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b60085442101515610fc757610fbc62093a8083611eaf90919063ffffffff16565b60098190555061102a565b6000610fde42600854611d5790919063ffffffff16565b90506000610ff760095483611de290919063ffffffff16565b905061102162093a806110138387611f4290919063ffffffff16565b611eaf90919063ffffffff16565b60098190555050505b42600a8190555061104762093a8042611f4290919063ffffffff16565b6008819055507fde88a922e0d3b88b24e9623efeb464919c6bf9f66857a65e2bfcf2ce87a9433d826040518082815260200191505060405180910390a15050565b33611091611c72565b600b8190555061109f611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151561116e576110e481610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b600061117933610820565b90506000811115611265576000600d60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506112163382600760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1661215c9092919063ffffffff16565b3373ffffffffffffffffffffffffffffffffffffffff167fe2403640ba68fed3a2f88b7557551d1993f84b99bb10ff833f0cf8db0c5e0486826040518082815260200191505060405180910390a25b5050565b600660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600360008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561140f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260358152602001807f596f75206d757374206265206e6f6d696e61746564206265666f726520796f7581526020017f2063616e20616363657074206f776e657273686970000000000000000000000081525060400191505060405180910390fd5b7fb532073b38c83145e3e5135377a08bf9aab55bc0fd7c1179cd4fb995d2a5159c600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019250505060405180910390a1600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60095481565b60006115a542600854612249565b905090565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515611695576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602f8152602001807f4f6e6c792074686520636f6e7472616374206f776e6572206d6179207065726681526020017f6f726d207468697320616374696f6e000000000000000000000000000000000081525060400191505060405180910390fd5b60008273ffffffffffffffffffffffffffffffffffffffff166395d89b416040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160006040518083038186803b1580156116f957600080fd5b505afa15801561170d573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f82011682018060405250602081101561173757600080fd5b81019080805164010000000081111561174f57600080fd5b8281019050602081018481111561176557600080fd5b815185600182028301116401000000008211171561178257600080fd5b5050929190505050805190602001206040805190810160405280600381526020017f534e58000000000000000000000000000000000000000000000000000000000081525080519060200120149050600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff161415801561187d5750600760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff1614155b8015611887575080155b1515611921576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602d8152602001807f43616e6e6f7420776974686472617720746865207374616b696e67206f72207281526020017f65776172647320746f6b656e730000000000000000000000000000000000000081525060400191505060405180910390fd5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16846040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b1580156119e657600080fd5b505af11580156119fa573d6000803e3d6000fd5b505050506040513d6020811015611a1057600080fd5b8101908080519060200190929190505050508273ffffffffffffffffffffffffffffffffffffffff167f8c1256b8896378cd5044f80c202f9772b9d77dc85c8a6eb51967210b09bfaa28836040518082815260200191505060405180910390a2505050565b600c6020528060005260406000206000915090505481565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b33611abc611c72565b600b81905550611aca611597565b600a81905550600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515611b9957611b0f81610820565b600d60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600b54600c60008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505b600082111515611c11576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252600e8152602001807f43616e6e6f74207374616b65203000000000000000000000000000000000000081525060200191505060405180910390fd5b611c1a82612262565b3373ffffffffffffffffffffffffffffffffffffffff167f9e71bc8eea02a63969f509818f2dafb9254532904319f9dbda79b67bd34a5f3d836040518082815260200191505060405180910390a25050565b600a5481565b600080611c7d610ab1565b1415611c8d57600b549050611d07565b611d04611cf3611c9b610ab1565b611ce5670de0b6b3a7640000611cd7600954611cc9600a54611cbb611597565b611d5790919063ffffffff16565b611de290919063ffffffff16565b611de290919063ffffffff16565b611eaf90919063ffffffff16565b600b54611f4290919063ffffffff16565b90505b90565b600760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600b5481565b611d47611d42336112b5565b610c10565b611d4f611088565b565b60085481565b6000828211151515611dd1576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f536166654d6174683a207375627472616374696f6e206f766572666c6f77000081525060200191505060405180910390fd5b600082840390508091505092915050565b600080831415611df55760009050611ea9565b60008284029050828482811515611e0857fe5b04141515611ea4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260218152602001807f536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f81526020017f770000000000000000000000000000000000000000000000000000000000000081525060400191505060405180910390fd5b809150505b92915050565b60008082111515611f28576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f536166654d6174683a206469766973696f6e206279207a65726f00000000000081525060200191505060405180910390fd5b60008284811515611f3557fe5b0490508091505092915050565b6000808284019050838110151515611fc2576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b60016000808282540192505081905550600080549050611ff782600254611d5790919063ffffffff16565b60028190555061204f82600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611d5790919063ffffffff16565b600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506120df3383600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1661215c9092919063ffffffff16565b60005481141515612158576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f5265656e7472616e637947756172643a207265656e7472616e742063616c6c0081525060200191505060405180910390fd5b5050565b612244838473ffffffffffffffffffffffffffffffffffffffff1663a9059cbb90507c0100000000000000000000000000000000000000000000000000000000028484604051602401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050604051602081830303815290604052907bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff83818316178352505050506123f4565b505050565b6000818310612258578161225a565b825b905092915050565b6001600080828254019250508190555060008054905061228d82600254611f4290919063ffffffff16565b6002819055506122e582600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054611f4290919063ffffffff16565b600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550612377333084600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1661268a909392919063ffffffff16565b600054811415156123f0576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f5265656e7472616e637947756172643a207265656e7472616e742063616c6c0081525060200191505060405180910390fd5b5050565b6124138273ffffffffffffffffffffffffffffffffffffffff166127ac565b1515612487576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f5361666545524332303a2063616c6c20746f206e6f6e2d636f6e74726163740081525060200191505060405180910390fd5b600060608373ffffffffffffffffffffffffffffffffffffffff16836040518082805190602001908083835b6020831015156124d857805182526020820191506020810190506020830392506124b3565b6001836020036101000a0380198251168184511680821785525050505050509050019150506000604051808303816000865af19150503d806000811461253a576040519150601f19603f3d011682016040523d82523d6000602084013e61253f565b606091505b50915091508115156125b9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260208152602001807f5361666545524332303a206c6f772d6c6576656c2063616c6c206661696c656481525060200191505060405180910390fd5b600081511115612684578080602001905160208110156125d857600080fd5b81019080805190602001909291905050501515612683576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001807f5361666545524332303a204552433230206f7065726174696f6e20646964206e81526020017f6f7420737563636565640000000000000000000000000000000000000000000081525060400191505060405180910390fd5b5b50505050565b6127a6848573ffffffffffffffffffffffffffffffffffffffff166323b872dd90507c010000000000000000000000000000000000000000000000000000000002858585604051602401808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019350505050604051602081830303815290604052907bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff83818316178352505050506123f4565b50505050565b600080823b90506000811191505091905056fea165627a7a723058204ec78f48cac99e84e2c6bf74ad0c44a7a5c2831baf681eed018c43633d96c5af0029
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: notifyRewardAmount(uint256)
+PC address: 4006
+Estimated Gas Usage: 14770 - 55195
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:403
+
+if (block.timestamp >= periodFinish) {
+            rewardRate = reward.div(DURATION);
+        } else {
+            uint256 remaining = periodFinish.sub(block.timestamp);
+            uint256 leftover = remaining.mul(rewardRate);
+            rewardRate = reward.add(leftover).div(DURATION);
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0101010101010101010101011001010104010140010101010101010101200101010101010101010101010101deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab0000000000000000000000000000028040000040080080400240001002020008, decoded_data: (217865785426203930119060744332413545611272,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: notifyRewardAmount(uint256)
+PC address: 7523
+Estimated Gas Usage: 15633 - 56058
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:35
+
+require(b <= a, "SafeMath: subtraction overflow")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000808044040104002800102101001012010024000000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [SOMEGUY], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [CREATOR], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab8080808080808080808080800000000000000000000000000000000040000000, decoded_data: (58123087930888129467517984631078352924079225347733021719462300103910568755200,), value: 0x0
+Caller: [CREATOR], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab1212121212121212121212120000000000000000000000000000000000000001, decoded_data: (8173559240281143206369716588745393379948641064524956179299385952112272736257,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: notifyRewardAmount(uint256)
+PC address: 7660
+Estimated Gas Usage: 16552 - 56977
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:46
+
+if (a == 0) {
+            return 0;
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000220800880100102012001020420202001201020000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [SOMEGUY], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [SOMEGUY], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab8080808080808080808080800000100000000000000000000000000000000000, decoded_data: (58123087930888129467517984631078354317875800255896968065444692144432089137152,), value: 0x0
+Caller: [SOMEGUY], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab121212121212121212121212aaaaaaaaa8aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, decoded_data: (8173559240281143206369716589719727804833251220669176236031100351095667075754,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: notifyRewardAmount(uint256)
+PC address: 7686
+Estimated Gas Usage: 16603 - 57028
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:51
+
+c / a
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000201400401000110108040104001101002010480000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [ATTACKER], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [ATTACKER], function: notifyRewardAmount(uint256), txdata: 0x3c6b16abb9b9b9b9b9b9b9b9b9b9b9b90000000000000000000000000000000000000080, decoded_data: (84006025525111749621022087162105431960583255385395382953910355618931692011648,), value: 0x0
+Caller: [ATTACKER], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab1616161616161616161616160000000000000000000000000000010000000000, decoded_data: (9989905738121397252229653608466591908826116856641613108032582831458956083200,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: notifyRewardAmount(uint256)
+PC address: 7696
+Estimated Gas Usage: 16631 - 57056
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:51
+
+require(c / a == b, "SafeMath: multiplication overflow")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101802001010110010840084001011080801001000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe, decoded_data: , value: 0x0
+Caller: [CREATOR], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [ATTACKER], function: getReward(), txdata: 0x3d18b912, value: 0x0
+Caller: [CREATOR], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab1212121212121212121212120000000000000000000000000000000000000003, decoded_data: (8173559240281143206369716588745393379948641064524956179299385952112272736259,), value: 0x0
+Caller: [CREATOR], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab8080808080808080808080800000000000000000000200000000000000000000, decoded_data: (58123087930888129467517984631078352924079225347733024137313939333167844425728,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: notifyRewardAmount(uint256)
+PC address: 8020
+Estimated Gas Usage: 25031 - 105456
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:28
+
+require(c >= a, "SafeMath: addition overflow")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: aaaaaaaaaaaaaaaaaaaaaaaa0101010102800208010101102002010120010101aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: notifyRewardAmount(uint256), txdata: 0x3c6b16ab8080808080808080808080800020020280200008208001008008804000200480, decoded_data: (58123087930888129467517984631079066723001022262639746996502274014205555246208,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: StakingRewards
+Function name: lastTimeRewardApplicable()
+PC address: 8786
+Estimated Gas Usage: 1314 - 1409
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:12
+
+a < b ? a : b
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: lastTimeRewardApplicable(), txdata: 0x80faa57d, value: 0x0
+
+
+time_used: 36062.19046664238 seconds
+#@contract_info_time
+0x13c1542a468319688b89e323fe9a3be3a90ebb27.sol:0.5.0:StakingRewards:36062.19046664238:36100:60:36000

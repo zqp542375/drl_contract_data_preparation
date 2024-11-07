@@ -1,0 +1,241 @@
+++++ 0xa153C1bD407fF2467bB221412AE34B93107B1476.sol  :  0.4.23  :  MainToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 5972
+['constructor']:writes at the last depth:['6']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 93.13% coverage.
+dynamic svars:['2', '5', '0', '3', '4']
+static svars:['6', '1']
+Ending preprocessing.
+preprocessing time(s): 104.69885563850403
+contract coverage: 88.38%
+releaseOnce() is not reachable
+releaseAll() is not reachable
+freezingCount(address) is not reachable
+getFreezing(address,uint256) is not reachable
+Function Reads: State variables read in conditions
+	CONTINUE_MINTING():[]
+	getFreezing(address,uint256):[]
+	mintingFinished():[]
+	name():[]
+	approve(address,uint256):[]
+	mintAndFreeze(address,uint256,uint64):['6']
+	actualBalanceOf(address):[]
+	totalSupply():[]
+	TOKEN_NAME():[]
+	transferFrom(address,address,uint256):['6', '0', '2']
+	TOKEN_SYMBOL():[]
+	decimals():[]
+	freezeTo(address,uint256,uint64):['0']
+	unpause():['6']
+	mint(address,uint256):['6']
+	burn(uint256):['0', '1']
+	TOKEN_DECIMAL_MULTIPLIER():[]
+	TOKEN_DECIMALS():[]
+	releaseAll():['3']
+	paused():[]
+	decreaseApproval(address,uint256):['2']
+	releaseOnce():['3']
+	balanceOf(address):[]
+	renounceOwnership():['6']
+	TARGET_USER():[]
+	finishMinting():['6']
+	pause():['6']
+	owner():[]
+	symbol():[]
+	transfer(address,uint256):['6', '0']
+	PAUSED():[]
+	freezingCount(address):[]
+	TOKEN_DECIMALS_UINT8():[]
+	increaseApproval(address,uint256):[]
+	freezingBalanceOf(address):[]
+	allowance(address,address):[]
+	START_TIME():[]
+	transferOwnership(address):['6']
+Function Writes: State variables written
+	approve(address,uint256):['2']
+	unpause():['6']
+	mintAndFreeze(address,uint256,uint64):['1', '5']
+	renounceOwnership():['6']
+	mint(address,uint256):['1', '0']
+	finishMinting():['6']
+	pause():['6']
+	burn(uint256):['0', '1']
+	freezeTo(address,uint256,uint64):['0', '5']
+	decreaseApproval(address,uint256):['2']
+	transferFrom(address,address,uint256):['0', '2']
+	transferOwnership(address):['6']
+	increaseApproval(address,uint256):['2']
+	transfer(address,uint256):['0']
+	releaseOnce():['0', '5', '3']
+	releaseAll():['0']
+============================
+iteration:3
+targets:['releaseOnce()', 'releaseAll()', 'unpause()', 'freezingCount(address)', 'mintAndFreeze(address,uint256,uint64)', 'getFreezing(address,uint256)', 'pause()', 'finishMinting()']
+['approve(address,uint256)']:writes at the last depth:['2']
+['renounceOwnership()']:writes at the last depth:['6']
+['pause()']:writes at the last depth:['6']
+['finishMinting()']:writes at the last depth:['6']
+['burn(uint256)']:writes at the last depth:['0', '1']
+['transferOwnership(address)']:writes at the last depth:['6']
+['decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['mint(address,uint256)']:writes at the last depth:['0', '1']
+['decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['increaseApproval(address,uint256)']:writes at the last depth:['2']
+['transfer(address,uint256)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)']:writes at the last depth:['0', '2']
+['mintAndFreeze(address,uint256,uint64)']:writes at the last depth:['', '1', '5']
+['freezeTo(address,uint256,uint64)']:writes at the last depth:['', '0', '5']
+contract coverage: 97.79%
+============================
+iteration:4
+['freezeTo(address,uint256,uint64)', 'approve(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'renounceOwnership()']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'pause()']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'finishMinting()']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'burn(uint256)']:writes at the last depth:['0', '1']
+['freezeTo(address,uint256,uint64)', 'transferOwnership(address)']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'mint(address,uint256)']:writes at the last depth:['0', '1']
+['freezeTo(address,uint256,uint64)', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'transfer(address,uint256)']:writes at the last depth:['0']
+['freezeTo(address,uint256,uint64)', 'transferFrom(address,address,uint256)']:writes at the last depth:['0', '2']
+['freezeTo(address,uint256,uint64)', 'releaseOnce()']:writes at the last depth:['', '3', '5', '0']
+['freezeTo(address,uint256,uint64)', 'mintAndFreeze(address,uint256,uint64)']:writes at the last depth:['', '1', '5']
+['freezeTo(address,uint256,uint64)', 'freezeTo(address,uint256,uint64)']:writes at the last depth:['', '0', '5']
+['freezeTo(address,uint256,uint64)', 'mintAndFreeze(address,uint256,uint64)']:writes at the last depth:['', '1', '5']
+['freezeTo(address,uint256,uint64)', 'freezeTo(address,uint256,uint64)']:writes at the last depth:['', '0', '5']
+['freezeTo(address,uint256,uint64)', 'mintAndFreeze(address,uint256,uint64)']:writes at the last depth:['', '1', '5']
+['freezeTo(address,uint256,uint64)', 'freezeTo(address,uint256,uint64)']:writes at the last depth:['', '0', '5']
+['freezeTo(address,uint256,uint64)', 'mintAndFreeze(address,uint256,uint64)']:writes at the last depth:['', '1', '5']
+['freezeTo(address,uint256,uint64)', 'freezeTo(address,uint256,uint64)']:writes at the last depth:['', '0', '5']
+['freezeTo(address,uint256,uint64)', 'releaseAll()']:writes at the last depth:['', '3', '5', '0']
+contract coverage: 97.79%
+============================
+iteration:5
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'approve(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'renounceOwnership()']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'pause()']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'finishMinting()']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'burn(uint256)']:writes at the last depth:['0', '1']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'transferOwnership(address)']:writes at the last depth:['6']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'mint(address,uint256)']:writes at the last depth:['0', '1']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'decreaseApproval(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'increaseApproval(address,uint256)']:writes at the last depth:['2']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'transfer(address,uint256)']:writes at the last depth:['0']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'transferFrom(address,address,uint256)']:writes at the last depth:['0', '2']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'mintAndFreeze(address,uint256,uint64)']:writes at the last depth:['', '1', '5']
+['freezeTo(address,uint256,uint64)', 'releaseAll()', 'freezeTo(address,uint256,uint64)']:writes at the last depth:['', '0', '5']
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: MainToken
+Function name: getFreezing(address,uint256)
+PC address: 3443
+Estimated Gas Usage: 1399 - 2060
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0xa153C1bD407fF2467bB221412AE34B93107B1476.sol:308
+
+_index + 1
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: getFreezing(address,uint256), txdata: 0x02d6f730ffffffffffffffffffffffff0000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MainToken
+Function name: releaseAll()
+PC address: 6361
+Estimated Gas Usage: 2841 - 3646
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0xa153C1bD407fF2467bB221412AE34B93107B1476.sol:363
+
+while (release != 0 && block.timestamp > release) {
+            releaseOnce();
+            tokens += balance;
+            (release, balance) = getFreezing(msg.sender, 0);
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: freezeTo(address,uint256,uint64), txdata: 0x3be1e952000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008, decoded_data: ('0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 0, 576460752303423488), value: 0x0
+Caller: [SOMEGUY], function: releaseAll(), txdata: 0x5be7fde8, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MainToken
+Function name: releaseOnce()
+PC address: 7218
+Estimated Gas Usage: 1707 - 2322
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0xa153C1bD407fF2467bB221412AE34B93107B1476.sol:338
+
+require(uint64(block.timestamp) > head)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x100, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: freezeTo(address,uint256,uint64), txdata: 0x3be1e952000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003, decoded_data: ('0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 0, 216172782113783808), value: 0x0
+Caller: [SOMEGUY], function: releaseOnce(), txdata: 0x66a92cda, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MainToken
+Function name: mintAndFreeze(address,uint256,uint64)
+PC address: 9968
+Estimated Gas Usage: 20406 - 81921
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0xa153C1bD407fF2467bB221412AE34B93107B1476.sol:380
+
+require(_until > block.timestamp)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x400000000002, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: mintAndFreeze(address,uint256,uint64), txdata: 0x0bb2cd6b, value: 0x0
+
+
+time_used: 5736.013279914856 seconds
+#@contract_info_time
+0xa153C1bD407fF2467bB221412AE34B93107B1476.sol:0.4.23:MainToken:5736.013279914856:36100:60:36000

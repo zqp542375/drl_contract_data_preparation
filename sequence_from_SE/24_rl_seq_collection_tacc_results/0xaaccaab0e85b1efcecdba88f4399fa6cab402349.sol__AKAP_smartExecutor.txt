@@ -1,0 +1,12 @@
+++++ 0xaaccaab0e85b1efcecdba88f4399fa6cab402349.sol  :  0.5.0  :  AKAP ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 8137
+['constructor']:writes at the last depth:['0', '0', '0', '9', '10', '0']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 67.13% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 154.58712196350098 seconds
+#@contract_info_time
+0xaaccaab0e85b1efcecdba88f4399fa6cab402349.sol:0.5.0:AKAP:154.58712196350098:36100:60:36000

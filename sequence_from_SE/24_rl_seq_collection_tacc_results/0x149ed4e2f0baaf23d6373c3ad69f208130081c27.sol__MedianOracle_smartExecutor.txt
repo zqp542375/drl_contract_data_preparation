@@ -1,0 +1,886 @@
+++++ 0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol  :  0.4.24  :  MedianOracle ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 3193
+['constructor']:writes at the last depth:['5', '0', '3', '4']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 99.72% coverage.
+dynamic svars:['1', '2']
+static svars:['0', '4', '5', '3']
+Ending preprocessing.
+preprocessing time(s): 101.10042881965637
+contract coverage: 54.87%
+getData() is not reachable
+removeProvider(address) is not reachable
+purgeReports() is not reachable
+pushReport(uint256) is not reachable
+providers(uint256) is not reachable
+addProvider(address) is not reachable
+Function Reads: State variables read in conditions
+	reportDelaySec():[]
+	pushReport(uint256):[]
+	getData():[]
+	addProvider(address):[]
+	providers(uint256):[]
+	renounceOwnership():[]
+	removeProvider(address):[]
+	owner():[]
+	isOwner():[]
+	minimumProviders():[]
+	purgeReports():[]
+	setReportDelaySec(uint256):[]
+	providersSize():[]
+	reportExpirationTimeSec():[]
+	setMinimumProviders(uint256):[]
+	providerReports(address,uint256):[]
+	transferOwnership(address):[]
+	setReportExpirationTimeSec(uint256):[]
+Function Writes: State variables written
+	renounceOwnership():['0']
+	setReportDelaySec(uint256):['4']
+	removeProvider(address):['2', '1']
+	addProvider(address):['1', '2']
+	purgeReports():['2']
+	setMinimumProviders(uint256):['5']
+	setReportExpirationTimeSec(uint256):['3']
+	transferOwnership(address):['0']
+	pushReport(uint256):['2']
+============================
+iteration:3
+targets:['getData()', 'removeProvider(address)', 'purgeReports()', 'pushReport(uint256)', 'providers(uint256)', 'addProvider(address)']
+['renounceOwnership()']:writes at the last depth:['0']
+['setReportDelaySec(uint256)']:writes at the last depth:['4']
+['setMinimumProviders(uint256)']:writes at the last depth:['5']
+['setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['removeProvider(address)']:writes at the last depth:['2']
+['transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)']:writes at the last depth:['1', '2']
+contract coverage: 87.79%
+============================
+iteration:4
+['addProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 88.79%
+============================
+iteration:5
+['addProvider(address)', 'pushReport(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 88.79%
+============================
+iteration:6
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 88.79%
+============================
+iteration:7
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 88.79%
+============================
+iteration:8
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:9
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:10
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:11
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:12
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'purgeReports()', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:13
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:14
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:15
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:16
+['addProvider(address)', 'pushReport(uint256)', 'renounceOwnership()', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'renounceOwnership()', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'pushReport(uint256)', 'renounceOwnership()', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:17
+['addProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:18
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:19
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:20
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:21
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:22
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:23
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:24
+contract coverage: 98.65%
+============================
+iteration:25
+['addProvider(address)', 'addProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:26
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:27
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:28
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:29
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:30
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:31
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:32
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:33
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:34
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:35
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:36
+['addProvider(address)', 'addProvider(address)', 'renounceOwnership()', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'addProvider(address)', 'renounceOwnership()', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:37
+['addProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:38
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'pushReport(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:39
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:40
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'addProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+contract coverage: 98.65%
+============================
+iteration:41
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'addProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'removeProvider(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:42
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'transferOwnership(address)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:43
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'purgeReports()', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:44
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setReportExpirationTimeSec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:45
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setMinimumProviders(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:46
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'setReportDelaySec(uint256)']:writes at the last depth:['4']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'setMinimumProviders(uint256)']:writes at the last depth:['5']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'setReportExpirationTimeSec(uint256)']:writes at the last depth:['3']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'purgeReports()']:writes at the last depth:['2']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'addProvider(address)']:writes at the last depth:['1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'removeProvider(address)']:writes at the last depth:['', '1', '2']
+['addProvider(address)', 'removeProvider(address)', 'setReportDelaySec(uint256)', 'pushReport(uint256)']:writes at the last depth:['2']
+contract coverage: 98.65%
+============================
+iteration:47
+contract coverage: 98.65%
+============================
+iteration:48
+contract coverage: 98.65%
+============================
+iteration:49
+contract coverage: 98.65%
+============================
+iteration:50
+contract coverage: 98.65%
+============================
+iteration:51
+contract coverage: 98.65%
+============================
+iteration:52
+contract coverage: 98.65%
+============================
+iteration:53
+contract coverage: 98.65%
+============================
+iteration:54
+contract coverage: 98.65%
+============================
+iteration:55
+contract coverage: 98.65%
+============================
+iteration:56
+contract coverage: 98.65%
+============================
+iteration:57
+contract coverage: 98.65%
+============================
+iteration:58
+contract coverage: 98.65%
+============================
+iteration:59
+contract coverage: 98.65%
+#@statespace
+13790 nodes, 13789 edges, 179004 total states
+#@coverage
+Achieved 4.77% coverage for code: 6080604052600160055534801561001557600080fd5b50604051606080611817833981018060405281019080805190602001909291908051906020019092919080519060200190929190505050336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36312bed400831115151561011b57600080fd5b60008111151561012a57600080fd5b8260038190555081600481905550806005819055505050506116c6806101516000396000f3006080604052600436106100fc576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312e800f1146101015780631e20d14b1461012c5780633bc5de301461015957806346e2577a1461018f57806350f3fc81146101d2578063715018a61461023f5780638a355a57146102565780638da5cb5b146102995780638f32d59b146102f0578063b577c0c71461031f578063d13d59711461034a578063da6b0eea14610361578063dcbb82531461038e578063df982985146103b9578063ef35bcce146103e4578063f10864b614610411578063f2fde38b14610479578063f68be513146104bc575b600080fd5b34801561010d57600080fd5b506101166104e9565b6040518082815260200191505060405180910390f35b34801561013857600080fd5b50610157600480360381019080803590602001909291905050506104ef565b005b34801561016557600080fd5b5061016e6106b6565b60405180838152602001821515151581526020019250505060405180910390f35b34801561019b57600080fd5b506101d0600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b77565b005b3480156101de57600080fd5b506101fd60048036038101908080359060200190929190505050610d13565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561024b57600080fd5b50610254610d51565b005b34801561026257600080fd5b50610297600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610e23565b005b3480156102a557600080fd5b506102ae61103a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156102fc57600080fd5b50610305611063565b604051808215151515815260200191505060405180910390f35b34801561032b57600080fd5b506103346110ba565b6040518082815260200191505060405180910390f35b34801561035657600080fd5b5061035f6110c0565b005b34801561036d57600080fd5b5061038c600480360381019080803590602001909291905050506111df565b005b34801561039a57600080fd5b506103a36111fc565b6040518082815260200191505060405180910390f35b3480156103c557600080fd5b506103ce611209565b6040518082815260200191505060405180910390f35b3480156103f057600080fd5b5061040f6004803603810190808035906020019092919050505061120f565b005b34801561041d57600080fd5b5061045c600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061123b565b604051808381526020018281526020019250505060405180910390f35b34801561048557600080fd5b506104ba600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611271565b005b3480156104c857600080fd5b506104e760048036038101908080359060200190929190505050611290565b005b60045481565b6000806104fa6115b4565b600080339450600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209350604080519081016040528085600060028110151561055b57fe5b6002020160000154815260200185600160028110151561057757fe5b60020201600001548152509250600083600060028110151561059557fe5b60200201511115156105a657600080fd5b8260016002811015156105b557fe5b60200201518360006002811015156105c957fe5b602002015110156105db5760016105de565b60005b915081600103905042610611600454858560ff166002811015156105fe57fe5b60200201516112c090919063ffffffff16565b1115151561061e57600080fd5b42848260ff1660028110151561063057fe5b600202016000018190555085848260ff1660028110151561064d57fe5b60020201600101819055508473ffffffffffffffffffffffffffffffffffffffff167f460fcc5a1888965d48c2cab000fe20da51b1297d995af79a1924e2312d0d82b38742604051808381526020018281526020019250505060405180910390a2505050505050565b6000806000606060008060008060006106cd6115d6565b6000806000806001805490509b508b60405190808252806020026020018201604052801561070a5781602001602082028038833980820191505090505b509a5060009950610726600354426112e190919063ffffffff16565b985061073d600454426112e190919063ffffffff16565b9750600096505b8b871015610b3d5760018781548110151561075b57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169550600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600280602002604051908101604052809291906000905b8282101561081a5783826002020160408051908101604052908160008201548152602001600182015481525050815260200190600101906107de565b50505050945084600160028110151561082f57fe5b60200201516000015185600060028110151561084757fe5b602002015160000151101561085d576001610860565b60005b9350836001039250848460ff1660028110151561087957fe5b602002015160000151915087821115610a4557600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208360ff166002811015156108db57fe5b6002020160000154905088811015610955577f71f61642cb57ac11764a2f35fb4edc5361ced458af35bbed8f5ebf708c10e34186604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1610a40565b878111156109c5577f71f61642cb57ac11764a2f35fb4edc5361ced458af35bbed8f5ebf708c10e34186604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1610a3f565b600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208360ff16600281101515610a1457fe5b60020201600101548b8b806001019c50815181101515610a3057fe5b90602001906020020181815250505b5b610b30565b88821015610ab5577f71f61642cb57ac11764a2f35fb4edc5361ced458af35bbed8f5ebf708c10e34186604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1610b2f565b600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208460ff16600281101515610b0457fe5b60020201600101548b8b806001019c50815181101515610b2057fe5b90602001906020020181815250505b5b8680600101975050610744565b6005548a1015610b56576000808191509d509d50610b67565b610b608b8b611302565b60019d509d505b5050505050505050505050509091565b610b7f611063565b1515610b8a57600080fd5b6000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000600281101515610bd957fe5b6002020160000154141515610bed57600080fd5b60018190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550506001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000600281101515610ca257fe5b60020201600001819055507fae9c2c6481964847714ce58f65a7f6dcc41d0d8394449bacdf161b5920c4744a81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b600181815481101515610d2257fe5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b610d59611063565b1515610d6457600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000610e2d611063565b1515610e3857600080fd5b600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000610e839190611604565b600090505b600180549050811015611036578173ffffffffffffffffffffffffffffffffffffffff16600182815481101515610ebb57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156110295760018054905060018201141515610fab57600180808054905003815481101515610f2857fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600182815481101515610f6257fe5b9060005260206000200160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b6001805480919060019003610fc0919061162f565b507f1589f8555933761a3cff8aa925061be3b46e2dd43f621322ab611d300f62b1d982604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1611036565b8080600101915050610e88565b5050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b60055481565b60003390506000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600060028110151561111457fe5b600202016000015411151561112857600080fd5b6001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600060028110151561117757fe5b60020201600001819055506001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060016002811015156111d157fe5b600202016000018190555050565b6111e7611063565b15156111f257600080fd5b8060048190555050565b6000600180549050905090565b60035481565b611217611063565b151561122257600080fd5b60008111151561123157600080fd5b8060058190555050565b60026020528160005260406000208160028110151561125657fe5b60020201600091509150508060000154908060010154905082565b611279611063565b151561128457600080fd5b61128d816114ba565b50565b611298611063565b15156112a357600080fd5b6312bed40081111515156112b657600080fd5b8060038190555050565b60008082840190508381101515156112d757600080fd5b8091505092915050565b6000808383111515156112f357600080fd5b82840390508091505092915050565b600080600080600085118015611319575084865110155b151561132457600080fd5b600192505b84831015611406578291505b6000821180156113755750858281518110151561134e57fe5b90602001906020020151866001840381518110151561136957fe5b90602001906020020151115b156113f957858281518110151561138857fe5b90602001906020020151905085600183038151811015156113a557fe5b9060200190602002015186838151811015156113bd57fe5b90602001906020020181815250508086600184038151811015156113dd57fe5b9060200190602002018181525050818060019003925050611335565b8280600101935050611329565b600160028681151561141457fe5b061415611446578560028681151561142857fe5b0481518110151561143557fe5b9060200190602002015193506114b1565b60026114a487600160028981151561145a57fe5b040381518110151561146857fe5b906020019060200201518860028981151561147f57fe5b0481518110151561148c57fe5b906020019060200201516112c090919063ffffffff16565b8115156114ad57fe5b0493505b50505092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156114f657600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6040805190810160405280600290602082028038833980820191505090505090565b6080604051908101604052806002905b6115ee61165b565b8152602001906001900390816115e65790505090565b5060008082016000905560018201600090555060020160008082016000905560018201600090555050565b815481835581811115611656578183600052602060002091820191016116559190611675565b5b505050565b604080519081016040528060008152602001600081525090565b61169791905b8082111561169357600081600090555060010161167b565b5090565b905600a165627a7a723058203e339f19141205ecf074f54a5f8c41edb3c84e1fce4f4624c0cc3212bcb373200029
+#@coverage
+Achieved 98.65% coverage for code: 6080604052600436106100fc576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312e800f1146101015780631e20d14b1461012c5780633bc5de301461015957806346e2577a1461018f57806350f3fc81146101d2578063715018a61461023f5780638a355a57146102565780638da5cb5b146102995780638f32d59b146102f0578063b577c0c71461031f578063d13d59711461034a578063da6b0eea14610361578063dcbb82531461038e578063df982985146103b9578063ef35bcce146103e4578063f10864b614610411578063f2fde38b14610479578063f68be513146104bc575b600080fd5b34801561010d57600080fd5b506101166104e9565b6040518082815260200191505060405180910390f35b34801561013857600080fd5b50610157600480360381019080803590602001909291905050506104ef565b005b34801561016557600080fd5b5061016e6106b6565b60405180838152602001821515151581526020019250505060405180910390f35b34801561019b57600080fd5b506101d0600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b77565b005b3480156101de57600080fd5b506101fd60048036038101908080359060200190929190505050610d13565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561024b57600080fd5b50610254610d51565b005b34801561026257600080fd5b50610297600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610e23565b005b3480156102a557600080fd5b506102ae61103a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156102fc57600080fd5b50610305611063565b604051808215151515815260200191505060405180910390f35b34801561032b57600080fd5b506103346110ba565b6040518082815260200191505060405180910390f35b34801561035657600080fd5b5061035f6110c0565b005b34801561036d57600080fd5b5061038c600480360381019080803590602001909291905050506111df565b005b34801561039a57600080fd5b506103a36111fc565b6040518082815260200191505060405180910390f35b3480156103c557600080fd5b506103ce611209565b6040518082815260200191505060405180910390f35b3480156103f057600080fd5b5061040f6004803603810190808035906020019092919050505061120f565b005b34801561041d57600080fd5b5061045c600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061123b565b604051808381526020018281526020019250505060405180910390f35b34801561048557600080fd5b506104ba600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611271565b005b3480156104c857600080fd5b506104e760048036038101908080359060200190929190505050611290565b005b60045481565b6000806104fa6115b4565b600080339450600260008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209350604080519081016040528085600060028110151561055b57fe5b6002020160000154815260200185600160028110151561057757fe5b60020201600001548152509250600083600060028110151561059557fe5b60200201511115156105a657600080fd5b8260016002811015156105b557fe5b60200201518360006002811015156105c957fe5b602002015110156105db5760016105de565b60005b915081600103905042610611600454858560ff166002811015156105fe57fe5b60200201516112c090919063ffffffff16565b1115151561061e57600080fd5b42848260ff1660028110151561063057fe5b600202016000018190555085848260ff1660028110151561064d57fe5b60020201600101819055508473ffffffffffffffffffffffffffffffffffffffff167f460fcc5a1888965d48c2cab000fe20da51b1297d995af79a1924e2312d0d82b38742604051808381526020018281526020019250505060405180910390a2505050505050565b6000806000606060008060008060006106cd6115d6565b6000806000806001805490509b508b60405190808252806020026020018201604052801561070a5781602001602082028038833980820191505090505b509a5060009950610726600354426112e190919063ffffffff16565b985061073d600454426112e190919063ffffffff16565b9750600096505b8b871015610b3d5760018781548110151561075b57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169550600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600280602002604051908101604052809291906000905b8282101561081a5783826002020160408051908101604052908160008201548152602001600182015481525050815260200190600101906107de565b50505050945084600160028110151561082f57fe5b60200201516000015185600060028110151561084757fe5b602002015160000151101561085d576001610860565b60005b9350836001039250848460ff1660028110151561087957fe5b602002015160000151915087821115610a4557600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208360ff166002811015156108db57fe5b6002020160000154905088811015610955577f71f61642cb57ac11764a2f35fb4edc5361ced458af35bbed8f5ebf708c10e34186604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1610a40565b878111156109c5577f71f61642cb57ac11764a2f35fb4edc5361ced458af35bbed8f5ebf708c10e34186604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1610a3f565b600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208360ff16600281101515610a1457fe5b60020201600101548b8b806001019c50815181101515610a3057fe5b90602001906020020181815250505b5b610b30565b88821015610ab5577f71f61642cb57ac11764a2f35fb4edc5361ced458af35bbed8f5ebf708c10e34186604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1610b2f565b600260008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208460ff16600281101515610b0457fe5b60020201600101548b8b806001019c50815181101515610b2057fe5b90602001906020020181815250505b5b8680600101975050610744565b6005548a1015610b56576000808191509d509d50610b67565b610b608b8b611302565b60019d509d505b5050505050505050505050509091565b610b7f611063565b1515610b8a57600080fd5b6000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000600281101515610bd957fe5b6002020160000154141515610bed57600080fd5b60018190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550506001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000600281101515610ca257fe5b60020201600001819055507fae9c2c6481964847714ce58f65a7f6dcc41d0d8394449bacdf161b5920c4744a81604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a150565b600181815481101515610d2257fe5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b610d59611063565b1515610d6457600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000610e2d611063565b1515610e3857600080fd5b600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000610e839190611604565b600090505b600180549050811015611036578173ffffffffffffffffffffffffffffffffffffffff16600182815481101515610ebb57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156110295760018054905060018201141515610fab57600180808054905003815481101515610f2857fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600182815481101515610f6257fe5b9060005260206000200160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b6001805480919060019003610fc0919061162f565b507f1589f8555933761a3cff8aa925061be3b46e2dd43f621322ab611d300f62b1d982604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a1611036565b8080600101915050610e88565b5050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b60055481565b60003390506000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600060028110151561111457fe5b600202016000015411151561112857600080fd5b6001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600060028110151561117757fe5b60020201600001819055506001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060016002811015156111d157fe5b600202016000018190555050565b6111e7611063565b15156111f257600080fd5b8060048190555050565b6000600180549050905090565b60035481565b611217611063565b151561122257600080fd5b60008111151561123157600080fd5b8060058190555050565b60026020528160005260406000208160028110151561125657fe5b60020201600091509150508060000154908060010154905082565b611279611063565b151561128457600080fd5b61128d816114ba565b50565b611298611063565b15156112a357600080fd5b6312bed40081111515156112b657600080fd5b8060038190555050565b60008082840190508381101515156112d757600080fd5b8091505092915050565b6000808383111515156112f357600080fd5b82840390508091505092915050565b600080600080600085118015611319575084865110155b151561132457600080fd5b600192505b84831015611406578291505b6000821180156113755750858281518110151561134e57fe5b90602001906020020151866001840381518110151561136957fe5b90602001906020020151115b156113f957858281518110151561138857fe5b90602001906020020151905085600183038151811015156113a557fe5b9060200190602002015186838151811015156113bd57fe5b90602001906020020181815250508086600184038151811015156113dd57fe5b9060200190602002018181525050818060019003925050611335565b8280600101935050611329565b600160028681151561141457fe5b061415611446578560028681151561142857fe5b0481518110151561143557fe5b9060200190602002015193506114b1565b60026114a487600160028981151561145a57fe5b040381518110151561146857fe5b906020019060200201518860028981151561147f57fe5b0481518110151561148c57fe5b906020019060200201516112c090919063ffffffff16565b8115156114ad57fe5b0493505b50505092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156114f657600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6040805190810160405280600290602082028038833980820191505090505090565b6080604051908101604052806002905b6115ee61165b565b8152602001906001900390816115e65790505090565b5060008082016000905560018201600090555060020160008082016000905560018201600090555050565b815481835581811115611656578183600052602060002091820191016116559190611675565b5b505050565b604080519081016040528060008152602001600081525090565b61169791905b8082111561169357600081600090555060010161167b565b5090565b905600a165627a7a723058203e339f19141205ecf074f54a5f8c41edb3c84e1fce4f4624c0cc3212bcb373200029
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MedianOracle
+Function name: pushReport(uint256)
+PC address: 1561
+Estimated Gas Usage: 3396 - 6923
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:239
+
+require(timestamps[index_recent].add(reportDelaySec) <= now)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 00000000000000000000000000000000000000000000000000000000100000000000000100000200000010800000000000000000000000000000007fffffffff02, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addProvider(address), txdata: 0x46e2577a020202020202020202020202affeaffeaffeaffeaffeaffeaffeaffeaffeaffe, value: 0x0
+Caller: [CREATOR], function: pushReport(uint256), txdata: 0x1e20d14b, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MedianOracle
+Function name: getData()
+PC address: 2188
+Estimated Gas Usage: 9056 - 15179
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:274
+
+if (reportTimestampRecent > maxValidTimestamp) {
+                
+                uint256 reportTimestampPast = providerReports[providerAddress][index_past].timestamp;
+                if (reportTimestampPast < minValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else if (reportTimestampPast > maxValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else {
+                    
+                    validReports[size++] = providerReports[providerAddress][index_past].payload;
+                }
+            } else {
+                
+                if (reportTimestampRecent < minValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else {
+                    
+                    validReports[size++] = providerReports[providerAddress][index_recent].payload;
+                }
+            }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000009202001040800000202080100208010020040088004008080020080020210401004002002, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addProvider(address), txdata: 0x46e2577a, value: 0x0
+Caller: [SOMEGUY], function: getData(), txdata: 0x3bc5de30, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MedianOracle
+Function name: getData()
+PC address: 2285
+Estimated Gas Usage: 10034 - 16347
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:277
+
+if (reportTimestampPast < minValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else if (reportTimestampPast > maxValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else {
+                    
+                    validReports[size++] = providerReports[providerAddress][index_past].payload;
+                }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addProvider(address), txdata: 0x46e2577a, value: 0x0
+Caller: [SOMEGUY], function: getData(), txdata: 0x3bc5de30, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MedianOracle
+Function name: getData()
+PC address: 2397
+Estimated Gas Usage: 10060 - 16373
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:280
+
+if (reportTimestampPast > maxValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else {
+                    
+                    validReports[size++] = providerReports[providerAddress][index_past].payload;
+                }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addProvider(address), txdata: 0x46e2577a, value: 0x0
+Caller: [SOMEGUY], function: getData(), txdata: 0x3bc5de30, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MedianOracle
+Function name: getData()
+PC address: 2637
+Estimated Gas Usage: 9082 - 15205
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:289
+
+if (reportTimestampRecent < minValidTimestamp) {
+                    
+                    emit ReportTimestampOutOfRange(providerAddress);
+                } else {
+                    
+                    validReports[size++] = providerReports[providerAddress][index_recent].payload;
+                }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000008c6d801000000000000000000000000000000000000000000000000000000000000000080, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addProvider(address), txdata: 0x46e2577a, value: 0x0
+Caller: [SOMEGUY], function: getData(), txdata: 0x3bc5de30, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: MedianOracle
+Function name: providers(uint256)
+PC address: 3361
+Estimated Gas Usage: 1102 - 1197
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:161
+
+address[] public providers
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000004bed401000000000000000000000000000000000000000000000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: providers(uint256), txdata: 0x50f3fc81, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: MedianOracle
+Function name: providerReports(address,uint256)
+PC address: 4693
+Estimated Gas Usage: 640 - 925
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:165
+
+mapping (address => Report[2]) public providerReports
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000002bed401000000000000000000000000000000000000000000000000000000000000000001, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: providerReports(address,uint256), txdata: 0xf10864b6000000000000000000000000000000800104800040008002024000208080088083, decoded_data: ('0x0000008001048000400080020240002080800880', 59252983164407896876905464984914515346790499965620757379566185566549296807936), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MedianOracle
+Function name: getData()
+PC address: 4846
+Estimated Gas Usage: 2315 - 3827
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:32
+
+require(b <= a)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000002bed401000000000000000000000000000000000000000000000000000000000000000001, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: getData(), txdata: 0x3bc5de30, value: 0x0
+
+
+time_used: 36085.34641122818 seconds
+#@contract_info_time
+0x149ed4e2f0baaf23d6373c3ad69f208130081c27.sol:0.4.24:MedianOracle:36085.34641122818:36100:60:36000

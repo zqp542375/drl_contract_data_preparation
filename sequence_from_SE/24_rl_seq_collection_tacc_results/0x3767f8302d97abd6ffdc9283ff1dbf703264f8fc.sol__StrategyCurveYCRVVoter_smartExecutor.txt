@@ -1,0 +1,4 @@
+++++ 0x3767f8302d97abd6ffdc9283ff1dbf703264f8fc.sol  :  0.5.17  :  StrategyCurveYCRVVoter ++++
+time_used: 3.317189931869507 seconds
+#@contract_info_time
+0x3767f8302d97abd6ffdc9283ff1dbf703264f8fc.sol:0.5.17:StrategyCurveYCRVVoter:3.317189931869507:36100:60:36000

@@ -1,0 +1,4 @@
+++++ 0xb15ee8e74dac2d77f9d1080b32b0f3562954aee9.sol  :  0.5.17  :  StrategyCurveYBUSD ++++
+time_used: 8.188876152038574 seconds
+#@contract_info_time
+0xb15ee8e74dac2d77f9d1080b32b0f3562954aee9.sol:0.5.17:StrategyCurveYBUSD:8.188876152038574:36100:60:36000

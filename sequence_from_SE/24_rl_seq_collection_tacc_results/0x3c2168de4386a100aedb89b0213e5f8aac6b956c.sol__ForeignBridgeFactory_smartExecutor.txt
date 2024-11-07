@@ -1,0 +1,1320 @@
+++++ 0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol  :  0.4.24  :  ForeignBridgeFactory ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 9205
+['constructor']:writes at the last depth:[]
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 73.03% coverage.
+dynamic svars:['114', '120', '2', '100', '0', '115', '4', '110', '8', '116', '101']
+static svars:[]
+Ending preprocessing.
+preprocessing time(s): 100.75402188301086
+contract coverage: 71.68%
+registerForeignBridge(address,address,address,uint256) is not reachable
+transferOwnership(address) is not reachable
+foreignMaxPerTx() is not reachable
+setInitialValidators(address[]) is not reachable
+setHomeMaxPerTx(uint256) is not reachable
+setRequiredBlockConfirmations(uint256) is not reachable
+setHomeDailyLimit(uint256) is not reachable
+setGasPrice(uint256) is not reachable
+setForeignMaxPerTx(uint256) is not reachable
+deployForeignBridge(address) is not reachable
+setBridgeValidatorsOwner(address) is not reachable
+setBridgeValidatorsProxyOwner(address) is not reachable
+setForeignBridgeOwner(address) is not reachable
+setBridgeValidatorsImplementation(address) is not reachable
+setForeignBridgeProxyOwner(address) is not reachable
+homeMaxPerTx() is not reachable
+requiredBlockConfirmations() is not reachable
+homeDailyLimit() is not reachable
+requiredSignatures() is not reachable
+gasPrice() is not reachable
+setRequiredSignatures(uint256) is not reachable
+initialValidators() is not reachable
+foreignBridgeProxyOwner() is not reachable
+foreignBridgeOwner() is not reachable
+isInitialized() is not reachable
+bridgeValidatorsImplementation() is not reachable
+bridgeValidatorsOwner() is not reachable
+owner() is not reachable
+bridgeValidatorsProxyOwner() is not reachable
+setForeignBridgeErcToErcImplementation(address) is not reachable
+initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address) is not reachable
+Function Reads: State variables read in conditions
+	adjustToDefaultDecimals(uint256,uint8):[]
+	setBridgeValidatorsOwner(address):[]
+	foreignBridgeProxyOwner():[]
+	foreignBridgeOwner():[]
+	homeMaxPerTx():[]
+	defaultDecimals():[]
+	foreignMaxPerTx():[]
+	isInitialized():[]
+	foreignBridgeErcToErcImplementation():[]
+	requiredBlockConfirmations():[]
+	getBridgeFactoryVersion():[]
+	setForeignBridgeErcToErcImplementation(address):[]
+	initialValidators():[]
+	initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address):[]
+	setBridgeValidatorsProxyOwner(address):[]
+	setHomeMaxPerTx(uint256):[]
+	bridgeValidatorsImplementation():[]
+	setRequiredSignatures(uint256):[]
+	bridgeValidatorsOwner():[]
+	homeDailyLimit():[]
+	registerForeignBridge(address,address,address,uint256):[]
+	requiredSignatures():[]
+	owner():[]
+	setForeignBridgeOwner(address):[]
+	setRequiredBlockConfirmations(uint256):[]
+	setHomeDailyLimit(uint256):[]
+	bridgeValidatorsProxyOwner():[]
+	setGasPrice(uint256):[]
+	setForeignMaxPerTx(uint256):[]
+	deployForeignBridge(address):[]
+	setBridgeValidatorsImplementation(address):[]
+	setForeignBridgeProxyOwner(address):[]
+	transferOwnership(address):[]
+	gasPrice():[]
+	setInitialValidators(address[]):[]
+	proxyOwner():[]
+	upgradeTo(uint256,address):[]
+	version():[]
+	implementation():[]
+	upgradeabilityOwner():[]
+	upgradeToAndCall(uint256,address,bytes):[]
+	setImplementation(address):[]
+	transferProxyOwnership(address):[]
+Function Writes: State variables written
+	constructor:['0']
+	setBridgeValidatorsOwner(address):['2']
+	setHomeMaxPerTx(uint256):['0']
+	setForeignBridgeErcToErcImplementation(address):['2']
+	setBridgeValidatorsProxyOwner(address):['2']
+	setRequiredBlockConfirmations(uint256):['0']
+	setHomeDailyLimit(uint256):['0']
+	setForeignBridgeOwner(address):['2']
+	setGasPrice(uint256):['0']
+	setForeignMaxPerTx(uint256):['0']
+	setBridgeValidatorsImplementation(address):['2']
+	setForeignBridgeProxyOwner(address):['2']
+	setRequiredSignatures(uint256):['0']
+============================
+iteration:3
+targets:['registerForeignBridge(address,address,address,uint256)', 'transferOwnership(address)', 'foreignMaxPerTx()', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setRequiredBlockConfirmations(uint256)', 'setHomeDailyLimit(uint256)', 'setGasPrice(uint256)', 'setForeignMaxPerTx(uint256)', 'deployForeignBridge(address)', 'setBridgeValidatorsOwner(address)', 'setBridgeValidatorsProxyOwner(address)', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeProxyOwner(address)', 'homeMaxPerTx()', 'requiredBlockConfirmations()', 'homeDailyLimit()', 'requiredSignatures()', 'gasPrice()', 'setRequiredSignatures(uint256)', 'initialValidators()', 'foreignBridgeProxyOwner()', 'foreignBridgeOwner()', 'isInitialized()', 'bridgeValidatorsImplementation()', 'bridgeValidatorsOwner()', 'owner()', 'bridgeValidatorsProxyOwner()', 'setForeignBridgeErcToErcImplementation(address)', 'initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)']:writes at the last depth:['0', '2', '4', '8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)']:writes at the last depth:['0', '2', '4', '8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)']:writes at the last depth:['0', '2', '4', '8']
+contract coverage: 73.36%
+============================
+iteration:4
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:5
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:6
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:7
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:8
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:9
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:10
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:11
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:12
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:13
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:14
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:15
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:16
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:17
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:18
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:19
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:20
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:21
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:22
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:23
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:24
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:25
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:26
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:27
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:28
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setInitialValidators(address[])', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:29
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'transferOwnership(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:30
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setRequiredSignatures(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:31
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeProxyOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:32
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setBridgeValidatorsImplementation(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:33
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignMaxPerTx(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:34
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setGasPrice(uint256)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+contract coverage: 73.36%
+============================
+iteration:35
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setHomeMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignBridgeErcToErcImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setRequiredBlockConfirmations(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setHomeDailyLimit(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignBridgeOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setGasPrice(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignMaxPerTx(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setBridgeValidatorsImplementation(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setForeignBridgeProxyOwner(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setRequiredSignatures(uint256)']:writes at the last depth:['0']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'transferOwnership(address)']:writes at the last depth:['2']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+['initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)', 'setInitialValidators(address[])', 'setForeignBridgeOwner(address)', 'setInitialValidators(address[])']:writes at the last depth:['8']
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialValidators()
+PC address: 1308
+Estimated Gas Usage: 4697 - 8509
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:298
+
+function initialValidators() public view returns(address[]) {
+        return addressArrayStorage[keccak256(abi.encodePacked("initialValidators"))];
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd90000000000000000000000001040010180004008010204010101020804080110000000000000000000000000200180040220200104010104010201028001010104000000000000000201014004010000028002004000000000000000000000008000000000000000000000000000000000000000000000000000000000000ffa0000000000000000000000000440040201040101040204040201080401010102000000000000000000000000010201028001020102020120010402040401100101400101204004400440801008020220010104010140400201080101010101010101010101010801010101010101010101010101010101010801100101010101000000000000000000000000000000000000000000000000000000000000000000010000000000040000000001010300200112001002008100000020808084090000000000000000000000000001028020001000100080800000000080800408000000000000000000000000400810018002028080400804200020010420010100000000000000000000000004, value: 0x0
+Caller: [CREATOR], function: initialValidators(), txdata: 0x5bd9749c, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 1475
+Estimated Gas Usage: 138163 - 568079
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:462
+
+function initialize(address _owner,
+            address _bridgeValidatorsImplementation,
+            uint256 _requiredSignatures,
+            address[] _initialValidators,
+            address _bridgeValidatorsOwner,
+            address _foreignBridgeErcToErcImplementation,
+            uint256 _requiredBlockConfirmations,
+            uint256 _gasPrice,
+            uint256 _foreignMaxPerTx,
+            uint256 _homeDailyLimit,
+            uint256 _homeMaxPerTx,
+            address _foreignBridgeOwner,
+            address _foreignProxyOwner) public returns(bool) {
+
+        require(!isInitialized());
+        require(_owner != address(0));
+        require(_bridgeValidatorsImplementation != address(0));
+        require(_requiredSignatures >= 1);
+        require(_bridgeValidatorsOwner != address(0));
+        require(_foreignBridgeErcToErcImplementation != address(0));
+        require(_requiredBlockConfirmations != 0);
+        require(_gasPrice > 0);
+        require(_foreignMaxPerTx >= 0);
+        require(_homeMaxPerTx < _homeDailyLimit);
+        require(_foreignBridgeOwner != address(0));
+        require(_foreignProxyOwner != address(0));
+        require(_initialValidators.length >= _requiredSignatures);
+
+        setOwner(msg.sender); 
+        setBridgeValidatorsImplementation(_bridgeValidatorsImplementation);
+        setInitialValidators(_initialValidators);
+        setRequiredSignatures(_requiredSignatures);
+        setBridgeValidatorsOwner(_bridgeValidatorsOwner);
+        setBridgeValidatorsProxyOwner(_foreignProxyOwner);
+        setForeignBridgeErcToErcImplementation(_foreignBridgeErcToErcImplementation);
+        setRequiredBlockConfirmations(_requiredBlockConfirmations);
+        setGasPrice(_gasPrice);
+        setForeignMaxPerTx(_foreignMaxPerTx);
+        setHomeDailyLimit(_homeDailyLimit);
+        setHomeMaxPerTx(_homeMaxPerTx);
+        setForeignBridgeOwner(_foreignBridgeOwner);
+        setForeignBridgeProxyOwner(_foreignProxyOwner);
+        setInitialize(true);
+        setOwner(_owner); 
+        return isInitialized();
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101020101020201010101010101200202010101100101010101010101010101010101010401010801010401010101014004020104010000000000000000000200000280010001010201000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc0101010101010101010101010101010101010101010101010101010101040201010101010101010101010101010101010101010102010101020101010101010101014080800102010101400101100101010101010101200101010101018001010101010101010101010101010101040101010101010101010101040101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000100000000000000000000000000000101010000010000000000000000000000000000000000000000000000000000010101000000010101010101010101010101800000012001100140010180800104011001040801010101010101010101010140, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 1481
+Estimated Gas Usage: 138163 - 568079
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:462
+
+function initialize(address _owner,
+            address _bridgeValidatorsImplementation,
+            uint256 _requiredSignatures,
+            address[] _initialValidators,
+            address _bridgeValidatorsOwner,
+            address _foreignBridgeErcToErcImplementation,
+            uint256 _requiredBlockConfirmations,
+            uint256 _gasPrice,
+            uint256 _foreignMaxPerTx,
+            uint256 _homeDailyLimit,
+            uint256 _homeMaxPerTx,
+            address _foreignBridgeOwner,
+            address _foreignProxyOwner) public returns(bool) {
+
+        require(!isInitialized());
+        require(_owner != address(0));
+        require(_bridgeValidatorsImplementation != address(0));
+        require(_requiredSignatures >= 1);
+        require(_bridgeValidatorsOwner != address(0));
+        require(_foreignBridgeErcToErcImplementation != address(0));
+        require(_requiredBlockConfirmations != 0);
+        require(_gasPrice > 0);
+        require(_foreignMaxPerTx >= 0);
+        require(_homeMaxPerTx < _homeDailyLimit);
+        require(_foreignBridgeOwner != address(0));
+        require(_foreignProxyOwner != address(0));
+        require(_initialValidators.length >= _requiredSignatures);
+
+        setOwner(msg.sender); 
+        setBridgeValidatorsImplementation(_bridgeValidatorsImplementation);
+        setInitialValidators(_initialValidators);
+        setRequiredSignatures(_requiredSignatures);
+        setBridgeValidatorsOwner(_bridgeValidatorsOwner);
+        setBridgeValidatorsProxyOwner(_foreignProxyOwner);
+        setForeignBridgeErcToErcImplementation(_foreignBridgeErcToErcImplementation);
+        setRequiredBlockConfirmations(_requiredBlockConfirmations);
+        setGasPrice(_gasPrice);
+        setForeignMaxPerTx(_foreignMaxPerTx);
+        setHomeDailyLimit(_homeDailyLimit);
+        setHomeMaxPerTx(_homeMaxPerTx);
+        setForeignBridgeOwner(_foreignBridgeOwner);
+        setForeignBridgeProxyOwner(_foreignProxyOwner);
+        setInitialize(true);
+        setOwner(_owner); 
+        return isInitialized();
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9000000000000000000000000400204020101040801010201200210010202014000000000000000000000000001010101010210020102200140020101201080020400000000000000400800020120000010040201000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c0000000000000000000000008000000000000000000000000000000000000000000000000000000000000002040101010102040101010101010404010104010120108001800108040101802001010120040480020120010440080101010820010101010101010101010101020101010102010101020101010401020101010101000000000000000000000000000000000000000000000000000000000000000002010801020101018002020101010104040401040008040100000201000800080201080101010101800202010100000404040104000800000000010100080004000000000000000000000000011001200280080101040104010801012001080100000000000000000000000001, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 1484
+Estimated Gas Usage: 125409 - 514054
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:462
+
+function initialize(address _owner,
+            address _bridgeValidatorsImplementation,
+            uint256 _requiredSignatures,
+            address[] _initialValidators,
+            address _bridgeValidatorsOwner,
+            address _foreignBridgeErcToErcImplementation,
+            uint256 _requiredBlockConfirmations,
+            uint256 _gasPrice,
+            uint256 _foreignMaxPerTx,
+            uint256 _homeDailyLimit,
+            uint256 _homeMaxPerTx,
+            address _foreignBridgeOwner,
+            address _foreignProxyOwner) public returns(bool) {
+
+        require(!isInitialized());
+        require(_owner != address(0));
+        require(_bridgeValidatorsImplementation != address(0));
+        require(_requiredSignatures >= 1);
+        require(_bridgeValidatorsOwner != address(0));
+        require(_foreignBridgeErcToErcImplementation != address(0));
+        require(_requiredBlockConfirmations != 0);
+        require(_gasPrice > 0);
+        require(_foreignMaxPerTx >= 0);
+        require(_homeMaxPerTx < _homeDailyLimit);
+        require(_foreignBridgeOwner != address(0));
+        require(_foreignProxyOwner != address(0));
+        require(_initialValidators.length >= _requiredSignatures);
+
+        setOwner(msg.sender); 
+        setBridgeValidatorsImplementation(_bridgeValidatorsImplementation);
+        setInitialValidators(_initialValidators);
+        setRequiredSignatures(_requiredSignatures);
+        setBridgeValidatorsOwner(_bridgeValidatorsOwner);
+        setBridgeValidatorsProxyOwner(_foreignProxyOwner);
+        setForeignBridgeErcToErcImplementation(_foreignBridgeErcToErcImplementation);
+        setRequiredBlockConfirmations(_requiredBlockConfirmations);
+        setGasPrice(_gasPrice);
+        setForeignMaxPerTx(_foreignMaxPerTx);
+        setHomeDailyLimit(_homeDailyLimit);
+        setHomeMaxPerTx(_homeMaxPerTx);
+        setForeignBridgeOwner(_foreignBridgeOwner);
+        setForeignBridgeProxyOwner(_foreignProxyOwner);
+        setInitialize(true);
+        setOwner(_owner); 
+        return isInitialized();
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101010101010101010101010101010102010101010101010101010101010101010101010101010101010101010101010101800101010ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe800000000000000000000000000000000000000000000000000000000000001e0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000000080000000010000000000000000000000000000000000000000000000000000000000000000010101010101010101010101010101010101010101010101010101010101200101010101010101010101010101, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 1490
+Estimated Gas Usage: 125409 - 514054
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:462
+
+function initialize(address _owner,
+            address _bridgeValidatorsImplementation,
+            uint256 _requiredSignatures,
+            address[] _initialValidators,
+            address _bridgeValidatorsOwner,
+            address _foreignBridgeErcToErcImplementation,
+            uint256 _requiredBlockConfirmations,
+            uint256 _gasPrice,
+            uint256 _foreignMaxPerTx,
+            uint256 _homeDailyLimit,
+            uint256 _homeMaxPerTx,
+            address _foreignBridgeOwner,
+            address _foreignProxyOwner) public returns(bool) {
+
+        require(!isInitialized());
+        require(_owner != address(0));
+        require(_bridgeValidatorsImplementation != address(0));
+        require(_requiredSignatures >= 1);
+        require(_bridgeValidatorsOwner != address(0));
+        require(_foreignBridgeErcToErcImplementation != address(0));
+        require(_requiredBlockConfirmations != 0);
+        require(_gasPrice > 0);
+        require(_foreignMaxPerTx >= 0);
+        require(_homeMaxPerTx < _homeDailyLimit);
+        require(_foreignBridgeOwner != address(0));
+        require(_foreignProxyOwner != address(0));
+        require(_initialValidators.length >= _requiredSignatures);
+
+        setOwner(msg.sender); 
+        setBridgeValidatorsImplementation(_bridgeValidatorsImplementation);
+        setInitialValidators(_initialValidators);
+        setRequiredSignatures(_requiredSignatures);
+        setBridgeValidatorsOwner(_bridgeValidatorsOwner);
+        setBridgeValidatorsProxyOwner(_foreignProxyOwner);
+        setForeignBridgeErcToErcImplementation(_foreignBridgeErcToErcImplementation);
+        setRequiredBlockConfirmations(_requiredBlockConfirmations);
+        setGasPrice(_gasPrice);
+        setForeignMaxPerTx(_foreignMaxPerTx);
+        setHomeDailyLimit(_homeDailyLimit);
+        setHomeMaxPerTx(_homeMaxPerTx);
+        setForeignBridgeOwner(_foreignBridgeOwner);
+        setForeignBridgeProxyOwner(_foreignProxyOwner);
+        setInitialize(true);
+        setOwner(_owner); 
+        return isInitialized();
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd90101010101010101010101010101010101010101010401010101010101010101010101010101010101010101010101010101010101010101010101018001020107fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe80000000000000000000000000000000000000000000000000000000000102240101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101400101010101010101040801010101401001010101010110010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000000040000000010000000000000000000000000000000000000000000000000000000000000000010101010101010101010101080101010401010101010101010110011001010101010101010101010101010101, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: setInitialValidators(address[])
+PC address: 3069
+Estimated Gas Usage: 22028 - 90820
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:302
+
+function setInitialValidators(address[] _initialValidators) public onlyOwner {
+        require(_initialValidators.length >= requiredSignatures());
+        addressArrayStorage[keccak256(abi.encodePacked("initialValidators"))] = _initialValidators;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe0000000000000000000000000102010101101001010101800101010101010101000000000000000000000000000000000000000101010101000000000000000380000000000000000000000000000000000000000000000000000000000000010000000000000000000000000101010110010101010101010101011001010108000000000000000000000000010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101040101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000000000000000000000000000100000000000002020001000201000000000000000200000008000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, value: 0x0
+Caller: [CREATOR], function: setInitialValidators(address[]), txdata: 0xfe41b2daffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: setInitialValidators(address[])
+PC address: 3084
+Estimated Gas Usage: 21946 - 90552
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:302
+
+function setInitialValidators(address[] _initialValidators) public onlyOwner {
+        require(_initialValidators.length >= requiredSignatures());
+        addressArrayStorage[keccak256(abi.encodePacked("initialValidators"))] = _initialValidators;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101affeaffeaffeaffeaffeaffeaffeaffeaffeaffe01010101010101010101010101010120011008020101010001010101010280010000000000000000000000000000000000000000000000000000000000000002a024005ffffffffffffffffffffffffffffffffffffffffffffffffffffffffc010101010101010101010101011001010101010101010101010101010201010201010101010101010101010101010101010101010101018001010104010101010101010101010101010101010101020101020101010101010101010101010101010101020801020101010101010101100401010102010101010101010101010101010101010101010101010101010101010101010101010101010101010101010120a040401001060101010140080c40040201100140208088301080c04020110020204010100104010101010008084004020100014020000810102040400008010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101, value: 0x0
+Caller: [CREATOR], function: setInitialValidators(address[]), txdata: 0xfe41b2da81, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: adjustToDefaultDecimals(uint256,uint8)
+PC address: 3195
+Estimated Gas Usage: 406 - 1112
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:375
+
+10 ** (_decimals - defaultDecimals)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: adjustToDefaultDecimals(uint256,uint8), txdata: 0x0880224e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4e4ec4, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: adjustToDefaultDecimals(uint256,uint8)
+PC address: 3197
+Estimated Gas Usage: 406 - 1112
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:375
+
+_amount * (10 ** (_decimals - defaultDecimals))
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: adjustToDefaultDecimals(uint256,uint8), txdata: 0x0880224e20000000000000000000000000000000000000000000000000000000000000090000000000000000000000000000000000000000000000000000000000000028, decoded_data: (14474011154664524427946373126085988481658748083205070504932198000989141205001, 40), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 5646
+Estimated Gas Usage: 125409 - 514054
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:299
+
+return addressArrayStorage[keccak256(abi.encodePacked("initialValidators"))]
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101100101010101010101010801010101010ffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffd80051109b5f22634010184243414129212c2120242064012010482200449415f0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010401100101010108020101010101010101010101010801010104010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000000010000000010000000000000000000000000000000000000000000000000000000000000000010101010101010101010101010101010101010101010101010101010101010101010101010101010101010180, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 5671
+Estimated Gas Usage: 138163 - 568079
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:299
+
+return addressArrayStorage[keccak256(abi.encodePacked("initialValidators"))]
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9000000000000000000000000400204020101040801010201200210010202014000000000000000000000000001010101010210020102200140020101201080020400000000000000400800020120000010040201000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c0000000000000000000000008000000000000000000000000000000000000000000000000000000000000002040101010102040101010101010404010104010120108001800108040101802001010120040480020120010440080101010820010101010101010101010101020101010102010101020101010401020101010101000000000000000000000000000000000000000000000000000000000000000002010801020101018002020101010104040401040008040100000201000800080201080101010101800202010100000404040104000800000000010100080004000000000000000000000000011001200280080101040104010801012001080100000000000000000000000001, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 5673
+Estimated Gas Usage: 125409 - 514054
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:299
+
+return addressArrayStorage[keccak256(abi.encodePacked("initialValidators"))]
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101011001010101100fffffffffffffffffffffffffffffffffffffff90efffffffffffffffffffff80000000000000000000000088c3c800000000000000000000000000000000620101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010180010101010801010101010101010110011001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000008010000000000080000100004008000080020000000000000000810000000000801000000000008000004000400800008000100000000000000080010101010101010101010101010110010101010101010101010101010101010101010101010101010101010101, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: Low
+Contract: ForeignBridgeFactory
+Function name: setInitialValidators(address[])
+PC address: 14029
+Estimated Gas Usage: 22028 - 90820
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation.  This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101affeaffeaffeaffeaffeaffeaffeaffeaffeaffe0101010101010101010101014001010201010101010101010101010101010101680000000000000000000000000000000000000101010108000000000000000398219219000000000000000000000000000002000000000000000000000000000101010101010101010101010101010101010101010101010101010101020101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010104201001020001200801018110408010048000004004021080042004000280010400000002000000000100801040001000000000000002088004000000028000010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101, value: 0x0
+Caller: [CREATOR], function: setInitialValidators(address[]), txdata: 0xfe41b2da90, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: Low
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 14040
+Estimated Gas Usage: 138163 - 568079
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation.  This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9000000000000000000000000400204020101040801010201200210010202014000000000000000000000000001010101010210020102200140020101201080020400000000000000400800020120000010040201000000000000000000000000000000000000000000000000000000000000000000000000000000000000008c0000000000000000000000008000000000000000000000000000000000000000000000000000000000000002040101010102040101010101010404010104010120108001800108040101802001010120040480020120010440080101010820010101010101010101010101020101010102010101020101010401020101010101000000000000000000000000000000000000000000000000000000000000000002010801020101018002020101010104040401040008040100000201000800080201080101010101800202010100000404040104000800000000010100080004000000000000000000000000011001200280080101040104010801012001080100000000000000000000000001, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: Low
+Contract: ForeignBridgeFactory
+Function name: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address)
+PC address: 14042
+Estimated Gas Usage: 125409 - 514054
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation.  This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(address,address,uint256,address[],address,address,uint256,uint256,uint256,uint256,uint256,address,address), txdata: 0x5c654cd9010101010101010101010101010101010101010101010101010101014001010101010101010101010101010101200101010101010101010101010101010108010ffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffd80000000000000000000000000000000000000000000000000000000000001390101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101104001020101100101010101010101010101010801010102010101010101400101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000010101010101010101010101010101010101010101010101020101080101018001010101010101010101010120, value: 0x0
+
+
+time_used: 20531.751307487488 seconds
+#@contract_info_time
+0x3c2168de4386a100aedb89b0213e5f8aac6b956c.sol:0.4.24:ForeignBridgeFactory:20531.751307487488:36100:60:36000

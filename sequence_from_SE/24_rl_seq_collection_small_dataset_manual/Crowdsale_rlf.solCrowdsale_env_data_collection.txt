@@ -1,0 +1,515 @@
+C:\Users\SERC\anaconda3\envs\smartExecutor_env397\python.exe C:/Users/SERC/wei_pycharm/smartExecutor/semyth analyze .\tests\testdata\rl_contracts\Crowdsale_rlf.sol:Crowdsale --solv 0.4.25 -fdg -fss exeDataCollection
+
+INFO: Could not find files for the given pattern(s).
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 477
+['constructor']:writes at the last depth:['1', '4', '2', '3', '0']
+preprocessing: Achieved 99.79% coverage.
+Ending preprocessing.
+preprocessing time(s): 4.562011480331421
+contract coverage: 69.60%
+Function Reads: State variables read in conditions
+	setOwner(address):[]
+	withdraw():['3']
+	refund():['3']
+	setStatus(uint256):['1','0','2']
+	invest():['3']
+Function Writes: State variables written
+	setOwner(address):['4']
+	invest():['5', '0']
+	setStatus(uint256):['3']
+	refund():['5']
+============================
+iteration:3
+targets:['refund()', 'withdraw()']
+['setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)']:writes at the last depth:['3']
+['invest()']:writes at the last depth:['5', '0']
+['setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 87.84%
+============================
+iteration:4
+['setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:5
+['setStatus(uint256)', 'refund()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'refund()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'refund()', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:6
+['setStatus(uint256)', 'refund()', 'refund()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'refund()', 'refund()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'refund()', 'refund()', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:7
+['setStatus(uint256)', 'refund()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'refund()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'refund()', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:8
+['setStatus(uint256)', 'refund()', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'refund()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'refund()', 'setOwner(address)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:9
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:10
+['setStatus(uint256)', 'setStatus(uint256)', 'refund()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'refund()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setStatus(uint256)', 'refund()', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:11
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:12
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:13
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setOwner(address)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:14
+['setStatus(uint256)', 'setOwner(address)', 'refund()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'refund()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setOwner(address)', 'refund()', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:15
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:16
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:17
+['invest()', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 87.84%
+============================
+iteration:18
+['invest()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:19
+['invest()', 'setStatus(uint256)', 'refund()', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'refund()', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setStatus(uint256)', 'refund()', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:20
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:21
+['invest()', 'setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setStatus(uint256)', 'setOwner(address)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:22
+['invest()', 'invest()', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'invest()', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 87.84%
+============================
+iteration:23
+['invest()', 'invest()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'invest()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'invest()', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 87.84%
+============================
+iteration:24
+['invest()', 'invest()', 'invest()', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'invest()', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'invest()', 'invest()', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'invest()', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:25
+['invest()', 'invest()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'invest()', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['invest()', 'invest()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:26
+['invest()', 'invest()', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'invest()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'invest()', 'setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'invest()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:27
+['invest()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:28
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['invest()', 'setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:29
+['invest()', 'setStatus(uint256)', 'withdraw()', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'withdraw()', 'withdraw()']:writes at the last depth:[]
+['invest()', 'setStatus(uint256)', 'withdraw()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:30
+['invest()', 'setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setStatus(uint256)', 'setOwner(address)', 'withdraw()']:writes at the last depth:[]
+['invest()', 'setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:31
+['invest()', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:32
+['invest()', 'setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setOwner(address)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:33
+['invest()', 'setOwner(address)', 'invest()', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setOwner(address)', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setOwner(address)', 'invest()', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'setOwner(address)', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:34
+['invest()', 'setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setOwner(address)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['invest()', 'setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:35
+['invest()', 'setOwner(address)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['invest()', 'setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['invest()', 'setOwner(address)', 'setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['invest()', 'setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:36
+['setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:37
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:38
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:39
+['setStatus(uint256)', 'setStatus(uint256)', 'withdraw()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'withdraw()', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setStatus(uint256)', 'withdraw()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:40
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:41
+['setStatus(uint256)', 'withdraw()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'withdraw()', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'withdraw()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:42
+['setStatus(uint256)', 'withdraw()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'withdraw()', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'withdraw()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:43
+['setStatus(uint256)', 'withdraw()', 'withdraw()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'withdraw()', 'withdraw()', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'withdraw()', 'withdraw()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:44
+['setStatus(uint256)', 'withdraw()', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'withdraw()', 'setOwner(address)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'withdraw()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:45
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:46
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:47
+['setStatus(uint256)', 'setOwner(address)', 'withdraw()', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'withdraw()', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setOwner(address)', 'withdraw()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:48
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)', 'withdraw()']:writes at the last depth:[]
+['setStatus(uint256)', 'setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:49
+['setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:50
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:51
+['setOwner(address)', 'setStatus(uint256)', 'refund()', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'refund()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setStatus(uint256)', 'refund()', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:52
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:53
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:54
+['setOwner(address)', 'invest()', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'invest()', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:55
+['setOwner(address)', 'invest()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'invest()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'invest()', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:56
+['setOwner(address)', 'invest()', 'invest()', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'invest()', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'invest()', 'invest()', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'invest()', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:57
+['setOwner(address)', 'invest()', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'invest()', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setOwner(address)', 'invest()', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:58
+['setOwner(address)', 'invest()', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'invest()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'invest()', 'setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'invest()', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:59
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:60
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:61
+['setOwner(address)', 'setStatus(uint256)', 'withdraw()', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'withdraw()', 'withdraw()']:writes at the last depth:[]
+['setOwner(address)', 'setStatus(uint256)', 'withdraw()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:62
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)', 'withdraw()']:writes at the last depth:[]
+['setOwner(address)', 'setStatus(uint256)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:63
+['setOwner(address)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:64
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)', 'refund()']:writes at the last depth:['5']
+contract coverage: 99.79%
+============================
+iteration:65
+['setOwner(address)', 'setOwner(address)', 'invest()', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setOwner(address)', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setOwner(address)', 'invest()', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'setOwner(address)', 'invest()', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:66
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)', 'withdraw()']:writes at the last depth:[]
+['setOwner(address)', 'setOwner(address)', 'setStatus(uint256)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+============================
+iteration:67
+['setOwner(address)', 'setOwner(address)', 'setOwner(address)', 'setOwner(address)']:writes at the last depth:['4']
+['setOwner(address)', 'setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+['setOwner(address)', 'setOwner(address)', 'setOwner(address)', 'invest()']:writes at the last depth:['5', '0']
+['setOwner(address)', 'setOwner(address)', 'setOwner(address)', 'setStatus(uint256)']:writes at the last depth:['3']
+contract coverage: 99.79%
+#@statespace
+3173 nodes, 3172 edges, 24970 total states
+#@coverage
+Achieved 16.72% coverage for code: 608060405234801561001057600080fd5b5060405160208061045b8339810180604052810190808051906020019092919050505062278d00420160018190555033600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555080600281905550600060038190555060008081905550506103b5806100a66000396000f30060806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806313af4035146100725780633ccfd60b146100b5578063590e1ae3146100cc57806369ba1a75146100e3578063e8b5e51f14610110575b600080fd5b34801561007e57600080fd5b506100b3600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061011a565b005b3480156100c157600080fd5b506100ca61015e565b005b3480156100d857600080fd5b506100e16101dc565b005b3480156100ef57600080fd5b5061010e600480360381019080803590602001909291905050506102ba565b005b61011861030b565b005b80600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600160035414151561016f57600080fd5b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6000549081150290604051600060405180830381858888f193505050501580156101d9573d6000803e3d6000fd5b50565b60026003541415156101ed57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff166108fc600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549081150290604051600060405180830381858888f19350505050158015610272573d6000803e3d6000fd5b506000600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550565b6001811480156102ce575060025460005410155b806102f657506002811480156102e75750600254600054105b80156102f557506001544210155b5b151561030157600080fd5b8060038190555050565b60006003541480156103205750600254600054105b151561032b57600080fd5b34600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055503460008082825401925050819055505600a165627a7a72305820407972ff5855a871be0398e254f20abbfa19140c8cd02d5c4f19fa643d30d27c0029
+#@coverage
+Achieved 99.79% coverage for code: 60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806313af4035146100725780633ccfd60b146100b5578063590e1ae3146100cc57806369ba1a75146100e3578063e8b5e51f14610110575b600080fd5b34801561007e57600080fd5b506100b3600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061011a565b005b3480156100c157600080fd5b506100ca61015e565b005b3480156100d857600080fd5b506100e16101dc565b005b3480156100ef57600080fd5b5061010e600480360381019080803590602001909291905050506102ba565b005b61011861030b565b005b80600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600160035414151561016f57600080fd5b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6000549081150290604051600060405180830381858888f193505050501580156101d9573d6000803e3d6000fd5b50565b60026003541415156101ed57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff166108fc600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549081150290604051600060405180830381858888f19350505050158015610272573d6000803e3d6000fd5b506000600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550565b6001811480156102ce575060025460005410155b806102f657506002811480156102e75750600254600054105b80156102f557506001544210155b5b151561030157600080fd5b8060038190555050565b60006003541480156103205750600254600054105b151561032b57600080fd5b34600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055503460008082825401925050819055505600a165627a7a72305820407972ff5855a871be0398e254f20abbfa19140c8cd02d5c4f19fa643d30d27c0029
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: Crowdsale
+Function name: constructor
+PC address: 57
+Estimated Gas Usage: 26150 - 131464
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: .\tests\testdata\rl_contracts\Crowdsale_rlf.sol:11
+
+now + 30 days
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: Crowdsale
+Function name: withdraw()
+PC address: 451
+Estimated Gas Usage: 3427 - 38038
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: .\tests\testdata\rl_contracts\Crowdsale_rlf.sol:37
+
+owner.transfer ( raised )
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x44c0b080000000000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x8603029db9364840, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: setOwner(address), txdata: 0x13af4035000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: ('0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef',), value: 0x0
+Caller: [CREATOR], function: invest(), txdata: 0xe8b5e51f, value: 0x10000000000000000
+Caller: [SOMEGUY], function: setStatus(uint256), txdata: 0x69ba1a750000000000000000000000000000000000000000000000000000000000000001, decoded_data: (1,), value: 0x0
+Caller: [ATTACKER], function: withdraw(), txdata: 0x3ccfd60b, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: Crowdsale
+Function name: setStatus(uint256)
+PC address: 764
+Estimated Gas Usage: 2776 - 2871
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: .\tests\testdata\rl_contracts\Crowdsale_rlf.sol:19
+
+require (( newStatus == 1 && raised >= goal ) ||
+( newStatus == 2 && raised < goal && now >= closeTime ) )
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 01, decoded_data: , value: 0x0
+Caller: [ATTACKER], function: setStatus(uint256), txdata: 0x69ba1a750000000000000000000000000000000000000000000000000000000000000002, decoded_data: (2,), value: 0x0
+
+
+#@time
+time used(s):2191.9382934570312

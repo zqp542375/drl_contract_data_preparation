@@ -1,0 +1,4 @@
+++++ 0x6b175474e89094c44da98b954eedeac495271d0f.sol  :  0.5.12  :  Dai ++++
+time_used: 6.883379697799683 seconds
+#@contract_info_time
+0x6b175474e89094c44da98b954eedeac495271d0f.sol:0.5.12:Dai:6.883379697799683:36100:60:36000

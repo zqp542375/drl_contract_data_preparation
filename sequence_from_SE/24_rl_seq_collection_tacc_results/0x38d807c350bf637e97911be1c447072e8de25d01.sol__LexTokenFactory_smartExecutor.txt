@@ -1,0 +1,4 @@
+++++ 0x38d807c350bf637e97911be1c447072e8de25d01.sol  :  0.5.17  :  LexTokenFactory ++++
+time_used: 3.3393073081970215 seconds
+#@contract_info_time
+0x38d807c350bf637e97911be1c447072e8de25d01.sol:0.5.17:LexTokenFactory:3.3393073081970215:36100:60:36000

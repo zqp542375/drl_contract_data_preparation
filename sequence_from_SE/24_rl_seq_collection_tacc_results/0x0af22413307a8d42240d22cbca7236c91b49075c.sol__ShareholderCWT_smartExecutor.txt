@@ -1,0 +1,1240 @@
+++++ 0x0af22413307a8d42240d22cbca7236c91b49075c.sol  :  0.5.10  :  ShareholderCWT ++++
+566066778878120141196512758317830200536107920074 is added into actors.
+930817719615465972263498014143538466169472136997 is added into actors.
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1654
+['constructor']:writes at the last depth:['0', '1', '2']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 96.74% coverage.
+dynamic svars:['3']
+static svars:['1', '0']
+Ending preprocessing.
+preprocessing time(s): 100.22831773757935
+contract coverage: 82.59%
+fallback is not reachable
+Function Reads: State variables read in conditions
+	withdraw(uint256):['0']
+	changeMinBalance(uint256):['0']
+	owner():[]
+	transferTokens(address,address,uint256):['0']
+	changeOwner(address):['0']
+	getInfo(address):['3']
+Function Writes: State variables written
+	fallback:['3']
+	changeMinBalance(uint256):['1']
+	changeOwner(address):['0']
+============================
+iteration:3
+targets:['fallback', 'getInfo(address)']
+['fallback']:writes at the last depth:[]
+['fallback']:writes at the last depth:[]
+['changeMinBalance(uint256)']:writes at the last depth:['1']
+['changeOwner(address)']:writes at the last depth:['0']
+['withdraw(uint256)']:writes at the last depth:[]
+['transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback']:writes at the last depth:['3']
+['fallback']:writes at the last depth:['3']
+['fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:4
+['fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 82.59%
+============================
+iteration:5
+contract coverage: 82.59%
+============================
+iteration:6
+contract coverage: 82.59%
+============================
+iteration:7
+['fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:8
+['fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:9
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:10
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:11
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:12
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:13
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:14
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:15
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:16
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:17
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:18
+['fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:19
+contract coverage: 82.59%
+============================
+iteration:20
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:21
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:22
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:23
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:24
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:25
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:26
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:27
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:28
+['fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:29
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:30
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:31
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:32
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:33
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:34
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:35
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:36
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:37
+['fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:38
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:39
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:40
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:41
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:42
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:43
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:44
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:45
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'withdraw(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'withdraw(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'withdraw(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 82.59%
+============================
+iteration:46
+['fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:47
+['fallback', 'changeOwner(address)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:48
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:49
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:50
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:51
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:52
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:53
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:54
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:55
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeOwner(address)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeOwner(address)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeOwner(address)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 84.10%
+============================
+iteration:56
+['fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:57
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 89.72%
+============================
+iteration:58
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:59
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:60
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:61
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:62
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:63
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:64
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:65
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'changeMinBalance(uint256)', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:66
+['fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:67
+contract coverage: 89.72%
+============================
+iteration:68
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:69
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:70
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:71
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'withdraw(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'withdraw(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:72
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeOwner(address)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'changeOwner(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeOwner(address)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:73
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:74
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:75
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:[]
+['fallback', 'fallback', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['1']
+['fallback', 'fallback', 'fallback', 'changeOwner(address)']:writes at the last depth:['0']
+['fallback', 'fallback', 'fallback', 'fallback']:writes at the last depth:['3']
+contract coverage: 89.72%
+============================
+iteration:76
+contract coverage: 89.72%
+============================
+iteration:77
+contract coverage: 89.72%
+============================
+iteration:78
+contract coverage: 89.72%
+============================
+iteration:79
+contract coverage: 89.72%
+============================
+iteration:80
+contract coverage: 89.72%
+============================
+iteration:81
+contract coverage: 89.72%
+============================
+iteration:82
+contract coverage: 89.72%
+============================
+iteration:83
+contract coverage: 89.72%
+#@statespace
+10653 nodes, 10652 edges, 122492 total states
+#@coverage
+Achieved 3.78% coverage for code: 60806040527363274fefe603f741103c75519444edcd83a12aca6000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001805573a30b4f63a216ceb9911f4907a2259fa80a8fb725600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503480156100bd57600080fd5b50610ce4806100cd6000396000f3fe6080604052600436106100555760003560e01c80632e1a7d4d146104c65780634ea18fab146105015780638da5cb5b1461053c578063a64b6e5f14610593578063a6f9dae11461060e578063ffdd5cf11461065f575b3273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461008a57fe5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156100e4576104c4565b6000600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020905060003411156103a45766b1a2bc2ec500003410158061015e5750600081600001541415801561015d5750662386f26fc100003410155b5b61016457fe5b6014600036905014156102fa5760006101c16000368080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050506106d9565b90503373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156101f957fe5b8073ffffffffffffffffffffffffffffffffffffffff166108fc61023a606461022c6019346106e790919063ffffffff16565b61076d90919063ffffffff16565b9081150290604051600060405180830381858888f19350505050158015610265573d6000803e3d6000fd5b506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6102c860646102ba6005346106e790919063ffffffff16565b61076d90919063ffffffff16565b9081150290604051600060405180830381858888f193505050501580156102f3573d6000803e3d6000fd5b50506103a3565b6000803690501415610399576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc610368606461035a601e346106e790919063ffffffff16565b61076d90919063ffffffff16565b9081150290604051600060405180830381858888f19350505050158015610393573d6000803e3d6000fd5b506103a2565b60006103a157fe5b5b5b5b600081600001541461047457600061040a62278d006103fc846001015442036103ee60646103e0601489600001546106e790919063ffffffff16565b61076d90919063ffffffff16565b6106e790919063ffffffff16565b61076d90919063ffffffff16565b90506104238183600201546107fc90919063ffffffff16565b82600201819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610471573d6000803e3d6000fd5b50505b4281600101819055506104ba6104a760646104996046346106e790919063ffffffff16565b61076d90919063ffffffff16565b82600001546107fc90919063ffffffff16565b8160000181905550505b005b3480156104d257600080fd5b506104ff600480360360208110156104e957600080fd5b8101908080359060200190929190505050610884565b005b34801561050d57600080fd5b5061053a6004803603602081101561052457600080fd5b8101908080359060200190929190505050610945565b005b34801561054857600080fd5b506105516109a5565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561059f57600080fd5b5061060c600480360360608110156105b657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506109ca565b005b34801561061a57600080fd5b5061065d6004803603602081101561063157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610ac4565b005b34801561066b57600080fd5b506106ae6004803603602081101561068257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b5d565b6040518085815260200184815260200183815260200182815260200194505050505060405180910390f35b600060148201519050919050565b6000808314156106fa5760009050610767565b600082840290508284828161070b57fe5b0414610762576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526021815260200180610c8f6021913960400191505060405180910390fd5b809150505b92915050565b60008082116107e4576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f536166654d6174683a206469766973696f6e206279207a65726f00000000000081525060200191505060405180910390fd5b60008284816107ef57fe5b0490508091505092915050565b60008082840190508381101561087a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146108da57fe5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610941573d6000803e3d6000fd5b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461099b57fe5b8060018190555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610a2057fe5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b158015610aa757600080fd5b505af1158015610abb573d6000803e3d6000fd5b50505050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610b1a57fe5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600080600080610b6b610c6d565b600360008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060600160405290816000820154815260200160018201548152602001600282015481525050905080600001519450600081600001511115610c4457610c4162278d00610c3383602001514203610c256064610c17601488600001516106e790919063ffffffff16565b61076d90919063ffffffff16565b6106e790919063ffffffff16565b61076d90919063ffffffff16565b93505b806040015192503073ffffffffffffffffffffffffffffffffffffffff16319150509193509193565b6040518060600160405280600081526020016000815260200160008152509056fe536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f77a265627a7a72305820360fbf0cf49786d2c0f31716e1fae51ec34eca08fbb0216bf6c966767659192d64736f6c634300050a0032
+#@coverage
+Achieved 89.72% coverage for code: 6080604052600436106100555760003560e01c80632e1a7d4d146104c65780634ea18fab146105015780638da5cb5b1461053c578063a64b6e5f14610593578063a6f9dae11461060e578063ffdd5cf11461065f575b3273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461008a57fe5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156100e4576104c4565b6000600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020905060003411156103a45766b1a2bc2ec500003410158061015e5750600081600001541415801561015d5750662386f26fc100003410155b5b61016457fe5b6014600036905014156102fa5760006101c16000368080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050506106d9565b90503373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156101f957fe5b8073ffffffffffffffffffffffffffffffffffffffff166108fc61023a606461022c6019346106e790919063ffffffff16565b61076d90919063ffffffff16565b9081150290604051600060405180830381858888f19350505050158015610265573d6000803e3d6000fd5b506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6102c860646102ba6005346106e790919063ffffffff16565b61076d90919063ffffffff16565b9081150290604051600060405180830381858888f193505050501580156102f3573d6000803e3d6000fd5b50506103a3565b6000803690501415610399576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc610368606461035a601e346106e790919063ffffffff16565b61076d90919063ffffffff16565b9081150290604051600060405180830381858888f19350505050158015610393573d6000803e3d6000fd5b506103a2565b60006103a157fe5b5b5b5b600081600001541461047457600061040a62278d006103fc846001015442036103ee60646103e0601489600001546106e790919063ffffffff16565b61076d90919063ffffffff16565b6106e790919063ffffffff16565b61076d90919063ffffffff16565b90506104238183600201546107fc90919063ffffffff16565b82600201819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610471573d6000803e3d6000fd5b50505b4281600101819055506104ba6104a760646104996046346106e790919063ffffffff16565b61076d90919063ffffffff16565b82600001546107fc90919063ffffffff16565b8160000181905550505b005b3480156104d257600080fd5b506104ff600480360360208110156104e957600080fd5b8101908080359060200190929190505050610884565b005b34801561050d57600080fd5b5061053a6004803603602081101561052457600080fd5b8101908080359060200190929190505050610945565b005b34801561054857600080fd5b506105516109a5565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561059f57600080fd5b5061060c600480360360608110156105b657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506109ca565b005b34801561061a57600080fd5b5061065d6004803603602081101561063157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610ac4565b005b34801561066b57600080fd5b506106ae6004803603602081101561068257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b5d565b6040518085815260200184815260200183815260200182815260200194505050505060405180910390f35b600060148201519050919050565b6000808314156106fa5760009050610767565b600082840290508284828161070b57fe5b0414610762576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526021815260200180610c8f6021913960400191505060405180910390fd5b809150505b92915050565b60008082116107e4576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f536166654d6174683a206469766973696f6e206279207a65726f00000000000081525060200191505060405180910390fd5b60008284816107ef57fe5b0490508091505092915050565b60008082840190508381101561087a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146108da57fe5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610941573d6000803e3d6000fd5b5050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461099b57fe5b8060018190555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610a2057fe5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b158015610aa757600080fd5b505af1158015610abb573d6000803e3d6000fd5b50505050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610b1a57fe5b806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600080600080610b6b610c6d565b600360008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060600160405290816000820154815260200160018201548152602001600282015481525050905080600001519450600081600001511115610c4457610c4162278d00610c3383602001514203610c256064610c17601488600001516106e790919063ffffffff16565b61076d90919063ffffffff16565b6106e790919063ffffffff16565b61076d90919063ffffffff16565b93505b806040015192503073ffffffffffffffffffffffffffffffffffffffff16319150509193509193565b6040518060600160405280600081526020016000815260200160008152509056fe536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f77a265627a7a72305820360fbf0cf49786d2c0f31716e1fae51ec34eca08fbb0216bf6c966767659192d64736f6c634300050a0032
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: fallback
+PC address: 136
+Estimated Gas Usage: 62 - 157
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:123
+
+assert(msg.sender == tx.origin)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: fallback
+PC address: 223
+Estimated Gas Usage: 935 - 1360
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:125
+
+if (msg.sender == owner) return;
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderCWT
+Function name: fallback
+PC address: 355
+Estimated Gas Usage: 1951 - 2566
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:135
+
+assert(msg.value >= 0.05 ether || (data.funds != 0 && msg.value >= 0.01 ether))
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x1
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: fallback
+PC address: 503
+Estimated Gas Usage: 1584 - 4974
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:138
+
+assert(ref != msg.sender)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: blockHashAddendsInexpansible(uint256), txdata: 0x0000000000000000000000000000000000000000, decoded_data: (0,), value: 0xb1a2bc2ec50000
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderCWT
+Function name: fallback
+PC address: 504
+Estimated Gas Usage: 1594 - 4984
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:102
+
+{
+          addr := mload(add(bys,20))
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0xa30b4f63a216ceb9911f4907a2259fa80a8fb725, decoded_data: , value: 0xb1a2bc2ec50000
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: withdraw(uint256)
+PC address: 2264
+Estimated Gas Usage: 1054 - 1479
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:83
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: withdraw(uint256), txdata: 0x2e1a7d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d, decoded_data: (34964670083424890382803787630074387861575642428448327180542093994546317577549,), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderCWT
+Function name: withdraw(uint256)
+PC address: 2265
+Estimated Gas Usage: 1064 - 1489
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:87
+
+function withdraw(uint256 amount)  public onlyOwner {
+        owner.transfer(amount);
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: withdraw(uint256), txdata: 0x2e1a7d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d, decoded_data: (34964670083424890382803787630074387861575642428448327180542093994546317577549,), value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: ShareholderCWT
+Function name: withdraw(uint256)
+PC address: 2347
+Estimated Gas Usage: 2719 - 37660
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:88
+
+owner.transfer(amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: blockHashAddendsInexpansible(uint256), txdata: 0x00000000, value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeOwner(address), txdata: 0xa6f9dae15b5b5b5b5b5b5b5b5b5b5b5bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d0002000000800002080400800000000202028010000420400102024008010001, decoded_data: (3533694182212927244191399312066203668336738515466042274086176139629363201,), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: changeMinBalance(uint256)
+PC address: 2457
+Estimated Gas Usage: 1076 - 1501
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:83
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeMinBalance(uint256), txdata: 0x4ea18fababababababababababababababababababababababababababababababababab, decoded_data: (77648812782670860460512307594061302913369283834606025297048026922953510464427,), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderCWT
+Function name: changeMinBalance(uint256)
+PC address: 2458
+Estimated Gas Usage: 1086 - 1511
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:97
+
+function changeMinBalance(uint256 newMinBalance) public onlyOwner {
+        minBalance = newMinBalance;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeMinBalance(uint256), txdata: 0x4ea18fababababababababababababababababababababababababababababababababab, decoded_data: (77648812782670860460512307594061302913369283834606025297048026922953510464427,), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: transferTokens(address,address,uint256)
+PC address: 2590
+Estimated Gas Usage: 1186 - 1611
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:83
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderCWT
+Function name: transferTokens(address,address,uint256)
+PC address: 2591
+Estimated Gas Usage: 1196 - 1621
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:107
+
+function transferTokens (address token, address target, uint256 amount) onlyOwner public
+    {
+        ERC20Token(token).transfer(target, amount);
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: ShareholderCWT
+Function name: transferTokens(address,address,uint256)
+PC address: 2730
+Estimated Gas Usage: 2817 - 37713
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:109
+
+ERC20Token(token).transfer(target, amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5fefefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef, value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderCWT
+Function name: changeOwner(address)
+PC address: 2840
+Estimated Gas Usage: 1148 - 1573
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:83
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeOwner(address), txdata: 0xa6f9dae1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderCWT
+Function name: changeOwner(address)
+PC address: 2841
+Estimated Gas Usage: 1158 - 1583
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x0af22413307a8d42240d22cbca7236c91b49075c.sol:93
+
+function changeOwner(address payable newOwner) public onlyOwner {
+        owner = newOwner;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeOwner(address), txdata: 0xa6f9dae1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1, value: 0x0
+
+
+time_used: 36044.533162117004 seconds
+#@contract_info_time
+0x0af22413307a8d42240d22cbca7236c91b49075c.sol:0.5.10:ShareholderCWT:36044.533162117004:36100:60:36000

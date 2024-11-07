@@ -1,0 +1,4 @@
+++++ 0x6ce2c065dc280c6b12d23369d3f9f51255972529.sol  :  0.5.17  :  StrategyMKRVaultDAIDelegate ++++
+time_used: 24.162846326828003 seconds
+#@contract_info_time
+0x6ce2c065dc280c6b12d23369d3f9f51255972529.sol:0.5.17:StrategyMKRVaultDAIDelegate:24.162846326828003:36100:60:36000

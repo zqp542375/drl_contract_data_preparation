@@ -1,0 +1,4 @@
+++++ 0x0baaa0a55db50b1b3b0de82a4dc097b321fe9f7d.sol  :  0.5.12  :  DaiJoin ++++
+time_used: 4.125300645828247 seconds
+#@contract_info_time
+0x0baaa0a55db50b1b3b0de82a4dc097b321fe9f7d.sol:0.5.12:DaiJoin:4.125300645828247:36100:60:36000

@@ -1,0 +1,11 @@
+++++ 0x13a399fe6c5b38b247e1477016f5fc7c3f6b3ccb.sol  :  0.5.7  :  GozePayToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2548
+['constructor']:writes at the last depth:['0', '1', '2', '3', '4', '5', '6']
+preprocessing: Achieved 99.96% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 67.96904587745667 seconds
+#@contract_info_time
+0x13a399fe6c5b38b247e1477016f5fc7c3f6b3ccb.sol:0.5.7:GozePayToken:67.96904587745667:36100:60:36000

@@ -1,0 +1,729 @@
+++++ 0x16626b413f95fa5468D78b875824055134c8936C.sol  :  0.5.12  :  Spotter ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2000
+['constructor']:writes at the last depth:['0', '2', '3', '4']
+preprocessing: Achieved 99.60% coverage.
+dynamic svars:['0', '1']
+static svars:['4', '3', '2']
+Ending preprocessing.
+preprocessing time(s): 23.93990397453308
+contract coverage: 93.80%
+Function Reads: State variables read in conditions
+	cage():['0']
+	live():[]
+	deny(address):['0']
+	wards(address):[]
+	ilks(bytes32):[]
+	file(bytes32,bytes32,address):['0', '4']
+	poke(bytes32):[]
+	file(bytes32,bytes32,uint256):['0', '4']
+	file(bytes32,uint256):['0', '4']
+	vat():[]
+	par():[]
+	rely(address):['0']
+Function Writes: State variables written
+	cage():['4']
+	deny(address):['0']
+	file(bytes32,uint256):['3']
+	rely(address):['0']
+	file(bytes32,bytes32,uint256):['1']
+	file(bytes32,bytes32,address):['1']
+============================
+iteration:3
+targets:['file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']
+['cage()']:writes at the last depth:['4']
+['deny(address)']:writes at the last depth:['0']
+['file(bytes32,uint256)']:writes at the last depth:['3']
+['rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:4
+['poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:5
+['poke(bytes32)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:6
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:7
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:8
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:9
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:10
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 93.80%
+============================
+iteration:11
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'poke(bytes32)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:12
+['poke(bytes32)', 'poke(bytes32)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'poke(bytes32)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'poke(bytes32)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:13
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:14
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:15
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:16
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:17
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:18
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:19
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:20
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:21
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:22
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:23
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:24
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:25
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:26
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:27
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:28
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:29
+['poke(bytes32)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:30
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.50%
+============================
+iteration:31
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:32
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:33
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:34
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:35
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'rely(address)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:36
+['poke(bytes32)', 'rely(address)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'rely(address)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'rely(address)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:37
+['poke(bytes32)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:38
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:39
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:40
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:41
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:42
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:43
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:44
+['poke(bytes32)', 'file(bytes32,uint256)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'file(bytes32,uint256)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'file(bytes32,uint256)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:45
+['poke(bytes32)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:46
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:47
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:48
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:49
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:50
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:51
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['poke(bytes32)', 'deny(address)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:52
+['poke(bytes32)', 'deny(address)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'deny(address)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'deny(address)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:53
+['poke(bytes32)', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:54
+['poke(bytes32)', 'cage()', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'cage()', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:55
+['poke(bytes32)', 'cage()', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'cage()', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:56
+['poke(bytes32)', 'cage()', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'cage()', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:57
+['poke(bytes32)', 'cage()', 'cage()', 'cage()']:writes at the last depth:['4']
+['poke(bytes32)', 'cage()', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['poke(bytes32)', 'cage()', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:58
+['file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:59
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:60
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:61
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:62
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:63
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:64
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:65
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:66
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:67
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:68
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:69
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:70
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'cage()']:writes at the last depth:['4']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'deny(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,uint256)']:writes at the last depth:['3']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'rely(address)']:writes at the last depth:['0']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,uint256)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'file(bytes32,bytes32,address)']:writes at the last depth:['1']
+['file(bytes32,bytes32,address)', 'file(bytes32,bytes32,address)', 'file(bytes32,bytes32,uint256)', 'poke(bytes32)']:writes at the last depth:[]
+contract coverage: 99.55%
+============================
+iteration:71
+contract coverage: 99.55%
+============================
+iteration:72
+contract coverage: 99.55%
+============================
+iteration:73
+contract coverage: 99.55%
+============================
+iteration:74
+contract coverage: 99.55%
+============================
+iteration:75
+contract coverage: 99.55%
+============================
+iteration:76
+contract coverage: 99.55%
+============================
+iteration:77
+contract coverage: 99.55%
+============================
+iteration:78
+contract coverage: 99.55%
+============================
+iteration:79
+contract coverage: 99.55%
+============================
+iteration:80
+contract coverage: 99.55%
+============================
+iteration:81
+contract coverage: 99.55%
+============================
+iteration:82
+contract coverage: 99.55%
+============================
+iteration:83
+contract coverage: 99.55%
+============================
+iteration:84
+contract coverage: 99.55%
+#@statespace
+8775 nodes, 8774 edges, 131228 total states
+#@coverage
+Achieved 5.38% coverage for code: 608060405234801561001057600080fd5b506040516111893803806111898339818101604052602081101561003357600080fd5b810190808051906020019092919050505060016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555080600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506b033b2e3c9fd0803ce8000000600381905550600160048190555050611095806100f46000396000f3fe608060405234801561001057600080fd5b50600436106100b45760003560e01c80636924500911610071578063692450091461020d578063957aa58c146102175780639c52a7f114610235578063bf353dbb14610279578063d9638d36146102d1578063ebecb39d14610346576100b4565b80631504460f146100b95780631a0b287e146100e757806329ae81141461012957806336569e7714610161578063495d32cb146101ab57806365fae35e146101c9575b600080fd5b6100e5600480360360208110156100cf57600080fd5b810190808035906020019092919050505061039e565b005b610127600480360360608110156100fd57600080fd5b810190808035906020019092919080359060200190929190803590602001909291905050506105bd565b005b61015f6004803603604081101561013f57600080fd5b8101908080359060200190929190803590602001909291905050506107d7565b005b6101696109dc565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101b3610a02565b6040518082815260200191505060405180910390f35b61020b600480360360208110156101df57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a08565b005b610215610b36565b005b61021f610c27565b6040518082815260200191505060405180910390f35b6102776004803603602081101561024b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610c2d565b005b6102bb6004803603602081101561028f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610d5b565b6040518082815260200191505060405180910390f35b6102fd600480360360208110156102e757600080fd5b8101908080359060200190929190505050610d73565b604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390f35b61039c6004803603606081101561035c57600080fd5b810190808035906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610db7565b005b6000806001600084815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166359e02dd76040518163ffffffff1660e01b81526004016040805180830381600087803b15801561041e57600080fd5b505af1158015610432573d6000803e3d6000fd5b505050506040513d604081101561044857600080fd5b810190808051906020019092919080519060200190929190505050915091506000816104755760006104b1565b6104b061049461048c8560001c633b9aca0061100b565b600354611037565b6001600087815260200190815260200160002060010154611037565b5b9050600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631a0b287e85836040518363ffffffff1660e01b815260040180838152602001807f73706f740000000000000000000000000000000000000000000000000000000081525060200182815260200192505050600060405180830381600087803b15801561055857600080fd5b505af115801561056c573d6000803e3d6000fd5b505050507fdfd7467e425a8107cfd368d159957692c25085aacbcf5228ce08f10f2146486e84848360405180848152602001838152602001828152602001935050505060405180910390a150505050565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610671576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b6001600454146106e9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f53706f747465722f6e6f742d6c6976650000000000000000000000000000000081525060200191505060405180910390fd5b7f6d617400000000000000000000000000000000000000000000000000000000008214156107315780600160008581526020019081526020016000206001018190555061079f565b6040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f53706f747465722f66696c652d756e7265636f676e697a65642d706172616d0081525060200191505060405180910390fd5b5961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a450505050565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541461088b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b600160045414610903576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f53706f747465722f6e6f742d6c6976650000000000000000000000000000000081525060200191505060405180910390fd5b7f706172000000000000000000000000000000000000000000000000000000000082141561093757806003819055506109a5565b6040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f53706f747465722f66696c652d756e7265636f676e697a65642d706172616d0081525060200191505060405180910390fd5b5961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a4505050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60035481565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610abc576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b60016000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a45050565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610bea576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b60006004819055505961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a450565b60045481565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610ce1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a45050565b60006020528060005260406000206000915090505481565b60016020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154905082565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610e6b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b600160045414610ee3576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f53706f747465722f6e6f742d6c6976650000000000000000000000000000000081525060200191505060405180910390fd5b7f7069700000000000000000000000000000000000000000000000000000000000821415610f6557806001600085815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610fd3565b6040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f53706f747465722f66696c652d756e7265636f676e697a65642d706172616d0081525060200191505060405180910390fd5b5961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a450505050565b600080821480611028575082828385029250828161102557fe5b04145b61103157600080fd5b92915050565b600081611050846b033b2e3c9fd0803ce800000061100b565b8161105757fe5b0490509291505056fea265627a7a7231582043527d01f153f13fdc5177cdd0fa05d77a93c9c297bd1dd17ba3382be62e8d4764736f6c634300050c0032
+#@coverage
+Achieved 99.55% coverage for code: 608060405234801561001057600080fd5b50600436106100b45760003560e01c80636924500911610071578063692450091461020d578063957aa58c146102175780639c52a7f114610235578063bf353dbb14610279578063d9638d36146102d1578063ebecb39d14610346576100b4565b80631504460f146100b95780631a0b287e146100e757806329ae81141461012957806336569e7714610161578063495d32cb146101ab57806365fae35e146101c9575b600080fd5b6100e5600480360360208110156100cf57600080fd5b810190808035906020019092919050505061039e565b005b610127600480360360608110156100fd57600080fd5b810190808035906020019092919080359060200190929190803590602001909291905050506105bd565b005b61015f6004803603604081101561013f57600080fd5b8101908080359060200190929190803590602001909291905050506107d7565b005b6101696109dc565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101b3610a02565b6040518082815260200191505060405180910390f35b61020b600480360360208110156101df57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a08565b005b610215610b36565b005b61021f610c27565b6040518082815260200191505060405180910390f35b6102776004803603602081101561024b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610c2d565b005b6102bb6004803603602081101561028f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610d5b565b6040518082815260200191505060405180910390f35b6102fd600480360360208110156102e757600080fd5b8101908080359060200190929190505050610d73565b604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390f35b61039c6004803603606081101561035c57600080fd5b810190808035906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610db7565b005b6000806001600084815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166359e02dd76040518163ffffffff1660e01b81526004016040805180830381600087803b15801561041e57600080fd5b505af1158015610432573d6000803e3d6000fd5b505050506040513d604081101561044857600080fd5b810190808051906020019092919080519060200190929190505050915091506000816104755760006104b1565b6104b061049461048c8560001c633b9aca0061100b565b600354611037565b6001600087815260200190815260200160002060010154611037565b5b9050600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16631a0b287e85836040518363ffffffff1660e01b815260040180838152602001807f73706f740000000000000000000000000000000000000000000000000000000081525060200182815260200192505050600060405180830381600087803b15801561055857600080fd5b505af115801561056c573d6000803e3d6000fd5b505050507fdfd7467e425a8107cfd368d159957692c25085aacbcf5228ce08f10f2146486e84848360405180848152602001838152602001828152602001935050505060405180910390a150505050565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610671576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b6001600454146106e9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f53706f747465722f6e6f742d6c6976650000000000000000000000000000000081525060200191505060405180910390fd5b7f6d617400000000000000000000000000000000000000000000000000000000008214156107315780600160008581526020019081526020016000206001018190555061079f565b6040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f53706f747465722f66696c652d756e7265636f676e697a65642d706172616d0081525060200191505060405180910390fd5b5961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a450505050565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541461088b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b600160045414610903576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f53706f747465722f6e6f742d6c6976650000000000000000000000000000000081525060200191505060405180910390fd5b7f706172000000000000000000000000000000000000000000000000000000000082141561093757806003819055506109a5565b6040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f53706f747465722f66696c652d756e7265636f676e697a65642d706172616d0081525060200191505060405180910390fd5b5961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a4505050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60035481565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610abc576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b60016000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a45050565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610bea576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b60006004819055505961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a450565b60045481565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610ce1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a45050565b60006020528060005260406000206000915090505481565b60016020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154905082565b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205414610e6b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f53706f747465722f6e6f742d617574686f72697a65640000000000000000000081525060200191505060405180910390fd5b600160045414610ee3576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260108152602001807f53706f747465722f6e6f742d6c6976650000000000000000000000000000000081525060200191505060405180910390fd5b7f7069700000000000000000000000000000000000000000000000000000000000821415610f6557806001600085815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610fd3565b6040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f53706f747465722f66696c652d756e7265636f676e697a65642d706172616d0081525060200191505060405180910390fd5b5961012081016040526020815260e0602082015260e0600060408301376024356004353360003560e01c60e01b61012085a450505050565b600080821480611028575082828385029250828161102557fe5b04145b61103157600080fd5b92915050565b600081611050846b033b2e3c9fd0803ce800000061100b565b8161105757fe5b0490509291505056fea265627a7a7231582043527d01f153f13fdc5177cdd0fa05d77a93c9c297bd1dd17ba3382be62e8d4764736f6c634300050c0032
+The analysis was completed successfully. No issues were detected.
+
+time_used: 36049.171422958374 seconds
+#@contract_info_time
+0x16626b413f95fa5468D78b875824055134c8936C.sol:0.5.12:Spotter:36049.171422958374:36100:60:36000

@@ -1,0 +1,4 @@
+++++ 0x197e90f9fad81970ba7976f33cbd77088e5d7cf7.sol  :  0.5.12  :  Pot ++++
+time_used: 3.2911746501922607 seconds
+#@contract_info_time
+0x197e90f9fad81970ba7976f33cbd77088e5d7cf7.sol:0.5.12:Pot:3.2911746501922607:36100:60:36000

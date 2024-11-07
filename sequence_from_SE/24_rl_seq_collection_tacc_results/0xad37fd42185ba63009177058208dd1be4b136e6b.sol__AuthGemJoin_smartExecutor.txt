@@ -1,0 +1,4 @@
+++++ 0xad37fd42185ba63009177058208dd1be4b136e6b.sol  :  0.5.12  :  AuthGemJoin ++++
+time_used: 19.952636241912842 seconds
+#@contract_info_time
+0xad37fd42185ba63009177058208dd1be4b136e6b.sol:0.5.12:AuthGemJoin:19.952636241912842:36100:60:36000

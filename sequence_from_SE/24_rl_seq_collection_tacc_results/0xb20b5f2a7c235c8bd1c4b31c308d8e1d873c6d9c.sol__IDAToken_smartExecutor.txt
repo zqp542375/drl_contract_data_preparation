@@ -1,0 +1,13 @@
+++++ 0xb20b5f2a7c235c8bd1c4b31c308d8e1d873c6d9c.sol  :  0.6.6  :  IDAToken ++++
+Starting preprocessing.
+number of genesis states: 2
+total instructions: 7497
+['constructor']:writes at the last depth:['9', '3', '4', '5', '6', '7', '7', '7', '8', '8', '200', '8', '8', '11', '8', '8', '193']
+['constructor']:writes at the last depth:['9', '3', '4', '5', '6', '7', '7', '7', '8', '8', '200', '8', '8', '11', '8', '8', '193']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 3.37% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 228.8521420955658 seconds
+#@contract_info_time
+0xb20b5f2a7c235c8bd1c4b31c308d8e1d873c6d9c.sol:0.6.6:IDAToken:228.8521420955658:36100:60:36000

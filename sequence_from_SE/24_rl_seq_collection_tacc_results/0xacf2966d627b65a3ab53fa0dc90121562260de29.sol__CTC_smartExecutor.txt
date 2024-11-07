@@ -1,0 +1,179 @@
+++++ 0xacf2966d627b65a3ab53fa0dc90121562260de29.sol  :  0.5.1  :  CTC ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1609
+['constructor']:writes at the last depth:['0', '1', '2', '3', '4']
+preprocessing: Achieved 99.94% coverage.
+dynamic svars:['0', '1', '4', '5']
+static svars:['3', '2']
+Ending preprocessing.
+preprocessing time(s): 15.121299743652344
+contract coverage: 95.03%
+name() is not reachable
+symbol() is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	transferFrom(address,address,uint256):['4', '5']
+	decimals():[]
+	balanceOf(address):[]
+	symbol():[]
+	transfer(address,uint256):['4']
+	allowance(address,address):[]
+Function Writes: State variables written
+	approve(address,uint256):['5']
+	transfer(address,uint256):['4']
+	transferFrom(address,address,uint256):['4']
+============================
+iteration:3
+targets:['name()', 'symbol()']
+['approve(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.03%
+============================
+iteration:4
+['transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.03%
+============================
+iteration:5
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.03%
+============================
+iteration:6
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.03%
+============================
+iteration:7
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:8
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:9
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:10
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:11
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:12
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:13
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:14
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:15
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:16
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:17
+['transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:18
+['transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+contract coverage: 95.21%
+============================
+iteration:19
+['transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:20
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+contract coverage: 95.21%
+============================
+iteration:21
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:22
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:23
+['transfer(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+contract coverage: 95.21%
+============================
+iteration:24
+contract coverage: 95.21%
+============================
+iteration:25
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['transfer(address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:26
+['approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+['approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:27
+['approve(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+['approve(address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['4']
+contract coverage: 95.21%
+============================
+iteration:28
+contract coverage: 95.21%
+============================
+iteration:29
+['approve(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+contract coverage: 95.21%
+============================
+iteration:30
+['approve(address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['5']
+The analysis was completed successfully. No issues were detected.
+
+time_used: 20328.70814013481 seconds
+#@contract_info_time
+0xacf2966d627b65a3ab53fa0dc90121562260de29.sol:0.5.1:CTC:20328.70814013481:36100:60:36000

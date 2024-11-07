@@ -1,0 +1,211 @@
+++++ 0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol  :  0.5.0  :  USMT ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 5736
+['constructor']:writes at the last depth:['8', '9', '0', '1', '2', '3', '4', '7', '5']
+preprocessing: Achieved 99.98% coverage.
+dynamic svars:['1', '2', '3', '5', '6']
+static svars:['10', '7', '0', '8', '9', '4']
+Ending preprocessing.
+preprocessing time(s): 75.24608635902405
+contract coverage: 82.32%
+approve(address,uint256) is not reachable
+name() is not reachable
+symbol() is not reachable
+increaseAllowance(address,uint256) is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	setFeePool(address):['0']
+	transferFrom(address,address,uint256):['5', '6', '8']
+	INITIAL_SUPPLY():[]
+	decimals():[]
+	increaseAllowance(address,uint256):[]
+	mint(address,uint256):['1', '7']
+	burn(uint256):['7']
+	txFeePerMillion():[]
+	balanceOf(address):[]
+	renounceOwnership():['0']
+	burnFrom(address,uint256):['7']
+	feePoolTransfer(address,uint256):['10', '5']
+	owner():[]
+	isOwner():[]
+	symbol():[]
+	addMinter(address):['1']
+	renounceMinter():['1']
+	decreaseAllowance(address,uint256):['6']
+	transfer(address,uint256):['5', '8']
+	isMinter(address):[]
+	feePool():[]
+	changeFeePool(address):['0', '10', '5']
+	allowance(address,address):[]
+	setTxFee(uint256):['0']
+	transferOwnership(address):['0']
+Function Writes: State variables written
+	setFeePool(address):['10']
+	approve(address,uint256):['6']
+	burn(uint256):['7', '5']
+	renounceOwnership():['0']
+	burnFrom(address,uint256):['7', '5', '6']
+	setTxFee(uint256):['8']
+	renounceMinter():['1']
+	increaseAllowance(address,uint256):['6']
+	mint(address,uint256):['7', '5']
+	transferOwnership(address):['0']
+	feePoolTransfer(address,uint256):['5']
+	decreaseAllowance(address,uint256):['6']
+	changeFeePool(address):['5', '10']
+	addMinter(address):['1']
+	transferFrom(address,address,uint256):['5', '6']
+	transfer(address,uint256):['5']
+============================
+iteration:3
+targets:['changeFeePool(address)', 'transfer(address,uint256)', 'feePoolTransfer(address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)', 'name()', 'symbol()', 'increaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)', 'burnFrom(address,uint256)']
+['setFeePool(address)']:writes at the last depth:['10']
+['renounceOwnership()']:writes at the last depth:['0']
+['approve(address,uint256)']:writes at the last depth:['6']
+['setTxFee(uint256)']:writes at the last depth:['8']
+['renounceMinter()']:writes at the last depth:['1']
+['burn(uint256)']:writes at the last depth:['5', '7']
+['transferOwnership(address)']:writes at the last depth:['0']
+['increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['addMinter(address)']:writes at the last depth:['1']
+['decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['mint(address,uint256)']:writes at the last depth:['5', '7']
+['burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transfer(address,uint256)']:writes at the last depth:['5']
+['transfer(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 82.32%
+============================
+iteration:4
+['transferFrom(address,address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 82.32%
+============================
+iteration:5
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 82.32%
+============================
+iteration:6
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 82.32%
+============================
+iteration:7
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 82.32%
+============================
+iteration:8
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'burnFrom(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+contract coverage: 82.32%
+============================
+iteration:9
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'mint(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+contract coverage: 82.32%
+============================
+iteration:10
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'decreaseAllowance(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+contract coverage: 82.32%
+============================
+iteration:11
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'setFeePool(address)']:writes at the last depth:['10']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'approve(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'setTxFee(uint256)']:writes at the last depth:['8']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'renounceMinter()']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'burn(uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'increaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'addMinter(address)']:writes at the last depth:['1']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'decreaseAllowance(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'mint(address,uint256)']:writes at the last depth:['5', '7']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'burnFrom(address,uint256)']:writes at the last depth:['5', '7', '6']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'transfer(address,uint256)']:writes at the last depth:['5']
+['transferFrom(address,address,uint256)', 'transferFrom(address,address,uint256)', 'addMinter(address)', 'transferFrom(address,address,uint256)']:writes at the last depth:['5', '6']
+The analysis was completed successfully. No issues were detected.
+
+time_used: 21144.89858341217 seconds
+#@contract_info_time
+0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol:0.5.0:USMT:21144.89858341217:36100:60:36000

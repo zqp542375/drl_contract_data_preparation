@@ -1,0 +1,12 @@
+++++ 0x0028b2ec9C4703F3C8F18e38AA02c047D7b8AE80.sol  :  0.5.10  :  Sales ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 9734
+['constructor']:writes at the last depth:['3', '1', '0', '2', '12']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 43.02% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 184.97563576698303 seconds
+#@contract_info_time
+0x0028b2ec9C4703F3C8F18e38AA02c047D7b8AE80.sol:0.5.10:Sales:184.97563576698303:36100:60:36000

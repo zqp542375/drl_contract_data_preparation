@@ -1,0 +1,4 @@
+++++ 0x878dc03554bd716c39e05e6fa086eda2f4400e97.sol  :  0.5.17  :  DharmaGasReserve ++++
+time_used: 3.723952531814575 seconds
+#@contract_info_time
+0x878dc03554bd716c39e05e6fa086eda2f4400e97.sol:0.5.17:DharmaGasReserve:3.723952531814575:36100:60:36000

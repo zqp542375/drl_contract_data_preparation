@@ -1,0 +1,12 @@
+++++ 0xa44181716d7910d3cecd02a5cdd5920f0884980b.sol  :  0.5.0  :  AIT ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 8630
+['constructor']:writes at the last depth:['0', '1', '1', '1', '10', '11', '1', '14', '15', '16', '2', '4', '7', '6', '6', '9', '8', '8', '13']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 72.58% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 176.36147952079773 seconds
+#@contract_info_time
+0xa44181716d7910d3cecd02a5cdd5920f0884980b.sol:0.5.0:AIT:176.36147952079773:36100:60:36000

@@ -1,0 +1,4 @@
+++++ 0x5d351f18d397a8af02fbe0c24c2be18b8911398f.sol  :  0.5.17  :  TestToken ++++
+time_used: 6.891544580459595 seconds
+#@contract_info_time
+0x5d351f18d397a8af02fbe0c24c2be18b8911398f.sol:0.5.17:TestToken:6.891544580459595:36100:60:36000

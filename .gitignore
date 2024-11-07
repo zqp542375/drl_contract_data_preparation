@@ -1,5 +1,5 @@
 # Ignore all zip files
-*.txt
+
 
 # ignore log files
 events.out.tfevents*

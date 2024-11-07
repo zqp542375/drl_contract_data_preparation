@@ -1,0 +1,4 @@
+++++ 0x838d8e11b160dec88fe62bf0f743fb7000941e13.sol  :  0.5.17  :  KriosGIGToken ++++
+time_used: 6.798720598220825 seconds
+#@contract_info_time
+0x838d8e11b160dec88fe62bf0f743fb7000941e13.sol:0.5.17:KriosGIGToken:6.798720598220825:36100:60:36000

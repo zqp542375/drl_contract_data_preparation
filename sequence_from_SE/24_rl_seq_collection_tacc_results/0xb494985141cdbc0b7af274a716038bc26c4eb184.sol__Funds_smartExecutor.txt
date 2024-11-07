@@ -1,0 +1,12 @@
+++++ 0xb494985141cdbc0b7af274a716038bc26c4eb184.sol  :  0.5.10  :  Funds ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 17195
+['constructor']:writes at the last depth:['26', '23', '24', '18', '17', '14', '19', '20', '21', '22', '16']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 48.18% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 276.3886287212372 seconds
+#@contract_info_time
+0xb494985141cdbc0b7af274a716038bc26c4eb184.sol:0.5.10:Funds:276.3886287212372:36100:60:36000

@@ -1,0 +1,4 @@
+++++ 0x03ac6ea89607d372675187cff3acf392f329d76f.sol  :  0.5.17  :  ChaChaToken ++++
+time_used: 3.4327454566955566 seconds
+#@contract_info_time
+0x03ac6ea89607d372675187cff3acf392f329d76f.sol:0.5.17:ChaChaToken:3.4327454566955566:36100:60:36000

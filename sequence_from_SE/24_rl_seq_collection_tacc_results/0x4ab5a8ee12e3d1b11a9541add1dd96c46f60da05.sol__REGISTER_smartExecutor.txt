@@ -1,0 +1,14 @@
+++++ 0x4ab5a8ee12e3d1b11a9541add1dd96c46f60da05.sol  :  0.5.13  :  REGISTER ++++
+1238217623414929882123654808274689464312769072814 is added into actors.
+1100006841175223428116835140927856281868306346328 is added into actors.
+1197945640067559364729005117954823108899971771457 is added into actors.
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1689
+['constructor']:writes at the last depth:['2', '7', '8', '9', '0', '4', '3', '5', '4', '3', '5', '4', '3', '5']
+preprocessing: Achieved 98.16% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 86.15948557853699 seconds
+#@contract_info_time
+0x4ab5a8ee12e3d1b11a9541add1dd96c46f60da05.sol:0.5.13:REGISTER:86.15948557853699:36100:60:36000

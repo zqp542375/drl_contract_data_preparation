@@ -1,0 +1,767 @@
+++++ 0x4A9D21B46810F69A02ac2D61f4bF1963DE82700d.sol  :  0.6.0  :  SimpleReadAccessController ++++
+1461501637330902918203684832716283019655932542976 is added into actors.
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1340
+['constructor']:writes at the last depth:['0', '1']
+preprocessing: Achieved 97.99% coverage.
+dynamic svars:['2']
+static svars:['1', '0']
+Ending preprocessing.
+preprocessing time(s): 10.594128131866455
+contract coverage: 91.04%
+Function Reads: State variables read in conditions
+	removeAccess(address):['0', '2']
+	owner():[]
+	addAccess(address):['0', '2']
+	checkEnabled():[]
+	transferOwnership(address):['0']
+	disableAccessCheck():['0', '1']
+	hasAccess(address,bytes):['2', '1']
+	acceptOwnership():['1']
+	enableAccessCheck():['0', '1']
+Function Writes: State variables written
+	disableAccessCheck():['1']
+	acceptOwnership():['0', '1']
+	enableAccessCheck():['1']
+	transferOwnership(address):['1']
+	removeAccess(address):['2']
+	addAccess(address):['2']
+============================
+iteration:3
+targets:['removeAccess(address)', 'enableAccessCheck()']
+['disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)']:writes at the last depth:['2']
+contract coverage: 95.67%
+============================
+iteration:4
+['addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 95.67%
+============================
+iteration:5
+['addAccess(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 95.67%
+============================
+iteration:6
+['addAccess(address)', 'addAccess(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'addAccess(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 95.67%
+============================
+iteration:7
+['addAccess(address)', 'addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'removeAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 95.67%
+============================
+iteration:8
+['addAccess(address)', 'addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 95.67%
+============================
+iteration:9
+['addAccess(address)', 'addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:10
+['addAccess(address)', 'addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'addAccess(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:11
+['addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:12
+['addAccess(address)', 'removeAccess(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'removeAccess(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'removeAccess(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:13
+['addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:14
+['addAccess(address)', 'removeAccess(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'removeAccess(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:15
+['addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:16
+['addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:17
+['addAccess(address)', 'transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'transferOwnership(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:18
+['addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:19
+['addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:20
+['addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:21
+['addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:22
+['addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:23
+['addAccess(address)', 'acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'acceptOwnership()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:24
+['addAccess(address)', 'acceptOwnership()', 'removeAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'acceptOwnership()', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:25
+['addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:26
+['addAccess(address)', 'acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'acceptOwnership()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:27
+['addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:28
+['addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:29
+['addAccess(address)', 'disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'disableAccessCheck()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:30
+['addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:31
+['addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:32
+['addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:33
+['addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:34
+['transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:35
+['transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:36
+['transferOwnership(address)', 'addAccess(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'addAccess(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'addAccess(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:37
+['transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:38
+['transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:39
+['transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:40
+['transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:41
+['transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:42
+['transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:43
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:44
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:45
+['transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:46
+['transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:47
+['transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:48
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:49
+['transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:50
+['transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:51
+['transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:52
+['transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:53
+['transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:54
+['transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:55
+['transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:56
+['acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:57
+['acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:58
+['acceptOwnership()', 'addAccess(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'addAccess(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'addAccess(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:59
+['acceptOwnership()', 'addAccess(address)', 'removeAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:60
+['acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:61
+['acceptOwnership()', 'addAccess(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'addAccess(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:62
+['acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:63
+['acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:64
+['acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:65
+['acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:66
+['acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:67
+['acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:68
+['acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:69
+['acceptOwnership()', 'acceptOwnership()', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'acceptOwnership()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:70
+['acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:71
+['acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:72
+['acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:73
+['acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:74
+['acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['acceptOwnership()', 'disableAccessCheck()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:75
+['acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:76
+['acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:77
+['acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['acceptOwnership()', 'disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:78
+['disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:79
+['disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:80
+['disableAccessCheck()', 'addAccess(address)', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'addAccess(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'addAccess(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:81
+['disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'removeAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:82
+['disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:83
+['disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'addAccess(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:84
+['disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'addAccess(address)', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:85
+['disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:86
+['disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:87
+['disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:88
+['disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:89
+['disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'transferOwnership(address)', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:90
+['disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:91
+['disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'acceptOwnership()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:92
+['disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:93
+['disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:94
+['disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'acceptOwnership()', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:95
+['disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:96
+['disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)', 'removeAccess(address)']:writes at the last depth:['2']
+['disableAccessCheck()', 'enableAccessCheck()', 'addAccess(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:97
+['disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'transferOwnership(address)', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:98
+['disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()', 'disableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'acceptOwnership()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+============================
+iteration:99
+['disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()', 'enableAccessCheck()']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()', 'transferOwnership(address)']:writes at the last depth:['1']
+['disableAccessCheck()', 'enableAccessCheck()', 'disableAccessCheck()', 'addAccess(address)']:writes at the last depth:['2']
+contract coverage: 97.99%
+#@statespace
+7943 nodes, 7942 edges, 124171 total states
+#@coverage
+Achieved 3.73% coverage for code: 6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060018060146101000a81548160ff021916908315150217905550610d368061006d6000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c80638823da6c116100665780638823da6c146101a95780638da5cb5b146101ed578063a118f24914610237578063dc7f01241461027b578063f2fde38b1461029d57610093565b80630a756983146100985780636b14daf8146100a257806379ba5097146101955780638038e4a11461019f575b600080fd5b6100a06102e1565b005b61017b600480360360408110156100b857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001906401000000008111156100f557600080fd5b82018360208201111561010757600080fd5b8035906020019184600183028401116401000000008311171561012957600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610402565b604051808215151515815260200191505060405180910390f35b61019d61044c565b005b6101a7610614565b005b6101eb600480360360208110156101bf57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610733565b005b6101f5610906565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102796004803603602081101561024d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061092b565b005b610283610afd565b604051808215151515815260200191505060405180910390f35b6102df600480360360208110156102b357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b10565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146103a3576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600160149054906101000a900460ff1615610400576000600160146101000a81548160ff0219169083151502179055507f3be8a977a014527b50ae38adda80b56911c267328965c98ddc385d248f53963860405160405180910390a15b565b600061040e8383610c91565b8061044457503273ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16145b905092915050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461050f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4d7573742062652070726f706f736564206f776e65720000000000000000000081525060200191505060405180910390fd5b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a350565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146106d6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600160149054906101000a900460ff166107315760018060146101000a81548160ff0219169083151502179055507faebf329500988c6488a0074e5a0a9ff304561fc5c6fc877aeb1d59c8282c348060405160405180910390a15b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146107f5576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615610903576000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f3d68a6fce901d20453d1a7aa06bf3950302a735948037deb182a8db66df2a0d181604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146109ed576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16610afa576001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f87286ad1f399c8e82bf0c4ef4fcdc570ea2e1e92176e5c848b6413545b885db481604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15b50565b600160149054906101000a900460ff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610bd2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167fed8889f560326eb138920d842192f0eb3dd22b4f139c87a2c57538e05bae127860405160405180910390a350565b6000600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1680610cf85750600160149054906101000a900460ff16155b90509291505056fea2646970667358221220decc3a27f8b4a939b070af06a2244ae0885553995d6633c192285baaedef502764736f6c63430006000033
+#@coverage
+Achieved 97.99% coverage for code: 608060405234801561001057600080fd5b50600436106100935760003560e01c80638823da6c116100665780638823da6c146101a95780638da5cb5b146101ed578063a118f24914610237578063dc7f01241461027b578063f2fde38b1461029d57610093565b80630a756983146100985780636b14daf8146100a257806379ba5097146101955780638038e4a11461019f575b600080fd5b6100a06102e1565b005b61017b600480360360408110156100b857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001906401000000008111156100f557600080fd5b82018360208201111561010757600080fd5b8035906020019184600183028401116401000000008311171561012957600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610402565b604051808215151515815260200191505060405180910390f35b61019d61044c565b005b6101a7610614565b005b6101eb600480360360208110156101bf57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610733565b005b6101f5610906565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102796004803603602081101561024d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061092b565b005b610283610afd565b604051808215151515815260200191505060405180910390f35b6102df600480360360208110156102b357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b10565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146103a3576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600160149054906101000a900460ff1615610400576000600160146101000a81548160ff0219169083151502179055507f3be8a977a014527b50ae38adda80b56911c267328965c98ddc385d248f53963860405160405180910390a15b565b600061040e8383610c91565b8061044457503273ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff16145b905092915050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461050f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4d7573742062652070726f706f736564206f776e65720000000000000000000081525060200191505060405180910390fd5b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a350565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146106d6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600160149054906101000a900460ff166107315760018060146101000a81548160ff0219169083151502179055507faebf329500988c6488a0074e5a0a9ff304561fc5c6fc877aeb1d59c8282c348060405160405180910390a15b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146107f5576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615610903576000600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f3d68a6fce901d20453d1a7aa06bf3950302a735948037deb182a8db66df2a0d181604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146109ed576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16610afa576001600260008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055507f87286ad1f399c8e82bf0c4ef4fcdc570ea2e1e92176e5c848b6413545b885db481604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15b50565b600160149054906101000a900460ff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610bd2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260168152602001807f4f6e6c792063616c6c61626c65206279206f776e65720000000000000000000081525060200191505060405180910390fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167fed8889f560326eb138920d842192f0eb3dd22b4f139c87a2c57538e05bae127860405160405180910390a350565b6000600260008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1680610cf85750600160149054906101000a900460ff16155b90509291505056fea2646970667358221220decc3a27f8b4a939b070af06a2244ae0885553995d6633c192285baaedef502764736f6c63430006000033
+The analysis was completed successfully. No issues were detected.
+
+time_used: 8257.892454147339 seconds
+#@contract_info_time
+0x4A9D21B46810F69A02ac2D61f4bF1963DE82700d.sol:0.6.0:SimpleReadAccessController:8257.892454147339:36100:60:36000

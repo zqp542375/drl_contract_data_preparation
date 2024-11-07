@@ -1,0 +1,531 @@
+++++ 0x866900d67579509c73430d4745039dc1486109d4.sol  :  0.4.24  :  SodaPoint ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2983
+['constructor']:writes at the last depth:['0', '2', '3', '4', '5', '6']
+preprocessing: Achieved 99.97% coverage.
+dynamic svars:['2', '3', '6', '7']
+static svars:['5', '0', '1', '4']
+Ending preprocessing.
+preprocessing time(s): 31.83608865737915
+contract coverage: 94.47%
+name() is not reachable
+symbol() is not reachable
+Function Reads: State variables read in conditions
+	name():[]
+	approve(address,uint256):[]
+	totalSupply():[]
+	transferFrom(address,address,uint256):['6']
+	decimals():[]
+	_totalSupply():[]
+	balanceOf(address):[]
+	totalSupplyIncrease(uint256):['0']
+	acceptOwnership():['1']
+	owner():[]
+	symbol():[]
+	safeSub(uint256,uint256):[]
+	transfer(address,uint256):['6']
+	safeDiv(uint256,uint256):[]
+	approveAndCall(address,uint256,bytes):[]
+	safeMul(uint256,uint256):[]
+	newOwner():[]
+	transferAnyERC20Token(address,uint256):['0']
+	allowance(address,address):[]
+	safeAdd(uint256,uint256):[]
+	transferOwnership(address):['0']
+Function Writes: State variables written
+	approve(address,uint256):['7']
+	totalSupplyIncrease(uint256):['5', '6']
+	transferFrom(address,address,uint256):['6', '7']
+	acceptOwnership():['0', '1']
+	transfer(address,uint256):['6']
+	transferOwnership(address):['1']
+	approveAndCall(address,uint256,bytes):['7']
+============================
+iteration:3
+targets:['acceptOwnership()', 'name()', 'symbol()']
+['totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approve(address,uint256)']:writes at the last depth:['7']
+['transferOwnership(address)']:writes at the last depth:['1']
+['transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['transfer(address,uint256)']:writes at the last depth:['6']
+['transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:4
+['approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:5
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:6
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:7
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:8
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:9
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:10
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:11
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:12
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 94.47%
+============================
+iteration:13
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:14
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:15
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:16
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:17
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:18
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:19
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:20
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:21
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:22
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:23
+contract coverage: 97.55%
+============================
+iteration:24
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transfer(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+contract coverage: 97.55%
+============================
+iteration:25
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferAnyERC20Token(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:26
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'acceptOwnership()']:writes at the last depth:['0', '1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'transferOwnership(address)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:27
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'transferFrom(address,address,uint256)']:writes at the last depth:['6', '7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:28
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'totalSupplyIncrease(uint256)']:writes at the last depth:['6', '5']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approve(address,uint256)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transferAnyERC20Token(address,uint256)']:writes at the last depth:[]
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'transfer(address,uint256)']:writes at the last depth:['6']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'totalSupplyIncrease(uint256)', 'approveAndCall(address,uint256,bytes)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:29
+['approveAndCall(address,uint256,bytes)', 'approveAndCall(address,uint256,bytes)', 'approve(address,uint256)']:writes at the last depth:['7']
+contract coverage: 97.55%
+============================
+iteration:30
+contract coverage: 97.55%
+============================
+iteration:31
+contract coverage: 97.55%
+============================
+iteration:32
+contract coverage: 97.55%
+============================
+iteration:33
+contract coverage: 97.55%
+============================
+iteration:34
+contract coverage: 97.55%
+============================
+iteration:35
+contract coverage: 97.55%
+============================
+iteration:36
+contract coverage: 97.55%
+============================
+iteration:37
+contract coverage: 97.55%
+============================
+iteration:38
+contract coverage: 97.55%
+============================
+iteration:39
+contract coverage: 97.55%
+============================
+iteration:40
+contract coverage: 97.55%
+============================
+iteration:41
+contract coverage: 97.55%
+============================
+iteration:42
+contract coverage: 97.55%
+============================
+iteration:43
+contract coverage: 97.55%
+============================
+iteration:44
+contract coverage: 97.55%
+============================
+iteration:45
+contract coverage: 97.55%
+============================
+iteration:46
+contract coverage: 97.55%
+============================
+iteration:47
+contract coverage: 97.55%
+============================
+iteration:48
+contract coverage: 97.55%
+#@statespace
+5719 nodes, 5718 edges, 85908 total states
+#@coverage
+Achieved 8.18% coverage for code: 60806040523480156200001157600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506040805190810160405280600381526020017f534f500000000000000000000000000000000000000000000000000000000000815250600290805190602001906200009f929190620001f9565b506040805190810160405280600a81526020017f536f646120506f696e740000000000000000000000000000000000000000000081525060039080519060200190620000ed929190620001f9565b506012600460006101000a81548160ff021916908360ff1602179055506b06765c793fa10079d000000060058190555060055460066000731e7a12b193d18027e33cd3ff0eef2af31cbbf9ef73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550731e7a12b193d18027e33cd3ff0eef2af31cbbf9ef73ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef6005546040518082815260200191505060405180910390a3620002a8565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106200023c57805160ff19168380011785556200026d565b828001600101855582156200026d579182015b828111156200026c5782518255916020019190600101906200024f565b5b5090506200027c919062000280565b5090565b620002a591905b80821115620002a157600081600090555060010162000287565b5090565b90565b6117b580620002b86000396000f30060806040526004361061011d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde0314610122578063095ea7b3146101b257806318160ddd1461021757806323b872dd14610242578063313ce567146102c75780633eaaf86b146102f857806370a082311461032357806371986eae1461037a57806379ba5097146103a75780638da5cb5b146103be57806395d89b4114610415578063a293d1e8146104a5578063a9059cbb146104f0578063b5931f7c14610555578063cae9ca51146105a0578063d05c78da1461064b578063d4ee1d9014610696578063dc39d06d146106ed578063dd62ed3e14610752578063e6cb9013146107c9578063f2fde38b14610814575b600080fd5b34801561012e57600080fd5b50610137610857565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017757808201518184015260208101905061015c565b50505050905090810190601f1680156101a45780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156101be57600080fd5b506101fd600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506108f5565b604051808215151515815260200191505060405180910390f35b34801561022357600080fd5b5061022c6109e7565b6040518082815260200191505060405180910390f35b34801561024e57600080fd5b506102ad600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610a32565b604051808215151515815260200191505060405180910390f35b3480156102d357600080fd5b506102dc610cc2565b604051808260ff1660ff16815260200191505060405180910390f35b34801561030457600080fd5b5061030d610cd5565b6040518082815260200191505060405180910390f35b34801561032f57600080fd5b50610364600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610cdb565b6040518082815260200191505060405180910390f35b34801561038657600080fd5b506103a560048036038101908080359060200190929190505050610d24565b005b3480156103b357600080fd5b506103bc610e12565b005b3480156103ca57600080fd5b506103d3610fb1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561042157600080fd5b5061042a610fd6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561046a57808201518184015260208101905061044f565b50505050905090810190601f1680156104975780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156104b157600080fd5b506104da6004803603810190808035906020019092919080359060200190929190505050611074565b6040518082815260200191505060405180910390f35b3480156104fc57600080fd5b5061053b600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611090565b604051808215151515815260200191505060405180910390f35b34801561056157600080fd5b5061058a6004803603810190808035906020019092919080359060200190929190505050611219565b6040518082815260200191505060405180910390f35b3480156105ac57600080fd5b50610631600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061123d565b604051808215151515815260200191505060405180910390f35b34801561065757600080fd5b50610680600480360381019080803590602001909291908035906020019092919050505061148c565b6040518082815260200191505060405180910390f35b3480156106a257600080fd5b506106ab6114bd565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156106f957600080fd5b50610738600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506114e3565b604051808215151515815260200191505060405180910390f35b34801561075e57600080fd5b506107b3600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611647565b6040518082815260200191505060405180910390f35b3480156107d557600080fd5b506107fe60048036038101908080359060200190929190803590602001909291905050506116ce565b6040518082815260200191505060405180910390f35b34801561082057600080fd5b50610855600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506116ea565b005b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156108ed5780601f106108c2576101008083540402835291602001916108ed565b820191906000526020600020905b8154815290600101906020018083116108d057829003601f168201915b505050505081565b600081600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b6000600660008073ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205460055403905090565b6000610a7d600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205483611074565b600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610b46600760008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205483611074565b600760008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610c0f600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836116ce565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b600460009054906101000a900460ff1681565b60055481565b6000600660008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610d7f57600080fd5b806005540160058190555080600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610e6e57600080fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60028054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561106c5780601f106110415761010080835404028352916020019161106c565b820191906000526020600020905b81548152906001019060200180831161104f57829003601f168201915b505050505081565b600082821115151561108557600080fd5b818303905092915050565b60006110db600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205483611074565b600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550611167600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836116ce565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b6000808211151561122957600080fd5b818381151561123457fe5b04905092915050565b600082600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925856040518082815260200191505060405180910390a38373ffffffffffffffffffffffffffffffffffffffff16638f4ffcb1338530866040518563ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001828103825283818151815260200191508051906020019080838360005b8381101561141a5780820151818401526020810190506113ff565b50505050905090810190601f1680156114475780820380516001836020036101000a031916815260200191505b5095505050505050600060405180830381600087803b15801561146957600080fd5b505af115801561147d573d6000803e3d6000fd5b50505050600190509392505050565b6000818302905060008314806114ac57508183828115156114a957fe5b04145b15156114b757600080fd5b92915050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561154057600080fd5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff16846040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561160457600080fd5b505af1158015611618573d6000803e3d6000fd5b505050506040513d602081101561162e57600080fd5b8101908080519060200190929190505050905092915050565b6000600760008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b600081830190508281101515156116e457600080fd5b92915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561174557600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a72305820cc73c266b8229d98d58095fda1c2103247b51d0db76754d042fbd4e19b603b410029
+#@coverage
+Achieved 97.55% coverage for code: 60806040526004361061011d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde0314610122578063095ea7b3146101b257806318160ddd1461021757806323b872dd14610242578063313ce567146102c75780633eaaf86b146102f857806370a082311461032357806371986eae1461037a57806379ba5097146103a75780638da5cb5b146103be57806395d89b4114610415578063a293d1e8146104a5578063a9059cbb146104f0578063b5931f7c14610555578063cae9ca51146105a0578063d05c78da1461064b578063d4ee1d9014610696578063dc39d06d146106ed578063dd62ed3e14610752578063e6cb9013146107c9578063f2fde38b14610814575b600080fd5b34801561012e57600080fd5b50610137610857565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561017757808201518184015260208101905061015c565b50505050905090810190601f1680156101a45780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156101be57600080fd5b506101fd600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506108f5565b604051808215151515815260200191505060405180910390f35b34801561022357600080fd5b5061022c6109e7565b6040518082815260200191505060405180910390f35b34801561024e57600080fd5b506102ad600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610a32565b604051808215151515815260200191505060405180910390f35b3480156102d357600080fd5b506102dc610cc2565b604051808260ff1660ff16815260200191505060405180910390f35b34801561030457600080fd5b5061030d610cd5565b6040518082815260200191505060405180910390f35b34801561032f57600080fd5b50610364600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610cdb565b6040518082815260200191505060405180910390f35b34801561038657600080fd5b506103a560048036038101908080359060200190929190505050610d24565b005b3480156103b357600080fd5b506103bc610e12565b005b3480156103ca57600080fd5b506103d3610fb1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561042157600080fd5b5061042a610fd6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561046a57808201518184015260208101905061044f565b50505050905090810190601f1680156104975780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156104b157600080fd5b506104da6004803603810190808035906020019092919080359060200190929190505050611074565b6040518082815260200191505060405180910390f35b3480156104fc57600080fd5b5061053b600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611090565b604051808215151515815260200191505060405180910390f35b34801561056157600080fd5b5061058a6004803603810190808035906020019092919080359060200190929190505050611219565b6040518082815260200191505060405180910390f35b3480156105ac57600080fd5b50610631600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061123d565b604051808215151515815260200191505060405180910390f35b34801561065757600080fd5b50610680600480360381019080803590602001909291908035906020019092919050505061148c565b6040518082815260200191505060405180910390f35b3480156106a257600080fd5b506106ab6114bd565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156106f957600080fd5b50610738600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506114e3565b604051808215151515815260200191505060405180910390f35b34801561075e57600080fd5b506107b3600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611647565b6040518082815260200191505060405180910390f35b3480156107d557600080fd5b506107fe60048036038101908080359060200190929190803590602001909291905050506116ce565b6040518082815260200191505060405180910390f35b34801561082057600080fd5b50610855600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506116ea565b005b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156108ed5780601f106108c2576101008083540402835291602001916108ed565b820191906000526020600020905b8154815290600101906020018083116108d057829003601f168201915b505050505081565b600081600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b6000600660008073ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205460055403905090565b6000610a7d600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205483611074565b600660008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610b46600760008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205483611074565b600760008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610c0f600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836116ce565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b600460009054906101000a900460ff1681565b60055481565b6000600660008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610d7f57600080fd5b806005540160058190555080600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205401600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610e6e57600080fd5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60028054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561106c5780601f106110415761010080835404028352916020019161106c565b820191906000526020600020905b81548152906001019060200180831161104f57829003601f168201915b505050505081565b600082821115151561108557600080fd5b818303905092915050565b60006110db600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205483611074565b600660003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550611167600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054836116ce565b600660008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b6000808211151561122957600080fd5b818381151561123457fe5b04905092915050565b600082600760003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508373ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925856040518082815260200191505060405180910390a38373ffffffffffffffffffffffffffffffffffffffff16638f4ffcb1338530866040518563ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200180602001828103825283818151815260200191508051906020019080838360005b8381101561141a5780820151818401526020810190506113ff565b50505050905090810190601f1680156114475780820380516001836020036101000a031916815260200191505b5095505050505050600060405180830381600087803b15801561146957600080fd5b505af115801561147d573d6000803e3d6000fd5b50505050600190509392505050565b6000818302905060008314806114ac57508183828115156114a957fe5b04145b15156114b757600080fd5b92915050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561154057600080fd5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff16846040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561160457600080fd5b505af1158015611618573d6000803e3d6000fd5b505050506040513d602081101561162e57600080fd5b8101908080519060200190929190505050905092915050565b6000600760008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905092915050565b600081830190508281101515156116e457600080fd5b92915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561174557600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a72305820cc73c266b8229d98d58095fda1c2103247b51d0db76754d042fbd4e19b603b410029
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: SodaPoint
+Function name: totalSupplyIncrease(uint256)
+PC address: 3460
+Estimated Gas Usage: 13039 - 53844
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x866900d67579509c73430d4745039dc1486109d4.sol:201
+
+_totalSupply + _supply
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: totalSupplyIncrease(uint256), txdata: 0x71986eaefffffffffffffffffffffffffffffffffffffffffa, decoded_data: (115792089237316195423570985008687907853269984665638707129398655937500780953600,), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: SodaPoint
+Function name: approveAndCall(address,uint256,bytes)
+PC address: 5228
+Estimated Gas Usage: 9609 - 69325
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x866900d67579509c73430d4745039dc1486109d4.sol:180
+
+ApproveAndCallFallBack(spender).receiveApproval(msg.sender, tokens, this, data)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: approveAndCall(address,uint256,bytes), txdata: 0xcae9ca51000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000000000000000000000000000000000000000000081, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: SodaPoint
+Function name: transferAnyERC20Token(address,uint256)
+PC address: 5639
+Estimated Gas Usage: 4073 - 39766
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x866900d67579509c73430d4745039dc1486109d4.sol:197
+
+ERC20Interface(tokenAddress).transfer(owner, tokens)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferAnyERC20Token(address,uint256), txdata: 0xdc39d06d000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+
+
+time_used: 36044.69703912735 seconds
+#@contract_info_time
+0x866900d67579509c73430d4745039dc1486109d4.sol:0.4.24:SodaPoint:36044.69703912735:36100:60:36000

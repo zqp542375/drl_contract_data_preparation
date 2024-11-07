@@ -1,0 +1,259 @@
+++++ 0x3bcdcce9b65c3af4764609c76bd3ac035d130a0c.sol  :  0.5.12  :  LockTokens ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 815
+['constructor']:writes at the last depth:['0']
+preprocessing: Achieved 96.20% coverage.
+dynamic svars:[]
+static svars:['0', '1']
+Ending preprocessing.
+preprocessing time(s): 3.2180099487304688
+contract coverage: 83.31%
+Function Reads: State variables read in conditions
+	beneficiaryAddr():[]
+	canTransfer():[]
+	pendingOwner():[]
+	transferOwnership(address):['0']
+	claimTokens(address,uint256):['0']
+	unlockTime():[]
+	claimOwnership():['1']
+	renounceOwnership():['0']
+	owner():[]
+	isOwner():[]
+Function Writes: State variables written
+	renounceOwnership():['0']
+	transferOwnership(address):['1']
+	claimOwnership():['0', '1']
+============================
+iteration:3
+targets:['claimOwnership()']
+['renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 83.31%
+============================
+iteration:4
+['claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 83.31%
+============================
+iteration:5
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 83.31%
+============================
+iteration:6
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:7
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:8
+contract coverage: 95.71%
+============================
+iteration:9
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:10
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:11
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimOwnership()', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'claimOwnership()', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:12
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:13
+['claimTokens(address,uint256)', 'transferOwnership(address)', 'renounceOwnership()', 'claimOwnership()']:writes at the last depth:['1', '0']
+contract coverage: 95.71%
+============================
+iteration:14
+contract coverage: 95.71%
+============================
+iteration:15
+['transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:16
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:17
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:18
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimOwnership()', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'claimOwnership()', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:19
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:20
+['transferOwnership(address)', 'claimTokens(address,uint256)', 'renounceOwnership()', 'claimOwnership()']:writes at the last depth:['1', '0']
+contract coverage: 95.71%
+============================
+iteration:21
+['transferOwnership(address)', 'claimOwnership()', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimOwnership()', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:22
+['transferOwnership(address)', 'claimOwnership()', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimOwnership()', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimOwnership()', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:23
+['transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:24
+contract coverage: 95.71%
+============================
+iteration:25
+['transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:26
+['transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:27
+['transferOwnership(address)', 'transferOwnership(address)', 'claimOwnership()', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'claimOwnership()', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:28
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'claimOwnership()']:writes at the last depth:['1', '0']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:29
+['transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()', 'claimOwnership()']:writes at the last depth:['1', '0']
+contract coverage: 95.71%
+============================
+iteration:30
+['transferOwnership(address)', 'renounceOwnership()', 'claimOwnership()']:writes at the last depth:['1', '0']
+contract coverage: 95.71%
+============================
+iteration:31
+['transferOwnership(address)', 'renounceOwnership()', 'claimOwnership()', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'renounceOwnership()', 'claimOwnership()', 'transferOwnership(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'renounceOwnership()', 'claimOwnership()', 'claimTokens(address,uint256)']:writes at the last depth:[]
+contract coverage: 95.71%
+============================
+iteration:32
+contract coverage: 95.71%
+#@statespace
+2247 nodes, 2246 edges, 22816 total states
+#@coverage
+Achieved 6.53% coverage for code: 6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36107e6806100cf6000396000f3fe608060405234801561001057600080fd5b506004361061009e5760003560e01c8063b9e9aec111610066578063b9e9aec114610141578063df68c1a21461018b578063e30c3978146101ad578063f2fde38b146101f7578063fe417fa51461023b5761009e565b8063251c1aa3146100a35780634e71e0c8146100c1578063715018a6146100cb5780638da5cb5b146100d55780638f32d59b1461011f575b600080fd5b6100ab610289565b6040518082815260200191505060405180910390f35b6100c9610291565b005b6100d3610391565b005b6100dd610461565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61012761048a565b604051808215151515815260200191505060405180910390f35b6101496104e1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101936104f9565b604051808215151515815260200191505060405180910390f35b6101b5610507565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102396004803603602081101561020d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061052d565b005b6102876004803603604081101561025157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506105bc565b005b635e3b570081565b600073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102c857fe5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461032257600080fd5b61034d600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166106b9565b6000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b61039961048a565b6103a257600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b73135182a23f440f38c292dd8eac39d0c3ba42523281565b6000635e3b57004211905090565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b61053561048a565b61053e57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141561057857600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6105c461048a565b6105cd57600080fd5b6105d56104f9565b6105de57600080fd5b8173ffffffffffffffffffffffffffffffffffffffff1663a9059cbb73135182a23f440f38c292dd8eac39d0c3ba425232836040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561067957600080fd5b505af115801561068d573d6000803e3d6000fd5b505050506040513d60208110156106a357600080fd5b8101908080519060200190929190505050505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156106f357600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea265627a7a72315820501a29aab69a3f13fb1d93e786fabf32dcdd3709caf53a3c5159746da65ef9b164736f6c634300050c0032
+#@coverage
+Achieved 95.71% coverage for code: 608060405234801561001057600080fd5b506004361061009e5760003560e01c8063b9e9aec111610066578063b9e9aec114610141578063df68c1a21461018b578063e30c3978146101ad578063f2fde38b146101f7578063fe417fa51461023b5761009e565b8063251c1aa3146100a35780634e71e0c8146100c1578063715018a6146100cb5780638da5cb5b146100d55780638f32d59b1461011f575b600080fd5b6100ab610289565b6040518082815260200191505060405180910390f35b6100c9610291565b005b6100d3610391565b005b6100dd610461565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61012761048a565b604051808215151515815260200191505060405180910390f35b6101496104e1565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101936104f9565b604051808215151515815260200191505060405180910390f35b6101b5610507565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6102396004803603602081101561020d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061052d565b005b6102876004803603604081101561025157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506105bc565b005b635e3b570081565b600073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102c857fe5b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461032257600080fd5b61034d600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff166106b9565b6000600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b61039961048a565b6103a257600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b73135182a23f440f38c292dd8eac39d0c3ba42523281565b6000635e3b57004211905090565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b61053561048a565b61053e57600080fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141561057857600080fd5b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6105c461048a565b6105cd57600080fd5b6105d56104f9565b6105de57600080fd5b8173ffffffffffffffffffffffffffffffffffffffff1663a9059cbb73135182a23f440f38c292dd8eac39d0c3ba425232836040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561067957600080fd5b505af115801561068d573d6000803e3d6000fd5b505050506040513d60208110156106a357600080fd5b8101908080519060200190929190505050505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614156106f357600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea265627a7a72315820501a29aab69a3f13fb1d93e786fabf32dcdd3709caf53a3c5159746da65ef9b164736f6c634300050c0032
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: LockTokens
+Function name: claimTokens(address,uint256)
+PC address: 1497
+Estimated Gas Usage: 1289 - 1714
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x3bcdcce9b65c3af4764609c76bd3ac035d130a0c.sol:81
+
+require(canTransfer())
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x20000080000000001, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: claimTokens(address,uint256), txdata: 0xfe417fa5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: LockTokens
+Function name: claimTokens(address,uint256)
+PC address: 1660
+Estimated Gas Usage: 2999 - 38081
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x3bcdcce9b65c3af4764609c76bd3ac035d130a0c.sol:82
+
+token(_tokenAddr).transfer(beneficiaryAddr, _amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x2000008000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: claimTokens(address,uint256), txdata: 0xfe417fa5efefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef, value: 0x0
+
+
+time_used: 245.89916586875916 seconds
+#@contract_info_time
+0x3bcdcce9b65c3af4764609c76bd3ac035d130a0c.sol:0.5.12:LockTokens:245.89916586875916:36100:60:36000

@@ -1,0 +1,1689 @@
+++++ 0x823b56c714449e25bf68ec66fd30925cf7588e52.sol  :  0.5.16  :  ShareholderVomer ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4924
+['constructor']:writes at the last depth:[]
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 87.39% coverage.
+dynamic svars:['56', '60', '59', '58', '57']
+static svars:['51', '53', '0', '54', '55', '61', '63', '64', '52', '62']
+Ending preprocessing.
+preprocessing time(s): 101.62085390090942
+contract coverage: 46.04%
+fallback is not reachable
+getInfo(address) is not reachable
+withdraw(uint256) is not reachable
+takeEth(address,uint256) is not reachable
+updatePaymentMode(address,uint256) is not reachable
+transferTokens(address,address,uint256) is not reachable
+acceptOwner() is not reachable
+setPartnerContract(address,int256) is not reachable
+lockFunds(uint256) is not reachable
+setAdmin(address,bool) is not reachable
+setDepositTokens(address[],uint256[]) is not reachable
+changeIndividualVMRCup(address,uint256) is not reachable
+changeOwnerCandidate(address) is not reachable
+giveBackEth() is not reachable
+changeMinBalance(uint256) is not reachable
+initialize() is not reachable
+Function Reads: State variables read in conditions
+	giveBackEth():[]
+	newOwnerCandidate():[]
+	acceptOwner():[]
+	changeIndividualVMRCup(address,uint256):[]
+	dateUntilFundsLocked():[]
+	getInfo(address):[]
+	initialize():[]
+	fundsLockedtoWithdraw():[]
+	lockFunds(uint256):[]
+	owner():[]
+	transferTokens(address,address,uint256):[]
+	setAdmin(address,bool):[]
+	changeMinBalance(uint256):[]
+	getPartnerInfo(address):[]
+	changeOwnerCandidate(address):[]
+	setDepositTokens(address[],uint256[]):[]
+	takeEth(address,uint256):[]
+	getPaymentInfo():[]
+	updatePaymentMode(address,uint256):['62']
+	withdraw(uint256):[]
+	admins(address):[]
+	setPartnerContract(address,int256):[]
+Function Writes: State variables written
+	giveBackEth():['60']
+	acceptOwner():['51']
+	changeMinBalance(uint256):['53']
+	initialize():['0', '54', '55', '53', '56', '51', '61']
+	lockFunds(uint256):['63', '64']
+	changeOwnerCandidate(address):['52']
+	changeIndividualVMRCup(address,uint256):['59']
+	setAdmin(address,bool):['58']
+	updatePaymentMode(address,uint256):['61', '62']
+	setPartnerContract(address,int256):['60']
+	fallback:['57', '56']
+	takeEth(address,uint256):['60']
+============================
+iteration:3
+targets:['fallback', 'getInfo(address)', 'withdraw(uint256)', 'takeEth(address,uint256)', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'acceptOwner()', 'setPartnerContract(address,int256)', 'lockFunds(uint256)', 'setAdmin(address,bool)', 'setDepositTokens(address[],uint256[])', 'changeIndividualVMRCup(address,uint256)', 'changeOwnerCandidate(address)', 'giveBackEth()', 'changeMinBalance(uint256)', 'initialize()']
+['giveBackEth()']:writes at the last depth:[]
+['initialize()']:writes at the last depth:['54', '61', '51', '55', '0', '56', '53']
+contract coverage: 59.79%
+============================
+iteration:4
+['initialize()', 'fallback']:writes at the last depth:[]
+['initialize()', 'fallback']:writes at the last depth:[]
+['initialize()', 'fallback']:writes at the last depth:[]
+['initialize()', 'fallback']:writes at the last depth:[]
+['initialize()', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'fallback']:writes at the last depth:[]
+['initialize()', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 59.79%
+============================
+iteration:5
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 59.79%
+============================
+iteration:6
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 59.79%
+============================
+iteration:7
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 59.79%
+============================
+iteration:8
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 75.37%
+============================
+iteration:9
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'giveBackEth()']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'takeEth(address,uint256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'takeEth(address,uint256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'takeEth(address,uint256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'takeEth(address,uint256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)', 'getInfo(address)']:writes at the last depth:[]
+contract coverage: 75.37%
+============================
+iteration:10
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'withdraw(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 77.62%
+============================
+iteration:11
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'setDepositTokens(address[],uint256[])']:writes at the last depth:['']
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'getInfo(address)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)', 'setDepositTokens(address[],uint256[])']:writes at the last depth:['']
+contract coverage: 77.62%
+============================
+iteration:12
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)', 'getInfo(address)']:writes at the last depth:[]
+contract coverage: 78.33%
+============================
+iteration:13
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'acceptOwner()']:writes at the last depth:['51']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:14
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:15
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:16
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:17
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'giveBackEth()', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:18
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:19
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:20
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:21
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'fallback']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'transferTokens(address,address,uint256)', 'fallback', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:22
+['initialize()', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'updatePaymentMode(address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'updatePaymentMode(address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'updatePaymentMode(address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'updatePaymentMode(address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'updatePaymentMode(address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:23
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:24
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'lockFunds(uint256)']:writes at the last depth:['64', '63']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'changeOwnerCandidate(address)']:writes at the last depth:['52']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'changeIndividualVMRCup(address,uint256)']:writes at the last depth:['59']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'setAdmin(address,bool)']:writes at the last depth:['58']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'withdraw(uint256)']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'setPartnerContract(address,int256)']:writes at the last depth:['60']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)']:writes at the last depth:['62', '61']
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'transferTokens(address,address,uint256)']:writes at the last depth:[]
+contract coverage: 80.20%
+============================
+iteration:25
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'giveBackEth()']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'fallback']:writes at the last depth:[]
+['initialize()', 'updatePaymentMode(address,uint256)', 'updatePaymentMode(address,uint256)', 'changeMinBalance(uint256)']:writes at the last depth:['53']
+contract coverage: 80.20%
+============================
+iteration:26
+contract coverage: 80.20%
+============================
+iteration:27
+contract coverage: 80.20%
+============================
+iteration:28
+contract coverage: 80.20%
+============================
+iteration:29
+contract coverage: 80.20%
+============================
+iteration:30
+contract coverage: 80.20%
+============================
+iteration:31
+contract coverage: 80.20%
+============================
+iteration:32
+contract coverage: 80.20%
+============================
+iteration:33
+contract coverage: 80.20%
+============================
+iteration:34
+contract coverage: 80.20%
+============================
+iteration:35
+contract coverage: 80.20%
+============================
+iteration:36
+contract coverage: 80.20%
+============================
+iteration:37
+contract coverage: 80.20%
+============================
+iteration:38
+contract coverage: 80.20%
+============================
+iteration:39
+contract coverage: 80.20%
+============================
+iteration:40
+contract coverage: 80.20%
+============================
+iteration:41
+contract coverage: 80.20%
+============================
+iteration:42
+contract coverage: 80.20%
+============================
+iteration:43
+contract coverage: 80.20%
+============================
+iteration:44
+contract coverage: 80.20%
+============================
+iteration:45
+contract coverage: 80.20%
+============================
+iteration:46
+contract coverage: 80.20%
+============================
+iteration:47
+contract coverage: 80.20%
+============================
+iteration:48
+contract coverage: 80.20%
+============================
+iteration:49
+contract coverage: 80.20%
+============================
+iteration:50
+contract coverage: 80.20%
+============================
+iteration:51
+contract coverage: 80.20%
+============================
+iteration:52
+contract coverage: 80.20%
+============================
+iteration:53
+contract coverage: 80.20%
+============================
+iteration:54
+contract coverage: 80.20%
+============================
+iteration:55
+contract coverage: 80.20%
+#@statespace
+6964 nodes, 6963 edges, 88716 total states
+#@coverage
+Achieved 0.40% coverage for code: 608060405234801561001057600080fd5b50612811806100206000396000f3fe6080604052600436106101355760003560e01c80638129fc1c116100ab578063ab7c63f11161006f578063ab7c63f114610d78578063d091b55014610d82578063ebbc496514610dd9578063eef793d914610df0578063f8800fae14610e4b578063ffdd5cf114610e7657610135565b80638129fc1c14610c2957806389c3ef6c14610c405780638c8f95fb14610c6b5780638da5cb5b14610ca6578063a64b6e5f14610cfd57610135565b80634b0bddd2116100fd5780634b0bddd21461099e5780634ea18fab146109fb57806354f79cf314610a36578063561a01b814610aa25780635b14319c14610af35780636d89ffb014610bce57610135565b806304da3f19146107e6578063155e0814146108445780632e1a7d4d1461089f578063429b62e5146108da578063446d5b4e14610943575b3273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461016d57600080fd5b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101c8576107e4565b6101d23333610efe565b6000603960003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002090506000603b60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008114156102685760355490505b808260030154101561027957600080fd5b600034111561050257671bc16d674ec80000341015806102b1575060008260000154141580156102b05750662386f26fc100003410155b5b6102ba57600080fd5b6014600036905014156104545760006103176000368080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050611277565b90503373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141561035257600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166108fc610393606461038560193461128590919063ffffffff16565b61130b90919063ffffffff16565b9081150290604051600060405180830381858888f193505050501580156103be573d6000803e3d6000fd5b50603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc610422606461041460053461128590919063ffffffff16565b61130b90919063ffffffff16565b9081150290604051600060405180830381858888f1935050505015801561044d573d6000803e3d6000fd5b5050610501565b60008036905014156104f457603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6104c360646104b5601e3461128590919063ffffffff16565b61130b90919063ffffffff16565b9081150290604051600060405180830381858888f193505050501580156104ee573d6000803e3d6000fd5b50610500565b60006104ff57600080fd5b5b5b5b600082600001541461079357600061056862278d0061055a8560010154420361054c606461053e60148a6000015461128590919063ffffffff16565b61130b90919063ffffffff16565b61128590919063ffffffff16565b61130b90919063ffffffff16565b905061058181846002015461139a90919063ffffffff16565b83600201819055506000339050600073ffffffffffffffffffffffffffffffffffffffff16603d60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415610631578073ffffffffffffffffffffffffffffffffffffffff166108fc839081150290604051600060405180830381858888f1935050505015801561062b573d6000803e3d6000fd5b50610790565b603660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16603d60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141561078357603660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb826106fd603e548661142290919063ffffffff16565b6040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b15801561076657600080fd5b505af115801561077a573d6000803e3d6000fd5b5050505061078f565b600061078e57600080fd5b5b5b50505b4282600101819055506107d96107c660646107b860463461128590919063ffffffff16565b61130b90919063ffffffff16565b836000015461139a90919063ffffffff16565b826000018190555050505b005b3480156107f257600080fd5b506107fb611462565b604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390f35b34801561085057600080fd5b5061089d6004803603604081101561086757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611493565b005b3480156108ab57600080fd5b506108d8600480360360208110156108c257600080fd5b81019080803590602001909291905050506115e0565b005b3480156108e657600080fd5b50610929600480360360208110156108fd57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506116ce565b604051808215151515815260200191505060405180910390f35b34801561094f57600080fd5b5061099c6004803603604081101561096657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506116ee565b005b3480156109aa57600080fd5b506109f9600480360360408110156109c157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035151590602001909291905050506117a4565b005b348015610a0757600080fd5b50610a3460048036036020811015610a1e57600080fd5b8101908080359060200190929190505050611856565b005b348015610a4257600080fd5b50610a8560048036036020811015610a5957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506118c1565b604051808381526020018281526020019250505060405180910390f35b348015610aae57600080fd5b50610af160048036036020811015610ac557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611953565b005b348015610aff57600080fd5b50610bcc60048036036040811015610b1657600080fd5b8101908080359060200190640100000000811115610b3357600080fd5b820183602082011115610b4557600080fd5b80359060200191846020830284011164010000000083111715610b6757600080fd5b909192939192939080359060200190640100000000811115610b8857600080fd5b820183602082011115610b9a57600080fd5b80359060200191846020830284011164010000000083111715610bbc57600080fd5b90919293919293905050506119ee565b005b348015610bda57600080fd5b50610c2760048036036040811015610bf157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611b08565b005b348015610c3557600080fd5b50610c3e611c38565b005b348015610c4c57600080fd5b50610c55611f4c565b6040518082815260200191505060405180910390f35b348015610c7757600080fd5b50610ca460048036036020811015610c8e57600080fd5b8101908080359060200190929190505050611f52565b005b348015610cb257600080fd5b50610cbb611fd8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b348015610d0957600080fd5b50610d7660048036036060811015610d2057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611ffe565b005b610d806120f9565b005b348015610d8e57600080fd5b50610d976121ad565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b348015610de557600080fd5b50610dee6121d3565b005b348015610dfc57600080fd5b50610e4960048036036040811015610e1357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050612292565b005b348015610e5757600080fd5b50610e6061233b565b6040518082815260200191505060405180910390f35b348015610e8257600080fd5b50610ec560048036036020811015610e9957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050612341565b60405180878152602001868152602001858152602001848152602001838152602001828152602001965050505050505060405180910390f35b603860008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16611273576000806000603760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ffdd5cf1866040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b158015610ff357600080fd5b505afa158015611007573d6000803e3d6000fd5b505050506040513d608081101561101d57600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919050505050809350819450829550505050600083111561118b5760006110b2846110a46014611096606461108862278d008a61128590919063ffffffff16565b61128590919063ffffffff16565b61130b90919063ffffffff16565b61130b90919063ffffffff16565b420390506000603960008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600301549050604051806080016040528086815260200183815260200184815260200182815250603960008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000015560208201518160010155604082015181600201556060820151816003015590505050505b6001603860008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508373ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff161461126f576001603860008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505b5050505b5050565b600060148201519050919050565b6000808314156112985760009050611305565b60008284029050828482816112a957fe5b0414611300576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602181526020018061278e6021913960400191505060405180910390fd5b809150505b92915050565b6000808211611382576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f536166654d6174683a206469766973696f6e206279207a65726f00000000000081525060200191505060405180910390fd5b600082848161138d57fe5b0490508091505092915050565b600080828401905083811015611418576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b6000670de0b6b3a764000061145261143a8585611285565b6002670de0b6b3a76400008161144c57fe5b0461139a565b8161145957fe5b04905092915050565b600080603d60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169150603e5490509091565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146114ea57fe5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614806115725750603660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16145b61157b57600080fd5b81603d60006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600081146115cc5780603e819055505b6000603e5414156115dc57600080fd5b5050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461163757fe5b42604054111561166257603f54611657824761264790919063ffffffff16565b1161166157600080fd5b5b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156116ca573d6000803e3d6000fd5b5050565b603a6020528060005260406000206000915054906101000a900460ff1681565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461174557fe5b600081121561175357600080fd5b6000603c60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050818160000181905550505050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146117fb57fe5b80603a60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146118ad57fe5b670de0b6b3a7640000810260358190555050565b600080603c60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549150603c60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050915091565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146119aa57fe5b80603460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b603a60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16611a4157fe5b6000848490509050828290508114611a5857600080fd5b60008090505b818161ffff161015611b005783838261ffff16818110611a7a57fe5b905060200201356039600088888561ffff16818110611a9557fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600301819055508080600101915050611a5e565b505050505050565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415611b41573391505b6000603c60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002090506000816001015482600001540113611b9b57600080fd5b8181600101548260000154011015611bb257600080fd5b818160010160008282540392505081905550611bce83836126d0565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f14ab110831c9d210715b0adedbc67b2f0b80c10ad2853488332d1e4fbd85f81d846040518082815260200191505060405180910390a3505050565b600060019054906101000a900460ff1680611c575750611c5661274e565b5b80611c6e57506000809054906101000a900460ff16155b611cc3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602e8152602001806127af602e913960400191505060405180910390fd5b60008060019054906101000a900460ff161590508015611d13576001600060016101000a81548160ff02191690831515021790555060016000806101000a81548160ff0219169083151502179055505b73063b98a414eaa1d4a5d4fc235a22db1427199024603660006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550739c235ac2c33077a30593a3fd27a0087c687a80a3603760006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550683635c9adc5dea000006035819055506001603860007312a09763ec6e5b7cbc4feb7178db8c91a79e456a73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555060016038600073b7722517f410914fff62df357a0c14b88efb936973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555033603360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000603d60006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508015611f495760008060016101000a81548160ff0219169083151502179055505b50565b603f5481565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614611fa957fe5b426040541115611fc257603f548111611fc157600080fd5b5b80603f8190555062278d00420160408190555050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461205557fe5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b1580156120dc57600080fd5b505af11580156120f0573d6000803e3d6000fd5b50505050505050565b6000603c60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020905060008160000154131561215c573481600101600082825401925050819055505b3373ffffffffffffffffffffffffffffffffffffffff167fac51d2759ef9a0c22072ba515685b302d83fa6ff1d5ec2948396ac46e82d864c346040518082815260200191505060405180910390a250565b603460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b603460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461222d57600080fd5b603460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16603360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146122e957fe5b670de0b6b3a76400008102603b60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505050565b60405481565b600080600080600080479250603860008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff166124f2576035549050603760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ffdd5cf1886040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b15801561244257600080fd5b505afa158015612456573d6000803e3d6000fd5b505050506040513d608081101561246c57600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919050505050809650819750829850505050603960008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060030154915061263e565b6124fa612765565b603960008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060800160405290816000820154815260200160018201548152602001600282015481526020016003820154815250509050806000015196506000816000015111156125dd576125da62278d006125cc836020015142036125be60646125b06014886000015161128590919063ffffffff16565b61130b90919063ffffffff16565b61128590919063ffffffff16565b61130b90919063ffffffff16565b95505b8060400151945080606001519250603b60008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549150600082141561263c5760355491505b505b91939550919395565b6000828211156126bf576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f536166654d6174683a207375627472616374696f6e206f766572666c6f77000081525060200191505060405180910390fd5b600082840390508091505092915050565b600082905060008173ffffffffffffffffffffffffffffffffffffffff168360405180600001905060006040518083038185875af1925050503d8060008114612735576040519150601f19603f3d011682016040523d82523d6000602084013e61273a565b606091505b505090508061274857600080fd5b50505050565b6000803090506000813b9050600081149250505090565b604051806080016040528060008152602001600081526020016000815260200160008152509056fe536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f77436f6e747261637420696e7374616e63652068617320616c7265616479206265656e20696e697469616c697a6564a265627a7a72315820a436c684c293678d5beb753ea02d438ff99d92db15719913630acd3a7280909364736f6c63430005100032
+#@coverage
+Achieved 80.20% coverage for code: 6080604052600436106101355760003560e01c80638129fc1c116100ab578063ab7c63f11161006f578063ab7c63f114610d78578063d091b55014610d82578063ebbc496514610dd9578063eef793d914610df0578063f8800fae14610e4b578063ffdd5cf114610e7657610135565b80638129fc1c14610c2957806389c3ef6c14610c405780638c8f95fb14610c6b5780638da5cb5b14610ca6578063a64b6e5f14610cfd57610135565b80634b0bddd2116100fd5780634b0bddd21461099e5780634ea18fab146109fb57806354f79cf314610a36578063561a01b814610aa25780635b14319c14610af35780636d89ffb014610bce57610135565b806304da3f19146107e6578063155e0814146108445780632e1a7d4d1461089f578063429b62e5146108da578063446d5b4e14610943575b3273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461016d57600080fd5b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101c8576107e4565b6101d23333610efe565b6000603960003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002090506000603b60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008114156102685760355490505b808260030154101561027957600080fd5b600034111561050257671bc16d674ec80000341015806102b1575060008260000154141580156102b05750662386f26fc100003410155b5b6102ba57600080fd5b6014600036905014156104545760006103176000368080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050611277565b90503373ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141561035257600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166108fc610393606461038560193461128590919063ffffffff16565b61130b90919063ffffffff16565b9081150290604051600060405180830381858888f193505050501580156103be573d6000803e3d6000fd5b50603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc610422606461041460053461128590919063ffffffff16565b61130b90919063ffffffff16565b9081150290604051600060405180830381858888f1935050505015801561044d573d6000803e3d6000fd5b5050610501565b60008036905014156104f457603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6104c360646104b5601e3461128590919063ffffffff16565b61130b90919063ffffffff16565b9081150290604051600060405180830381858888f193505050501580156104ee573d6000803e3d6000fd5b50610500565b60006104ff57600080fd5b5b5b5b600082600001541461079357600061056862278d0061055a8560010154420361054c606461053e60148a6000015461128590919063ffffffff16565b61130b90919063ffffffff16565b61128590919063ffffffff16565b61130b90919063ffffffff16565b905061058181846002015461139a90919063ffffffff16565b83600201819055506000339050600073ffffffffffffffffffffffffffffffffffffffff16603d60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415610631578073ffffffffffffffffffffffffffffffffffffffff166108fc839081150290604051600060405180830381858888f1935050505015801561062b573d6000803e3d6000fd5b50610790565b603660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16603d60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141561078357603660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a9059cbb826106fd603e548661142290919063ffffffff16565b6040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b15801561076657600080fd5b505af115801561077a573d6000803e3d6000fd5b5050505061078f565b600061078e57600080fd5b5b5b50505b4282600101819055506107d96107c660646107b860463461128590919063ffffffff16565b61130b90919063ffffffff16565b836000015461139a90919063ffffffff16565b826000018190555050505b005b3480156107f257600080fd5b506107fb611462565b604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390f35b34801561085057600080fd5b5061089d6004803603604081101561086757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611493565b005b3480156108ab57600080fd5b506108d8600480360360208110156108c257600080fd5b81019080803590602001909291905050506115e0565b005b3480156108e657600080fd5b50610929600480360360208110156108fd57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506116ce565b604051808215151515815260200191505060405180910390f35b34801561094f57600080fd5b5061099c6004803603604081101561096657600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506116ee565b005b3480156109aa57600080fd5b506109f9600480360360408110156109c157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035151590602001909291905050506117a4565b005b348015610a0757600080fd5b50610a3460048036036020811015610a1e57600080fd5b8101908080359060200190929190505050611856565b005b348015610a4257600080fd5b50610a8560048036036020811015610a5957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506118c1565b604051808381526020018281526020019250505060405180910390f35b348015610aae57600080fd5b50610af160048036036020811015610ac557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050611953565b005b348015610aff57600080fd5b50610bcc60048036036040811015610b1657600080fd5b8101908080359060200190640100000000811115610b3357600080fd5b820183602082011115610b4557600080fd5b80359060200191846020830284011164010000000083111715610b6757600080fd5b909192939192939080359060200190640100000000811115610b8857600080fd5b820183602082011115610b9a57600080fd5b80359060200191846020830284011164010000000083111715610bbc57600080fd5b90919293919293905050506119ee565b005b348015610bda57600080fd5b50610c2760048036036040811015610bf157600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611b08565b005b348015610c3557600080fd5b50610c3e611c38565b005b348015610c4c57600080fd5b50610c55611f4c565b6040518082815260200191505060405180910390f35b348015610c7757600080fd5b50610ca460048036036020811015610c8e57600080fd5b8101908080359060200190929190505050611f52565b005b348015610cb257600080fd5b50610cbb611fd8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b348015610d0957600080fd5b50610d7660048036036060811015610d2057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050611ffe565b005b610d806120f9565b005b348015610d8e57600080fd5b50610d976121ad565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b348015610de557600080fd5b50610dee6121d3565b005b348015610dfc57600080fd5b50610e4960048036036040811015610e1357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050612292565b005b348015610e5757600080fd5b50610e6061233b565b6040518082815260200191505060405180910390f35b348015610e8257600080fd5b50610ec560048036036020811015610e9957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050612341565b60405180878152602001868152602001858152602001848152602001838152602001828152602001965050505050505060405180910390f35b603860008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16611273576000806000603760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ffdd5cf1866040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b158015610ff357600080fd5b505afa158015611007573d6000803e3d6000fd5b505050506040513d608081101561101d57600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919050505050809350819450829550505050600083111561118b5760006110b2846110a46014611096606461108862278d008a61128590919063ffffffff16565b61128590919063ffffffff16565b61130b90919063ffffffff16565b61130b90919063ffffffff16565b420390506000603960008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600301549050604051806080016040528086815260200183815260200184815260200182815250603960008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000820151816000015560208201518160010155604082015181600201556060820151816003015590505050505b6001603860008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055508373ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff161461126f576001603860008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505b5050505b5050565b600060148201519050919050565b6000808314156112985760009050611305565b60008284029050828482816112a957fe5b0414611300576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602181526020018061278e6021913960400191505060405180910390fd5b809150505b92915050565b6000808211611382576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f536166654d6174683a206469766973696f6e206279207a65726f00000000000081525060200191505060405180910390fd5b600082848161138d57fe5b0490508091505092915050565b600080828401905083811015611418576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b6000670de0b6b3a764000061145261143a8585611285565b6002670de0b6b3a76400008161144c57fe5b0461139a565b8161145957fe5b04905092915050565b600080603d60009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169150603e5490509091565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146114ea57fe5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1614806115725750603660009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16145b61157b57600080fd5b81603d60006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600081146115cc5780603e819055505b6000603e5414156115dc57600080fd5b5050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461163757fe5b42604054111561166257603f54611657824761264790919063ffffffff16565b1161166157600080fd5b5b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156116ca573d6000803e3d6000fd5b5050565b603a6020528060005260406000206000915054906101000a900460ff1681565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461174557fe5b600081121561175357600080fd5b6000603c60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050818160000181905550505050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146117fb57fe5b80603a60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146118ad57fe5b670de0b6b3a7640000810260358190555050565b600080603c60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001549150603c60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101549050915091565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146119aa57fe5b80603460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b603a60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16611a4157fe5b6000848490509050828290508114611a5857600080fd5b60008090505b818161ffff161015611b005783838261ffff16818110611a7a57fe5b905060200201356039600088888561ffff16818110611a9557fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600301819055508080600101915050611a5e565b505050505050565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415611b41573391505b6000603c60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002090506000816001015482600001540113611b9b57600080fd5b8181600101548260000154011015611bb257600080fd5b818160010160008282540392505081905550611bce83836126d0565b8273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f14ab110831c9d210715b0adedbc67b2f0b80c10ad2853488332d1e4fbd85f81d846040518082815260200191505060405180910390a3505050565b600060019054906101000a900460ff1680611c575750611c5661274e565b5b80611c6e57506000809054906101000a900460ff16155b611cc3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602e8152602001806127af602e913960400191505060405180910390fd5b60008060019054906101000a900460ff161590508015611d13576001600060016101000a81548160ff02191690831515021790555060016000806101000a81548160ff0219169083151502179055505b73063b98a414eaa1d4a5d4fc235a22db1427199024603660006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550739c235ac2c33077a30593a3fd27a0087c687a80a3603760006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550683635c9adc5dea000006035819055506001603860007312a09763ec6e5b7cbc4feb7178db8c91a79e456a73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555060016038600073b7722517f410914fff62df357a0c14b88efb936973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff02191690831515021790555033603360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000603d60006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508015611f495760008060016101000a81548160ff0219169083151502179055505b50565b603f5481565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614611fa957fe5b426040541115611fc257603f548111611fc157600080fd5b5b80603f8190555062278d00420160408190555050565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461205557fe5b8273ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b1580156120dc57600080fd5b505af11580156120f0573d6000803e3d6000fd5b50505050505050565b6000603c60003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020905060008160000154131561215c573481600101600082825401925050819055505b3373ffffffffffffffffffffffffffffffffffffffff167fac51d2759ef9a0c22072ba515685b302d83fa6ff1d5ec2948396ac46e82d864c346040518082815260200191505060405180910390a250565b603460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b603460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461222d57600080fd5b603460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16603360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b603360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146122e957fe5b670de0b6b3a76400008102603b60008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055505050565b60405481565b600080600080600080479250603860008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff166124f2576035549050603760009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ffdd5cf1886040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b15801561244257600080fd5b505afa158015612456573d6000803e3d6000fd5b505050506040513d608081101561246c57600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919050505050809650819750829850505050603960008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060030154915061263e565b6124fa612765565b603960008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206040518060800160405290816000820154815260200160018201548152602001600282015481526020016003820154815250509050806000015196506000816000015111156125dd576125da62278d006125cc836020015142036125be60646125b06014886000015161128590919063ffffffff16565b61130b90919063ffffffff16565b61128590919063ffffffff16565b61130b90919063ffffffff16565b95505b8060400151945080606001519250603b60008973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549150600082141561263c5760355491505b505b91939550919395565b6000828211156126bf576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601e8152602001807f536166654d6174683a207375627472616374696f6e206f766572666c6f77000081525060200191505060405180910390fd5b600082840390508091505092915050565b600082905060008173ffffffffffffffffffffffffffffffffffffffff168360405180600001905060006040518083038185875af1925050503d8060008114612735576040519150601f19603f3d011682016040523d82523d6000602084013e61273a565b606091505b505090508061274857600080fd5b50505050565b6000803090506000813b9050600081149250505090565b604051806080016040528060008152602001600081526020016000815260200160008152509056fe536166654d6174683a206d756c7469706c69636174696f6e206f766572666c6f77436f6e747261637420696e7374616e63652068617320616c7265616479206265656e20696e697469616c697a6564a265627a7a72315820a436c684c293678d5beb753ea02d438ff99d92db15719913630acd3a7280909364736f6c63430005100032
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 360
+Estimated Gas Usage: 62 - 157
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:347
+
+require(msg.sender == tx.origin)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 451
+Estimated Gas Usage: 935 - 1360
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:349
+
+if (msg.sender == owner) return;
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x200000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x200000000000800, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 4194
+Estimated Gas Usage: 4544 - 40660
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:306
+
+if (totalFunds > 0) {
+                uint256 lastDatetime = block.timestamp - pendingReward.mul(30 days).mul(100).div(20).div(totalFunds);
+                uint256 totalVMR = investors[newAddress].totalVMR;
+                investors[newAddress] = InvestorData(totalFunds, lastDatetime, totalProfit, totalVMR);
+            }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000000000000000000000000000000000008fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4b00000000000000000000000000000000000000030000100000080202000000000000000202000401040280014004108001400000, value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 4630
+Estimated Gas Usage: 10536 - 67172
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:312
+
+if (oldAddress != newAddress) migrateDone[newAddress] = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [SOMEGUY], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000000000000000000010000000000000000fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [SOMEGUY], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4b12a09763ec6e5b7cbc4feb7178db8c91a79e456a0880082000000002088004000010800108010102020480042004000040800000, value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 4751
+Estimated Gas Usage: 4629 - 40745
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:87
+
+if (a == 0) {
+            return 0;
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000000000000000000000000000000000002fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4baffeaffeaffeaffeaffeaffeaffeaffeaffeaffe0000800000100000000000021040100400000004100040010001044000010000, value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 4775
+Estimated Gas Usage: 4674 - 40790
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:92
+
+c / a
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0400000000000000102001000200000000000040fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4b00000000000000010000000000000000000000000040042002020010002080000000200120010100800001400401040120081000, value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 4783
+Estimated Gas Usage: 4696 - 40812
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:92
+
+require(c / a == b, "SafeMath: multiplication overflow")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000400000000040008040002000140004008fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4b00000000000200000000000000000000000000000040400000000000000000000000000000000000000000000000000000000008, value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 4884
+Estimated Gas Usage: 4932 - 41048
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:100
+
+require(b > 0, "SafeMath: division by zero")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x4, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000000000000000000000101010101010000fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4b00020000000000000000000000000000000000000000020000040000000000000080000000400480020100000000000008408000, value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: fallback
+PC address: 5003
+Estimated Gas Usage: 4958 - 41074
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:101
+
+a / b
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000000000000000000000000020000000004fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4b00040000000000000000000000000000000000000404000408040001000200000000800820000000000000000101048002102080, value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x, decoded_data: , value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: updatePaymentMode(address,uint256)
+PC address: 5352
+Estimated Gas Usage: 1155 - 1580
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: updatePaymentMode(address,uint256), txdata: 0x155e081400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: updatePaymentMode(address,uint256)
+PC address: 5353
+Estimated Gas Usage: 1165 - 1590
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:203
+
+function updatePaymentMode(address newPaymantMode, uint256 newRate) onlyOwner public {
+        require(newPaymantMode == address(0) || newPaymantMode == address(VMR_Token));
+        paymentToken = newPaymantMode;
+        if (newRate != 0) VMR_ETH_RATE = newRate;
+        require(VMR_ETH_RATE != 0);
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: updatePaymentMode(address,uint256), txdata: 0x155e081408080808080808080808080808100004400840000004020800104080800804010808080808080808080808080808080808080808080808080808080808080808, value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: withdraw(uint256)
+PC address: 5685
+Estimated Gas Usage: 1144 - 1569
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d4040404040404040404040404000011001020108080110204040101080804080, decoded_data: (29061543965444064733758992315904551963930481839420908184399239650590226137216,), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: withdraw(uint256)
+PC address: 5686
+Estimated Gas Usage: 1154 - 1579
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:261
+
+function withdraw(uint256 amount)  public onlyOwner {
+        if (dateUntilFundsLocked > now) require(address(this).balance.sub(amount) > fundsLockedtoWithdraw);
+        owner.transfer(amount);
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d8080808080808080808080800804801008200080802080802020108002204080, decoded_data: (58123087930888129467517984631124125209054527310112649813633850983177433137280,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: ShareholderVomer
+Function name: withdraw(uint256)
+PC address: 5697
+Estimated Gas Usage: 1969 - 2394
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:262
+
+if (dateUntilFundsLocked > now) require(address(this).balance.sub(amount) > fundsLockedtoWithdraw)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [CREATOR], function: withdraw(uint256), txdata: 0x2e1a7d4d0000000000000000000000000000000000000000000000000000000000000000, decoded_data: (0,), value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: ShareholderVomer
+Function name: withdraw(uint256)
+PC address: 5812
+Estimated Gas Usage: 3634 - 38575
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:263
+
+owner.transfer(amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x12f8000001112827d, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f000000000000000000000000000000000000000000000001000100000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000010001000000000100', '0x0000000000000000000000000000000000000000', 0), value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d64401ae27e7a6100083c92d8085665002010010001fda3b2e6c67fe4500a8006, decoded_data: (45344548622145111277557570616070445266856648639813113805889569640448921337862,), value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d391000a40900450005e0c2820000000000000000000000000000000000000000, decoded_data: (25810106344661813203143932121707225402630314327975046265362665528459408703488,), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: setPartnerContract(address,int256)
+PC address: 5955
+Estimated Gas Usage: 1221 - 1646
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: setPartnerContract(address,int256), txdata: 0x446d5b4e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: setPartnerContract(address,int256)
+PC address: 5956
+Estimated Gas Usage: 1231 - 1656
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:243
+
+function setPartnerContract(address addr, int256 maxCredit) onlyOwner public {
+        require(maxCredit >= 0);
+        Partner storage data = partners[addr];
+        data.maxCredit = maxCredit;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: setPartnerContract(address,int256), txdata: 0x446d5b4e00000000000000000000000004010000100280400080400880000010022008010000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0401000010028040008040088000001002200801', 0), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: setAdmin(address,bool)
+PC address: 6137
+Estimated Gas Usage: 1138 - 1563
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: setAdmin(address,bool), txdata: 0x4b0bddd200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000', False), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: setAdmin(address,bool)
+PC address: 6138
+Estimated Gas Usage: 1148 - 1573
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:249
+
+function setAdmin(address newAdmin, bool activate) onlyOwner public {
+        admins[newAdmin] = activate;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: setAdmin(address,bool), txdata: 0x4b0bddd202020202020202020202020210021002401000082080020020010140408001080202020202020202020202020202020202020202020202020202020202020202, value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: changeMinBalance(uint256)
+PC address: 6315
+Estimated Gas Usage: 1121 - 1546
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeMinBalance(uint256), txdata: 0x4ea18fababababababababababababababababababababababababababababababababab, decoded_data: (77648812782670860460512307594061302913369283834606025297048026922953510464427,), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: changeMinBalance(uint256)
+PC address: 6316
+Estimated Gas Usage: 1131 - 1556
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:284
+
+function changeMinBalance(uint256 newMinBalance) public onlyOwner {
+        MinBalanceVMR = newMinBalance * 10**18;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: changeMinBalance(uint256), txdata: 0x4ea18fababababababababababababababababababababababababababababababababab, decoded_data: (77648812782670860460512307594061302913369283834606025297048026922953510464427,), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ShareholderVomer
+Function name: changeMinBalance(uint256)
+PC address: 6328
+Estimated Gas Usage: 6165 - 26590
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:285
+
+newMinBalance * 10**18
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: changeMinBalance(uint256), txdata: 0x4ea18fab00000000280920008980000000000000000000000000000202008ac012a00000, decoded_data: (4216245477385166659105342619182889708325975886213704878932673691648,), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: changeOwnerCandidate(address)
+PC address: 6568
+Estimated Gas Usage: 1171 - 1596
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: changeOwnerCandidate(address), txdata: 0x561a01b80000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000',), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: changeOwnerCandidate(address)
+PC address: 6569
+Estimated Gas Usage: 1181 - 1606
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:275
+
+function changeOwnerCandidate(address payable newOwner) public onlyOwner {
+        newOwnerCandidate = newOwner;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: changeOwnerCandidate(address), txdata: 0x561a01b80000000000000000000000000000000480800810400408401001040220024000, decoded_data: ('0x0000000480800810400408401001040220024000',), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: setDepositTokens(address[],uint256[])
+PC address: 6720
+Estimated Gas Usage: 1594 - 2209
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:336
+
+function setDepositTokens(address[] calldata userAddress, uint256[] calldata amountTokens) onlyAdmin external {
+        uint256 len = userAddress.length;
+        require(len == amountTokens.length);
+
+        for(uint16 i = 0;i < len; i++) {
+            investors[userAddress[i]].totalVMR = amountTokens[i];
+        }
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: setDepositTokens(address[],uint256[]), txdata: 0x5b14319c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c, decoded_data: ([], []), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ShareholderVomer
+Function name: takeEth(address,uint256)
+PC address: 7101
+Estimated Gas Usage: 12197 - 67488
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:224
+
+data.balance -= int256(amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [SOMEGUY], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000201000000400000000000000000000000fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [SOMEGUY], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef42f008ebb0510280945000022000025063804040052045002012718001802008, value: 0x0
+Caller: [ATTACKER], function: takeEth(address,uint256), txdata: 0x6d89ffb0808080808080808080808080000000000000000000000000000000000000000003e0284bd0520280c6280224380404506d306440058440110232908042014009, value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: lockFunds(uint256)
+PC address: 8103
+Estimated Gas Usage: 1143 - 1568
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: lockFunds(uint256), txdata: 0x8c8f95fb1010101010101010101010101002000040401001018000802010808040020810, decoded_data: (7265385991361016183439748078976182569418884885428067984067386969747840174096,), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: lockFunds(uint256)
+PC address: 8104
+Estimated Gas Usage: 1153 - 1578
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:266
+
+function lockFunds(uint256 amount) public onlyOwner {
+        
+        if (dateUntilFundsLocked > now) {
+            require(amount > fundsLockedtoWithdraw);
+        }
+        fundsLockedtoWithdraw = amount;
+        dateUntilFundsLocked = now + 30 days;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: lockFunds(uint256), txdata: 0x8c8f95fb1010101010101010101010101004080010010002102080100820104008802080, decoded_data: (7265385991361016183439748078976227867743439017821761897206472321618298282112,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: ShareholderVomer
+Function name: lockFunds(uint256)
+PC address: 8115
+Estimated Gas Usage: 1968 - 2393
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:268
+
+if (dateUntilFundsLocked > now) {
+            require(amount > fundsLockedtoWithdraw);
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: lockFunds(uint256), txdata: 0x8c8f95fb0000000000000000000000000000000000000000000000000000000000000000, decoded_data: (0,), value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ShareholderVomer
+Function name: lockFunds(uint256)
+PC address: 8143
+Estimated Gas Usage: 12023 - 52448
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:272
+
+now + 30 days
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [SOMEGUY], function: lockFunds(uint256), txdata: 0x8c8f95fb0000000000000000000000000000400000000000000000000000000000000000, decoded_data: (5575186299632655785383929568162090376495104,), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: transferTokens(address,address,uint256)
+PC address: 8275
+Estimated Gas Usage: 1253 - 1678
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000', '0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: transferTokens(address,address,uint256)
+PC address: 8276
+Estimated Gas Usage: 1263 - 1688
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:294
+
+function transferTokens (address token, address target, uint256 amount) onlyOwner public
+    {
+        ERC20Token(token).transfer(target, amount);
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f000000000000000000000000000000080404080008001001000180020201800100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000804040800080010010001800202018001', '0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: ShareholderVomer
+Function name: transferTokens(address,address,uint256)
+PC address: 8415
+Estimated Gas Usage: 2884 - 37780
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:296
+
+ERC20Token(token).transfer(target, amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [CREATOR], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5fefefefefefefefefefefefefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef, value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: ShareholderVomer
+Function name: transferTokens(address,address,uint256)
+PC address: 8415
+Estimated Gas Usage: 2884 - 37780
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:296
+
+ERC20Token(token).transfer(target, amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0xa00000, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000010100000000000000000000000000000000', '0x0000000000000000000000000000000000000000', 0), value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d0010000100810000000080000000000080000000001011000008010000000001, decoded_data: (28269580049468338397629340024051598607309851577934659524222815980826394625,), value: 0x0
+Caller: [ATTACKER], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5f000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000001', '0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: acceptOwner()
+PC address: 8744
+Estimated Gas Usage: 1060 - 1485
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:280
+
+require(msg.sender == newOwnerCandidate)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: acceptOwner(), txdata: 0xebbc4965, value: 0x0
+
+==== Dependence on tx.origin ====
+SWC ID: 115
+Severity: Low
+Contract: ShareholderVomer
+Function name: changeIndividualVMRCup(address,uint256)
+PC address: 8935
+Estimated Gas Usage: 1197 - 1622
+Use of tx.origin as a part of authorization control.
+The tx.origin environment variable has been found to influence a control flow decision. Note that using tx.origin as a security control might cause a situation where a user inadvertently authorizes a smart contract to perform an action on their behalf. It is recommended to use msg.sender instead.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:178
+
+assert(msg.sender == owner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: changeIndividualVMRCup(address,uint256), txdata: 0xeef793d900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, decoded_data: ('0x0000000000000000000000000000000000000000', 0), value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: ShareholderVomer
+Function name: changeIndividualVMRCup(address,uint256)
+PC address: 8936
+Estimated Gas Usage: 1207 - 1632
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:254
+
+function changeIndividualVMRCup(address userAddress, uint256 minAmount) onlyOwner public {
+        individualVMRCup[userAddress] = minAmount * 10**18;
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: changeIndividualVMRCup(address,uint256), txdata: 0xeef793d904040404040404040404040420400040028008040410080480040810800280200404040404040404040404040404040404040404040404040404040404040404, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: ShareholderVomer
+Function name: changeIndividualVMRCup(address,uint256)
+PC address: 8948
+Estimated Gas Usage: 6333 - 26948
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:255
+
+minAmount * 10**18
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [SOMEGUY], function: changeIndividualVMRCup(address,uint256), txdata: 0xeef793d90000000000000000000000000000000000000000400000000000000000000000000010002f0080407bd000002c0d00000000000000002000a020332729049e1b, decoded_data: ('0x0000000000000000400000000000000000000000', 110432891432450282836613105593322189807588787258621381286976587236154907), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: ShareholderVomer
+Function name: takeEth(address,uint256)
+PC address: 9989
+Estimated Gas Usage: 12197 - 67488
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:212
+
+payableTarget.call.value(amount)("")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [CREATOR], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000100000000000000000000000000000000fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [CREATOR], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef1c1040a94c00504e80c0f8a1ecc0200a81480001396ecb4445904aa8451f0658, value: 0x0
+Caller: [ATTACKER], function: takeEth(address,uint256), txdata: 0x6d89ffb04040404040404040404040400000000000000000000000000000000000000000108004894c8050a082048a024a81046301d48001a82702450b108c10981f1080, value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: ShareholderVomer
+Function name: takeEth(address,uint256)
+PC address: 9989
+Estimated Gas Usage: 12197 - 67488
+Any sender can withdraw Ether from the contract account.
+Arbitrary senders other than the contract creator can profitably extract Ether from the contract account. Verify the business logic carefully and make sure that appropriate security controls are in place to prevent unexpected loss of funds.
+--------------------
+In file: ./solidity_files/0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:212
+
+payableTarget.call.value(amount)("")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x40000080000020021, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: initialize(), txdata: 0x8129fc1c, value: 0x0
+Caller: [CREATOR], function: transferTokens(address,address,uint256), txdata: 0xa64b6e5ffcfcfcfcfcfcfcfcfcfcfcfc0000000000000000000000200000000000004000fcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfcfc, value: 0x0
+Caller: [CREATOR], function: setPartnerContract(address,int256), txdata: 0x446d5b4e4b4b4b4b4b4b4b4b4b4b4b4bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000801000000080004120001200040c000840008084802000000850002200020, value: 0x0
+Caller: [ATTACKER], function: takeEth(address,uint256), txdata: 0x6d89ffb05b5b5b5b5b5b5b5b5b5b5b5b000000000000000000000000000000000000000000001a0800010900061202016310009020fffffffffffffc0000061840800002, value: 0x0
+
+
+time_used: 36041.29828000069 seconds
+#@contract_info_time
+0x823b56c714449e25bf68ec66fd30925cf7588e52.sol:0.5.16:ShareholderVomer:36041.29828000069:36100:60:36000

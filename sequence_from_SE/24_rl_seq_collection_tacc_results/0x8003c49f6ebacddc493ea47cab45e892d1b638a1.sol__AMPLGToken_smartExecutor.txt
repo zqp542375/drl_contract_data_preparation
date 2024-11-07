@@ -1,0 +1,12 @@
+++++ 0x8003c49f6ebacddc493ea47cab45e892d1b638a1.sol  :  0.4.24  :  AMPLGToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 6572
+['constructor']:writes at the last depth:['0', '51', '52', '103', '104', '105', '158', '160', '162', '161', '156']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 81.94% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 156.09878063201904 seconds
+#@contract_info_time
+0x8003c49f6ebacddc493ea47cab45e892d1b638a1.sol:0.4.24:AMPLGToken:156.09878063201904:36100:60:36000

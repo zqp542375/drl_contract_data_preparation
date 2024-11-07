@@ -1,0 +1,939 @@
+++++ 0x0119b84Bd8B114a60a5cC2e4A74708857a290213.sol  :  0.5.16  :  P1FundingOracle ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 3326
+['constructor']:writes at the last depth:['0', '1', '2']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 82.23% coverage.
+dynamic svars:[]
+static svars:['0', '2', '1']
+Ending preprocessing.
+preprocessing time(s): 100.47930121421814
+contract coverage: 89.81%
+MAX_ABS_DIFF_PER_SECOND() is not reachable
+MAX_ABS_VALUE() is not reachable
+Function Reads: State variables read in conditions
+	owner():[]
+	isOwner():[]
+	getFunding(uint256):[]
+	setFundingRate((uint256,bool)):['2']
+	transferOwnership(address):['0']
+	_FUNDING_RATE_PROVIDER_():[]
+	setFundingRateProvider(address):['0']
+	MAX_ABS_VALUE():[]
+	MAX_ABS_DIFF_PER_SECOND():[]
+	renounceOwnership():['0']
+Function Writes: State variables written
+	renounceOwnership():['0']
+	setFundingRateProvider(address):['2']
+	transferOwnership(address):['0']
+============================
+iteration:3
+targets:['setFundingRate((uint256,bool))', 'MAX_ABS_DIFF_PER_SECOND()', 'MAX_ABS_VALUE()']
+['renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 93.33%
+============================
+iteration:4
+['setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:5
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:6
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:7
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:8
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:9
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:10
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:11
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:12
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:13
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:14
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:15
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:16
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:17
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:18
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:19
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:20
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:21
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+contract coverage: 96.45%
+============================
+iteration:22
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+contract coverage: 96.45%
+============================
+iteration:23
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:24
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:25
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:26
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:27
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:28
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:29
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:30
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:31
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+contract coverage: 96.45%
+============================
+iteration:32
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:33
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:34
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:35
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+contract coverage: 96.45%
+============================
+iteration:36
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:37
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+contract coverage: 96.45%
+============================
+iteration:38
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:39
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:40
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+contract coverage: 96.45%
+============================
+iteration:41
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:42
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:43
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:44
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:45
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:46
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:47
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:48
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:49
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:50
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:51
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:52
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:53
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:54
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:55
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:56
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:57
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:58
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:59
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+contract coverage: 96.45%
+============================
+iteration:60
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'renounceOwnership()']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'transferOwnership(address)']:writes at the last depth:['0']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRateProvider(address)']:writes at the last depth:['2']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+['setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))', 'setFundingRate((uint256,bool))']:writes at the last depth:['1']
+time_used: 30140.612339258194 seconds
+#@contract_info_time
+0x0119b84Bd8B114a60a5cC2e4A74708857a290213.sol:0.5.16:P1FundingOracle:30140.612339258194:36100:60:36000

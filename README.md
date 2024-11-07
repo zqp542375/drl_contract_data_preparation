@@ -6,12 +6,14 @@ The repository is for collecting contract data that will be used used to constru
 - The symbolic execution traces of each contract are available.
 
 To collect data for the small dataset:
+
+Make sure the configuration for this small dataset is uncommented in config.py
 ```
 run rl_small_dataset_data_preparation.py
 ```
 
 Collect data for the sGuard dataset:
-
+Make sure the configuration for this dataset is uncommented in config.py
 ```
 run rl_sGuard_data_preparation.py
 ```

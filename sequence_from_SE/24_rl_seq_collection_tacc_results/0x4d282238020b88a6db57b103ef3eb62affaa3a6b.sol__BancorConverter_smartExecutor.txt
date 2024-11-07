@@ -1,0 +1,1792 @@
+++++ 0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol  :  0.4.26  :  BancorConverter ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 14419
+['constructor']:writes at the last depth:['7', '11', '0', '2', '4', '6']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 3.09% coverage.
+dynamic svars:['9', '10']
+static svars:['7', '8', '0', '1', '6', '4', '5', '3', '2', '11']
+Ending preprocessing.
+preprocessing time(s): 101.18988418579102
+contract coverage: 58.38%
+number of genesis states: 15
+total instructions: 14419
+['restrictRegistryUpdate(bool)']:writes at the last depth:['7']
+['setConversionWhitelist(address)']:writes at the last depth:['8']
+['withdrawFromToken(address,address,uint256)']:writes at the last depth:[]
+['acceptTokenOwnership()']:writes at the last depth:[]
+['restoreRegistry()']:writes at the last depth:['6']
+['transferTokenOwnership(address)']:writes at the last depth:[]
+['setBancorX(address)']:writes at the last depth:['3']
+['transferManagement(address)']:writes at the last depth:['5']
+['transferOwnership(address)']:writes at the last depth:['1']
+['updateRegistry()']:writes at the last depth:['7', '6']
+['setConversionFee(uint32)']:writes at the last depth:['11']
+['withdrawTokens(address,address,uint256)']:writes at the last depth:[]
+['constructor']:writes at the last depth:['7', '11', '0', '2', '4', '6', '10', '10', '9', '1004753105490295263244812946565948198177742958590']
+['addConnector(address,uint32,bool)']:writes at the last depth:['9', '10', '1004753105490295263244812946565948198177742958590', '11']
+['addReserve(address,uint32)']:writes at the last depth:['9', '10', '1004753105490295263244812946565948198177742958590', '11']
+dynamic svars:['9', '10']
+static svars:['7', '8', '0', '1', '6', '4', '5', '3', '2', '11']
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: BancorConverter
+Function name: constructor
+PC address: 1636
+Estimated Gas Usage: 126124 - 589664
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:221
+
+token.owner()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0101010101010101010101010101010101010101010101020101010101010140010101010101010101010101010101010101010201010101010101800102010101010101010101010101010101010101010101010101010101010101000001410101010101010101010101010000000000000000000000410000000000000000010101010101010101010101010101010101010101010101010101010007, decoded_data: , value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: getReserveBalance(address)
+PC address: 6901
+Estimated Gas Usage: 2970 - 38428
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:867
+
+_reserveToken.balanceOf(this)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000000000ef00000200000001000101beef0110000100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c4000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000000000000000000000808000200004048080200000000040800002, value: 0x0
+Caller: [ATTACKER], function: getReserveBalance(address), txdata: 0x15226b54d1d1d1d1d1d1d1d1d1d1d1d1deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: BancorConverter
+Function name: connectorTokens(uint256)
+PC address: 6981
+Estimated Gas Usage: 1127 - 1222
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:1234
+
+function connectorTokens(uint256 _index) public view returns (IERC20Token) {
+        return BancorConverter.reserveTokens[_index];
+    }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: connectorTokens(uint256), txdata: 0x19b64015, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: acceptTokenOwnership()
+PC address: 9689
+Estimated Gas Usage: 7004 - 77167
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:742
+
+token.totalSupply()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: acceptTokenOwnership(), txdata: 0x38a5e016, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: BancorConverter
+Function name: getFinalAmount(uint256,uint8)
+PC address: 9791
+Estimated Gas Usage: 1713 - 3079
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:796
+
+CONVERSION_FEE_RESOLUTION ** _magnitude
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: getFinalAmount(uint256,uint8), txdata: 0x3aa0145a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080, decoded_data: (0, 128), value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: withdrawFromToken(address,address,uint256)
+PC address: 11502
+Estimated Gas Usage: 3945 - 39266
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:237
+
+ITokenHolder(token).withdrawTokens(_token, _to, _amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawFromToken(address,address,uint256), txdata: 0x41a5b33d, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 11698
+Estimated Gas Usage: 19163 - 130362
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:330
+
+registry
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12020
+Estimated Gas Usage: 19163 - 130362
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:333
+
+IContractRegistry(newRegistry).addressOf(CONTRACT_REGISTRY)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12020
+Estimated Gas Usage: 19163 - 130362
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:333
+
+IContractRegistry(newRegistry).addressOf(CONTRACT_REGISTRY)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010180020101010101010101012001010104010100000000000000000000000002, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12020
+Estimated Gas Usage: 19163 - 130362
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:333
+
+IContractRegistry(newRegistry).addressOf(CONTRACT_REGISTRY)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12117
+Estimated Gas Usage: 19163 - 130362
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:336
+
+registry
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12156
+Estimated Gas Usage: 19163 - 130362
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:336
+
+prevRegistry = registry
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12209
+Estimated Gas Usage: 19163 - 130362
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:336
+
+prevRegistry = registry
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12221
+Estimated Gas Usage: 19163 - 130362
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:339
+
+registry = IContractRegistry(newRegistry)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 12274
+Estimated Gas Usage: 19163 - 130362
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:339
+
+registry = IContractRegistry(newRegistry)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: withdrawTokens(address,address,uint256)
+PC address: 12681
+Estimated Gas Usage: 6976 - 77284
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:805
+
+reserves[_token].isSet
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000001000000000000000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawTokens(address,address,uint256), txdata: 0x5e35359e000000000000000000000000000000800200000110000802000220048000800100000000000000000000000004, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 13367
+Estimated Gas Usage: 54336 - 254093
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:221
+
+token.owner()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000000000000000000000000000000000000001000000000000000000000000401080800040018001010000022040040001, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 13367
+Estimated Gas Usage: 54553 - 254310
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:221
+
+token.owner()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000000080000400804000808002108004014000802001000000000000000000000000040040800400020010800000000080800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 13634
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:827
+
+token
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 13634
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:827
+
+token
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 13787
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:827
+
+reserves[_token].isSet
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 13787
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:827
+
+reserves[_token].isSet
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 13823
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:827
+
+totalReserveRatio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 13823
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:827
+
+totalReserveRatio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 13932
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:829
+
+reserves[_token].ratio = _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 13932
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:829
+
+reserves[_token].ratio = _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 13953
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:829
+
+reserves[_token].ratio = _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 13953
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:829
+
+reserves[_token].ratio = _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14030
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:830
+
+reserves[_token].isVirtualBalanceEnabled = false
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14030
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:830
+
+reserves[_token].isVirtualBalanceEnabled = false
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14044
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:830
+
+reserves[_token].isVirtualBalanceEnabled = false
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14044
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:830
+
+reserves[_token].isVirtualBalanceEnabled = false
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14116
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:831
+
+reserves[_token].virtualBalance = 0
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14116
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:831
+
+reserves[_token].virtualBalance = 0
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14193
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:832
+
+reserves[_token].isSaleEnabled = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14193
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:832
+
+reserves[_token].isSaleEnabled = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14207
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:832
+
+reserves[_token].isSaleEnabled = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14207
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:832
+
+reserves[_token].isSaleEnabled = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14284
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:833
+
+reserves[_token].isSet = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14284
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:833
+
+reserves[_token].isSet = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14298
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:833
+
+reserves[_token].isSet = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14298
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:833
+
+reserves[_token].isSet = true
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14308
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14308
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14312
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14312
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14346
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:834
+
+reserveTokens.push(_token)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14346
+Estimated Gas Usage: 54553 - 254310
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:834
+
+reserveTokens.push(_token)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14399
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:834
+
+reserveTokens.push(_token)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addReserve(address,uint32)
+PC address: 14399
+Estimated Gas Usage: 54553 - 254310
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:834
+
+reserveTokens.push(_token)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addReserve(address,uint32), txdata: 0x6a49d2c40000000000000000000000008001004000002000040008000080000000800001000000000000000000000000008020000208208004800000000000800004, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14411
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:835
+
+totalReserveRatio += _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14433
+Estimated Gas Usage: 54336 - 254093
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:835
+
+totalReserveRatio += _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: addConnector(address,uint32,bool)
+PC address: 14454
+Estimated Gas Usage: 54336 - 254093
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:835
+
+totalReserveRatio += _ratio
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: addConnector(address,uint32,bool), txdata: 0x3f4d2fc20000000000000000000000000000008000000000010800000000400002022001000000000000000000000000800002004000080080804040000000010001, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: BancorConverter
+Function name: reserveTokens(uint256)
+PC address: 20909
+Estimated Gas Usage: 2070 - 2165
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:669
+
+IERC20Token[] public reserveTokens
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: reserveTokens(uint256), txdata: 0xd031370b, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: transferTokenOwnership(address)
+PC address: 25787
+Estimated Gas Usage: 7133 - 77486
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:367
+
+registry.addressOf(_contractName)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokenOwnership(address), txdata: 0x21e6b53d, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: updateRegistry()
+PC address: 25787
+Estimated Gas Usage: 19163 - 130362
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:367
+
+registry.addressOf(_contractName)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: updateRegistry(), txdata: 0x49d10b64, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: withdrawTokens(address,address,uint256)
+PC address: 25787
+Estimated Gas Usage: 6976 - 77284
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:367
+
+registry.addressOf(_contractName)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawTokens(address,address,uint256), txdata: 0x5e35359e000000000000000000000000000000000000000000000000000000000080000100000000000000000000000020, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: transferTokenOwnership(address)
+PC address: 25855
+Estimated Gas Usage: 7133 - 77486
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:103
+
+owner
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokenOwnership(address), txdata: 0x21e6b53d, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: transferTokenOwnership(address)
+PC address: 25947
+Estimated Gas Usage: 7133 - 77486
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:227
+
+token
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokenOwnership(address), txdata: 0x21e6b53d, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: transferTokenOwnership(address)
+PC address: 26133
+Estimated Gas Usage: 7133 - 77486
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:227
+
+token.transferOwnership(_newOwner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 808080808080808080808080deadbeefdeadbeefdeadbeefdeadbeefdeadbeef80808080808080808080808001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokenOwnership(address), txdata: 0x21e6b53d, value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: BancorConverter
+Function name: transferTokenOwnership(address)
+PC address: 26133
+Estimated Gas Usage: 7133 - 77486
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:227
+
+token.transferOwnership(_newOwner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokenOwnership(address), txdata: 0x21e6b53d, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: transferTokenOwnership(address)
+PC address: 26133
+Estimated Gas Usage: 7133 - 77486
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:227
+
+token.transferOwnership(_newOwner)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000101010101010101010101010101010101010101000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: transferTokenOwnership(address), txdata: 0x21e6b53d, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: acceptTokenOwnership()
+PC address: 29885
+Estimated Gas Usage: 7004 - 77167
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:103
+
+owner
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: acceptTokenOwnership(), txdata: 0x38a5e016, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: acceptTokenOwnership()
+PC address: 29977
+Estimated Gas Usage: 7004 - 77167
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:232
+
+token
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: acceptTokenOwnership(), txdata: 0x38a5e016, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: acceptTokenOwnership()
+PC address: 30108
+Estimated Gas Usage: 7004 - 77167
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:232
+
+token.acceptOwnership()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: acceptTokenOwnership(), txdata: 0x38a5e016, value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: BancorConverter
+Function name: acceptTokenOwnership()
+PC address: 30108
+Estimated Gas Usage: 7004 - 77167
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:232
+
+token.acceptOwnership()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: acceptTokenOwnership(), txdata: 0x38a5e016, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: acceptTokenOwnership()
+PC address: 30108
+Estimated Gas Usage: 7004 - 77167
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:232
+
+token.acceptOwnership()
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: acceptTokenOwnership(), txdata: 0x38a5e016, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: withdrawTokens(address,address,uint256)
+PC address: 30240
+Estimated Gas Usage: 6976 - 77284
+Read of persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:103
+
+owner
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000001000000000000000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawTokens(address,address,uint256), txdata: 0x5e35359e000000000000000000000000000000800200000110000802000220048000800100000000000000000000000004, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: BancorConverter
+Function name: withdrawTokens(address,address,uint256)
+PC address: 30674
+Estimated Gas Usage: 6976 - 77284
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:170
+
+INonStandardERC20(_token).transfer(_to, _amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000010102010101010101010208010101010101018000000000000000000000000020, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawTokens(address,address,uint256), txdata: 0x5e35359e000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000000000000000000000080, value: 0x0
+
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: BancorConverter
+Function name: withdrawTokens(address,address,uint256)
+PC address: 30674
+Estimated Gas Usage: 6976 - 77284
+Multiple calls are executed in the same transaction.
+This call is executed following another call within the same transaction. It is possible that the call never gets executed if a prior call fails permanently. This might be caused intentionally by a malicious callee. If possible, refactor the code such that each transaction only executes one external call or make sure that all callees can be trusted (i.e. they’re part of your own codebase).
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:170
+
+INonStandardERC20(_token).transfer(_to, _amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 000000000000000000000000400101020101010110010101010101010104010100000000000000000000000001, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawTokens(address,address,uint256), txdata: 0x5e35359e010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Medium
+Contract: BancorConverter
+Function name: withdrawTokens(address,address,uint256)
+PC address: 30674
+Estimated Gas Usage: 6976 - 77284
+Write to persistent state following external call
+The contract account state is accessed after an external call to a user defined address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: ./solidity_files/0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:170
+
+INonStandardERC20(_token).transfer(_to, _amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: 0000000000000000000000000000000000000000000000000001000000000000000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdrawTokens(address,address,uint256), txdata: 0x5e35359e000000000000000000000000000000800200000110000802000220048000800100000000000000000000000004, value: 0x0
+
+
+time_used: 36200.64037179947 seconds
+#@contract_info_time
+0x4d282238020b88a6db57b103ef3eb62affaa3a6b.sol:0.4.26:BancorConverter:36200.64037179947:36100:60:36000

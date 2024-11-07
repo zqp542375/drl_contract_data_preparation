@@ -1,0 +1,198 @@
+C:\Users\SERC\anaconda3\envs\smartExecutor_env397\python.exe C:/Users/SERC/wei_pycharm/smartExecutor/semyth analyze .\tests\testdata\rl_contracts\0x131f983da6fabf20869f5ace3516a23f28b46204.sol:Blacklist --solv 0.5.2 -fdg -fss exeDataCollection
+
+INFO: Could not find files for the given pattern(s).
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 767
+['constructor']:writes at the last depth:['0']
+preprocessing: Achieved 99.87% coverage.
+Ending preprocessing.
+preprocessing time(s): 5.383016586303711
+contract coverage: 93.09%
+Function Reads: State variables read in conditions
+	owner():[]
+	isOwner():[]
+	removeBlacklisted(address):['0', '1']
+	transferOwnership(address):['0']
+	addBlacklisted(address):['0', '1']
+	isWhitelisted(address):[]
+	renounceOwnership():['0']
+Function Writes: State variables written
+	renounceOwnership():['0']
+	transferOwnership(address):['0']
+	addBlacklisted(address):['1']
+	removeBlacklisted(address):['1']
+============================
+iteration:3
+targets:['removeBlacklisted(address)']
+['renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:4
+['addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:5
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:6
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:7
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'removeBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:8
+contract coverage: 99.87%
+============================
+iteration:9
+['addBlacklisted(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:10
+['addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:11
+['addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:12
+['addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:13
+contract coverage: 99.87%
+============================
+iteration:14
+['addBlacklisted(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'transferOwnership(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:15
+['addBlacklisted(address)', 'transferOwnership(address)', 'removeBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'removeBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:16
+['addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:17
+['addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:18
+contract coverage: 99.87%
+============================
+iteration:19
+contract coverage: 99.87%
+============================
+iteration:20
+['transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:21
+['transferOwnership(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:22
+['transferOwnership(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:23
+['transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:24
+['transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:25
+contract coverage: 99.87%
+============================
+iteration:26
+['transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:27
+['transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+['transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)', 'removeBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:28
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'renounceOwnership()']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)']:writes at the last depth:['0']
+['transferOwnership(address)', 'transferOwnership(address)', 'transferOwnership(address)', 'addBlacklisted(address)']:writes at the last depth:['1']
+contract coverage: 99.87%
+============================
+iteration:29
+contract coverage: 99.87%
+============================
+iteration:30
+contract coverage: 99.87%
+============================
+iteration:31
+contract coverage: 99.87%
+#@statespace
+2223 nodes, 2222 edges, 24445 total states
+#@coverage
+Achieved 6.91% coverage for code: 6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3610739806100cf6000396000f3fe608060405234801561001057600080fd5b506004361061009a576000357c0100000000000000000000000000000000000000000000000000000000900480638da5cb5b116100785780638da5cb5b146101495780638f32d59b14610193578063c6a276c2146101b5578063f2fde38b146101f95761009a565b8063188efc161461009f5780633af32abf146100e3578063715018a61461013f575b600080fd5b6100e1600480360360208110156100b557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061023d565b005b610125600480360360208110156100f957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610267565b604051808215151515815260200191505060405180910390f35b610147610285565b005b610151610357565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61019b610380565b604051808215151515815260200191505060405180910390f35b6101f7600480360360208110156101cb57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103d7565b005b61023b6004803603602081101561020f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610401565b005b610245610380565b151561025057600080fd5b61026481600161042090919063ffffffff16565b50565b600061027d8260016104d090919063ffffffff16565b159050919050565b61028d610380565b151561029857600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6103df610380565b15156103ea57600080fd5b6103fe81600161056490919063ffffffff16565b50565b610409610380565b151561041457600080fd5b61041d81610613565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561045c57600080fd5b61046682826104d0565b15151561047257600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561050d57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156105a057600080fd5b6105aa82826104d0565b15156105b557600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561064f57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820b136d90e574214d0ed19e5de2a431a3f18ac143d0d73b68090b26f79e2f2cb5b0029
+#@coverage
+Achieved 99.87% coverage for code: 608060405234801561001057600080fd5b506004361061009a576000357c0100000000000000000000000000000000000000000000000000000000900480638da5cb5b116100785780638da5cb5b146101495780638f32d59b14610193578063c6a276c2146101b5578063f2fde38b146101f95761009a565b8063188efc161461009f5780633af32abf146100e3578063715018a61461013f575b600080fd5b6100e1600480360360208110156100b557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061023d565b005b610125600480360360208110156100f957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610267565b604051808215151515815260200191505060405180910390f35b610147610285565b005b610151610357565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61019b610380565b604051808215151515815260200191505060405180910390f35b6101f7600480360360208110156101cb57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103d7565b005b61023b6004803603602081101561020f57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610401565b005b610245610380565b151561025057600080fd5b61026481600161042090919063ffffffff16565b50565b600061027d8260016104d090919063ffffffff16565b159050919050565b61028d610380565b151561029857600080fd5b600073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a360008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b6103df610380565b15156103ea57600080fd5b6103fe81600161056490919063ffffffff16565b50565b610409610380565b151561041457600080fd5b61041d81610613565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561045c57600080fd5b61046682826104d0565b15151561047257600080fd5b60018260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b60008073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff161415151561050d57600080fd5b8260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16905092915050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16141515156105a057600080fd5b6105aa82826104d0565b15156105b557600080fd5b60008260000160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505050565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561064f57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505056fea165627a7a72305820b136d90e574214d0ed19e5de2a431a3f18ac143d0d73b68090b26f79e2f2cb5b0029
+The analysis was completed successfully. No issues were detected.
+
+#@time
+time used(s):747.0183382034302

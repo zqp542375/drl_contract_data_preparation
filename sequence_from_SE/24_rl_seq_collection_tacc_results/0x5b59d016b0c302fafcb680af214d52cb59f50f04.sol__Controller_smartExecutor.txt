@@ -1,0 +1,4 @@
+++++ 0x5b59d016b0c302fafcb680af214d52cb59f50f04.sol  :  0.5.17  :  Controller ++++
+time_used: 3.767486572265625 seconds
+#@contract_info_time
+0x5b59d016b0c302fafcb680af214d52cb59f50f04.sol:0.5.17:Controller:3.767486572265625:36100:60:36000

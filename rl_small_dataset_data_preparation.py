@@ -5,7 +5,10 @@ constructor: reads:[], writes:[initialized state variables and those read in con
    collect rw data
 """
 import os.path
-from prepare.config import project_path
+from prepare.config import contract_data, rl_result_path, \
+    solidity_path, contract_svar_data, contract_rw_data, \
+    contract_seq_collection_result_path, contract_data_for_env_construction, \
+    contract_data_for_env_construction_in_integer
 from prepare.contract_filter import digitalize_found_contracts, digitalize_svar, \
    find_contracts
 from prepare.prepare_env_data import find_file_names_and_paths, \
@@ -16,22 +19,6 @@ from prepare.contract_train_test import update_contract_data_in_integer, divide_
 from prepare.utils import load_a_json_file,  dump_json_object_to_json
 
 
-# ==================================================
-# collect contract data for small dataset
-
-NUM_state_variables=8
-MAX_svar_value=80
-MAX_func_value_element=30
-rl_result_path = project_path + "results\\rl_related\\"
-contract_seq_collection_result_path=project_path+"sequence_from_SE\\24_rl_seq_collection_small_dataset_manual\\"
-solidity_path = "../datasets/rl_contracts/"
-dataset = "small_dataset"
-date = "8_19_2024"
-contract_data=f"rl_{dataset}_contracts_data_{date}.json"
-contract_svar_data=f"rl_{dataset}_svar_info_{date}.json"
-contract_rw_data=f"rl_{dataset}_contracts_rw_data_{date}.json"
-contract_data_for_env_construction=f'rl_{dataset}_contracts_data_for_env_construction_{date}_{NUM_state_variables}.json'
-contract_data_for_env_construction_in_integer=f'rl_{dataset}_contracts_data_for_env_construction_{date}_{NUM_state_variables}_in_integer.json'
 
 # contracts in small dataset
 contracts_info_small_dataset = [

@@ -1,0 +1,4 @@
+++++ 0x01b354a9fb34760455ee9cbe7d71d2ce5c11ab5c.sol  :  0.5.17  :  StrategyDForceUSDC ++++
+time_used: 3.416621685028076 seconds
+#@contract_info_time
+0x01b354a9fb34760455ee9cbe7d71d2ce5c11ab5c.sol:0.5.17:StrategyDForceUSDC:3.416621685028076:36100:60:36000

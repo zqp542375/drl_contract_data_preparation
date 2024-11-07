@@ -1,0 +1,4 @@
+++++ 0x7c31b2b656fa7fe723a4f6f8dc2bfb44ffd8bc13.sol  :  0.5.17  :  TermsOfService ++++
+time_used: 6.797926664352417 seconds
+#@contract_info_time
+0x7c31b2b656fa7fe723a4f6f8dc2bfb44ffd8bc13.sol:0.5.17:TermsOfService:6.797926664352417:36100:60:36000

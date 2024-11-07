@@ -1,0 +1,4 @@
+++++ 0x60f80121c31a0d46b5279700f9df786054aa5ee5.sol  :  0.5.0  :  MintableToken ++++
+time_used: 28.601232528686523 seconds
+#@contract_info_time
+0x60f80121c31a0d46b5279700f9df786054aa5ee5.sol:0.5.0:MintableToken:28.601232528686523:36100:60:36000

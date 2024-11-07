@@ -1,0 +1,11 @@
+++++ 0x6326a02ed7A19Df409b0f63d4b272d11e3dEb14e.sol  :  0.6.0  :  PeaceCoinNoteToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4946
+['constructor']:writes at the last depth:['4', '5', '6', '0', '0', '182', '0', '0', '109', '0', '0', '80']
+preprocessing: Achieved 97.01% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 101.13648509979248 seconds
+#@contract_info_time
+0x6326a02ed7A19Df409b0f63d4b272d11e3dEb14e.sol:0.6.0:PeaceCoinNoteToken:101.13648509979248:36100:60:36000

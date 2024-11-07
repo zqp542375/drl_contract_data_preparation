@@ -9,49 +9,20 @@ import random
 
 import pandas
 
-from prepare.config import project_path
+from prepare.config import rl_result_path, contract_data, solidity_path, \
+    contract_svar_data, sGuard_contract_info_path_name, contract_rw_data, \
+    contract_seq_collection_result_path, contract_info_csv_file, \
+    contract_data_for_env_construction, \
+    contract_data_for_env_construction_in_integer, dataset
 from prepare.contract_filter import digitalize_found_contracts, digitalize_svar, \
    find_contracts
-from prepare.prepare_env_data import find_file_names_and_paths
-from prepare.static_data_collection import collect_rw_data_slither, \
-    collect_svar_slither
-
-from prepare.utils import load_a_json_file,  dump_json_object_to_json
+from prepare.contract_train_test import update_contract_data_in_integer_1, \
+    divide_contracts
 from prepare.prepare_env_data import find_file_names_and_paths, \
     parepare_contract_data_for_env_creation_0
-from prepare.rl_sGuard_contract_data_for_env import contract_info_csv_file
-from prepare.static_data_collection import collect_svar_slither, \
-   collect_rw_data_slither
-from prepare.contract_train_test import update_contract_data_in_integer, \
-    divide_contracts, update_contract_data_in_integer_1, \
-    group_contracts_map_functions_1
-from utils import load_a_json_file,  dump_json_object_to_json
-
-
-# ==================================================
-# collect data for sGuard dataset
-# collect contract data for sGuard dataset
-NUM_actions=2
-NUM_state_variables=16
-MAX_svar_value=5740
-MAX_func_value_element=70
-
-rl_result_path = project_path + "results\\rl_related\\"
-contract_seq_collection_result_path=project_path+"sequence_from_SE\\24_rl_seq_collection_tacc_results\\"
-sGuard_contract_info_path_name =project_path+ "datasets\\sGuard_contracts\\sGuard_contracts_info.csv"
-
-solidity_path = "../datasets/sGuard_contracts/"
-dataset='sGuard'
-date="8_19_2024"
-contract_data=f"rl_{dataset}_contracts_data_{date}.json"
-contract_svar_data=f"rl_{dataset}_svar_info_{date}.json"
-contract_rw_data=f"rl_{dataset}_contracts_rw_data_{date}.json"
-contract_data_for_env_construction=f'rl_{dataset}_contracts_data_for_env_construction_{date}_{NUM_state_variables}.json'
-contract_data_for_env_construction_in_integer=f'rl_{dataset}_contracts_data_for_env_construction_{date}_{NUM_state_variables}_in_integer.json'
-
-contract_info_csv_file=f"rl_{dataset}_contracts_info_exp_{date}_svar.csv"
-
-
+from prepare.static_data_collection import collect_rw_data_slither, \
+    collect_svar_slither
+from prepare.utils import dump_json_object_to_json, load_a_json_file
 
 if __name__=="__main__":
 

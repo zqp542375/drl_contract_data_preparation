@@ -1,0 +1,4 @@
+++++ 0x953bb01e8a3e853052835a1079db5250cfd509de.sol  :  0.5.17  :  CasinoCoin ++++
+time_used: 4.081318140029907 seconds
+#@contract_info_time
+0x953bb01e8a3e853052835a1079db5250cfd509de.sol:0.5.17:CasinoCoin:4.081318140029907:36100:60:36000

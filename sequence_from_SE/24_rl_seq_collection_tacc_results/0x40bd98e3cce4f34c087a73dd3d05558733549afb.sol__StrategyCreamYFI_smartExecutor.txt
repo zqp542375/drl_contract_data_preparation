@@ -1,0 +1,4 @@
+++++ 0x40bd98e3cce4f34c087a73dd3d05558733549afb.sol  :  0.5.17  :  StrategyCreamYFI ++++
+time_used: 3.387920618057251 seconds
+#@contract_info_time
+0x40bd98e3cce4f34c087a73dd3d05558733549afb.sol:0.5.17:StrategyCreamYFI:3.387920618057251:36100:60:36000

@@ -1,0 +1,11 @@
+++++ 0x5de98d690e021b1ae355fe23964be28fdd5f750c.sol  :  0.6.12  :  wBITG ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 5246
+['constructor']:writes at the last depth:['4', '5', '6', '0', '0', '182', '0', '0', '109', '0', '0', '80']
+preprocessing: Achieved 97.94% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 114.64122653007507 seconds
+#@contract_info_time
+0x5de98d690e021b1ae355fe23964be28fdd5f750c.sol:0.6.12:wBITG:114.64122653007507:36100:60:36000

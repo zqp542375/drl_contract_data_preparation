@@ -1,0 +1,287 @@
+INFO: Could not find files for the given pattern(s).
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 790
+['constructor']:writes at the last depth:['2', '3']
+preprocessing: Achieved 99.62% coverage.
+Ending preprocessing.
+preprocessing time(s): 4.301008939743042
+contract coverage: 93.80%
+Function Reads: State variables read in conditions
+	withdraw():['0']
+	random():[]
+	_balances(address):[]
+	TotalAmount():[]
+	destroy():['2']
+	randomTN():[]
+	deposit():[]
+	GetBonusWithdraw():['1', '0']
+	MaxNumber():[]
+Function Writes: State variables written
+	fallback:['3']
+	deposit():['0', '3', '1']
+	destroy():['3']
+	GetBonusWithdraw():['0', '1', '3']
+	withdraw():['3', '0']
+============================
+iteration:3
+targets:['GetBonusWithdraw()']
+['constructor']:writes at the last depth:['2', '3']
+['withdraw()']:writes at the last depth:['3']
+['deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:4
+['deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'withdraw()']:writes at the last depth:['3']
+['deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'withdraw()']:writes at the last depth:['3', '0']
+['deposit()', 'GetBonusWithdraw()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'GetBonusWithdraw()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:5
+contract coverage: 99.37%
+============================
+iteration:6
+['deposit()', 'GetBonusWithdraw()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'GetBonusWithdraw()', 'withdraw()']:writes at the last depth:['3']
+['deposit()', 'GetBonusWithdraw()', 'GetBonusWithdraw()']:writes at the last depth:['1']
+['deposit()', 'GetBonusWithdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:7
+contract coverage: 99.37%
+============================
+iteration:8
+['deposit()', 'GetBonusWithdraw()', 'GetBonusWithdraw()', 'GetBonusWithdraw()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'GetBonusWithdraw()', 'GetBonusWithdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:9
+contract coverage: 99.37%
+============================
+iteration:10
+contract coverage: 99.37%
+============================
+iteration:11
+contract coverage: 99.37%
+============================
+iteration:12
+['deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:13
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:14
+['deposit()', 'deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:15
+['deposit()', 'deposit()', 'withdraw()']:writes at the last depth:['3', '1', '0']
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['3', '1', '0']
+contract coverage: 99.37%
+============================
+iteration:16
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['3', '1', '0']
+['deposit()', 'deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()', 'deposit()', 'GetBonusWithdraw()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:17
+contract coverage: 99.37%
+============================
+iteration:18
+contract coverage: 99.37%
+============================
+iteration:19
+['deposit()', 'withdraw()']:writes at the last depth:['3']
+['deposit()', 'withdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:20
+['deposit()', 'withdraw()', 'deposit()', 'withdraw()']:writes at the last depth:['3']
+['deposit()', 'withdraw()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:21
+['deposit()', 'withdraw()', 'withdraw()']:writes at the last depth:['3', '0']
+contract coverage: 99.37%
+============================
+iteration:22
+contract coverage: 99.37%
+============================
+iteration:23
+['deposit()', 'withdraw()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:24
+['deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()', 'GetBonusWithdraw()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:25
+contract coverage: 99.37%
+============================
+iteration:26
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['deposit()', 'deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:27
+contract coverage: 99.37%
+============================
+iteration:28
+['deposit()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:29
+contract coverage: 99.37%
+============================
+iteration:30
+contract coverage: 99.37%
+============================
+iteration:31
+['withdraw()']:writes at the last depth:['3']
+['withdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:32
+['withdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:33
+contract coverage: 99.37%
+============================
+iteration:34
+['withdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:35
+['withdraw()', 'deposit()']:writes at the last depth:['1', '3', '0']
+['withdraw()', 'deposit()', 'deposit()']:writes at the last depth:['1', '3', '0']
+contract coverage: 99.37%
+============================
+iteration:36
+contract coverage: 99.37%
+============================
+iteration:37
+contract coverage: 99.37%
+#@statespace
+1349 nodes, 1348 edges, 17348 total states
+#@coverage
+Achieved 4.47% coverage for code: 608060405233600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055506106038061005b6000396000f300608060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680633ccfd60b146100ae5780635ec01e4d146100b85780636ebcf607146100e35780637eb9f5711461013a57806383197ef014610165578063921a19781461017c578063d0e30db0146101a7578063ef4d1d6c146101b1578063fbf80fac146101bb575b34600360008282540192505081905550600080fd5b6100b66101e6565b005b3480156100c457600080fd5b506100cd6102f6565b6040518082815260200191505060405180910390f35b3480156100ef57600080fd5b50610124600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610326565b6040518082815260200191505060405180910390f35b34801561014657600080fd5b5061014f61033e565b6040518082815260200191505060405180910390f35b34801561017157600080fd5b5061017a610344565b005b34801561018857600080fd5b5061019161040d565b6040518082815260200191505060405180910390f35b6101af610413565b005b6101b96104c9565b005b3480156101c757600080fd5b506101d06105d2565b6040518082815260200191505060405180910390f35b60008060008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549250600a6102366102f6565b039150606482606401840281151561024a57fe5b0490506000811415156102e157806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055503373ffffffffffffffffffffffffffffffffffffffff168160405180602001905060006040518083038185875af19250505015156102e057600080fd5b5b80600360008282540392505081905550505050565b600060016014426040518082815260200191505060405180910390206001900481151561031f57fe5b0601905090565b60006020528060005260406000206000915090505481565b60035481565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156103a057600080fd5b60006003541415156103f4573373ffffffffffffffffffffffffffffffffffffffff1660035460405180602001905060006040518083038185875af19250505015156103eb57600080fd5b60006003819055505b3373ffffffffffffffffffffffffffffffffffffffff16ff5b60045481565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550346003600082825401925050819055506000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b60011515600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514151561057957600a6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055506105786101e6565b5b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b6014815600a165627a7a7230582026016f15d4a33a265aa8bd70d3a6e2f2a3a19e8502b0112007aece38110ac6710029
+#@coverage
+Achieved 99.37% coverage for code: 608060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680633ccfd60b146100ae5780635ec01e4d146100b85780636ebcf607146100e35780637eb9f5711461013a57806383197ef014610165578063921a19781461017c578063d0e30db0146101a7578063ef4d1d6c146101b1578063fbf80fac146101bb575b34600360008282540192505081905550600080fd5b6100b66101e6565b005b3480156100c457600080fd5b506100cd6102f6565b6040518082815260200191505060405180910390f35b3480156100ef57600080fd5b50610124600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610326565b6040518082815260200191505060405180910390f35b34801561014657600080fd5b5061014f61033e565b6040518082815260200191505060405180910390f35b34801561017157600080fd5b5061017a610344565b005b34801561018857600080fd5b5061019161040d565b6040518082815260200191505060405180910390f35b6101af610413565b005b6101b96104c9565b005b3480156101c757600080fd5b506101d06105d2565b6040518082815260200191505060405180910390f35b60008060008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549250600a6102366102f6565b039150606482606401840281151561024a57fe5b0490506000811415156102e157806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055503373ffffffffffffffffffffffffffffffffffffffff168160405180602001905060006040518083038185875af19250505015156102e057600080fd5b5b80600360008282540392505081905550505050565b600060016014426040518082815260200191505060405180910390206001900481151561031f57fe5b0601905090565b60006020528060005260406000206000915090505481565b60035481565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156103a057600080fd5b60006003541415156103f4573373ffffffffffffffffffffffffffffffffffffffff1660035460405180602001905060006040518083038185875af19250505015156103eb57600080fd5b60006003819055505b3373ffffffffffffffffffffffffffffffffffffffff16ff5b60045481565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550346003600082825401925050819055506000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b60011515600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff16151514151561057957600a6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055506105786101e6565b5b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b6014815600a165627a7a7230582026016f15d4a33a265aa8bd70d3a6e2f2a3a19e8502b0112007aece38110ac6710029
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: DepositGame
+Function name: withdraw()
+PC address: 567
+Estimated Gas Usage: 7123 - 27689
+The arithmetic operator can underflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: .\tests\testdata\rl_contracts\0x89f9749ce943281b8c65fec7f15e126f8cf4edb1.sol:36
+
+random() - 10
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x100000000001a, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x8000, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: withdraw(), txdata: 0x3ccfd60b, value: 0x0
+
+==== Integer Arithmetic Bugs ====
+SWC ID: 101
+Severity: High
+Contract: DepositGame
+Function name: withdraw()
+PC address: 575
+Estimated Gas Usage: 7123 - 27689
+The arithmetic operator can overflow.
+It is possible to cause an integer overflow or underflow in the arithmetic operation. 
+--------------------
+In file: .\tests\testdata\rl_contracts\0x89f9749ce943281b8c65fec7f15e126f8cf4edb1.sol:37
+
+100 + randomNumber
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x40000000040890, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x1001000, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: withdraw(), txdata: 0x3ccfd60b, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: DepositGame
+Function name: withdraw()
+PC address: 599
+Estimated Gas Usage: 1264 - 1830
+A control flow decision is made based on The block.timestamp environment variable.
+The block.timestamp environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: .\tests\testdata\rl_contracts\0x89f9749ce943281b8c65fec7f15e126f8cf4edb1.sol:38
+
+if (pendingWithdrawal != 0) {
+            _balances[msg.sender] -= pendingWithdrawal;
+            require(msg.sender.call.value(pendingWithdrawal)(""));
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x10, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: withdraw(), txdata: 0x3ccfd60b, value: 0x0
+
+==== State access after external call ====
+SWC ID: 107
+Severity: Low
+Contract: DepositGame
+Function name: destroy()
+PC address: 1010
+Estimated Gas Usage: 8531 - 63142
+Write to persistent state following external call
+The contract account state is accessed after an external call to a fixed address. To prevent reentrancy issues, consider accessing the state only before the call, especially if the callee is untrusted. Alternatively, a reentrancy lock can be used to prevent untrusted callees from re-entering the contract in an intermediate state.
+--------------------
+In file: .\tests\testdata\rl_contracts\0x89f9749ce943281b8c65fec7f15e126f8cf4edb1.sol:59
+
+TotalAmount = 0
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x4605000442, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x1
+Caller: [CREATOR], function: destroy(), txdata: 0x83197ef0, value: 0x0
+
+
+#@time
+time used(s):12537.675783872604

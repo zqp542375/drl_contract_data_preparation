@@ -1,0 +1,11 @@
+++++ 0x8f070f80c7b1e26ef651b252ac9289c3cec985ea.sol  :  0.6.2  :  MyToken ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4855
+['constructor']:writes at the last depth:['4', '5', '6', '0', '0', '182', '0', '0', '109', '0', '0', '80']
+preprocessing: Achieved 98.25% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 102.59046840667725 seconds
+#@contract_info_time
+0x8f070f80c7b1e26ef651b252ac9289c3cec985ea.sol:0.6.2:MyToken:102.59046840667725:36100:60:36000

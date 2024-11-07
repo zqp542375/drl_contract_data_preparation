@@ -1,0 +1,194 @@
+C:\Users\18178\anaconda3\envs\contract_se397\python.exe C:/Users/18178/PycharmProjects/smartExecutor/semyth analyze ./tests/testdata/solidity_files/HoloToken_test_02.sol:HoloToken_test_02 --solv 0.4.18 -fdg -fss exeDataCollection
+
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 939
+['constructor']:writes at the last depth:['0', '2']
+preprocessing: Achieved 99.89% coverage.
+Ending preprocessing.
+preprocessing time(s): 8.430195093154907
+contract coverage: 66.77%
+Function Reads: State variables read in conditions
+	mintingFinished():[]
+	minter():[]
+	destroyer():[]
+	totalSupply():[]
+	balances(address):[]
+	mint(address,uint256):['5', '0']
+	burn(uint256):['4', '3']
+	setDestroyer(address):['2']
+	owner():[]
+	setMinter(address):['2']
+Function Writes: State variables written
+	setDestroyer(address):['4']
+	setMinter(address):['5']
+	mint(address,uint256):['1', '3']
+	burn(uint256):['3', '1']
+============================
+iteration:3
+targets:['burn(uint256)', 'mint(address,uint256)']
+['setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)']:writes at the last depth:['5']
+contract coverage: 82.00%
+============================
+iteration:4
+['setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 82.11%
+============================
+iteration:5
+['setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'mint(address,uint256)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'mint(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 82.11%
+============================
+iteration:6
+['setMinter(address)', 'mint(address,uint256)', 'mint(address,uint256)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'mint(address,uint256)', 'mint(address,uint256)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'mint(address,uint256)', 'mint(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 82.11%
+============================
+iteration:7
+['setMinter(address)', 'mint(address,uint256)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'mint(address,uint256)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'mint(address,uint256)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:8
+['setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+['setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)', 'burn(uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:9
+['setMinter(address)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:10
+['setMinter(address)', 'setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setMinter(address)', 'mint(address,uint256)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setMinter(address)', 'mint(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:11
+['setMinter(address)', 'setMinter(address)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setMinter(address)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setMinter(address)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:12
+['setMinter(address)', 'setMinter(address)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setMinter(address)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:13
+['setMinter(address)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:14
+['setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+['setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)', 'burn(uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:15
+['setMinter(address)', 'setDestroyer(address)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setDestroyer(address)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:16
+['setMinter(address)', 'setDestroyer(address)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setMinter(address)', 'setDestroyer(address)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setMinter(address)', 'setDestroyer(address)', 'setDestroyer(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:17
+['setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+contract coverage: 99.47%
+============================
+iteration:18
+['setDestroyer(address)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:19
+['setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)', 'setMinter(address)']:writes at the last depth:['5']
+['setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+['setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)', 'burn(uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:20
+['setDestroyer(address)', 'setMinter(address)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setMinter(address)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setDestroyer(address)', 'setMinter(address)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:21
+['setDestroyer(address)', 'setMinter(address)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setMinter(address)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setDestroyer(address)', 'setMinter(address)', 'setDestroyer(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:22
+['setDestroyer(address)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+contract coverage: 99.47%
+============================
+iteration:23
+['setDestroyer(address)', 'setDestroyer(address)', 'setMinter(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setDestroyer(address)', 'setMinter(address)', 'setMinter(address)']:writes at the last depth:['5']
+['setDestroyer(address)', 'setDestroyer(address)', 'setMinter(address)', 'mint(address,uint256)']:writes at the last depth:['1', '3']
+contract coverage: 99.47%
+============================
+iteration:24
+['setDestroyer(address)', 'setDestroyer(address)', 'setDestroyer(address)', 'setDestroyer(address)']:writes at the last depth:['4']
+['setDestroyer(address)', 'setDestroyer(address)', 'setDestroyer(address)', 'setMinter(address)']:writes at the last depth:['5']
+contract coverage: 99.47%
+#@statespace
+1740 nodes, 1739 edges, 18171 total states
+#@coverage
+Achieved 6.00% coverage for code: 606060405260008060006101000a81548160ff021916908315150217905550341561002957600080fd5b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610881806100796000396000f3006060604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806305d2035b146100a957806307546172146100d657806311367b261461012b57806318160ddd1461018057806327e235e3146101a957806340c10f19146101f657806342966c68146102505780636a7301b8146102735780638da5cb5b146102ac578063fca3b5aa14610301575b600080fd5b34156100b457600080fd5b6100bc61033a565b604051808215151515815260200191505060405180910390f35b34156100e157600080fd5b6100e961034c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561013657600080fd5b61013e610372565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018b57600080fd5b610193610398565b6040518082815260200191505060405180910390f35b34156101b457600080fd5b6101e0600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061039e565b6040518082815260200191505060405180910390f35b341561020157600080fd5b610236600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506103b6565b604051808215151515815260200191505060405180910390f35b341561025b57600080fd5b61027160048080359060200190919050506104e9565b005b341561027e57600080fd5b6102aa600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506106b8565b005b34156102b757600080fd5b6102bf610758565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561030c57600080fd5b610338600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061077e565b005b6000809054906101000a900460ff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60015481565b60036020528060005260406000206000915090505481565b6000600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561041457600080fd5b6000809054906101000a900460ff1615151561042f57600080fd5b6104448260015461081e90919063ffffffff16565b60018190555061049c82600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461081e90919063ffffffff16565b600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506001905092915050565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561054557600080fd5b8060036000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101580156105b65750600081115b15156105c157600080fd5b6106358160036000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461083c90919063ffffffff16565b60036000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506106af8160015461083c90919063ffffffff16565b60018190555050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561071457600080fd5b80600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156107da57600080fd5b80600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600080828401905083811015151561083257fe5b8091505092915050565b600082821115151561084a57fe5b8183039050929150505600a165627a7a72305820d979bcdd9e270a1a311f021f3f3548c9b7dbb6d02940bad9b4f14e56ab5ca7f40029
+#@coverage
+Achieved 99.47% coverage for code: 6060604052600436106100a4576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806305d2035b146100a957806307546172146100d657806311367b261461012b57806318160ddd1461018057806327e235e3146101a957806340c10f19146101f657806342966c68146102505780636a7301b8146102735780638da5cb5b146102ac578063fca3b5aa14610301575b600080fd5b34156100b457600080fd5b6100bc61033a565b604051808215151515815260200191505060405180910390f35b34156100e157600080fd5b6100e961034c565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561013657600080fd5b61013e610372565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018b57600080fd5b610193610398565b6040518082815260200191505060405180910390f35b34156101b457600080fd5b6101e0600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061039e565b6040518082815260200191505060405180910390f35b341561020157600080fd5b610236600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506103b6565b604051808215151515815260200191505060405180910390f35b341561025b57600080fd5b61027160048080359060200190919050506104e9565b005b341561027e57600080fd5b6102aa600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506106b8565b005b34156102b757600080fd5b6102bf610758565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561030c57600080fd5b610338600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061077e565b005b6000809054906101000a900460ff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60015481565b60036020528060005260406000206000915090505481565b6000600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561041457600080fd5b6000809054906101000a900460ff1615151561042f57600080fd5b6104448260015461081e90919063ffffffff16565b60018190555061049c82600360008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461081e90919063ffffffff16565b600360008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506001905092915050565b600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561054557600080fd5b8060036000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101580156105b65750600081115b15156105c157600080fd5b6106358160036000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205461083c90919063ffffffff16565b60036000600460009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506106af8160015461083c90919063ffffffff16565b60018190555050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561071457600080fd5b80600460006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156107da57600080fd5b80600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b600080828401905083811015151561083257fe5b8091505092915050565b600082821115151561084a57fe5b8183039050929150505600a165627a7a72305820d979bcdd9e270a1a311f021f3f3548c9b7dbb6d02940bad9b4f14e56ab5ca7f40029
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: HoloToken_test_02
+Function name: mint(address,uint256)
+PC address: 2097
+Estimated Gas Usage: 2921 - 3676
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./tests/testdata/solidity_files/HoloToken_test_02.sol:82
+
+totalSupply.add(_amount)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: setMinter(address), txdata: 0xfca3b5aa000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, decoded_data: ('0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',), value: 0x0
+Caller: [SOMEGUY], function: mint(address,uint256), txdata: 0x40c10f19a3a3a3a3a3a3a3a3a3a3a3a3000000000000000000000000000000008040080883, value: 0x0
+Caller: [SOMEGUY], function: mint(address,uint256), txdata: 0x40c10f19a3a3a3a3a3a3a3a3a3a3a3a3000000000000000000000000000000208000800082, value: 0x0
+
+
+#@time
+time used(s):1171.7497010231018

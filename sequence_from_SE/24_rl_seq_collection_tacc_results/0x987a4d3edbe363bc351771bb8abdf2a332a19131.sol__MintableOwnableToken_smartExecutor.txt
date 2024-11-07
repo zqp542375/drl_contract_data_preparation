@@ -1,0 +1,4 @@
+++++ 0x987a4d3edbe363bc351771bb8abdf2a332a19131.sol  :  0.5.0  :  MintableOwnableToken ++++
+time_used: 14.054397821426392 seconds
+#@contract_info_time
+0x987a4d3edbe363bc351771bb8abdf2a332a19131.sol:0.5.0:MintableOwnableToken:14.054397821426392:36100:60:36000

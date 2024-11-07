@@ -1,0 +1,87 @@
+++++ 0x84bc0c6e8314658398679e59c4f3271de71c9278.sol  :  0.6.0  :  CompoundSubscriptions ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 4191
+['constructor']:writes at the last depth:['0']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 89.98% coverage.
+dynamic svars:['2', '3']
+static svars:['4', '1', '0']
+Ending preprocessing.
+preprocessing time(s): 117.67552924156189
+contract coverage: 57.12%
+getSubscribers() is not reachable
+Function Reads: State variables read in conditions
+	getHolder(address):['3']
+	setAdminByOwner(address):['0', '1']
+	admin():[]
+	unsubscribe():['2', '3']
+	owner():[]
+	setAdminByAdmin(address):['1']
+	unsubscribeByAdmin(address):['0', '3', '2']
+	isSubscribed(address):[]
+	subscribe(uint128,uint128,uint128,uint128,bool):['3']
+	subscribersPos(address):[]
+	subscribers(uint256):['2']
+	getSubscribersByPage(uint256,uint256):['2']
+	getSubscribers():[]
+	changeIndex():[]
+	setOwnerByAdmin(address):['1']
+Function Writes: State variables written
+	unsubscribe():['3', '2', '4']
+	setAdminByAdmin(address):['1']
+	setOwnerByAdmin(address):['0']
+	setAdminByOwner(address):['1']
+	unsubscribeByAdmin(address):['3', '2']
+	subscribe(uint128,uint128,uint128,uint128,bool):['4', '2']
+============================
+iteration:3
+targets:['unsubscribe()', 'unsubscribeByAdmin(address)', 'subscribers(uint256)', 'getHolder(address)', 'getSubscribers()', 'getSubscribersByPage(uint256,uint256)', 'setAdminByAdmin(address)', 'setOwnerByAdmin(address)', 'subscribe(uint128,uint128,uint128,uint128,bool)']
+['setAdminByOwner(address)']:writes at the last depth:['1']
+['subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['4', '2', '3']
+contract coverage: 98.19%
+============================
+iteration:4
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'setAdminByOwner(address)']:writes at the last depth:['1']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribe()']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribeByAdmin(address)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '2', '1', '4', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '2', '1', '4', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '2', '1', '4', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '2', '1', '4', '3']
+contract coverage: 98.19%
+============================
+iteration:5
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'setAdminByOwner(address)']:writes at the last depth:['1']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribe()']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribeByAdmin(address)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+contract coverage: 98.19%
+============================
+iteration:6
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'setAdminByOwner(address)']:writes at the last depth:['1']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribe()']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribeByAdmin(address)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+contract coverage: 98.19%
+============================
+iteration:7
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'setAdminByOwner(address)']:writes at the last depth:['1']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribe()']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribeByAdmin(address)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)']:writes at the last depth:['', '4', '2', '3']
+contract coverage: 98.19%
+============================
+iteration:8
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'setAdminByOwner(address)']:writes at the last depth:['1']
+['subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'subscribe(uint128,uint128,uint128,uint128,bool)', 'unsubscribe()']:writes at the last depth:['', '4', '2', '3']

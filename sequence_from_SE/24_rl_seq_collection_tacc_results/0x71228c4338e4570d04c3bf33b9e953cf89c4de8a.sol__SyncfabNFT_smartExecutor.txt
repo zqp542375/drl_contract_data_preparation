@@ -1,0 +1,12 @@
+++++ 0x71228c4338e4570d04c3bf33b9e953cf89c4de8a.sol  :  0.5.0  :  SyncfabNFT ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 8486
+['constructor']:writes at the last depth:['0', '0', '0', '9', '10', '0', '12', '13']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 64.45% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 153.3193714618683 seconds
+#@contract_info_time
+0x71228c4338e4570d04c3bf33b9e953cf89c4de8a.sol:0.5.0:SyncfabNFT:153.3193714618683:36100:60:36000

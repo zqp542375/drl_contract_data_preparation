@@ -1,0 +1,14 @@
+++++ 0x5fa19f612dfd39e6754bb2e8300e681d1c589dd4.sol  :  0.6.8  :  PerlinXRewards ++++
+1351071267301797336755334613527563033314937144088 is added into actors.
+360606910085008675575613890474215822591146662104 is added into actors.
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 10804
+['constructor']:writes at the last depth:['3', '3', '8', '1', '2', '7', '0']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 79.81% coverage.
+The analysis was completed successfully. No issues were detected.
+
+time_used: 197.70699524879456 seconds
+#@contract_info_time
+0x5fa19f612dfd39e6754bb2e8300e681d1c589dd4.sol:0.6.8:PerlinXRewards:197.70699524879456:36100:60:36000

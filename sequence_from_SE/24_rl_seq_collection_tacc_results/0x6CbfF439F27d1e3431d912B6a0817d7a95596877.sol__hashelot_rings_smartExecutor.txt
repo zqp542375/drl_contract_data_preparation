@@ -1,0 +1,1140 @@
+++++ 0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol  :  0.6.1  :  hashelot_rings ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 1626
+['constructor']:writes at the last depth:['0', '5', '4']
+hit the exec_preprocessing excution time, return.
+preprocessing: Achieved 99.20% coverage.
+dynamic svars:['1']
+static svars:['2', '3', '5', '4', '0', '80084422859880547211683076133703299733277748156566366325829078699459944779000']
+Ending preprocessing.
+preprocessing time(s): 100.5557541847229
+contract coverage: 53.69%
+Function Reads: State variables read in conditions
+	stackValue():[]
+	stackTime():[]
+	checkBalance():[]
+	checkPlayers():[]
+	closeBet():['1']
+	stackSoFar():[]
+	stackWait():[]
+	stackPlayers(uint256):['1']
+	depositStack():['1']
+	dustStack():['0', '1']
+Function Writes: State variables written
+	depositStack():['2', '3', '1', '5']
+	closeBet():['5', '2', '3', '1']
+	dustStack():['5', '2', '3', '1']
+============================
+iteration:3
+targets:['closeBet()', 'dustStack()', 'depositStack()', 'stackPlayers(uint256)']
+['dustStack()']:writes at the last depth:[]
+['dustStack()']:writes at the last depth:[]
+['depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()']:writes at the last depth:[]
+['depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:4
+['depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:5
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 62.05%
+============================
+iteration:6
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+contract coverage: 62.05%
+============================
+iteration:7
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 62.05%
+============================
+iteration:8
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 62.05%
+============================
+iteration:9
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 62.05%
+============================
+iteration:10
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:11
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 62.05%
+============================
+iteration:12
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:13
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:14
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:15
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 62.05%
+============================
+iteration:16
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:17
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 62.05%
+============================
+iteration:18
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 62.05%
+============================
+iteration:19
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 62.05%
+============================
+iteration:20
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:21
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:22
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:23
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:24
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:25
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:26
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:27
+['dustStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'closeBet()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:28
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:29
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:30
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:31
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:32
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'dustStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:33
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:34
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:35
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:36
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:37
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:38
+['depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:39
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:40
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:41
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:42
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:43
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:44
+contract coverage: 86.29%
+============================
+iteration:45
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:46
+['depositStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'closeBet()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+contract coverage: 86.29%
+============================
+iteration:47
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:48
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:49
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:50
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:51
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:52
+['depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:53
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:54
+['depositStack()', 'closeBet()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:55
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:56
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'closeBet()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'closeBet()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:57
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:58
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:59
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:60
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:61
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:62
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:63
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:64
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:65
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:66
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:67
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:68
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:69
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:70
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:71
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:72
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:73
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:74
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:75
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:76
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:77
+['depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:78
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:79
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:80
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:81
+['depositStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:82
+['depositStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:83
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'dustStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:84
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:85
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:86
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:87
+['depositStack()', 'dustStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'closeBet()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['depositStack()', 'dustStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:88
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:89
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:90
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:91
+['depositStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:92
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['depositStack()', 'dustStack()', 'dustStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['depositStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:93
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:94
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:95
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:96
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:97
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:98
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:99
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:100
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:101
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:102
+['dustStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'closeBet()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'closeBet()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:103
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:104
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:105
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:106
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:107
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'dustStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:108
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:109
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:110
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:111
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:112
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:113
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:114
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:115
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['80084422859880547211683076133703299733277748156566366325829078699459944779000', '1']
+contract coverage: 86.29%
+============================
+iteration:116
+['dustStack()', 'depositStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:117
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['1']
+contract coverage: 86.29%
+============================
+iteration:118
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:119
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:120
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:121
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'dustStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'dustStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:122
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['1']
+['dustStack()', 'depositStack()', 'closeBet()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'depositStack()']:writes at the last depth:['2', '1', '5', '3']
+['dustStack()', 'depositStack()', 'dustStack()']:writes at the last depth:['2', '1', '5', '3']
+contract coverage: 86.29%
+============================
+iteration:123
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+['dustStack()', 'depositStack()', 'dustStack()', 'depositStack()']:writes at the last depth:['2', '1', '3']
+['dustStack()', 'depositStack()', 'dustStack()', 'dustStack()']:writes at the last depth:[]
+contract coverage: 86.29%
+============================
+iteration:124
+contract coverage: 86.29%
+============================
+iteration:125
+contract coverage: 86.29%
+============================
+iteration:126
+contract coverage: 86.29%
+============================
+iteration:127
+contract coverage: 86.29%
+============================
+iteration:128
+contract coverage: 86.29%
+============================
+iteration:129
+contract coverage: 86.29%
+============================
+iteration:130
+contract coverage: 86.29%
+============================
+iteration:131
+contract coverage: 86.29%
+============================
+iteration:132
+contract coverage: 86.29%
+============================
+iteration:133
+contract coverage: 86.29%
+#@statespace
+12357 nodes, 12356 edges, 135143 total states
+#@coverage
+Achieved 3.15% coverage for code: 608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506000600581905550607e600481905550610bc8806100706000396000f3fe6080604052600436106100915760003560e01c8063adc4e24211610059578063adc4e2421461017b578063b6a4883c146101a6578063c71daccb146101d1578063dd6ad932146101fc578063eaa968cc1461022757610091565b80630c52fa67146100965780632731f87a146100c1578063520d8921146100ec578063781d7040146101675780637f8de17014610171575b600080fd5b3480156100a257600080fd5b506100ab610231565b6040518082815260200191505060405180910390f35b3480156100cd57600080fd5b506100d6610237565b6040518082815260200191505060405180910390f35b3480156100f857600080fd5b506101256004803603602081101561010f57600080fd5b810190808035906020019092919050505061023d565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61016f610279565b005b610179610596565b005b34801561018757600080fd5b506101906106d9565b6040518082815260200191505060405180910390f35b3480156101b257600080fd5b506101bb6106df565b6040518082815260200191505060405180910390f35b3480156101dd57600080fd5b506101e66106e5565b6040518082815260200191505060405180910390f35b34801561020857600080fd5b506102116106ed565b6040518082815260200191505060405180910390f35b61022f6106fa565b005b60055481565b60045481565b6001818154811061024a57fe5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b66038d7ea4c680003410156102f6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f4465706f736974206572726f723a206e6f7420656e6f75676820636173682e0081525060200191505060405180910390fd5b60004390506004546003540181111561039457600180805490501061031e5761031d6106fa565b5b34600281905550806003819055506001339080600181540180825580915050600190039060005260206000200160009091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610593565b600080905060008090505b600180549050811015610429573373ffffffffffffffffffffffffffffffffffffffff16600182815481106103d057fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141561041c57600191505b808060010191505061039f565b50801561047c573373ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050158015610476573d6000803e3d6000fd5b50610591565b60025434106105485760006002543403905060008111156104df573373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156104dd573d6000803e3d6000fd5b505b6001339080600181540180825580915050600190039060005260206000200160009091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610590565b3373ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015801561058e573d6000803e3d6000fd5b505b5b505b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156106d757600454600354014311610649576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526028815260200180610b6b6028913960400191505060405180910390fd5b600180805490501061065e5761065d6106fa565b5b600047905060008111156106d5576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156106d3573d6000803e3d6000fd5b505b505b565b60025481565b60035481565b600047905090565b6000600180549050905090565b6000439050600454600354018111801561071957506001808054905010155b61076e576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526023815260200180610b486023913960400191505060405180910390fd5b600080600080600060025460018054905002905060026064828161078e57fe5b040293508381039250600160045460035401014060016000815481106107b057fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051602001808381526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1660601b8152601401925050506040516020818303038152906040528051906020012060001c9450600160008154811061084a57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1691506000600190505b600180549050811015610a2057856001600454600354010140600183815481106108a457fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051602001808381526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1660601b8152601401925050506040516020818303038152906040528051906020012060001c1015610a135760016004546003540101406001828154811061094c57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051602001808381526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1660601b8152601401925050506040516020818303038152906040528051906020012060001c9550600181815481106109e557fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1692505b808060010191505061087e565b506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc859081150290604051600060405180830381858888f19350505050158015610a88573d6000803e3d6000fd5b508173ffffffffffffffffffffffffffffffffffffffff166108fc849081150290604051600060405180830381858888f19350505050158015610acf573d6000803e3d6000fd5b5082600554016005819055506000600281905550600060038190555060016000610af99190610b01565b505050505050565b5080546000825590600052602060002090810190610b1f9190610b22565b50565b610b4491905b80821115610b40576000816000905550600101610b28565b5090565b9056fe42657420636c6f73696e67206572726f723a206e6f2062657420746f20636c61696d2e556e61626c6520746f20647573743a20746865726520697320616e206f6e676f696e67206265742ea2646970667358221220fb0c325836f2b3c7eb9f8bb7399133a9ad7982da7ac30547c4b5e890b5e45e9364736f6c63430006010033
+#@coverage
+Achieved 86.29% coverage for code: 6080604052600436106100915760003560e01c8063adc4e24211610059578063adc4e2421461017b578063b6a4883c146101a6578063c71daccb146101d1578063dd6ad932146101fc578063eaa968cc1461022757610091565b80630c52fa67146100965780632731f87a146100c1578063520d8921146100ec578063781d7040146101675780637f8de17014610171575b600080fd5b3480156100a257600080fd5b506100ab610231565b6040518082815260200191505060405180910390f35b3480156100cd57600080fd5b506100d6610237565b6040518082815260200191505060405180910390f35b3480156100f857600080fd5b506101256004803603602081101561010f57600080fd5b810190808035906020019092919050505061023d565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61016f610279565b005b610179610596565b005b34801561018757600080fd5b506101906106d9565b6040518082815260200191505060405180910390f35b3480156101b257600080fd5b506101bb6106df565b6040518082815260200191505060405180910390f35b3480156101dd57600080fd5b506101e66106e5565b6040518082815260200191505060405180910390f35b34801561020857600080fd5b506102116106ed565b6040518082815260200191505060405180910390f35b61022f6106fa565b005b60055481565b60045481565b6001818154811061024a57fe5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b66038d7ea4c680003410156102f6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f4465706f736974206572726f723a206e6f7420656e6f75676820636173682e0081525060200191505060405180910390fd5b60004390506004546003540181111561039457600180805490501061031e5761031d6106fa565b5b34600281905550806003819055506001339080600181540180825580915050600190039060005260206000200160009091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610593565b600080905060008090505b600180549050811015610429573373ffffffffffffffffffffffffffffffffffffffff16600182815481106103d057fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141561041c57600191505b808060010191505061039f565b50801561047c573373ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050158015610476573d6000803e3d6000fd5b50610591565b60025434106105485760006002543403905060008111156104df573373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156104dd573d6000803e3d6000fd5b505b6001339080600181540180825580915050600190039060005260206000200160009091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050610590565b3373ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015801561058e573d6000803e3d6000fd5b505b5b505b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156106d757600454600354014311610649576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526028815260200180610b6b6028913960400191505060405180910390fd5b600180805490501061065e5761065d6106fa565b5b600047905060008111156106d5576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156106d3573d6000803e3d6000fd5b505b505b565b60025481565b60035481565b600047905090565b6000600180549050905090565b6000439050600454600354018111801561071957506001808054905010155b61076e576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401808060200182810382526023815260200180610b486023913960400191505060405180910390fd5b600080600080600060025460018054905002905060026064828161078e57fe5b040293508381039250600160045460035401014060016000815481106107b057fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051602001808381526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1660601b8152601401925050506040516020818303038152906040528051906020012060001c9450600160008154811061084a57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1691506000600190505b600180549050811015610a2057856001600454600354010140600183815481106108a457fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051602001808381526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1660601b8152601401925050506040516020818303038152906040528051906020012060001c1015610a135760016004546003540101406001828154811061094c57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16604051602001808381526020018273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1660601b8152601401925050506040516020818303038152906040528051906020012060001c9550600181815481106109e557fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1692505b808060010191505061087e565b506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc859081150290604051600060405180830381858888f19350505050158015610a88573d6000803e3d6000fd5b508173ffffffffffffffffffffffffffffffffffffffff166108fc849081150290604051600060405180830381858888f19350505050158015610acf573d6000803e3d6000fd5b5082600554016005819055506000600281905550600060038190555060016000610af99190610b01565b505050505050565b5080546000825590600052602060002090810190610b1f9190610b22565b50565b610b4491905b80821115610b40576000816000905550600101610b28565b5090565b9056fe42657420636c6f73696e67206572726f723a206e6f2062657420746f20636c61696d2e556e61626c6520746f20647573743a20746865726520697320616e206f6e676f696e67206265742ea2646970667358221220fb0c325836f2b3c7eb9f8bb7399133a9ad7982da7ac30547c4b5e890b5e45e9364736f6c63430006010033
+==== Exception State ====
+SWC ID: 110
+Severity: Medium
+Contract: hashelot_rings
+Function name: stackPlayers(uint256)
+PC address: 585
+Estimated Gas Usage: 1090 - 1185
+An assertion violation was triggered.
+It is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).
+--------------------
+In file: ./solidity_files/0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol:7
+
+address payable [] public stackPlayers
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: stackPlayers(uint256), txdata: 0x520d89212121212121212121212121212121212121212121212121212121212121212121, decoded_data: (14984858607182095878344480412889023369246703897906425934518040283376993247521,), value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 120
+Severity: Low
+Contract: hashelot_rings
+Function name: depositStack()
+PC address: 777
+Estimated Gas Usage: 1834 - 1929
+A control flow decision is made based on The block.number environment variable.
+The block.number environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol:89
+
+if (_block > stackTime+stackWait) { 
+
+          
+          if (stackPlayers.length >= 1){
+            closeBet();
+          }
+
+          stackValue = msg.value; 
+          stackTime = _block; 
+          stackPlayers.push(msg.sender);
+
+        }else{ 
+
+          
+          bool alreadyIn = false;
+          for (uint k = 0; k < stackPlayers.length; k++){
+            if (stackPlayers[k] == msg.sender){
+              alreadyIn = true;
+            }
+          }
+
+          if (alreadyIn){ 
+            msg.sender.transfer(msg.value);
+          }else{ 
+            
+            if (msg.value >= stackValue) {
+              uint playerChange = msg.value-stackValue;
+              if (playerChange > 0) {
+                msg.sender.transfer(playerChange);
+              }
+              stackPlayers.push(msg.sender); 
+            }else{ 
+              msg.sender.transfer(msg.value);
+            }
+          }
+        }
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: depositStack(), txdata: 0x781d7040, value: 0x38d7ea4c68000
+
+==== Dependence on predictable environment variable ====
+SWC ID: 120
+Severity: Low
+Contract: hashelot_rings
+Function name: dustStack()
+PC address: 1528
+Estimated Gas Usage: 2689 - 3114
+A control flow decision is made based on The block.number environment variable.
+The block.number environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol:27
+
+require (block.number > stackTime+stackWait, "Unable to dust: there is an ongoing bet.")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: dustStack(), txdata: 0x7f8de170, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 120
+Severity: Low
+Contract: hashelot_rings
+Function name: closeBet()
+PC address: 1806
+Estimated Gas Usage: 1833 - 1928
+A control flow decision is made based on The block.number environment variable.
+The block.number environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol:41
+
+_block > stackTime+stackWait && stackPlayers.length >= 1
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: closeBet(), txdata: 0xeaa968cc, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 120
+Severity: Low
+Contract: hashelot_rings
+Function name: closeBet()
+PC address: 1821
+Estimated Gas Usage: 1847 - 1942
+A control flow decision is made based on The block.number environment variable.
+The block.number environment variable is used to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables as sources of randomness and be aware that use of these variables introduces a certain level of trust into miners.
+--------------------
+In file: ./solidity_files/0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol:41
+
+require (_block > stackTime+stackWait && stackPlayers.length >= 1, "Bet closing error: no bet to claim.")
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x0, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [SOMEGUY], function: closeBet(), txdata: 0xeaa968cc, value: 0x0
+
+
+time_used: 36041.65679526329 seconds
+#@contract_info_time
+0x6CbfF439F27d1e3431d912B6a0817d7a95596877.sol:0.6.1:hashelot_rings:36041.65679526329:36100:60:36000

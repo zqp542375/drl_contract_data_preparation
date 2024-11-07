@@ -1,0 +1,464 @@
+++++ 0x6Ad81cC888270eA2258aDAFe270100EebeC12449.sol  :  0.6.1  :  AbilitableManageProxy ++++
+Starting preprocessing.
+number of genesis states: 1
+total instructions: 2003
+['constructor']:writes at the last depth:['0']
+preprocessing: Achieved 98.75% coverage.
+dynamic svars:['0']
+static svars:[]
+Ending preprocessing.
+preprocessing time(s): 13.473604440689087
+contract coverage: 72.94%
+set(address,address,uint256) is not reachable
+Function Reads: State variables read in conditions
+	grantAbilities(address,uint256):['0']
+	setAbilities(address,uint256):['0']
+	set(address,address,uint256):[]
+	addressToAbility(address):[]
+	isAble(address,uint256):[]
+	revokeAbilities(address,uint256):['0']
+Function Writes: State variables written
+	setAbilities(address,uint256):['0']
+	grantAbilities(address,uint256):['0']
+	revokeAbilities(address,uint256):['0']
+============================
+iteration:3
+targets:['set(address,address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']
+['setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 72.94%
+============================
+iteration:4
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 72.94%
+============================
+iteration:5
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 72.94%
+============================
+iteration:6
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:7
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:8
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:9
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:10
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:11
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:12
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:13
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:14
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:15
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:16
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:17
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:18
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:19
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:20
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:21
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:22
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:23
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:24
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:25
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:26
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:27
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:28
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:29
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:30
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:31
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:32
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:33
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:34
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:35
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:36
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:37
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:38
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:39
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:40
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:41
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:42
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:43
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:44
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:45
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:46
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:47
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:48
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:49
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:50
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:51
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:52
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:53
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:54
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:55
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:56
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:57
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:58
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:59
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+============================
+iteration:60
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'grantAbilities(address,uint256)']:writes at the last depth:['0']
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'set(address,address,uint256)']:writes at the last depth:[]
+['setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'setAbilities(address,uint256)', 'revokeAbilities(address,uint256)']:writes at the last depth:['0']
+contract coverage: 77.18%
+#@statespace
+4559 nodes, 4558 edges, 91566 total states
+#@coverage
+Achieved 1.72% coverage for code: 6080604052600f60ff166000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550610ee88061005a6000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80630ab319e81461006757806315ec3b8b146100b557806319f02ceb1461010357806345a32c8614610171578063ba00a330146101c9578063f394b6df1461022f575b600080fd5b6100b36004803603604081101561007d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061027d565b005b610101600480360360408110156100cb57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610556565b005b61016f6004803603606081101561011957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506107e8565b005b6101b36004803603602081101561018757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a93565b6040518082815260200191505060405180910390f35b610215600480360360408110156101df57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610aab565b604051808215151515815260200191505060405180910390f35b61027b6004803603604081101561024557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610bd8565b005b600160ff16600081116040518060400160405280600681526020017f303137303032000000000000000000000000000000000000000000000000000081525090610362576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561032757808201518184015260208101905061030c565b50505050905090810190601f1680156103545780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f303137303031000000000000000000000000000000000000000000000000000081525090610482576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561044757808201518184015260208101905061042c565b50505050905090810190601f1680156104745780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b50816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825417925050819055506000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020548373ffffffffffffffffffffffffffffffffffffffff167fd1d59d2d212a435434e7a4a4676427610dfe2b6268b01e541d280d65bf3d6b9060405160405180910390a3505050565b600160ff16600081116040518060400160405280600681526020017f30313730303200000000000000000000000000000000000000000000000000008152509061063b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156106005780820151818401526020810190506105e5565b50505050905090810190601f16801561062d5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f30313730303100000000000000000000000000000000000000000000000000008152509061075b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610720578082015181840152602081019050610705565b50505050905090810190601f16801561074d5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b50816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550818373ffffffffffffffffffffffffffffffffffffffff167fd1d59d2d212a435434e7a4a4676427610dfe2b6268b01e541d280d65bf3d6b9060405160405180910390a3505050565b601060ff16600081116040518060400160405280600681526020017f3031373030320000000000000000000000000000000000000000000000000000815250906108cd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610892578082015181840152602081019050610877565b50505050905090810190601f1680156108bf5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f3031373030310000000000000000000000000000000000000000000000000000815250906109ed576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156109b2578082015181840152602081019050610997565b50505050905090810190601f1680156109df5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b508373ffffffffffffffffffffffffffffffffffffffff166315ec3b8b84846040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b158015610a7557600080fd5b505af1158015610a89573d6000803e3d6000fd5b5050505050505050565b60006020528060005260406000206000915090505481565b60008082116040518060400160405280600681526020017f303137303032000000000000000000000000000000000000000000000000000081525090610b8c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610b51578082015181840152602081019050610b36565b50505050905090810190601f168015610b7e5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5081826000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541614905092915050565b600160ff16600081116040518060400160405280600681526020017f303137303032000000000000000000000000000000000000000000000000000081525090610cbd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610c82578082015181840152602081019050610c67565b50505050905090810190601f168015610caf5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f303137303031000000000000000000000000000000000000000000000000000081525090610ddd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610da2578082015181840152602081019050610d87565b50505050905090810190601f168015610dcf5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5081196000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825416925050819055506000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020548373ffffffffffffffffffffffffffffffffffffffff167fd1d59d2d212a435434e7a4a4676427610dfe2b6268b01e541d280d65bf3d6b9060405160405180910390a350505056fea2646970667358221220db2d62b2ea33a2b994f13506c5f5f60f1f74d818d7ade84210835a61b5348ddb64736f6c63430006010033
+#@coverage
+Achieved 77.18% coverage for code: 608060405234801561001057600080fd5b50600436106100625760003560e01c80630ab319e81461006757806315ec3b8b146100b557806319f02ceb1461010357806345a32c8614610171578063ba00a330146101c9578063f394b6df1461022f575b600080fd5b6100b36004803603604081101561007d57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061027d565b005b610101600480360360408110156100cb57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610556565b005b61016f6004803603606081101561011957600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506107e8565b005b6101b36004803603602081101561018757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a93565b6040518082815260200191505060405180910390f35b610215600480360360408110156101df57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610aab565b604051808215151515815260200191505060405180910390f35b61027b6004803603604081101561024557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610bd8565b005b600160ff16600081116040518060400160405280600681526020017f303137303032000000000000000000000000000000000000000000000000000081525090610362576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561032757808201518184015260208101905061030c565b50505050905090810190601f1680156103545780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f303137303031000000000000000000000000000000000000000000000000000081525090610482576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561044757808201518184015260208101905061042c565b50505050905090810190601f1680156104745780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b50816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825417925050819055506000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020548373ffffffffffffffffffffffffffffffffffffffff167fd1d59d2d212a435434e7a4a4676427610dfe2b6268b01e541d280d65bf3d6b9060405160405180910390a3505050565b600160ff16600081116040518060400160405280600681526020017f30313730303200000000000000000000000000000000000000000000000000008152509061063b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156106005780820151818401526020810190506105e5565b50505050905090810190601f16801561062d5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f30313730303100000000000000000000000000000000000000000000000000008152509061075b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610720578082015181840152602081019050610705565b50505050905090810190601f16801561074d5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b50816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550818373ffffffffffffffffffffffffffffffffffffffff167fd1d59d2d212a435434e7a4a4676427610dfe2b6268b01e541d280d65bf3d6b9060405160405180910390a3505050565b601060ff16600081116040518060400160405280600681526020017f3031373030320000000000000000000000000000000000000000000000000000815250906108cd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610892578082015181840152602081019050610877565b50505050905090810190601f1680156108bf5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f3031373030310000000000000000000000000000000000000000000000000000815250906109ed576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156109b2578082015181840152602081019050610997565b50505050905090810190601f1680156109df5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b508373ffffffffffffffffffffffffffffffffffffffff166315ec3b8b84846040518363ffffffff1660e01b8152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050600060405180830381600087803b158015610a7557600080fd5b505af1158015610a89573d6000803e3d6000fd5b5050505050505050565b60006020528060005260406000206000915090505481565b60008082116040518060400160405280600681526020017f303137303032000000000000000000000000000000000000000000000000000081525090610b8c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610b51578082015181840152602081019050610b36565b50505050905090810190601f168015610b7e5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5081826000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541614905092915050565b600160ff16600081116040518060400160405280600681526020017f303137303032000000000000000000000000000000000000000000000000000081525090610cbd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610c82578082015181840152602081019050610c67565b50505050905090810190601f168015610caf5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5080816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205416146040518060400160405280600681526020017f303137303031000000000000000000000000000000000000000000000000000081525090610ddd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610da2578082015181840152602081019050610d87565b50505050905090810190601f168015610dcf5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5081196000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825416925050819055506000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020548373ffffffffffffffffffffffffffffffffffffffff167fd1d59d2d212a435434e7a4a4676427610dfe2b6268b01e541d280d65bf3d6b9060405160405180910390a350505056fea2646970667358221220db2d62b2ea33a2b994f13506c5f5f60f1f74d818d7ade84210835a61b5348ddb64736f6c63430006010033
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Low
+Contract: AbilitableManageProxy
+Function name: set(address,address,uint256)
+PC address: 2680
+Estimated Gas Usage: 2999 - 38511
+A call to a user-supplied address is executed.
+An external message call to an address specified by the caller is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. Make sure that no state modifications are executed after this call and/or reentrancy guards are in place.
+--------------------
+In file: ./solidity_files/0x6Ad81cC888270eA2258aDAFe270100EebeC12449.sol:219
+
+Abilitable(_target).setAbilities(_to, _abilities)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [CREATOR], function: revokeAbilities(address,uint256), txdata: 0xf394b6df000000000000000000000000affeaf0000000000000000000000401004048001ff7efe2001f81abf2fffbf7e3cf6e2fb7f40ad7bffb802108002067ef5e580fc, decoded_data: ('0xaffeaf0000000000000000000000401004048001', 115564153025392760167462624785334554659171253425696972103700197814066311692540), value: 0x0
+Caller: [CREATOR], function: revokeAbilities(address,uint256), txdata: 0xf394b6df000000000000000000000000affeaffeaffeaffeaffeaffeaffeaffeaffeaffe0440400101c3c17c7030084002100f800110044068021edf74a5420e80048486, decoded_data: ('0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe', 1922771345390864972811619036732567938850806278179439461040888938210150089862), value: 0x0
+Caller: [CREATOR], function: grantAbilities(address,uint256), txdata: 0x0ab319e8404040404040404040404040affeaffeaffeaffeaffeaffeaffeaffeaffeaffe0000000000000000000000000000000000000000000000000000000000000010, value: 0x0
+Caller: [CREATOR], function: set(address,address,uint256), txdata: 0x19f02ceb7c7c7c7c7c7c7c7c7c7c7c7cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c, value: 0x0
+
+
+time_used: 6685.803475379944 seconds
+#@contract_info_time
+0x6Ad81cC888270eA2258aDAFe270100EebeC12449.sol:0.6.1:AbilitableManageProxy:6685.803475379944:36100:60:36000
